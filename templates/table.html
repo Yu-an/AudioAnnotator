@@ -13,10 +13,10 @@ $(document).ready(function($)
 	//ajax row data
 	let ajax_data =
 	[
-		{fname:"Code", lname:"With Mark", email:"mark@codewithmark.com", audio:"010512-4"}, 
-		{fname:"Mary", lname:"Moe", email:"mary@gmail.com",audio:"010512-165"},
-		{fname:"John", lname:"Doe", email:"john@yahoo.com", audio:"010512-34"},
-		{fname:"Julie", lname:"Dooley", email:"julie@gmail.com", audio:"010512-48"},
+		{fname:"Code", lname:"With Mark", email:"mark@codewithmark.com", audio:"010512-4.wav"}, 
+		{fname:"Mary", lname:"Moe", email:"mary@gmail.com",audio:"010512-165.wav"},
+		{fname:"John", lname:"Doe", email:"john@yahoo.com", audio:"010512-34.wav"},
+		{fname:"Julie", lname:"Dooley", email:"julie@gmail.com", audio:"010512-48.wav"},
 	]
 
 
@@ -46,16 +46,18 @@ $(document).ready(function($)
 			{
 				//you can replace with your database row id
 				let row_id = index;
+				let audio_files = val["audio"];
+				console.log(audio_files);
 
 				//loop through ajax row data
 				tbl +='<tr row_id="'+row_id+'">';
 					tbl +='<td ><div class="row_data" col_name="fname">'+val['fname']+'</div></td>';
 					tbl +='<td ><div class="row_data" col_name="lname">'+val['lname']+'</div></td>';
-					tbl +='<td ><div class="audio_data" col_name="audio">'+'<audio controls>'+
-        '<source src="{{ url_for('static', filename=val['audio']) }}" type="audio/x-wav;codec=pcm">'+
-        'Your browser does not support the audio element.'+
-    '</audio>'+'</div></td>';
-					tbl +='<td ><div class="editable_data" col_name="email">'+val['email']+'</div></td>';
+					tbl +='<td ><div class="audio_data" col_name="audio">'+'<audio controls>'+'<source src="{{ url_for('static', filename='010512-48.wav') }}" type="audio/x-wav;codec=pcm">'+
+        			'Your browser does not support the audio element.'+
+        			'</audio>'+'</div></td>';
+					tbl +='<td ><div class="editable_data" col_name="email">'+val['audio']+'</div></td>';
+					// console.log(val["audio"]);
 					//--->edit options > start
 					tbl +='<td>';
 					 
