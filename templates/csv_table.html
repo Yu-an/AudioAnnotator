@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+    * {
+      font-family: arial, sans-serif;
+      box-sizing: border-box;
+    }
+    #demo { border-collapse: collapse; }
+    #demo tr:nth-child(odd) { background: #f2f2f2; }
+    #demo td { padding: 10px; }
+    </style>
+  <h1>
+    {% block title %} CSV To HTML Table {% endblock %}
+  </h1>
+  <body>
+    <table, id = "demo"></table>
+        {% for table in tables %}
+            {{ table|safe }}
+        {% endfor %}
+  </body>
+
+{% endblock %}
+
