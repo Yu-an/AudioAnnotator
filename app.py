@@ -15,8 +15,6 @@ def index():
   df = pd.read_csv("dummy.csv")
 
   return render_template("csv_table.html", tables=[df.to_html(classes='data', header=False, index = False)])
-  # with open("s1_dummy.csv") as file:
-  #   return render_template("s3_csv_table.html", csv=file)
 
 @app.route("/table")
 def edit_table():

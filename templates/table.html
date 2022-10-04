@@ -13,10 +13,10 @@ $(document).ready(function($)
 	//ajax row data
 	let ajax_data =
 	[
-		{fname:"Code", lname:"With Mark", email:"mark@codewithmark.com"}, 
-		{fname:"Mary", lname:"Moe", email:"mary@gmail.com"},
-		{fname:"John", lname:"Doe", email:"john@yahoo.com"},
-		{fname:"Julie", lname:"Dooley", email:"julie@gmail.com"},
+		{fname:"Code", lname:"With Mark", email:"mark@codewithmark.com", audio:"010512-4"}, 
+		{fname:"Mary", lname:"Moe", email:"mary@gmail.com",audio:"010512-165"},
+		{fname:"John", lname:"Doe", email:"john@yahoo.com", audio:"010512-34"},
+		{fname:"Julie", lname:"Dooley", email:"julie@gmail.com", audio:"010512-48"},
 	]
 
 
@@ -30,6 +30,7 @@ $(document).ready(function($)
 			tbl +='<tr>';
 			tbl +='<th>First Name</th>';
 			tbl +='<th>Last Name</th>';
+			tbl +='<th>Audio</th>';
 			tbl +='<th>Email</th>';
 			tbl +='<th>Options</th>';
 			tbl +='</tr>';
@@ -50,8 +51,11 @@ $(document).ready(function($)
 				tbl +='<tr row_id="'+row_id+'">';
 					tbl +='<td ><div class="row_data" col_name="fname">'+val['fname']+'</div></td>';
 					tbl +='<td ><div class="row_data" col_name="lname">'+val['lname']+'</div></td>';
+					tbl +='<td ><div class="audio_data" col_name="audio">'+'<audio controls>'+
+        '<source src="{{ url_for('static', filename=val['audio']) }}" type="audio/x-wav;codec=pcm">'+
+        'Your browser does not support the audio element.'+
+    '</audio>'+'</div></td>';
 					tbl +='<td ><div class="editable_data" col_name="email">'+val['email']+'</div></td>';
-
 					//--->edit options > start
 					tbl +='<td>';
 					 
@@ -81,57 +85,6 @@ $(document).ready(function($)
 	$(document).find('.btn_save').hide();
 	$(document).find('.btn_cancel').hide(); 
 
-
-	// //--->make div editable > start
-	// $(document).on('click', '.row_data', function(event) 
-	// {
-	// 	event.preventDefault(); 
-
-	// 	if($(this).attr('edit_type') == 'button')
-	// 	{
-	// 		return false; 
-	// 	}
-
-	// 	//make div editable
-	// 	$(this).closest('div').attr('contenteditable', 'true');
-	// 	//add bg css
-	// 	$(this).addClass('bg-warning').css('padding','5px');
-
-	// 	$(this).focus();
-	// })	
-	// //--->make div editable > end
-
-
-	// //--->save single field data > start
-	// $(document).on('focusout', '.row_data', function(event) 
-	// {
-	// 	event.preventDefault();
-
-	// 	if($(this).attr('edit_type') == 'button')
-	// 	{
-	// 		return false; 
-	// 	}
-
-	// 	var row_id = $(this).closest('tr').attr('row_id'); 
-		
-	// 	var row_div = $(this)				
-	// 	.removeClass('bg-warning') //add bg css
-	// 	.css('padding','')
-
-	// 	var col_name = row_div.attr('col_name'); 
-	// 	var col_val = row_div.html(); 
-
-	// 	var arr = {};
-	// 	arr[col_name] = col_val;
-
-	// 	//use the "arr"	object for your ajax call
-	// 	$.extend(arr, {row_id:row_id});
-
-	// 	//out put to show
-	// 	$('.post_msg').html( '<pre class="bg-success">'+JSON.stringify(arr, null, 2) +'</pre>');
-		
-	// })	
-	// //--->save single field data > end
 
  
 	//--->button > edit > start	
