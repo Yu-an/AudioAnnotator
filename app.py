@@ -13,7 +13,8 @@ app.debug = True
 
 @app.route("/", methods=('GET', 'POST'))
 def TranscriptAnnotator():
- 
+#  df = pd.read_csv("static/data/data.csv")
+#  columns = df.columns()
   # if request.method == "POST":
   #   print(request.form)
 #     title = request.form["title"]
