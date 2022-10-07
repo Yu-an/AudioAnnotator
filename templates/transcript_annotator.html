@@ -25,6 +25,21 @@
     const transcriptions = {{ transcriptions |safe }};
 
 </script>
+<!-- <script>
+    $(document).ready(function($){
+    let tbl = "";
+    $.each(filenames, function(index, val){
+        tbl +='<tr row_id="'+index+'">';
+            tbl +='<td ><div class="sound_data" edit_type="click" col_name="audiofile" scr="static/data/AUDIO/'+val+'">'+val+'</div></td>';
+    })
+    $.each(transcriptions, function(index,val){
+        tbl +='<td ><div class="editable_data" edit_type="click" col_name="transcript">'+val+'</div></td>';            
+        tbl+'</tr>'
+    })
+    $(document).find('.annot_tb_content').html(tbl);
+})
+</script> -->
+
 <body>
     <div class="panel panel-default">
         <div class="panel-heading"><b>HTML Table Edits/Upates</b> </div>
@@ -43,17 +58,26 @@
           
           <div class="annotation_table"></div>
             <table class="table table-hover">
+
                 <thead>
                     <tr> 
                         <th> Audio</th>
                         <th> Transcription</th>
-                        <script> 
+                        <!-- <script> 
                             // generate more cols to annotate
-                        </script>
+                            // $(document).find('.tbl_user_data').html(tbl);
+                        </script> -->
+                        <th>Var1</th>
                         <th>Options</th>
                     </tr>
                 </thead>
-            
+            <tbody>
+                <div class="annot_tb_content">
+                    <script>
+                        
+                    </script>
+                </div>
+            </tbody>
             </table>
 
 
