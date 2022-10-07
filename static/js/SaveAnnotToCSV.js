@@ -23,20 +23,22 @@ ToDo:
 //     });
 //   });
 
-var saveData =$.ajax({
-    url: dest_data_dir,
-    cache: false,
-    contentType: "json; charset=UTF-8",
-    data: annot_data,
-    type: "POST",
-    success: function(resultData){
-          alert("Data saved successfully");
-      }, //need to change the success function
-    error: function(){
-        alert("Failed to save data")
-    } //need to change the failure function
-});
 
+// let input_data;
+// $.ajax({
+//   type: "GET",  
+//   url: "static/data/data.csv",
+//   dataType: "text",       
+//   success: function(response)  
+//   {
+//     input_data = $.csv.toArrays(response);
+//     // generateHtmlTable(data);
+//     alert("Data saved successfully");
+//   },  
+//   error: function(){
+//     alert("Failed to save data")
+// }
+// });
 /*
 $.ajax({
   type: "POST",

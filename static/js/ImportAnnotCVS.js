@@ -1,13 +1,16 @@
-var importData =$.ajax({
-    url: scr_data_dir,
-    cache: false,
-    contentType: "json; charset=UTF-8",
-    // data: input_data,
-    type: "GET",
-    success: function(resultData){
-          alert("Data import Complete");
-      }, //need to change the success function
-    error: function(){
-        alert("Import data failed")
-    } //need to change the failure function
+
+let input_data;
+$.ajax({
+  type: "GET",  
+  url: "static/data/data.csv",
+  dataType: "text",       
+  success: function(response)  
+  {
+    input_data = $.csv.toArrays(response);
+    // generateHtmlTable(data);
+    alert("Data saved successfully");
+  },  
+  error: function(){
+    alert("Failed to save data")
+}
 });

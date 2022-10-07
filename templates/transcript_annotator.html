@@ -20,25 +20,52 @@
 <body>
     <!-- <script scr = "static/GenerateAnnotTable.js" type="text/javascript"></script> -->
     <script type='text/javascript'> 
-    // let input_data;
-    // $.ajax({
-    //   type: "GET",  
-    //   url: "data/data.csv",
-    //   dataType: "text",       
-    //   success: function(response)  
-    //   {
-    //     input_data = $.csv.toArrays(response);
-    //     generateHtmlTable(data);
-    //   }   
-    // });
-
     d3.csv("static/data/data.csv", function(data) {
-    for (let i = 0; i < data.length; i++) {
-        console.log(data[i].filename);
-        console.log(data[i].SpeechAct);
-        }
+        console.log(data)
+    // for (let i = 0; i < data.length; i++) {
+    //     console.log(data[i].filename);
+    //     console.log(data[i].SpeechAct);
+    //     }
     });
     </script>
+    <script> 
+    // $.ajax({
+    //     type: "GET",  
+    //     url: "static/data/data.csv",
+    //     dataType: "text",       
+    //     success: function(response)  
+    //     {
+    //       input_data = $.csv.toArrays(response);
+    //       console.log(input_data)
+    //       // generateHtmlTable(data);
+    //       alert("Data imported successfully");
+    //     },  
+    //     error: function(){
+    //       alert("Failed to import data")
+    //   }
+    //   });
+
+    //   $.ajax({
+    //         type: "POST",
+    //         url: "/static/data/",
+    //         data: JSON.stringify(output_data),
+    //         contentType: "application/json",
+    //         dataType: 'json', 
+    //         success: function(response)  
+    //         {
+    //         alert("Data saved successfully");
+    //         },  
+    //         error: function(){
+    //         alert("Failed to save data")
+    //     }
+    //         });
+
+      </script>
+    
+    <script>
+        
+    </script>
+
 
 </body>
 
