@@ -11,25 +11,24 @@ app = Flask(__name__)
 app.debug = True
 
 
-@app.route("/", methods=('GET', 'POST'))
-def TranscriptAnnotator():
-  df = pd.read_csv("static/data/data.csv")
-  other_col_names = json.dumps([x for x in df.columns.to_list() if x not in ["uttrances", "filename"]])
-  audio_trscpt = json.dumps(["filename", "utterances"])
-  filenames = json.dumps(df["filename"].to_list())
-  transcriptions = json.dumps(df["utterances"].to_list())
-  # data_tba = []
-  # for i in [x for x in df.columns.to_list() if x not in ["utterances", "filename"]]:
-  #     f = df[i].to_list()
-  #     data_tba.append(f)
-  # data_tba = json.dumps(data_tba)
-  return render_template("transcript_annotator.html", other_col_names = other_col_names,audio_trscpt= audio_trscpt, filenames=filenames, transcriptions = transcriptions)
+# @app.route("/", methods=('GET', 'POST'))
+# def TranscriptAnnotator():
+#   df = pd.read_csv("static/data/data.csv")
+#   other_col_names = json.dumps([x for x in df.columns.to_list() if x not in ["uttrances", "filename"]])
+#   audio_trscpt = json.dumps(["filename", "utterances"])
+#   filenames = json.dumps(df["filename"].to_list())
+#   transcriptions = json.dumps(df["utterances"].to_list())
+#   # data_tba = []
+#   # for i in [x for x in df.columns.to_list() if x not in ["utterances", "filename"]]:
+#   #     f = df[i].to_list()
+#   #     data_tba.append(f)
+#   # data_tba = json.dumps(data_tba)
+#   return render_template("transcript_annotator.html", other_col_names = other_col_names,audio_trscpt= audio_trscpt, filenames=filenames, transcriptions = transcriptions)
 
 
-@app.route("/index")
+@app.route("/")
 def index():
-
-  return render_template(index.html)
+  return render_template("index.html")
 
 # @app.route("/edited")
 # def edited():

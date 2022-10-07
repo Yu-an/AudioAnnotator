@@ -1,11 +1,53 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Messages {% endblock %}</h1>
-    {% for message in messages %}
-        <div class='message'>
-            <h3>{{ message['title'] }}</h3>
-            <p>{{ message['content'] }}</p>
-        </div>
-    {% endfor %}
+<script src="../static/js/jquery.min.js" type="text/javascript"></script>
+
+<script src="../static/js/jquery-csv.js"></script>
+<script src="../static/js/d3.js"></script>
+<!-- script for enabling cell editing -->
+<script scr="../static/js/EnableEditing.js" type="text/javascript"></script>
+<!-- <script src="../static/js/ImportAnnotCSV.js"></script> -->
+<!-- <script src="../static/js/SaveAnnotToCSV.js" type="text/javascript"> </script> -->
+
+<script src="../static/js/paging.min.js" type="text/javascript"> </script>
+<script type='text/javascript'> 
+let tabulate = function(data){
+    tbl = "<table>"
+
+    tbl +='<td ><div class="row_data" edit_type="click" col_name="filename">'+
+        '<audio scr = "static/data/AUDIO/'+
+        data["filename"]+
+        '.wav">'+
+        '</audio>'+
+        '</div></td>';
+    tbl+'</table>'
+    $(document).find('.tbl_user_data').html(tbl);
+    console.log(tbl)
+};
+
+d3.csv("static/data/data.csv", function(data) {
+    
+    // console.log(data["filename"]),
+    
+    tabulate(data)
+    
+});
+
+// $(document).ready(
+//     $(".annt-content").paging({
+//         number_of_items:2
+//     }),
+//     console.log("paging")
+// )
+// $(".pagination_wrapper.full_numbers").paging({
+// 	number_of_items: 4,
+// 	number_of_page_buttons: 2
+// });
+</script>
+<div class="tbl_user_data"></div>
+
+
+
+
 {% endblock %}
