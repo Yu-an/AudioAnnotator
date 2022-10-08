@@ -10,7 +10,6 @@ HOST_PORT = 81
 app = Flask(__name__)
 app.debug = True
 
-
 @app.route("/", methods=('GET', 'POST'))
 def TranscriptAnnotator():
   df = pd.read_csv("static/data/data.csv")
@@ -25,6 +24,9 @@ def TranscriptAnnotator():
 
   return render_template("transcript_annotator.html",col_toannot= json.dumps(col_toannot), data_given = data_given, data_all = data_all )
 
+@app.route("/t")
+def table():
+  return render_template("table_boot.html")
 
 @app.route("/index")
 def index():
