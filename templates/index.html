@@ -13,13 +13,22 @@
 <script src="../static/js/paging.min.js" type="text/javascript"> </script>
 <script type='text/javascript'> 
 let tabulate = function(data){
+<<<<<<< HEAD
+=======
+    tbl = "<table>"
+
+>>>>>>> table
     tbl +='<td ><div class="row_data" edit_type="click" col_name="filename">'+
         '<audio scr = "static/data/AUDIO/'+
         data["filename"]+
         '.wav">'+
         '</audio>'+
         '</div></td>';
+<<<<<<< HEAD
 
+=======
+    tbl+'</table>'
+>>>>>>> table
     $(document).find('.tbl_user_data').html(tbl);
     console.log(tbl)
 };
@@ -43,10 +52,14 @@ d3.csv("static/data/data.csv", function(data) {
 // 	number_of_page_buttons: 2
 // });
 </script>
+<<<<<<< HEAD
 <div class="tbl_user_data">
 
     
 </div>
+=======
+<div class="tbl_user_data"></div>
+>>>>>>> table
 
 
 
