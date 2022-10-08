@@ -1,1 +1,4 @@
-﻿SpeechAct,Question,Assertion,Request
+﻿SpeechAct,ClauseType
+Question,Interrogative
+Assertion,Declarative
+Request,Imperative
