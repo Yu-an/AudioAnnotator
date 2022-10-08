@@ -7,22 +7,22 @@ are turned editable (bg change to color yellow) by clicking the "Edit" button
 
 $(document).ready(function(){
 
-    $(document).on('click', '.editable_data', function(event) 
-        {
-            event.preventDefault(); 
+    // $(document).on('click', '.editable_data', function(event) 
+    //     {
+    //         event.preventDefault(); 
 
-            if($(this).attr('edit_type') == 'button')
-            {
-                return false; 
-            }
+    //         if($(this).attr('edit_type') == 'button')
+    //         {
+    //             return false; 
+    //         }
 
-            //make the closest div with the class ".editable_data" editable (but should change)
-            $(this).closest('div').attr('contenteditable', 'true');
-            //add bg css
-            $(this).addClass('bg-warning').css('padding','5px');
-            //refocus on the cell
-            $(this).focus();
-        })
+    //         //make the closest div with the class ".editable_data" editable (but should change)
+    //         $(this).closest('div').attr('contenteditable', 'true');
+    //         //add bg css
+    //         $(this).addClass('bg-warning').css('padding','5px');
+    //         //refocus on the cell
+    //         $(this).focus();
+    //     })
 
     // $(document).on('focusout', '.row_data', function(event) 
     // 	{
