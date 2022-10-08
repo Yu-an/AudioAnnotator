@@ -16,14 +16,18 @@ def TranscriptAnnotator():
   df = pd.read_csv("static/data/data.csv")
   other_col_names = json.dumps([x for x in df.columns.to_list() if x not in ["uttrances", "filename"]])
   audio_trscpt = json.dumps(["filename", "utterances"])
-  filenames = json.dumps(df["filename"].to_list())
-  transcriptions = json.dumps(df["utterances"].to_list())
+  # filenames = json.dumps(df["filename"].to_list())
+  # transcriptions = json.dumps(df["utterances"].to_list())
+  filenames = df["filename"].to_list()
+  transcriptions = df["utterances"].to_list()
+  input_data = df.values
+  
   # data_tba = []
   # for i in [x for x in df.columns.to_list() if x not in ["utterances", "filename"]]:
   #     f = df[i].to_list()
   #     data_tba.append(f)
   # data_tba = json.dumps(data_tba)
-  return render_template("transcript_annotator.html", other_col_names = other_col_names,audio_trscpt= audio_trscpt, filenames=filenames, transcriptions = transcriptions)
+  return render_template("transcript_annotator.html", other_col_names = other_col_names,audio_trscpt= audio_trscpt, filenames=filenames, transcriptions = transcriptions, input_data = input_data)
 
 
 @app.route("/index")

@@ -24,6 +24,7 @@
     const filenames = {{ filenames | safe}}
     const transcriptions = {{ transcriptions |safe }};
 
+
 </script>
 
 
@@ -54,24 +55,28 @@
                             // generate more cols to annotate
                             // $(document).find('.tbl_user_data').html(tbl);
                         </script> -->
-                        <th>Var1</th>
+                        <!-- <th>Var1</th> -->
                         <th>Options</th>
                     </tr>
                 </thead>
             <tbody>
-                <tr>
-                    <td> <div class = "audio_data"><audio controls>
-                        <source src="static/data/AUDIO/130202-CHI-3.wav" type="audio/x-wav;codec=pcm">
-                        Your browser does not support the audio element.
-                    </audio></div></td>
-                    <td ><div class="editable_data" edit_type="click" col_name="transcript"></div>好的.</td>
-                    <td>
-                        <span class="btn_edit" > <a href="#" class="btn btn-link " row_id="'+row_id+'" > Edit</a> </span>
-                        <span class="btn_save"> <a href="#" class="btn btn-link"  row_id="'+row_id+'"> Save</a> | </span>
-                        <span class="btn_cancel"> <a href="#" class="btn btn-link" row_id="'+row_id+'"> Cancel</a> | </span>
-                    </td>
-
-                </tr>
+                {% for file in filenames %}
+                    
+                    <tr role_id = {{loop.index}}>
+                    
+                        <td> <div class = "audio_data"><audio controls>
+                            <source src={{url_for("static", filename = "data/AUDIO/"+file+".wav")}} type="audio/x-wav;codec=pcm">
+                            Your browser does not support the audio element.
+                        </audio></div></td>
+                        <td ><div class="editable_data" edit_type="click" col_name="transcript"></div>{{transcriptions[loop.index]}}</td>
+                        <td>
+                            <span class="btn_edit" > <a href="#" class="btn btn-link " row_id="'+row_id+'" > Edit</a> </span>
+                            <span class="btn_save"> <a href="#" class="btn btn-link"  row_id="'+row_id+'"> Save</a> | </span>
+                            <span class="btn_cancel"> <a href="#" class="btn btn-link" row_id="'+row_id+'"> Cancel</a> | </span>
+                        </td>
+                    </tr>
+                {% endfor %}
+                
                 <div class="annot_tb_content">
                     <script>
                         
