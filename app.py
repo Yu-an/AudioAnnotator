@@ -14,7 +14,7 @@ app.debug = True
 def TranscriptAnnotator():
   df = pd.read_csv("static/data/data.csv")
   df_var = pd.read_csv("static/data/annotation_schema.csv")
-  col_toannot = ["filename","utterances"] + df_var.columns.to_list()
+  col_toannot = ["record", "filename","utterances"] + df_var.columns.to_list()
   df_toannot = df[col_toannot]
   data_given = df_toannot.values
   data_all = df_toannot.to_json()
@@ -22,7 +22,7 @@ def TranscriptAnnotator():
   # transcriptions = json.dumps(df["utterances"].to_list())
   # ,  filenames=filenames, transcriptions = transcriptions,
 
-  return render_template("transcript_annotator.html",col_toannot= json.dumps(col_toannot), data_given = data_given, data_all = data_all )
+  return render_template("table_boot.html",col_toannot= json.dumps(col_toannot), data_given = data_given, data_all = data_all )
 
 @app.route("/t")
 def table():
