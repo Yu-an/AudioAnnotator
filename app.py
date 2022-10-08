@@ -26,7 +26,7 @@ def TranscriptAnnotator():
 
 @app.route("/t")
 def table():
-  return render_template("table_boot.html")
+  return render_template("table_boot2.html")
 
 @app.route("/index")
 def index():
