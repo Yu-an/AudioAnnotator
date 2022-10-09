@@ -1,0 +1,120 @@
+{% extends 'table_base.html' %}
+
+{% block title %} Annotation with audio files {% endblock %}
+
+{% block head %} Annotator {% endblock %}
+{% block content %} 
+A little about the corpus
+{% endblock %}
+{% block table %}  
+<script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.21.0/dist/extensions/export/bootstrap-table-export.min.js"></script>
+<style>
+  .select,
+  #dropdown {
+    width: 100%;
+  }
+  .like {
+    margin-right: 10px;
+  }
+</style>
+
+<script type='text/javascript'> 
+// importing the data and its col names; cannot use sepearte js, jinja won't render
+    const col_tba = {{ col_toannot |safe }}
+    const input_data = {{data_all|safe }}
+</script>
+
+<!-- Because of Bootstrap, table has to go out of the body -->
+<table id="table" class="table table-hover" id="table-pagination"
+data-pagination="true"
+data-show-pagination-switch="true"
+data-sort-order="desc" 
+data-show-export="true" 
+data-show-toggle="true"  
+data-show-refresh="true" 
+data-show-columns="true"
+data-page-list="[10, 25, 50, 100, ALL]"
+>
+<thead>
+<tr>
+<!-- Need to figure out how to scale this, probably use the annotation_schema.csv file -->
+  <th data-field="record" data-align="right">Segment</th>
+<th data-field="filename" data-align="center" data-formatter="audioFormatter">Audio</th>
+<th data-field="utterances" data-align="center" data-formatter="editableCell" data-formatter = expandAllRows>Transcription</th>
+<th data-field="SpeechAct" data-align="right" data-sortable="true" data-formatter=dropDownOption>SpeechAct</th> 
+<th data-field="ClauseType" data-align="right" data-sortable="true">ClauseType</th> 
+</tr>
+</thead>
+
+
+</table>
+<!-- Not working, need to figure out how to save data remotely -->
+<button class="btn btn-primary">Submit</button>
+
+
+<script>
+  // This script generates the data table, and specifies how it should be rendered
+  var $table = $('#table')
+  // add audios
+  // by adding the string below inbetween <tb></tb> 
+  function audioFormatter(value, row) {
+      return '<audio src="static/data/AUDIO/'+value+'.wav" controls>'+value+'</audio>';
+    }
+  // make the transcription cell editable; might add a decorative hovering button
+  function editableCell (value, row) {
+      return '<div contenteditable="true">'+value+'</div>'
+      }; 
+  // Add dropdown for var_to_annot: how to select value without messing up the dropdown?
+  function dropDownOption(value, row) {
+    var strHTML = '<div class="select"><select class="dropdown" id="dropdown">';
+      strHTML += '<option value="'+value+'" selected>'+value+'</option>';
+      strHTML += '<option value="question">Question</option>';
+      strHTML += '<option value="assert">Assertion</option>';
+      strHTML += '</select></div>'
+    var valReturn = strHTML;
+      return valReturn;
+      }
+  // <--- Confiture dropdown
+  // function to detach dropdown from the content box so that 
+  // the dropdown menu can hover over the table
+  $('.dropdown').on('show.bs.dropdown', function () {
+    $('body').append($('.dropdown').css({
+      position:'absolute',
+      left:$('.dropdown').offset().left, 
+      top:$('.dropdown').offset().top
+      }).detach());
+    });
+  // putting it back to the table once hidden
+  $('.dropdown').on('hidden.bs.dropdown', function () {
+    $('.bs-example').append($('.dropdown').css({
+      position:false, left:false, top:false
+      }).detach());
+    });
+  // Configure dropdown -->
+
+  // generate the table using data from df
+  $(function() {
+    // import the csv as data (has to be to_json(orient = "records"))
+    var data = input_data
+    $table.bootstrapTable({data: data})
+    })
+  // Submit the form
+  // $(function() {
+  //   $('form').submit(function () {
+  //     alert($(this).serialize())
+  //     return false
+  //     })
+  // })
+
+  </script>
+
+{% endblock %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-table@1.21.1/dist/bootstrap-table.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/x-editable@1.5.1/dist/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.21.0/dist/extensions/editable/bootstrap-table-editable.min.js"></script>
