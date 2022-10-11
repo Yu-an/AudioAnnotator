@@ -124,7 +124,7 @@ $(function() {
   Save save when you hit save
   */  
 // TBD
-$table.on('click-cell.bs.table', function (e, name, args) {
+$table.on('post-body.bs.table', function (e, name, args) {
       let savedValue;
       document.addEventListener('focusin', ev => {
         if (ev.target.classList == "editableCell") {
@@ -136,7 +136,7 @@ $table.on('click-cell.bs.table', function (e, name, args) {
       document.addEventListener('focusout', ev => {
         if (ev.target.classList == "editableCell") {
           if (savedValue !== ev.target.textContent) {
-            console.log()  
+            // console.log("focus out")  
             // fetch('/savedata/', {
             //   method: 'POST',
             //   headers: {'Content-Type': 'application/json'},
