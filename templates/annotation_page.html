@@ -102,10 +102,15 @@ data-page-list="[10, 25, 50, 100, ALL]"
   // Configure dropdown -->
 
   // generate the table using data from df
+
+
+  
 $(function() {
     // import the csv as data (has to be to_json(orient = "records"))
     var data = input_data
-    $table.bootstrapTable({data: data})
+    $table.bootstrapTable(
+      {data: data},
+    )
   })  
   // Submit the form
   // $(function() {
@@ -118,46 +123,70 @@ $(function() {
   Save the table when you focus out, cancel save when you hit ESC, 
   Save save when you hit save
   */  
+// TBD
+$table.on('click-cell.bs.table', function (e, name, args) {
+      let savedValue;
+      document.addEventListener('focusin', ev => {
+        if (ev.target.classList == "editableCell") {
+          savedValue = ev.target.textContent;
+        } else if (ev.target.classList == "dropdown") {
+          savedValue = ev.target.value;
+        }
+      });
+      document.addEventListener('focusout', ev => {
+        if (ev.target.classList == "editableCell") {
+          if (savedValue !== ev.target.textContent) {
+            console.log()  
+            // fetch('/savedata/', {
+            //   method: 'POST',
+            //   headers: {'Content-Type': 'application/json'},
+            //   body: JSON.stringify({
+            //     id: ev.target.dataset.elementId,
+            //     [ev.target.dataset.columnId]: ev.target.textContent
+            //   }),
+            // });
+          } savedValue = undefined;
+        } else if (ev.target.classList == "dropdown") {
+          if (savedValue !== ev.target.value){
+            console.log(ev.target.value+"changed")
+          } savedValue = undefined;
+        } 
+      }); 
+    })
+    
+
+    
+
   //  <-- NEEDS WORK
-  let savedValue;
 
-  $('.editableCell').addEventListener('focusin', ev => {
-    if (ev.target.tagName === 'TD') {
-      savedValue = ev.target.textContent;
-      console.log(savedValue)
-    } else {
-      console.log("what")
-    }
-  });
+  // document.addEventListener('focusout', ev => {
+  //   if (ev.target.tagName === 'TD') {
+  //     if (savedValue !== ev.target.textContent) {
+  //       fetch('/static/data/', {
+  //         method: 'POST',
+  //         headers: {'Content-Type': 'application/json'},
+  //         body: JSON.stringify({
+  //           id: ev.target.dataset.elementId,
+  //           [ev.target.dataset.columnId]: ev.target.textContent
+  //         }),
+  //       });
+  //     } else {console.log(savedValue+"-focusout") }
+  //     savedValue = undefined;
+  //   } else {console.log(savedValue+"-nothing") }
+  // });
 
-  $('.editableCell').addEventListener('focusout', ev => {
-    if (ev.target.tagName === 'TD') {
-      if (savedValue !== ev.target.textContent) {
-        fetch('/static/data/', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({
-            id: ev.target.dataset.elementId,
-            [ev.target.dataset.columnId]: ev.target.textContent
-          }),
-        });
-      }
-      savedValue = undefined;
-    }
-  });
-
-  $('.editableCell').addEventListener('keydown', ev => {
-    if (ev.target.tagName === 'TD') {
-      if (ev.key === 'Escape') {
-        ev.target.textContent = savedValue;
-        ev.target.blur();
-      }
-      else if (ev.key === 'Enter') {
-        ev.preventDefault();
-        ev.target.blur();
-      }
-    }
-  });
+  // document.addEventListener('keydown', ev => {
+  //   if (ev.target.tagName === 'TD') {
+  //     if (ev.key === 'Escape') {
+  //       ev.target.textContent = savedValue;
+  //       ev.target.blur();
+  //     }
+  //     else if (ev.key === 'Enter') {
+  //       ev.preventDefault();
+  //       ev.target.blur();
+  //     }
+  //   }
+  // });
 
 
 // Needs work --->

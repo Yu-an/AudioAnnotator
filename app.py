@@ -27,9 +27,10 @@ def TranscriptAnnotator():
   data_all = df_toannot.to_json(orient="records")
   return render_template("annotation_page.html",col_toannot= json.dumps(col_toannot), data_all = data_all )
 
-@app.route("/", methods=['POST'])
-def table():
-  return render_template("table_boot2.html")
+@app.route("/savedata", methods=['POST'])
+def update():
+  data = request.get_json()
+  return ""
 
 @app.route("/index")
 def index():

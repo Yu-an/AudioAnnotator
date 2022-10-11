@@ -15,6 +15,6 @@ Todo:
         i. save temp data as json file
         ii. save data as .csv file
         iii. pop up telling you the directory that it saved, as to hit "see analysis"
-3. See Analysis:
+3. See Analysis (diff html):
         i. use results to generate graphs, diff text
         ii. panel for revising results?
