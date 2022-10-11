@@ -66,16 +66,24 @@ data-page-list="[10, 25, 50, 100, ALL]"
   function editableCell (value, row) {
       return '<div contenteditable="true">'+value+'</div>'
       }; 
-  // Add dropdown for var_to_annot: how to select value without messing up the dropdown?
-  function dropDownOption(value, row) {
+  // Add dropdown for var_to_annot, if there's annotation in the csv
+  // the annotated value will be the "selected" value in the dropdown menu
+  function dropDownOption(value, row){
+    let speechacts = ["Request","Question","Assertion", "Other", "None"]
     var strHTML = '<div class="select"><select class="dropdown" id="dropdown">';
-      strHTML += '<option value="'+value+'" selected>'+value+'</option>';
-      strHTML += '<option value="question">Question</option>';
-      strHTML += '<option value="assert">Assertion</option>';
-      strHTML += '</select></div>'
-    var valReturn = strHTML;
-      return valReturn;
+      for(var i = 0; i < speechacts.length; i++){
+        if (speechacts[i]===value){
+          console.log(speechacts[i])
+          strHTML += '<option class="annotvalue" id="speechact-'+speechacts[i]+'" selected="selected">'+speechacts[i]+'</option>';
+        } else {
+          strHTML += '<option class="annotvalue" id="speechact-'+speechacts[i]+'">'+speechacts[i]+'</option>';
+        }
       }
+      strHTML += '</select></div>'
+      var valReturn = strHTML;
+      return valReturn;
+  }
+
   // <--- Confiture dropdown
   // function to detach dropdown from the content box so that 
   // the dropdown menu can hover over the table
