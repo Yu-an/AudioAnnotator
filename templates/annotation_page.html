@@ -64,7 +64,7 @@ data-page-list="[10, 25, 50, 100, ALL]"
     }
   // make the transcription cell editable; might add a decorative hovering button
   function editableCell (value, row) {
-      return '<div contenteditable="true">'+value+'</div>'
+      return '<div class = "editableCell" contenteditable="true">'+value+'</div>'
       }; 
   // Add dropdown for var_to_annot, if there's annotation in the csv
   // the annotated value will be the "selected" value in the dropdown menu
@@ -73,7 +73,6 @@ data-page-list="[10, 25, 50, 100, ALL]"
     var strHTML = '<div class="select"><select class="dropdown" id="dropdown">';
       for(var i = 0; i < speechacts.length; i++){
         if (speechacts[i]===value){
-          console.log(speechacts[i])
           strHTML += '<option class="annotvalue" id="speechact-'+speechacts[i]+'" selected="selected">'+speechacts[i]+'</option>';
         } else {
           strHTML += '<option class="annotvalue" id="speechact-'+speechacts[i]+'">'+speechacts[i]+'</option>';
@@ -103,11 +102,11 @@ data-page-list="[10, 25, 50, 100, ALL]"
   // Configure dropdown -->
 
   // generate the table using data from df
-  $(function() {
+$(function() {
     // import the csv as data (has to be to_json(orient = "records"))
     var data = input_data
     $table.bootstrapTable({data: data})
-    })
+  })  
   // Submit the form
   // $(function() {
   //   $('form').submit(function () {
@@ -115,7 +114,53 @@ data-page-list="[10, 25, 50, 100, ALL]"
   //     return false
   //     })
   // })
+  /*
+  Save the table when you focus out, cancel save when you hit ESC, 
+  Save save when you hit save
+  */  
+  //  <-- NEEDS WORK
+  let savedValue;
 
+  $('.editableCell').addEventListener('focusin', ev => {
+    if (ev.target.tagName === 'TD') {
+      savedValue = ev.target.textContent;
+      console.log(savedValue)
+    } else {
+      console.log("what")
+    }
+  });
+
+  $('.editableCell').addEventListener('focusout', ev => {
+    if (ev.target.tagName === 'TD') {
+      if (savedValue !== ev.target.textContent) {
+        fetch('/static/data/', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            id: ev.target.dataset.elementId,
+            [ev.target.dataset.columnId]: ev.target.textContent
+          }),
+        });
+      }
+      savedValue = undefined;
+    }
+  });
+
+  $('.editableCell').addEventListener('keydown', ev => {
+    if (ev.target.tagName === 'TD') {
+      if (ev.key === 'Escape') {
+        ev.target.textContent = savedValue;
+        ev.target.blur();
+      }
+      else if (ev.key === 'Enter') {
+        ev.preventDefault();
+        ev.target.blur();
+      }
+    }
+  });
+
+
+// Needs work --->
   </script>
 
 {% endblock %}
