@@ -111,14 +111,7 @@ A little about the corpus
 <script>
   var $table = $('#table')
   var $remove = $('#remove')
-  const editableCellAttributes = (data, row, col) => {
-          if (row) {
-            return {contentEditable: 'true', 'data-element-id': row.cells[0].data};
-          }
-          else {
-            return {};
-          }
-      };
+
   var selections = []
 
   function getIdSelections() {
@@ -181,7 +174,26 @@ A little about the corpus
       return sum + i
     }, 0)
   }
+function cellStyle(value, row, index) {
+    var classes = [
+      'bg-blue',
+      'bg-green',
+      'bg-orange',
+      'bg-yellow',
+      'bg-red'
+    ]
 
+    if (index % 2 === 0 && index / 2 < classes.length) {
+      return {
+        classes: classes[index / 2]
+      }
+    }
+    return {
+      css: {
+        color: 'blue'
+      }
+    }
+  }
   function initTable() {
     $table.bootstrapTable('destroy').bootstrapTable({
       height: 450,
@@ -264,8 +276,58 @@ A little about the corpus
     
 
   })
-</script>
 
+  {
+    title: 'Name',
+    field: 'name',
+    formatter: function () {
+        return '<input type="checkbox" data-field="' + this.field + '>"';
+    },
+    events: {
+        'change :checkbox': function (e, value, row, index) {
+            var field = $(this).data('field');
+            if ($(e.target).prop('checked')) {
+                row[field] = "1";
+            } else {
+                row[field] = "0";
+            }
+            // Call updateRow, etc.
+        }
+    }
+}
+nextleave and mdjaman reacted with thumbs up emoji
+saktibuana reacted with heart emoji
+
+$table.on('post-body.bs.table', function (e, name, args) {
+      let savedValue;
+      document.addEventListener('focusin', ev => {
+        if (ev.target.classList == "editableCell") {
+          savedValue = ev.target.textContent;
+        } else if (ev.target.classList == "dropdown") {
+          savedValue = ev.target.value;
+        }
+      });
+      document.addEventListener('focusout', ev => {
+        if (ev.target.classList == "editableCell") {
+          if (savedValue !== ev.target.textContent) {
+            console.log("focus out")  
+            fetch('/savedata/', {
+              method: 'POST',
+              headers: {'Content-Type': 'application/json'},
+              body: JSON.stringify({
+                id: ev.target.dataset.elementId,
+                [ev.target.dataset.columnId]: ev.target.textContent
+              }),
+            });
+          } savedValue = undefined;
+        } else if (ev.target.classList == "dropdown") {
+          if (savedValue !== ev.target.value){
+            console.log(ev.target.value+"changed")
+          } savedValue = undefined;
+        } 
+      }); 
+    })
+</script>
 
 {% endblock %}
 <script src="extensions/editable/bootstrap-table-editable.js"></script>
