@@ -15,9 +15,6 @@ A little about the corpus
   #dropdown {
     width: 100%;
   }
-  .like {
-    margin-right: 10px;
-  }
 </style>
 
 <script type='text/javascript'> 
@@ -122,10 +119,10 @@ $(function() {
   // })
   /*
   Save the table when you focus out, cancel save when you hit ESC, 
-  Save save when you hit save
+  Save when focusing out 
+  Save  
+  Click on cell, event.target.textContent is the updated value
   */  
-// TBD
-// Click on cell, event.target.textContent is the updated value
 
 $table.on('post-body.bs.table', function(e,name){
   let col_name;

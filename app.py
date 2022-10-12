@@ -19,7 +19,6 @@ app.debug = True
 # 1. generalize to unknown variables to be annotated
 # 2. have a seperate datahandler, seperate out data directory
 # 3. audio/data directories intake form
-# 4. Also need to figure out how to save data remotely
 def TranscriptAnnotator():
   df = pd.read_csv("static/data/data.csv")
   df_var = pd.read_csv("static/data/annotation_schema.csv")

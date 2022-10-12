@@ -7,7 +7,6 @@ Plans for features include:
 
 Todo:
 1. Save:
-    a. in 'app.py', add POST page (figure out how)
     b. in 'annotation_page', add save button config
 2. Submit:
     a. hit submit, loading page show up (optional)
