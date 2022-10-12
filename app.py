@@ -1,5 +1,6 @@
 
 from flask import Flask, render_template, request, make_response, redirect, url_for
+import flask
 import pandas as pd
 import numpy as np
 # from utils import read_scr_csv, prepare_scr_for_js
@@ -25,30 +26,12 @@ def TranscriptAnnotator():
   col_toannot = ["record", "filename","utterances"] + df_var.columns.to_list()
   df_toannot = df[col_toannot]
   data_all = df_toannot.to_json(orient="records")
+  if flask.request.method == 'POST':
+    annot_output = json.dumps(request.get_json())
+    annot = pd.read_json(annot_output)
+    annot.to_csv("static/data/output.csv")
   return render_template("annotation_page.html",col_toannot= json.dumps(col_toannot), data_all = data_all )
 
-@app.route("/", methods=['POST'])
-def GetAnnotatedData():
-  annot_output = request.get_json()
-  annot = json.loads(annot_output)
-  annot.to_csv("static/data/output.csv")
-  print(annot_output)
-  return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
-
-
-
-@app.route("/index")
-def index():
-  return render_template("index.html")
-
-
-# @app.route('/posts/', methods=('GET', 'POST'))
-# def postmessage():
-#   if request.method == "POST":
-#     title = request.form["title"]
-#     content = request.form["content"]
-#     return redirect(url_for("index"))
-#   return render_template('post_message.html')
 
 
 

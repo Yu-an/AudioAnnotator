@@ -132,7 +132,6 @@ $table.on('post-body.bs.table', function(e,name){
   let cell_value;
   let row_value;
   let row_index;
-  let updated_data = input_data;
   // color change of the cells
   warning_color = "text-danger" 
   success_color = "text-success"
@@ -150,24 +149,27 @@ $table.on('post-body.bs.table', function(e,name){
             // change bg color 
         // event.target.className += " "+success_color  
         // event.target.classList.remove( warning_color )
-
+        let updated_data = input_data;
         if (ev.target.classList == "editableCell") {
           if(ev.target.textContent != cell_value){
-            updated_data[row_index][col_name] = ev.target.textContent
+            updated_data[row_index][col_name] = ev.target.textContent            
            };
           } else if (ev.target.classList == "dropdown") {
               if ( ev.target.value != cell_value){
               updated_data[row_index][col_name] = ev.target.value
             };
-          console.log(updated_data);
-          // $.ajax({
-          //   type: "POST",
-          //   url: "/",
-          //   data: JSON.stringify(updated_data),
-          //   contentType: "application/json"
-          // })
         };
-        
+        console.log(updated_data);
+        fetch("/", {
+          method: "POST",
+          headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}, 
+          // change update_data from an array to an Object
+          body: JSON.stringify(Object.assign({}, updated_data)) 
+        }).then(res => {
+          console.log("Data saved successfully");
+        }).catch((error) => {
+          console.error('Error:', error);
+        });
       });
       
 })
