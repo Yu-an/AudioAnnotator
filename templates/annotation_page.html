@@ -127,9 +127,10 @@ $table.on('post-body.bs.table', function(e,name){
   let cell_value;
   let row_value;
   let row_index;
+  let updated_data = input_data;
   // color change of the cells
-  warning_color = "text-danger" 
-  success_color = "text-success"
+  // warning_color = "text-danger" 
+  // success_color = "text-success"
   $table.on('click-cell.bs.table', function($element,field,value, row){
     cell_value = value;
     col_name = field;
@@ -144,36 +145,34 @@ $table.on('post-body.bs.table', function(e,name){
       // change bg color 
       // event.target.className += " "+success_color  
       // event.target.classList.remove( warning_color )
-    let updated_data = input_data;
     if (ev.target.classList == "editableCell") {
       if(ev.target.textContent != cell_value){
-        updated_data[row_index][col_name] = ev.target.textContent            
+        updated_data[row_index][col_name] = ev.target.textContent    
+        console.log(updated_data)        
         };
       } else if (ev.target.classList == "dropdown") {
           if ( ev.target.value != cell_value){
           updated_data[row_index][col_name] = ev.target.value
         };
     };
-    // submit button
-    $("button[id='submitbtn']").click(function(){
-    fetch("/", {
-      method: "POST",
-      headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}, 
-      // change update_data from an array to an Object
-      body: JSON.stringify(Object.assign({}, updated_data)) 
-    }).then(res => {
-      console.log("Data saved successfully");
-    }).catch((error) => {
-      console.error('Error:', error);
-    });
   });
+  // submit button
+  $("button[id='submitbtn']").click(function(){
+      event.preventDefault();
+      fetch("/", {
+        method: "POST",
+        headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}, 
+        // change update_data from an array to an Object
+        body: JSON.stringify(Object.assign({}, updated_data)) 
+      }).then(res => {
+        alert("Data saved successfully");
+        console.log(updated_data)
+      }).catch((error) => {
+        console.error('Error:', error);
+      });
   });
+  sessionStorage.setItem("results",JSON.stringify(Object.assign({}, updated_data)))
 })
-
-
-    
-
-    
 
   </script>
 

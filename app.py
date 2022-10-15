@@ -19,7 +19,7 @@ app.debug = True
 # 1. generalize to unknown variables to be annotated
 # 2. have a seperate datahandler, seperate out data directory
 # 3. audio/data directories intake form
-def TranscriptAnnotator():
+def transcript_annotator():
   df = pd.read_csv("static/data/data.csv")
   df_var = pd.read_csv("static/data/annotation_schema.csv")
   col_toannot = ["record", "filename","utterances"] + df_var.columns.to_list()
@@ -27,11 +27,13 @@ def TranscriptAnnotator():
   data_all = df_toannot.to_json(orient="records")
   if flask.request.method == 'POST':
     annot_output = json.dumps(request.get_json())
-    annot = pd.read_json(annot_output)
+    annot = pd.read_json(annot_output, orient="index")
     annot.to_csv("static/data/output.csv")
   return render_template("annotation_page.html",col_toannot= json.dumps(col_toannot), data_all = data_all )
 
-
+@app.route("/results", methods=('GET', 'POST'))
+def display_results():
+  return render_template("results_dashboard.html")
 
 
 # (C) START
