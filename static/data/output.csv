@@ -1,6 +1,6 @@
 ,0,1
 record,1,2
 filename,130202-MOT-1,130202-FAT-2
-utterances,好了 还 有 汽车 在 这 呢 . ,什么 颜色 的 汽车 啊 ? 
+utterances,好了 还 有 汽车 在 这 呢 .s,什么 颜色 的 汽车 啊 ? 
 SpeechAct,Assertion,Question
 ClauseType,Declarative,FRAG
