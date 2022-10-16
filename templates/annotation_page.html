@@ -27,6 +27,7 @@ A little about the corpus
 // importing the data and its col names; cannot use sepearte js, jinja won't render
     const col_tba = {{ col_toannot |safe }}
     const input_data = {{data_all|safe }}
+    console.log(col_tba)
 </script>
 
 <!-- Because of Bootstrap, table has to go out of the body -->
@@ -41,16 +42,6 @@ data-show-refresh="true"
 data-show-columns="true"
 data-page-list="[10, 25, 50, 100, ALL]"
 >
-<thead>
-<tr class = "table-header">
-<!-- Need to figure out how to scale this, probably use the annotation_schema.csv file -->
-  <th data-field="record" data-align="right">Segment</th>
-<th data-field="filename" data-align="center" data-formatter="audioFormatter">Audio</th>
-<th data-field="utterances" data-align="center" data-formatter="editableCell" data-formatter = expandAllRows>Transcription</th>
-<th data-field="SpeechAct" data-align="center" data-sortable="true" data-formatter=dropDownOption>SpeechAct</th> 
-<th data-field="ClauseType" data-align="center" data-sortable="true">ClauseType</th> 
-</tr>
-</thead>
 </table>
 
 <!-- Not working, need to figure out how to save data remotely -->
@@ -115,9 +106,6 @@ data-page-list="[10, 25, 50, 100, ALL]"
 $(function() {
     // import the csv as data (has to be to_json(orient = "records"))
     var data = input_data;
-    $table.bootstrapTable(
-      {data: data},
-    );
     // export options reduced; default name changed
     $('#toolbar').find('select').change(function () {
       $table.bootstrapTable('destroy').bootstrapTable({
@@ -128,6 +116,37 @@ $(function() {
             }
         })
       }).trigger('change')
+    
+    $table.bootstrapTable(
+      {
+        columns: [{
+          field: 'record',
+          title: 'No.',
+          align: "right"
+        }, {
+          field: 'filename',
+          title: 'Audio',
+          formatter: "audioFormatter"
+        }, {
+          field: 'utterances',
+          title: 'Transcripts',
+          formatter: "editableCell"
+        }, {
+          field: 'SpeechAct',
+          title: 'Speech Act',
+          sortable:"true",
+          formatter: "dropDownOption"
+        }, {
+          field: 'ClauseType',
+          title: 'Claue Type',
+          sortable:"true",
+          formatter: "dropDownOption"
+        }
+      ],
+
+      data: data},
+    );
+   
   })  
   /*
   Save the table when you focus out, cancel save when you hit ESC, 

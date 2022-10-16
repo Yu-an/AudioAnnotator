@@ -1,4 +1,5 @@
 
+from email.mime import application
 from flask import Flask, render_template, request, make_response, redirect, url_for
 import flask
 import pandas as pd
@@ -8,10 +9,11 @@ import json
 
 HOST_NAME = '0.0.0.0'
 HOST_PORT = 81
-app = Flask(__name__)
-app.debug = True
+# Elastic Beanstalk doesn't accept 'app', switching to 'application'
+application = Flask(__name__)
+application.debug = True
 
-@app.route("/", methods=('GET', 'POST'))
+@application.route("/", methods=('GET', 'POST'))
 # This function renders the annotation main page
 # which extends table_base.html template, and uses bootstrap-table plugin
 # Currently the annotation tool can edit the transcript, and annotate some cols
@@ -22,22 +24,19 @@ app.debug = True
 def transcript_annotator():
   df = pd.read_csv("static/data/data.csv")
   df_var = pd.read_csv("static/data/annotation_schema.csv")
-  col_toannot = df.columns.to_list()
-  # col_toannot = ["record", "filename","utterances"] + df_var.columns.to_list()
-  # df_toannot = df[col_toannot]
+  col_toannot = df.columns.to_list() # this needs to be changed to a json file
   data_all = df.to_json(orient="records")
   if flask.request.method == 'POST':
     annot_output = json.dumps(request.get_json())
     annot = pd.read_json(annot_output, orient="index")
-    annot.to_csv("static/data/output.csv")
+    annot.to_csv("static/data/output.csv") # this needs to save differently
   return render_template("annotation_page.html",col_toannot= json.dumps(col_toannot), data_all = data_all )
 
-@app.route("/results", methods=('GET', 'POST'))
+@application.route("/results", methods=('GET', 'POST'))
 def display_results():
   # df_results = 
   return render_template("results_dashboard.html")
 
 
-# (C) START
 if __name__ == "__main__":
-  app.run(HOST_NAME, HOST_PORT)
+  application.run(HOST_NAME, HOST_PORT)
