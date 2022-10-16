@@ -5,7 +5,10 @@
 
 {% block head %} Results Dashboard {% endblock %}
 {% block content %} 
+<div align="right" padding-bottom = "10px">
 
+<button id = "annot_btn" type="button" class="btn btn-primary right-block" onclick="window.location.href='{{ url_for('transcript_annotator') }}'">Back to annotation</button>
+</div>
 
 <div class="accordion" id="accordionPanelsStayOpenExample">
     <div class="accordion-item">
@@ -23,6 +26,7 @@
   </div>
 
 <script>
+
 data = JSON.parse(sessionStorage.getItem("results")); 
 console.log(data)
 
