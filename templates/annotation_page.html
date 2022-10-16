@@ -118,6 +118,7 @@ $(function() {
     $table.bootstrapTable(
       {data: data},
     );
+    // export options reduced; default name changed
     $('#toolbar').find('select').change(function () {
       $table.bootstrapTable('destroy').bootstrapTable({
         exportDataType: $(this).val(),

@@ -22,9 +22,10 @@ app.debug = True
 def transcript_annotator():
   df = pd.read_csv("static/data/data.csv")
   df_var = pd.read_csv("static/data/annotation_schema.csv")
-  col_toannot = ["record", "filename","utterances"] + df_var.columns.to_list()
-  df_toannot = df[col_toannot]
-  data_all = df_toannot.to_json(orient="records")
+  col_toannot = df.columns.to_list()
+  # col_toannot = ["record", "filename","utterances"] + df_var.columns.to_list()
+  # df_toannot = df[col_toannot]
+  data_all = df.to_json(orient="records")
   if flask.request.method == 'POST':
     annot_output = json.dumps(request.get_json())
     annot = pd.read_json(annot_output, orient="index")
@@ -33,6 +34,7 @@ def transcript_annotator():
 
 @app.route("/results", methods=('GET', 'POST'))
 def display_results():
+  # df_results = 
   return render_template("results_dashboard.html")
 
 
