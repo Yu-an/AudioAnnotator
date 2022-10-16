@@ -1,3 +1,3 @@
 ,record,filename,utterances,SpeechAct,ClauseType
-0,1,130202-MOT-1,好了 还 有 汽车 在 这 呢 .s,Assertion,Declarative
+0,1,130202-MOT-1,好了 还 有 汽车 在 这 呢 . ,Assertion,Declarative
 1,2,130202-FAT-2,什么 颜色 的 汽车 啊 ? ,Question,FRAG

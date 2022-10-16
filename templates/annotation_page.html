@@ -54,7 +54,10 @@ data-page-list="[10, 25, 50, 100, ALL]"
 </table>
 
 <!-- Not working, need to figure out how to save data remotely -->
-<div class="container"><button id = "submitbtn" type="button" class="btn btn-primary right-block">Submit</button></div>
+  <div class="container">
+    <button id = "submitbtn" type="button" class="btn btn-primary right-block">Submit</button>
+    <button id = "resultbtn" type="button" class="btn btn-primary right-block" onclick="window.location.href='{{ url_for('display_results') }}'">Generate Results</button>
+  </div>
 </div>
 
 <script>
@@ -146,14 +149,10 @@ $table.on('post-body.bs.table', function(e,name){
       // event.target.className += " "+success_color  
       // event.target.classList.remove( warning_color )
     if (ev.target.classList == "editableCell") {
-      if(ev.target.textContent != cell_value){
-        updated_data[row_index][col_name] = ev.target.textContent    
-        console.log(updated_data)        
-        };
+      // allow ctr+z to change content
+      updated_data[row_index][col_name] = ev.target.textContent;    
       } else if (ev.target.classList == "dropdown") {
-          if ( ev.target.value != cell_value){
-          updated_data[row_index][col_name] = ev.target.value
-        };
+        updated_data[row_index][col_name] = ev.target.value
     };
   });
   // submit button
@@ -166,12 +165,28 @@ $table.on('post-body.bs.table', function(e,name){
         body: JSON.stringify(Object.assign({}, updated_data)) 
       }).then(res => {
         alert("Data saved successfully");
-        console.log(updated_data)
       }).catch((error) => {
+        alert("Error: "+error)
         console.error('Error:', error);
       });
+      // resultbtn  
+      $("button[id='resultbtn']").click(function(){
+        event.preventDefault();
+        sessionStorage.setItem("results",JSON.stringify(Object.assign({}, updated_data)));
+        fetch("/", {
+          method: "POST",
+          headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}, 
+          // change update_data from an array to an Object
+          body: JSON.stringify(Object.assign({}, updated_data)) 
+        }).then(res => {
+          alert("Data saved successfully");
+        }).catch((error) => {
+          alert("Error: "+error)
+          console.error('Error:', error);
+          
+        });
   });
-  sessionStorage.setItem("results",JSON.stringify(Object.assign({}, updated_data)))
+
 })
 
   </script>
