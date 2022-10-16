@@ -121,14 +121,12 @@ $(function() {
     $('#toolbar').find('select').change(function () {
       $table.bootstrapTable('destroy').bootstrapTable({
         exportDataType: $(this).val(),
-        exportTypes: ['csv', 'excel'],
-        exportOptions: {
-          fileName: function () {
-            return 'exportName'
-              }
+        exportTypes: ['json',"csv"],
+                exportOptions: {
+          fileName: "annotated_transcripts"
             }
-      })
-    }).trigger('change')
+        })
+      }).trigger('change')
   })  
   /*
   Save the table when you focus out, cancel save when you hit ESC, 
