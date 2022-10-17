@@ -5,25 +5,51 @@
 
 {% block head %} Results Dashboard {% endblock %}
 {% block content %} 
-<div align="right" padding-bottom = "10px">
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Intake</a></li>
+    <li class="breadcrumb-item"><a href="{{ url_for('transcript_annotator') }}">Annotation</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Results</li>
+  </ol>
+</nav>
 
-<button id = "annot_btn" type="button" class="btn btn-primary right-block" onclick="window.location.href='{{ url_for('transcript_annotator') }}'">Back to annotation</button>
-</div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Basic stats</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="perfile-tab" data-bs-toggle="tab" data-bs-target="#perfile" type="button" role="tab" aria-controls="perfile" aria-selected="false">Stats per file</button>
+  </li>
 
-<div class="accordion" id="accordionPanelsStayOpenExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-          Basic Stats
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-        <div class="accordion-body">
-          
-        </div>
-      </div>
-    </div>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+
   </div>
+  <div class="tab-pane fade" id="perfile" role="tabpanel" aria-labelledby="profile-tab">
+
+  </div>
+
+</div>
+<h2>Editing annotation</h2>
+      <button id = "update_btn" type="button" class="btn btn-primary right-block">Update Results</button>
+  
+<div  class="container">
+  <table id="table" class="table table-hover table-sm" id="table-pagination"
+  data-pagination="true"
+  data-show-pagination-switch="true"
+  data-sort-order="desc" 
+  data-show-export="true" 
+  data-show-toggle="true"  
+  data-show-refresh="true" 
+  data-show-columns="true"
+  data-search="true"
+  data-page-list="[5, 10, 25, 50, 100, ALL]"
+  >
+  </table>
+  
+
+
 
 <script>
 

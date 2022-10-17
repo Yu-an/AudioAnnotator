@@ -4,6 +4,12 @@
 
 {% block head %} Annotator {% endblock %}
 {% block content %} 
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Intake</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Annotation</li>
+  </ol>
+</nav>
 A little about the corpus
 {% endblock %}
 {% block table %}  
@@ -25,9 +31,7 @@ A little about the corpus
 
 <script type='text/javascript'> 
 // importing the data and its col names; cannot use sepearte js, jinja won't render
-    const col_tba = {{ col_toannot |safe }}
     const input_data = {{data_all|safe }}
-    console.log(col_tba)
 </script>
 
 <!-- Because of Bootstrap, table has to go out of the body -->
@@ -66,21 +70,34 @@ data-page-list="[10, 25, 50, 100, ALL]"
 
   // Add dropdown for var_to_annot, if there's annotation in the csv
   // the annotated value will be the "selected" value in the dropdown menu
-  function dropDownOption(value, row){
-    let speechacts = ["Request","Question","Assertion", "Other", "None"]
+  function dropDownOptionVar1(value, row){
+    let choices = ["Request","Question","Assertion", "Other", "None"];
     var strHTML = '<div class="select"><select class="dropdown" id="dropdown">';
-      for(var i = 0; i < speechacts.length; i++){
-        if (speechacts[i]===value){
-          strHTML += '<option class="annotvalue" id="speechact-'+speechacts[i]+'" selected="selected">'+speechacts[i]+'</option>';
+      for(var i = 0; i < choices.length; i++){
+        if (choices[i]===value){
+          strHTML += '<option class="annotvalue" id="'+choices[i]+'" selected="selected">'+choices[i]+'</option>';
         } else {
-          strHTML += '<option class="annotvalue" id="speechact-'+speechacts[i]+'">'+speechacts[i]+'</option>';
+          strHTML += '<option class="annotvalue" id="'+choices[i]+'">'+choices[i]+'</option>';
         }
       }
       strHTML += '</select></div>'
       var valReturn = strHTML;
       return valReturn;
   }
-
+  function dropDownOptionVar2(value, row){
+    let choices = ["Imperative","Interrogative","Declarative", "Other", "None"];
+    var strHTML = '<div class="select"><select class="dropdown" id="dropdown">';
+      for(var i = 0; i < choices.length; i++){
+        if (choices[i]===value){
+          strHTML += '<option class="annotvalue" id="'+choices[i]+'" selected="selected">'+choices[i]+'</option>';
+        } else {
+          strHTML += '<option class="annotvalue" id="'+choices[i]+'">'+choices[i]+'</option>';
+        }
+      }
+      strHTML += '</select></div>'
+      var valReturn = strHTML;
+      return valReturn;
+  }
   // <--- Confiture dropdown
   // detach dropdown from the content box so that 
   // the dropdown menu can hover over the table
@@ -135,12 +152,13 @@ $(function() {
           field: 'SpeechAct',
           title: 'Speech Act',
           sortable:"true",
-          formatter: "dropDownOption"
+          // choices,
+          formatter: "dropDownOptionVar1"
         }, {
           field: 'ClauseType',
           title: 'Claue Type',
           sortable:"true",
-          formatter: "dropDownOption"
+          formatter: "dropDownOptionVar2"
         }
       ],
 
