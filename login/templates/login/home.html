@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %} AiData   {% endblock %}
+{% block head %} Welcome {{user_id}}! {% endblock %}
+{% block content %}
+<h4> 
+    This is the annotation platform for Multimodal sentiment detection (MSD) project
+</h4>
+<!--
+<button type="start" class="btn btn-primary" onclick="window.location.href='{{ url_for('tutorial_bp.guideline') }}'">Tutorial</button>
+
+<button type="start" class="btn btn-primary" onclick="window.location.href='{{ url_for('mytasks_bp.list_tasks') }}'">Start</button>
+-->
+<button type="start" class="btn btn-primary" onclick="window.location.href='{{ url_for('annotation_bp.msd_annot', attribute = 'valence') }}'">Start</button>
+
+{% endblock %}

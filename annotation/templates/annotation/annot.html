@@ -1,0 +1,626 @@
+{% extends "base.html" %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+{% block title %}{{file_name}}{% endblock %} 
+{% block head %} Multimodal Sentiment Detection Annotation {% endblock %}
+{% block content %}
+
+
+<div class='container-fluid'>
+    <h4> Filename: {{file_name}}</h4>
+    <p> View Guideline in <a href = 'https://quip-amazon.com/xTf7AOshCfIy/WIPGuideline-AiData-external-Multi-modal-sentiment-detection' target="_blank">Quip</a> (will open in new window)</p>
+</div>
+
+
+<div class = 'container'> 
+    <div class="container audio-box">
+        <audio controls="controls" preload = 'auto' class="audio" id = 'audio' src= "{{audio_path}}" autoplay="true" muted="muted"></audio>
+    </div>
+</div>
+<div class="content">
+    {% block instruction %} {% endblock %} 
+</div>
+<div class="container">
+    <div class="row" >
+        <div class="col-md-6" >
+            <div  class="container transcript-box " style="height:500px;overflow:auto;">
+                 <!-- Transcript -->
+                <table id="transcript-table" class="table table-hover table-sm"
+                data-pagination="true"
+                data-show-pagination-switch="true"
+                data-sort-order="desc" 
+                data-show-export="true" 
+                data-show-toggle="true"  
+                data-show-refresh="true" 
+                data-show-columns="true"
+                >
+                    <thead style="position: sticky;top: 0">
+                        <tr>
+                            <th>Id</th>
+                            <th>Spk</th>
+                            <th>                                
+                                <span class="popover-toggle" data-bs-toggle="popover" title="Transcription Convention" data-bs-trigger="hover focus"  data-bs-content="<img src='{{url_for('static', filename='image/transcription_convention.png')}}' alt='Transcription Convention' width='650' height='300'>" data-bs-html="true" >                                
+                                    <span class = 'popover-base-text'>
+                                        Transcription
+                                    </span> 💡
+                                </span>                                                               
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for index,row in transcript.iterrows()%}
+                        <tr id = "transcript-segmentid-{{index}}" onclick = "grabClickedRowId(this)">
+                            <td id = 'segment-index'>{{index+1}}</td>
+                            <td>{{row['speakerId']}}</td>
+                            <td style="display: none;" id = 'segment-start'>{{row.start}}</td>
+                            <td style="display: none;" id = 'segment-end'>{{row.end}}</td>
+                            <td>{{row.transcription}}</td>
+                            <td style="display: none;" id = 'segment-segmentId'>{{row.segmentId}}</td>
+                            <td style="display: none;" id = 'segment-primaryType'>{{row.primaryType}}</td>
+                            {% if row.valence %}
+                            <td style="display: none;" id = 'segment-valence'>{{row.valence}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-valence'></td>
+                            {% endif %}
+                            {% if row.valence_comment %}
+                            <td style="display: none;" id = 'segment-valence-comment'>{{row.valence_comment}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-valence-comment'></td>
+                            {% endif %}
+                            {% if row.arousal %}
+                            <td style="display: none;" id = 'segment-arousal'>{{row.arousal}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-arousal'></td>
+                            {% endif %}
+                            {% if row.arousal_comment %}
+                            <td style="display: none;" id = 'segment-arousal-comment'>{{row.arousal_comment}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-arousal-comment'></td>
+                            {% endif %}
+                            {% if row.emotion %}
+                            <td style="display: none;" id = 'segment-emotion'>{{row.emotion}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-emotion'></td>
+                            {% endif %}
+                            {% if row.emotion_comment %}
+                            <td style="display: none;" id = 'segment-emotion-comment'>{{row.emotion_comment}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-emotion-comment'></td>
+                            {% endif %}
+                            {% if row.raisedVoice %}
+                            <td style="display: none;" id = 'segment-raisedVoice'>{{row.raisedVoice}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-raisedVoice'></td>
+                            {% endif %}
+                            {% if row.raisedVoice_comment %}
+                            <td style="display: none;" id = 'segment-raisedVoice-comment'>{{row.raisedVoice_comment}}</td>
+                            {% else  %}
+                            <td style="display: none;" id = 'segment-raisedVoice-comment'></td>
+                            {% endif %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="container annotation-box overflow-auto" >
+                <hr class="my-4">
+                <div class = 'container' id="segment-annotations" > 
+                    <div class="container-fluid" id = 'seg-annot-header'> 
+                        <span>File {{file_name}}, Segment ID: </span>
+                        <span id = 'seg-annot-id-num'></span>
+                    </div>
+                    {% for emotion_label in emotion_attributes.keys() %}
+                    {% set emotion_attribute = emotion_attributes[emotion_label] %}
+                        <div class = 'container.fluid'  style="display: none;" id = "seg-annot-{{emotion_label}}">
+                            <div class = 'container.fluid' id = 'seg-annot-speech-{{emotion_label}}' style="display: none;">
+                                <!-- Emotion Attributes Here -->                        
+                                <div class="container-fluid ">
+                                    <h6 id = 'seg-annot-attribute' name = '{{emotion_attribute.id}}'>
+                                        <div class="row" >
+                                            <div class="container" >
+                                                <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title="{{emotion_attribute.name}}" data-bs-content="{{emotion_attribute.instruction}}">                                
+                                                    <span class = 'popover-base-text'>
+                                                        {{emotion_attribute.name}}
+                                                    </span> 💡
+                                                </span>
+                                            </div>                                        
+                                        </div>                                        
+                                    </h6>                                                                        
+                                    <hr class="my-4">
+                                    <div class="container-fluid" id = 'seg-annot-labeling-box-{{emotion_label}}'>
+                                        <div class= 'container.fluid' id = 'seg-annot-{{emotion_label}}-container'>
+                                            {% if  emotion_attribute.id == 'emotion'%}
+                                                <form id="seg-annot-form">
+                                                    {% for choice in emotion_attribute.choices%}
+                                                    <div class='container'>
+                                                        <label>
+                                                            <input type="checkbox" name = 'choice' id="{{emotion_attribute.name}}-{{choice.value}}" value="{{choice.value}}"> {{choice.text}}                                            
+                                                        </label>
+                                                        <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Also..." data-bs-content="{{choice.related}}">                                             
+                                                                &#128161;                                        
+                                                        </span>
+                                                    </div>
+                                                    {%endfor%}
+                                                    <div class = 'container'>
+                                                        <label>
+                                                            <p> Comments </p>
+                                                            <input type="text" id="textInput" name="text" placeholder="optional unless you select 'Other' ">
+                                                        </label>
+                                                    </div>                                                                        
+                                                </form>
+                                            {%else%}
+                                                <form id="seg-annot-form">
+                                                    {%for choice in emotion_attribute.choices%}
+                                                    <div class = 'container'>
+                                                        <label>
+                                                            <input type="radio" name = 'choice' id="{{emotion_attribute.name}}-{{choice.value}}" value="{{choice.value}}"> <image src="{{url_for('static', filename = 'image/'+choice.image_src)}}" width="50" height="50" alt = {{choice.text}}> {{choice.text}}
+                                                        </label>
+                                                    </div>
+                                                    {%endfor%}
+                                                    <div class = 'container'>
+                                                        <label>
+                                                            <input type="radio" name = 'choice' id="{{emotion_attribute.name}}-unknown" value="unknown"> I'm not sure (please provide comment below)
+                                                        </label>
+                                                    </div>  
+                                                    <div class = 'container'>
+                                                        <label>
+                                                            Comments:
+                                                            <input type="text" id="comments" name="text" placeholder = 'Optional unless you select "Not sure"'> 
+                                                        </label>
+                                                    </div>  
+                                                </form>
+                                            {%endif%}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class='container.fluid' id = 'seg-annot-nonspeech-{{emotion_label}}' style="display: none;">
+                                <h4> Non-speech; no need to annotate</h4>
+                            </div> 
+                        </div>
+                    {%endfor%}                                                                                            
+                </div>
+            </div>
+            <div class='container'>
+                <div class='container' id = 'seg-annot-default'>
+                    <h4> Click on transcript line to begin annotation</h4>
+                </div>
+            </div>
+            <div class="container overflow-auto">
+                <button type="button" class="btn btn-outline-primary" id = 'prev-seg-button' >
+                    <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title = 'Click or press "w" key' data-bs-content="Go back to the last segment">Prev &#128161;</span>
+                </button>
+                <button type="button" class="btn btn-outline-secondary" id = 'next-seg-button' >
+                    <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title = 'Click or press "s" key' data-bs-content="Go to the next segment">Next &#128161;</span>
+                </button>
+                <button type="submitbtn" class="btn btn-primary" id = 'seg-annot-save' style="display: none;" >Save</button>
+                <span id="send-data-status" style="display: none; text-align: left">
+                    Data sent successfully!
+                </span>                
+                <button type="submitbtn" class="btn btn-primary" id = 'seg-annot-moveon' style="display: none;" >Save & Next</button>                
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+<script>
+    var transcriptTable = document.getElementById("transcript-table").getElementsByTagName('tbody')[0];
+    var transcriptRows = transcriptTable.getElementsByTagName('tr')
+    //var emotionAttribute = document.getElementById('seg-annot-attribute').getAttribute("name");
+    var emotionAttributes = ['valence','arousal','emotion','raisedVoice']
+    var audio_path ="{{audio_path|safe }}"
+    var segments = compileData(transcriptRows)
+    var checkTimeInterval; // global variable
+
+    // popover
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+    })
+    
+    // play audio from start_time to end_time; highlight row in question
+    function playAudioAtTime(start_time, end_time){
+        
+        let audio = document.getElementById("audio");
+        //console.log('1. begin, start_time',start_time,'current time', audio.currentTime, 'end_time',end_time) 
+        //set start time
+        audio.currentTime = start_time
+        
+        checkTimeInterval = setInterval(function () {
+            //console.log('2. in the interval, start_time',start_time,'current time', audio.currentTime, 'end_time',end_time)            
+            audio.play()
+            if (audio.currentTime+0.1 >= end_time) {
+                    audio.pause();
+                    clearInterval(checkTimeInterval);
+                    //console.log('5. paused at', audio.currentTime, 'end_time is ', end_time)
+                }                        
+        }, 100); 
+    
+    // catch the last segment where the timer will go over
+    setTimeout(function () {
+        audio.pause();
+        //console.log('Paused at', audio.currentTime, 'End time is', end_time);
+        }, (end_time - start_time) * 1000);
+        
+    }
+
+    // push the annotated data to the invisible html table
+    function compileData(transcriptRows) {
+        //var transcriptTable = document.getElementById("transcript-table");
+        const segments = [];
+        //const rows = transcriptTable.querySelectorAll('tbody tr');
+        let rows = Array.from(transcriptRows)
+        const header = ['index', 'speakerId', 'start', 'end', 'transcription', 'segmentId', 'primaryType', 'valence','valence_comment', 'arousal', 'arousal_comment','emotion','emotion_comment', 'raisedVoice','raisedVoice_comment'];
+        
+        rows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            const rowValues = {}; // Use an object to store column values
+            if (cells.length === header.length) {
+                for (let i = 0; i < header.length; i++) {
+                    const cellValue = cells[i].textContent.trim();
+                    rowValues[header[i]] = cellValue; // Use object properties
+                }
+                segments.push(rowValues);
+            } else{
+                console.error('Extra cell in datatable')
+            }
+        });
+        return segments;
+    }
+    //check if all the rows are annotated
+    function validateData(segments, emotionAttribute) {
+        //var data = document.getElementById("transcript-table");
+        let data = segments;
+        let invalidSegments = [];
+        let col = emotionAttribute
+        // Iterate through each row in the table
+        for (var i = 0; i < data.length; i++) {
+            let row = data[i];
+            let cell = row[col];
+            let rowHTML = document.getElementById('transcript-segmentid-'+i);
+            if (row['primaryType']=='Speech'){
+                // Check if the cell content is empty or only contains whitespace
+                if (cell === '' || !cell) {
+                    invalidSegments.push(i);
+                    rowHTML.classList.add('table-warning')
+                }
+            }            
+        }
+        // if invalid then pop warning
+        if (invalidSegments.length > 0) {
+            //console.log("Invalid segments:", invalidSegments);
+            return false;
+        } else {
+            console.log("Data is valid");
+            return true;
+        }
+    }
+    
+    function displayPriorSelections(selectButtons, attributeValue){        
+        // clear selection from previous segment
+        selectButtons.forEach(
+            function(selectButton){
+                selectButton.checked = false;
+            }
+        )
+        // Check if any button's value matches the attribute's cell value
+        if (attributeValue){
+            for (var i = 0; i < selectButtons.length; i++) {
+                var selectButton = selectButtons[i];
+                // for radio buttons:
+                if (attributeValue.includes(selectButton.value)) {
+                    selectButton.checked = true;
+                } else {
+                    selectButton.checked = false;
+                }
+            }
+        }
+    }
+
+    
+    // locate row by id transcript-segmentid-(index)
+    // show annotation panel, highlight row (unhighlight everything else)
+    // play the audio at start time (no event trigger yet)
+    function rowAnnotBox(currentIndex,segments,emotionAttribute){
+
+        var row = document.getElementById('transcript-segmentid-'+currentIndex);
+        var transcriptTable = document.getElementById("transcript-table").getElementsByTagName('tbody')[0];
+        var rows = Array.from(transcriptTable.getElementsByTagName('tr'));
+        // remove highlighting on other rows
+        rows.forEach(function(r) {
+            r.classList.remove('table-primary');
+            
+        });        
+        // highlight the current row
+        row.classList.remove('table-warning');
+        row.classList.add('table-primary')
+
+        // show segment id in annotation box
+        let segmentIdDiv = document.querySelector('#seg-annot-id-num')
+        segmentIdDiv.textContent = row.querySelector('#segment-index').textContent.trim()
+        
+        // grab values from cells in a row
+        let startTime = row.querySelector('#segment-start').textContent
+        let endTime = row.querySelector('#segment-end').textContent
+        // play audio; the clearInterval is important
+        clearInterval(checkTimeInterval);        
+        playAudioAtTime(startTime, endTime)
+        
+        let primaryType = row.querySelector('#segment-primaryType').textContent.trim();
+
+        let defaultTab = document.getElementById('seg-annot-default')
+        if (primaryType==='Speech'){
+            // if the primaryType is "Speech", show annotation fields
+            let annotTab = document.getElementById('seg-annot-speech-'+emotionAttribute)
+            annotTab.style.display = 'block';
+            defaultTab.style.display = 'none'
+        } else {
+            // else show "don't annotate"
+            let annotTab = document.getElementById('seg-annot-nonspeech-'+emotionAttribute)
+            annotTab.style.display = 'block';
+            defaultTab.style.display = 'none'
+            
+        }
+        // select radio/checkbox that matches/is in attributeValue
+        let attributeValue = segments[currentIndex][emotionAttribute]
+        let selectButtons = document.querySelectorAll('input[name="choice"]');
+        displayPriorSelections(selectButtons, attributeValue)
+
+        let attributeCommentValue = segments[currentIndex][emotionAttribute+'_comment']
+        let textBox = document.querySelector('#segment-'+emotionAttribute+'-comment')
+        textBox.value = attributeCommentValue
+
+        // display save or save next button
+        saveNextSegmentLabel = document.getElementById('seg-annot-moveon')
+        saveSegmentLabel = document.getElementById('seg-annot-save')
+        isLastRow = (currentIndex === (segments.length-1))
+        if (isLastRow){
+            // if the row is the last row, show "save and next"
+            saveNextSegmentLabel.style.display = 'block'
+            saveSegmentLabel.style.display = 'none'
+        } else{
+            //else show "save"
+            saveSegmentLabel.style.display = 'block'
+            saveNextSegmentLabel.style.display = 'none'
+
+        }
+    
+    }
+    
+
+ 
+    // save annotations of a specific row
+    function saveRow(currentIndex,segments, emotionAttribute){
+        if (emotionAttribute ==='emotion'){
+            // Collect selected checkbox values
+            var selectedValues = [];
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            for (var i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    selectedValues.push(checkboxes[i].value);
+                }
+            }
+            selectedValues = selectedValues.join(',')
+        } else{
+            // Collect selected button value
+            var selectedValues;
+            var radioButtons = document.querySelectorAll('input[type="radio"]');
+            for (var i = 0; i < radioButtons.length; i++) {
+                if (radioButtons[i].checked) {
+                    selectedValues = radioButtons[i].value;
+                    break; // Exit the loop once a selection is found
+                }
+            }
+        }
+        segments[currentIndex][emotionAttribute] = selectedValues;
+        var commentsValue = document.getElementById('comments').value;
+        // Check if the value is equal to the default text
+        var defaultValue = "Optional unless you select 'Not sure'";
+        if (commentsValue !== defaultValue) {
+            segments[currentIndex][emotionAttribute+'_comment']= commentsValue
+        }
+        return segments
+        
+        //let row = document.getElementById('transcript-segmentid-'+currentIndex)
+        //let attributeCell = row.querySelector('#segment-'+emotionAttribute)
+        //attributeCell.textContent = selectedValues
+    }
+    // make sure the prev and next buttons work
+    function prevNextButtonState(currentIndex){
+        let prevRowButton = document.getElementById('prev-seg-button')
+        let nextRowButton = document.getElementById('next-seg-button')
+        if (currentIndex > 0 && currentIndex < Array.from(transcriptRows).length - 1){
+            // when currentIndex is over 0 and not the end, can go both back and forth
+            prevRowButton.disabled = false;
+            nextRowButton.disabled = false;
+        } else if (currentIndex <= 0) {
+            // can't go back if index is smaller than 0
+            prevRowButton.disabled = true;
+            nextRowButton.disabled = false;
+        } else {
+            // can't go forward if index is over the length of data
+            prevRowButton.disabled = false;
+            nextRowButton.disabled = true;
+        }
+    }
+
+    function grabClickedRowId(element){
+        console.log('index prior to click', currentIndex)
+        segments = saveRow(currentIndex,segments, emotionAttribute)
+        clickedRowId = element.id
+        currentIndex = parseInt(clickedRowId.split('-').pop()); // Extract the index from the ID
+        prevNextButtonState(currentIndex)
+        console.log('index after click', currentIndex)
+        rowAnnotBox(currentIndex,segments, emotionAttribute)
+        }
+        /*
+        function grabClickedRowId(element, currentIndex, emotionAttribute){
+            console.log('index prior to click', currentIndex)
+            segments = saveRow(currentIndex,segments, emotionAttribute)
+            clickedRowId = element.id
+            currentIndex = parseInt(clickedRowId.split('-').pop()); // Extract the index from the ID
+            console.log('index after click', currentIndex)
+            isLastRow = currentIndex === rows.length-1;
+            rowAnnotBox(currentIndex,segments, emotionAttribute,isLastRow)
+            }
+            */
+    
+    // Function to go to the previous row
+    function goToPrevRow(element) {
+        console.log('index prior to click', currentIndex)
+        prevIndex = currentIndex        
+        segments = saveRow(currentIndex,segments, emotionAttribute)
+        if (currentIndex > 0){
+            // only update currentIndex if it's not 0
+            currentIndex--;
+            prevNextButtonState(currentIndex)
+            console.log('index after click', currentIndex)
+            rowAnnotBox(currentIndex,segments, emotionAttribute)
+        }
+    }
+
+    // Function to go to the next row
+    function goToNextRow(element) {
+        prevIndex = currentIndex
+        console.log('index prior to click', currentIndex)
+        segments = saveRow(currentIndex,segments, emotionAttribute)
+        if (currentIndex < Array.from(transcriptRows).length - 1){
+            currentIndex++;            
+            prevNextButtonState(currentIndex)
+            console.log('index after click', currentIndex);
+            rowAnnotBox(currentIndex,segments, emotionAttribute)
+        }
+    }
+    
+    
+
+    function submitResult(segments) {
+        //segments = saveRow(currentIndex,segments, emotionAttribute)
+        //var segments = compileData();
+    
+        console.log('posting to backend:', segments);
+    
+        // Return the fetch promise for chaining
+        return fetch("{{ msd_annot_url }}", {
+            method: 'POST',
+            body: JSON.stringify(segments),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error('Failed to send data. Server returned ' + response.status);
+            }
+        })
+        .then(data => {
+            document.getElementById('send-data-status').style.display = 'block';
+            // You can also return data if needed
+            return data;
+        })
+        .catch(error => {
+            console.error('Error sending data:', error);
+            throw error; // Re-throw the error to propagate it to the outer catch block
+        });
+    }
+
+
+
+    // Use setInterval to periodically call sendDataToBackend every 5 minutes (300,000 milliseconds)
+    // setInterval(submitResult(), 300000);
+    function displayAttributeBox(currentEmotionAttribute, emotionAttributes){
+        // hide all other attribute boxes
+        emotionAttributes.forEach(function(emotionAttribute){
+            let emotionAttributeBox = document.getElementById('seg-annot-'+emotionAttribute)
+            emotionAttributeBox.style.display = 'none'
+        })
+        // show annotation box for current attribute
+        let currentEmotionAttributeBox = document.getElementById('seg-annot-'+currentEmotionAttribute)
+        currentEmotionAttributeBox.style.display = 'block';
+        console.log('current emotion attribute box:',currentEmotionAttributeBox)
+
+       
+    }
+
+    function switchToNextAttribute() {
+        // Move to the next emotion attribute
+        currentEmotionAttributeIndex++;
+        if (currentEmotionAttributeIndex < emotionAttributes.length) {
+            emotionAttribute = emotionAttributes[currentEmotionAttributeIndex];
+            // Display the annotation box for the new emotion attribute
+            displayAttributeBox(emotionAttribute, emotionAttributes);
+    
+            // Reset currentIndex to the first row for the new attribute
+            currentIndex = 0;
+            prevNextButtonState(currentIndex)
+            rowAnnotBox(currentIndex, segments, emotionAttribute);            
+        } else {
+            // If all attributes have been processed, you can take further action or reset the flow
+            window.location.href = "{{msd_review_url}}";
+        }
+    }
+    
+    function saveEventListener(saveButton){
+        saveButton.addEventListener('click',function(event){
+            segments = saveRow(currentIndex,segments, emotionAttribute)
+            submitResult(segments)
+        })
+    }
+    function saveAndNextEventListener(submitButton){
+        submitButton.addEventListener("click", function() {
+            // validate data
+            segments = saveRow(currentIndex,segments, emotionAttribute)        
+            if (validateData(segments, emotionAttribute)) {
+                submitResult(segments)
+                    .then(() => {                                            
+                        switchToNextAttribute()
+                    })
+                    .catch(error => {
+                        // Handle errors if needed
+                        console.error('Error during submitResult:', error);
+                        alert("An error occurred during data submission.");
+                    });
+            } else {
+                alert("Missing annotation for segments highlighted; please finish annotation before moving on");
+            }
+        });
+    }
+    // track emotionAttribute
+    var currentEmotionAttributeIndex = 0
+    var emotionAttribute = emotionAttributes[currentEmotionAttributeIndex]
+    displayAttributeBox(emotionAttribute, emotionAttributes)
+     // track current segment and previous segment
+    var currentIndex = 0;
+    var prevIndex = 0;
+
+    rowAnnotBox(currentIndex, segments, emotionAttribute);
+
+     // Add event listeners for keyboard shortcuts and navigation buttons
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'w') {
+            goToPrevRow();
+        } else if (event.key === 's') {
+            goToNextRow();
+        }
+    });
+
+     // Event listeners for the prev and next buttons
+    document.getElementById('prev-seg-button').addEventListener('click', goToPrevRow);
+    document.getElementById('next-seg-button').addEventListener('click', goToNextRow);
+     
+    let saveButton =  document.getElementById('seg-annot-save')
+    saveEventListener(saveButton)
+
+    let submitButton = document.getElementById('seg-annot-moveon')
+    saveAndNextEventListener(submitButton)
+
+</script>
+
+{%endblock%}
+
+

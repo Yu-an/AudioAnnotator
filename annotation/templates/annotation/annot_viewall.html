@@ -1,0 +1,262 @@
+{% extends "base.html" %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+{% block title %} {{file_name}} {% endblock %} 
+{% block head %} Multimodal Sentiment Detection: File Summary {% endblock %}
+{% block content %}
+<div class = 'container'>
+<h4> Here is a summary of your annotation of file {{file_name}}: </h4>
+<div>
+    <p> View Guideline in <a href = 'https://quip-amazon.com/xTf7AOshCfIy/WIPGuideline-AiData-external-Multi-modal-sentiment-detection' target="_blank">Quip</a> (will open in new window)</p>    
+</div>
+
+<div class = 'container'> 
+    <div class="container audio-box">
+        <audio controls="controls" preload = 'auto' class="audio" id = 'audio' src= "{{audio_path}}" ></audio>
+    </div>
+</div>
+<div class = 'metadata-box' >
+    <div class = 'container'>
+        <h5> Is this call an inbound or outbound call?</h5>    
+        <label>
+            <form id = 'metadata-question'>
+                <div>
+                    <input type="radio" name = 'call-type' id="metadata-inbound" value="inbound"> Inbound (Customer called Agent)
+                </div>
+                <div>
+                    <input type="radio" name = 'call-type' id="metadata-outbound" value="outbound"> Outbound (Agent called Customer)
+                </div>
+                <div>
+                    <input type="radio" name = 'call-type' id="metadata-agent" value="agent-agent"> Agent to Agent
+                </div>
+                <div>
+                    <input type="radio" name = 'call-type' id="metadata-other" value="other"> Other
+                </div>
+            </form>
+        </label>
+    </div>
+</div> 
+
+<div class='transcript-box'>
+    <div class = 'container' id = 'annotations'>
+        <table id="annotated-segments-table" class="table table-hover table-sm"
+        data-pagination="true"
+        data-show-pagination-switch="true"
+        data-sort-order="desc" 
+        data-show-export="true" 
+        data-show-toggle="true"  
+        data-show-refresh="true" 
+        data-show-columns="true">
+            <thead>
+                <tr class="table-primary">                
+                    <th>Id</th>
+                    <th>Spk</th>
+                    <th>Transcript</th>
+                    <th>Speech?</th>
+                    <th>Valence</th>
+                    <th>Arousal</th>
+                    <th>Emotion</th>
+                    <th>Raised Voice?</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index,row in segments.iterrows()%}
+                <tr id = "segment-{{index}}" >
+                    <td id = 'segment-index'>{{index+1}}</td>
+                    <td>{{row['speakerId']}}</td>
+                    <td style="display: none;" id = 'segment-start'>{{row.start}}</td>
+                    <td style="display: none;" id = 'segment-end'>{{row.end}}</td>
+                    <td>{{row.transcription}}</td>
+                    <td style="display: none;" id = 'segment-segmentId'>{{row.segmentId}}</td>
+                    <td id = 'segment-primaryType'>{{row.primaryType}}</td>
+                    <td id = 'segment-valence'>{{row.valence}}</td>
+                    <td id = 'segment-arousal'>{{row.arousal}}</td>
+                    <td id = 'segment-emotion'>{{row.emotion}}</td>
+                    <td id = 'segment-raisedVoice'>{{row.raisedVoice}}</td>
+                    {%for col in ['valence_comment', 'arousal_comment','emotion_comment','raisedVoice_comment']%}                        
+                        <td style="display: none;" id = 'segment-{{col}}'>{{row[col]}}</td>
+                    {%endfor%}
+                </tr>
+                {%endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class = 'row'>
+    <div class = 'col-8'>
+    </div>
+    <div class = 'col-4'>
+        <button type="goback" 
+        class="btn btn-primary" 
+        id = 'goback' 
+        onclick = 'window.location.href = "{{msd_annot_url}}"'
+        >Re-annotate</button>
+        <button type="submitbtn" class="btn btn-primary" id = 'submit' >Submit</button>
+
+    </div>
+</div>
+
+<script>
+    var annotTable = document.getElementById("annotated-segments-table");
+    var segments = compileData(annotTable)
+    displayCallType()
+
+
+    function displayCallType(){
+        let attributeValue = "{{metadata['callType']}}"
+        let selectButtons = document.querySelectorAll('input[name="call-type"]');
+        // Check if any button's value matches the attribute's cell value
+        for (var i = 0; i < selectButtons.length; i++) {
+            var selectButton = selectButtons[i];
+            // for radio buttons:
+            if (attributeValue.includes(selectButton.value)) {
+                selectButton.checked = true;
+            } else {
+                selectButton.checked = false;
+            }
+        }
+    }
+    
+    
+    function playAudioAtTime(start_time, end_time){
+       
+        let audio = document.getElementById("audio");
+        //console.log('1. begin, start_time',start_time,'current time', audio.currentTime, 'end_time',end_time) 
+        //set start time
+        audio.currentTime = start_time
+        
+        checkTimeInterval = setInterval(function () {
+            //console.log('2. in the interval, start_time',start_time,'current time', audio.currentTime, 'end_time',end_time)            
+            audio.play()
+            if (audio.currentTime+0.1 >= end_time) {
+                    audio.pause();
+                    clearInterval(checkTimeInterval);
+                    //console.log('5. paused at', audio.currentTime, 'end_time is ', end_time)
+                }                        
+        }, 100); 
+       
+       // catch the last segment where the timer will go over
+       setTimeout(function () {
+        audio.pause();
+        //console.log('Paused at', audio.currentTime, 'End time is', end_time);
+        }, (end_time - start_time) * 1000);
+        
+    }
+    // click row to play audio
+    // change row color
+
+    // submit button
+    function compileData(annotTable) {        
+        const segments = [];
+        const rows = annotTable.querySelectorAll('tbody tr');
+        const header = ['index', 'speakerId', 'start', 'end', 'transcription', 'segmentId', 'primaryType', 'valence', 'arousal','emotion', 'raisedVoice','valence_comment', 'arousal_comment','emotion_comment','raisedVoice_comment'];
+        
+        rows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            const rowValues = {}; // Use an object to store column values
+            if (cells.length === header.length) {
+                for (let i = 0; i < header.length; i++) {
+                    const cellValue = cells[i].textContent.trim();
+                    rowValues[header[i]] = cellValue; // Use object properties
+                }
+                segments.push(rowValues);
+            } else{
+                console.error('Extra cell in datatable')
+            }
+        });
+        return segments;
+    }
+
+    //check if all the rows are annotated
+    function validateData(data) {
+        // data = annotTable
+        let invalidSegments = [];
+        let emotionAttributes = ['valence','arousal','emotion','raisedVoice']
+        
+        // Iterate through each row in the table
+        for (var i = 1; i < data.rows.length; i++) {
+            let row = data.rows[i];                    
+            emotionAttributes.forEach(function(emotionAttribute) {                                
+                if (row.querySelector("#segment-primaryType").textContent.trim()=='Speech'){
+                    let col = '#segment-'+emotionAttribute
+                    let annotCell = row.querySelector(col)                    
+                    // Check if the cell content is empty or only contains whitespace
+                    if (annotCell.textContent.trim()==='') {
+                        invalidSegments.push(i);
+                        row.classList.add('table-warning')                        
+                    }
+                } 
+            })            
+        }
+        // if invalid then pop warning
+        if (invalidSegments.length > 0) {
+            //console.log("Invalid segments:", invalidSegments);
+            return false;
+        } else {
+            console.log("Data is valid");
+            return true;
+        }
+    }
+    function getCallType(){
+        let callType;
+        let callTypeButtons = document.querySelectorAll('input[name = "call-type"]')
+        for (var i = 0; i < callTypeButtons.length; i++){
+            if (callTypeButtons[i].checked){
+                callType = callTypeButtons[i].value;
+                break
+            }
+        }
+        return callType
+    }
+
+    function submitResult(segments){
+        fetch("{{ msd_viewall_url }}", {
+            method: 'POST', // Use the appropriate HTTP method (e.g., POST, PUT)
+            body: JSON.stringify(segments), // Include the data to send
+            headers: {
+                'Content-Type': 'application/json' // Adjust the content type as needed
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                // Check if the response status is OK (e.g., HTTP status 200)
+                return response.json(); // Parse the response body as JSON
+            } else {
+                throw new Error(response.json());
+            }
+        })
+        .then(data => {
+            // Handle the response data from the backend
+            alert('Data successfully sent');
+        })
+        .catch(error => {
+            // Handle any errors that may occur during the request
+            console.error('Error sending data:', error);
+        });
+               
+    }
+
+    let submitButton = document.getElementById('submit')
+    submitButton.addEventListener('click',function(){
+        segments = compileData(annotTable)
+        callType = getCallType()
+        data = {
+            'segments': segments,
+            'metadata':callType
+        }
+        if (validateData(annotTable)){            
+            Promise.all([submitResult(data)])
+            .then( () => {
+                window.location.href = '{{my_tasks_url}}'                
+            })
+            .catch(error=>{
+                alert('Error:',error)
+            })
+        } else {
+            alert('Missing annotation in highlighted row!')
+        }
+    })
+    // edit row
+</script>
+
+{% endblock %}
