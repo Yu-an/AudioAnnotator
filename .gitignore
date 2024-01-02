@@ -2,3 +2,12 @@
 *.DS_Store
 /ipython
 /sample_html
+/virt
+/.ipynb_checkpoints
+/__pycache__
+/flask_session
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+config.py
