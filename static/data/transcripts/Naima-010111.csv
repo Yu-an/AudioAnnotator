@@ -1,0 +1,615 @@
+Record #,Speaker,Session,Orthography,Child,start_seconds,end_seconds,Situation,GRASP,Morphology,SpeechAct,ClauseType,UttGoals,SubQ,SubI,Comments,FollowUp?,TagType,ToAdults?,uttid
+1,Mother,Naima010111,audio test here (t:t:trail off),Naima,0.0,2.236,[],[1|2|MOD] [2|0|INCROOT] [3|2|JCT 4|2|PUNCT],[adj|audio] [n|test] [adv|here (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_1
+2,Mother,Naima010111,make sure I'm hooked in right (t:t:trail off),Naima,2.236,6.465,[],[1|0|ROOT] [2|1|JCT] [3|5|SUBJ 4|5|AUX] [5|1|COMP] [6|5|JCT] [7|6|POBJ 8|1|PUNCT],[v|make] [adv|sure] [pro:sub|I~aux|be&1S] [part|hook-PASTP] [prep|in] [n|right (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_2
+3,Mother,Naima010111,plugged in rewind this and (t:t:trail off),Naima,6.465,11.178,[],[1|0|ROOT] [2|1|JCT] [3|2|POBJ] [4|3|CONJ] [5|4|COORD 6|1|PUNCT],[v|plug-PAST] [prep|in] [re#v|wind] [pro:dem|this] [coord|and (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_3
+4,Mother,Naima010111,hey it's the baby .,Naima,11.178,12.898,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[co|hey] [pro:per|it~cop|be&3S] [det:art|the] [n|baby .],,,,,,,,,,MotherofNaima_Naima010111_4
+5,Mother,Naima010111,it's the baby .,Naima,12.898,14.926,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|the] [n|baby .],,,,,,,,,,MotherofNaima_Naima010111_5
+6,Mother,Naima010111,what d'you (replacement:replacement:do you) have there do you have the block with the water in it ?,Naima,14.926,19.33,[],[1|4|LINK] [2|4|AUX 3|4|SUBJ] [4|0|ROOT] [5|4|JCT] [6|4|XCOMP] [7|8|SUBJ] [8|6|COMP] [9|10|DET] [10|8|OBJ] [11|10|NJCT] [12|13|DET] [13|11|POBJ] [14|13|NJCT] [15|14|POBJ 16|4|PUNCT],[pro:int|what] [mod|do pro:per|you] [v|have] [adv|there] [v|do] [pro:per|you] [v|have] [det:art|the] [n|block] [prep|with] [det:art|the] [n|water] [prep|in] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_6
+7,Mother,Naima010111,thank you .,Naima,19.33,21.623,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_7
+8,Mother,Naima010111,I'm gonna roll this .,Naima,21.623,23.38,[],[1|4|SUBJ 2|4|AUX] [3|4|AUX] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[pro:sub|I~aux|be&1S] [mod:aux|gonna] [v|roll] [pro:dem|this .],,,,,,,,,,MotherofNaima_Naima010111_8
+9,Mother,Naima010111,oh it does ro:ll .,Naima,23.38,25.413,[],[1|4|COM] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT 5|4|PUNCT],[co|oh] [pro:per|it] [mod|do&3S] [v|roll .],,,,,,,,,,MotherofNaima_Naima010111_9
+10,Mother,Naima010111,it ro:lls .,Naima,25.413,27.555,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:per|it] [v|roll-3S .],,,,,,,,,,MotherofNaima_Naima010111_10
+11,Naima,Naima010111,roll { roll (?) } .,Naima,27.555,29.521,w sounds like voiced bilabial fricative[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|roll] [n|roll .],,,,,,,,,,NaimaofNaima_Naima010111_11
+12,Mother,Naima010111,roll roll !,Naima,29.521,30.923,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|roll] [n|roll !],,,,,,,,,,MotherofNaima_Naima010111_12
+13,Mother,Naima010111,hey let's play with the legos now .,Naima,30.923,34.925,[],[1|2|COM] [2|0|ROOT 3|2|OBJ] [4|2|XCOMP] [5|4|JCT] [6|7|DET] [7|5|POBJ] [8|7|NJCT 9|2|PUNCT],[co|hey] [v|let~pro:obj|us] [v|play] [prep|with] [det:art|the] [n|lego-PL] [adv|now .],,,,,,,,,,MotherofNaima_Naima010111_13
+14,Mother,Naima010111,am I on ?,Naima,34.925,39.16,[],[1|0|INCROOT] [2|3|SUBJ] [3|1|JCT 4|1|PUNCT],[aux|be&1S] [pro:sub|I] [adv|on ?],,,,,,,,,,MotherofNaima_Naima010111_14
+15,Mother,Naima010111,where are the legos by the way ?,Naima,39.16,44.606,[],[1|2|LINK] [2|0|ROOT] [3|4|DET] [4|2|PRED] [5|4|NJCT] [6|7|DET] [7|5|POBJ 8|2|PUNCT],[adv:int|where] [cop|be&PRES] [det:art|the] [n|lego-PL] [prep|by] [det:art|the] [n|way ?],,,,,,,,,,MotherofNaima_Naima010111_15
+16,Mother,Naima010111,Naima where are the legos (.) can you give me a lego ?,Naima,44.606,49.625,[],[1|8|SUBJ] [2|3|LINK] [3|8|AUX] [4|5|DET] [5|8|SUBJ] [6|8|AUX] [7|8|SUBJ] [8|0|ROOT] [9|8|OBJ] [10|11|DET] [11|8|OBJ 12|8|PUNCT],[n:prop|Naima] [adv:int|where] [cop|be&PRES] [det:art|the] [n|lego-PL] [mod|can] [pro:per|you] [v|give] [pro:obj|me] [det:art|a] [n|lego ?],,,,,,,,,,MotherofNaima_Naima010111_16
+17,Mother,Naima010111,can you give me a lego ?,Naima,49.625,51.82,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|6|DET] [6|3|OBJ 7|3|PUNCT],[mod|can] [pro:per|you] [v|give] [pro:obj|me] [det:art|a] [n|lego ?],,,,,,,,,,MotherofNaima_Naima010111_17
+18,Mother,Naima010111,give Mommy a lego .,Naima,51.82,53.758,[],[1|0|ROOT] [2|1|OBJ] [3|4|DET] [4|2|OBJ 5|1|PUNCT],[v|give] [n:prop|Mommy] [det:art|a] [n|lego .],,,,,,,,,,MotherofNaima_Naima010111_18
+19,Mother,Naima010111,"o:h , yes thanks .",Naima,53.758,59.916,[],[1|4|COM 2|1|LP] [3|4|COM] [4|0|ROOT 5|4|PUNCT],[co|oh cm|cm] [co|yes] [co|thanks .],,,,,,,,,,MotherofNaima_Naima010111_19
+20,Mother,Naima010111,yes thank you .,Naima,59.916,62.585,[],[1|2|COM] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[co|yes] [v|thank] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_20
+21,Mother,Naima010111,and another o:ne .,Naima,62.585,67.618,[],[1|3|LINK] [2|3|QUANT] [3|0|INCROOT 4|3|PUNCT],[coord|and] [qn|another] [pro:indef|one .],,,,,,,,,,MotherofNaima_Naima010111_21
+22,Mother,Naima010111,yay: .,Naima,67.618,70.125,[],[1|0|INCROOT 2|1|PUNCT],[co|yay .],,,,,,,,,,MotherofNaima_Naima010111_22
+23,Mother,Naima010111,take it apart (.) there (t:t:trail off),Naima,0.0,0.0,[],[1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|1|JCT 5|1|PUNCT],[v|take] [pro:per|it] [adv|apart] [adv|there (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_23
+24,Mother,Naima010111,mm (t:t:trail off),Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|mm (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_24
+25,Naima,Naima010111,yyy yyy .,Naima,70.125,80.888,CHI reaching for MOT's microphone,[],[],,,,,,,,,,NaimaofNaima_Naima010111_25
+26,Mother,Naima010111,that's a microphone .,Naima,80.888,81.863,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|a] [n|microphone .],,,,,,,,,,MotherofNaima_Naima010111_26
+27,Naima,Naima010111,{ microphone (?) } .,Naima,81.863,83.695,CHI looking and pointing at MOT's microphone,[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_27
+28,Mother,Naima010111,mi:crophone .,Naima,83.695,85.01599999999999,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,MotherofNaima_Naima010111_28
+29,Mother,Naima010111,a microphone .,Naima,85.01599999999999,87.826,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|microphone .],,,,,,,,,,MotherofNaima_Naima010111_29
+30,Mother,Naima010111,oh_my_goodness you stepped on the piano .,Naima,87.826,92.311,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[co|oh_my_goodness] [pro:per|you] [part|step-PASTP] [prep|on] [det:art|the] [n|piano .],,,,,,,,,,MotherofNaima_Naima010111_30
+31,Mother,Naima010111,that's funny .,Naima,92.311,96.221,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [adj|fun&dn-Y .],,,,,,,,,,MotherofNaima_Naima010111_31
+32,Mother,Naima010111,you're playing music with your foot .,Naima,96.221,99.561,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|7|MOD] [7|5|POBJ 8|3|PUNCT],[pro:per|you~aux|be&PRES] [part|play-PRESP] [n|music] [prep|with] [det:poss|your] [n|foot .],,,,,,,,,,MotherofNaima_Naima010111_32
+33,Mother,Naima010111,you're playing music with your foot .,Naima,99.561,102.86,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|7|MOD] [7|5|POBJ 8|3|PUNCT],[pro:per|you~aux|be&PRES] [part|play-PRESP] [n|music] [prep|with] [det:poss|your] [n|foot .],,,,,,,,,,MotherofNaima_Naima010111_33
+34,Mother,Naima010111,it's April twenty fifth .,Naima,102.86,109.72,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|5|QUANT] [5|3|PRED 6|2|PUNCT],[pro:per|it~aux|be&3S] [n:prop|April] [det:num|twenty] [adj|fifth .],,,,,,,,,,MotherofNaima_Naima010111_34
+35,Mother,Naima010111,it's April twenty fifth .,Naima,109.72,111.175,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|5|QUANT] [5|3|PRED 6|2|PUNCT],[pro:per|it~aux|be&3S] [n:prop|April] [det:num|twenty] [adj|fifth .],,,,,,,,,,MotherofNaima_Naima010111_35
+36,Naima,Naima010111,{ microphone (?) } .,Naima,0.0,0.0,CHI pointing to MOT's microphone,[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_36
+37,Mother,Naima010111,good mor:ning .,Naima,113.826,114.555,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|good] [n|morning .],,,,,,,,,,MotherofNaima_Naima010111_37
+38,Mother,Naima010111,good morning (t:t:self interruption),Naima,114.555,120.251,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|good] [n|morning (mt:self interruption)],,,,,,,,,,MotherofNaima_Naima010111_38
+39,Naima,Naima010111,{ microphone (?) } (t:t:self interruption),Naima,0.0,0.0,target word could be morningCHI reaching for microphone,[1|0|INCROOT 2|1|PUNCT],[n|microphone (mt:self interruption)],,,,,,,,,,NaimaofNaima_Naima010111_39
+40,Mother,Naima010111,microphone (.) morning yes .,Naima,0.0,0.0,[],[1|2|MOD] [2|0|ROOT] [3|2|COM 4|2|PUNCT],[n|microphone] [n|morning] [co|yes .],,,,,,,,,,MotherofNaima_Naima010111_40
+41,Naima,Naima010111,it's a { microphone (?) } .,Naima,120.251,123.995,target could be morning as above[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|a] [n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_41
+42,Mother,Naima010111,you said morning to me without the good this morning .,Naima,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|JCT] [5|4|POBJ] [6|2|JCT] [7|10|DET] [8|10|MOD] [9|10|DET] [10|6|POBJ 11|2|PUNCT],[pro:per|you] [v|say&PAST] [n|morning] [prep|to] [pro:obj|me] [prep|without] [det:art|the] [adj|good] [pro:dem|this] [n|morning .],,,,,,,,,,MotherofNaima_Naima010111_42
+43,Mother,Naima010111,yeah that's funny (t:t:interruption),Naima,0.0,0.0,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|PRED 5|3|PUNCT],[co|yeah] [pro:dem|that~cop|be&3S] [adj|fun&dn-Y (mt:interruption)],,,,,,,,,,MotherofNaima_Naima010111_43
+44,Naima,Naima010111,the piano went yyy .,Naima,123.996,131.225,[],[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|3|PUNCT],[det:art|the] [n|piano] [v|go&PAST] [.],,,,,,,,,,NaimaofNaima_Naima010111_44
+45,Mother,Naima010111,ah !,Naima,131.228,132.598,[],[1|0|INCROOT 2|1|PUNCT],[co|ah !],,,,,,,,,,MotherofNaima_Naima010111_45
+46,Naima,Naima010111,yyy yyy .,Naima,132.598,142.918,difficult to transcribeCHI stepping on play piano as it plays notes,[],[],,,,,,,,,,NaimaofNaima_Naima010111_46
+47,Mother,Naima010111,playing music with your foot .,Naima,0.0,0.0,[],[1|0|INCROOT] [2|1|OBJ] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[part|play-PRESP] [n|music] [prep|with] [det:poss|your] [n|foot .],,,,,,,,,,MotherofNaima_Naima010111_47
+48,Naima,Naima010111,yyy .,Naima,142.918,144.89600000000002,w sounds like voiced bilabial fricative[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_48
+49,Naima,Naima010111,{ microphone (?) } .,Naima,144.89600000000002,147.026,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_49
+50,Mother,Naima010111,playing music with your foot ?,Naima,147.026,148.496,[],[1|0|INCROOT] [2|1|OBJ] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[part|play-PRESP] [n|music] [prep|with] [det:poss|your] [n|foot ?],,,,,,,,,,MotherofNaima_Naima010111_50
+51,Naima,Naima010111,microphone .,Naima,148.496,150.061,CHI reaching for microphone,[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_51
+52,Naima,Naima010111,microphone .,Naima,150.061,151.616,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_52
+53,Mother,Naima010111,microphone .,Naima,151.616,152.645,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,MotherofNaima_Naima010111_53
+54,Naima,Naima010111,the camera { there (?) } .,Naima,152.645,156.71,CHI looking and pointing at video camera,[1|2|DET] [2|0|INCROOT] [3|2|NJCT 4|2|PUNCT],[det:art|the] [n|camera] [adv|there .],,,,,,,,,,NaimaofNaima_Naima010111_54
+55,Mother,Naima010111,yep (replacement:replacement:yes) and it's (t:t:self interruption),Naima,0.0,0.0,[],[1|4|COM] [2|4|LINK] [3|4|SUBJ 4|0|ROOT 5|4|PUNCT],[co|yes] [coord|and] [pro:per|it~cop|be&3S (mt:self interruption)],,,,,,,,,,MotherofNaima_Naima010111_55
+56,Mother,Naima010111,that's connected to that .,Naima,156.71,158.161,[],[1|2|SUBJ 2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|4|POBJ 6|3|PUNCT],[pro:dem|that~cop|be&3S] [v|connect-PAST] [prep|to] [pro:dem|that .],,,,,,,,,,MotherofNaima_Naima010111_56
+57,Mother,Naima010111,that's exactly right .,Naima,158.161,162.45600000000002,[],[1|2|SUBJ 2|0|ROOT] [3|4|JCT] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [adv|exact&dadj-LY] [n|right .],,,,,,,,,,MotherofNaima_Naima010111_57
+58,Mother,Naima010111,this ball (t:t:trail off),Naima,162.45600000000002,164.946,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [n|ball (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_58
+59,Mother,Naima010111,&wooh !,Naima,164.946,168.243,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_59
+60,Mother,Naima010111,&-uh we're gonna leave that where it is though okay ?,Naima,168.243,172.823,[],[] [1|4|SUBJ 2|4|AUX] [3|4|AUX] [4|0|ROOT] [5|4|OBJ] [6|8|LINK] [7|8|SUBJ] [8|5|CMOD] [9|10|JCT] [10|8|PRED 11|4|PUNCT],[] [pro:sub|we~aux|be&PRES] [mod:aux|gonna] [v|leave] [pro:dem|that] [pro:rel|where] [pro:per|it] [cop|be&3S] [adv|though] [adj|okay ?],,,,,,,,,,MotherofNaima_Naima010111_60
+61,Mother,Naima010111,where's your lady bu:g ?,Naima,172.823,175.29500000000002,[],[1|2|LINK 2|0|ROOT] [3|5|MOD] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[adv:int|where~cop|be&3S] [det:poss|your] [n|lady] [n|bug ?],,,,,,,,,,MotherofNaima_Naima010111_61
+62,Naima,Naima010111,{ there (?) } .,Naima,175.29500000000002,177.475,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,NaimaofNaima_Naima010111_62
+63,Mother,Naima010111,there it is .,Naima,177.475,178.841,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:per|it] [cop|be&3S .],,,,,,,,,,MotherofNaima_Naima010111_63
+64,Mother,Naima010111,that's the bug .,Naima,178.841,182.185,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|the] [n|bug .],,,,,,,,,,MotherofNaima_Naima010111_64
+65,Mother,Naima010111,can you pull can you pull ?,Naima,182.185,185.42,[],[1|3|AUX] [2|3|SUBJ] [3|6|SUBJ] [4|6|AUX] [5|6|SUBJ] [6|0|ROOT 7|6|PUNCT],[mod|can] [pro:per|you] [v|pull] [mod|can] [pro:per|you] [v|pull ?],,,,,,,,,,MotherofNaima_Naima010111_65
+66,Mother,Naima010111,pull the bug .,Naima,185.42,186.685,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|pull] [det:art|the] [n|bug .],,,,,,,,,,MotherofNaima_Naima010111_66
+67,Mother,Naima010111,pull the bug .,Naima,186.685,189.285,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|pull] [det:art|the] [n|bug .],,,,,,,,,,MotherofNaima_Naima010111_67
+68,Mother,Naima010111,bring me the bug (t:t:interruption),Naima,0.0,0.0,[],[1|0|ROOT] [2|1|OBJ] [3|4|DET] [4|1|OBJ 5|1|PUNCT],[v|bring] [pro:obj|me] [det:art|the] [n|bug (mt:interruption)],,,,,,,,,,MotherofNaima_Naima010111_68
+69,Naima,Naima010111,Mommy .,Naima,189.286,195.245,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy .],,,,,,,,,,NaimaofNaima_Naima010111_69
+70,Mother,Naima010111,yes .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofNaima_Naima010111_70
+71,Naima,Naima010111,yyy yyy .,Naima,0.0,0.0,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_71
+72,Mother,Naima010111,oh !,Naima,195.248,197.425,[],[1|0|INCROOT 2|1|PUNCT],[co|oh !],,,,,,,,,,MotherofNaima_Naima010111_72
+73,Mother,Naima010111,oh !,Naima,197.425,198.595,[],[1|0|INCROOT 2|1|PUNCT],[co|oh !],,,,,,,,,,MotherofNaima_Naima010111_73
+74,Naima,Naima010111,yyy yyy .,Naima,198.595,199.83,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_74
+75,Mother,Naima010111,xxx .,Naima,199.83,201.031,imitating CHI[],[],[],,,,,,,,,,MotherofNaima_Naima010111_75
+76,Naima,Naima010111,yyy yyy .,Naima,201.031,202.821,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_76
+77,Mother,Naima010111,uhoh no she's putting it down my shirt .,Naima,202.821,206.995,[],[1|5|COM] [2|5|COM] [3|5|SUBJ 4|5|AUX] [5|0|ROOT] [6|5|OBJ] [7|9|JCT] [8|9|MOD] [9|5|OBJ 10|5|PUNCT],[co|uhoh] [co|no] [pro:sub|she~aux|be&3S] [part|put-PRESP] [pro:per|it] [adv|down] [det:poss|my] [n|shirt .],,,,,,,,,,MotherofNaima_Naima010111_77
+78,Mother,Naima010111,oh no (.) you putting that lego down my shirt ?,Naima,206.995,211.391,[],[1|4|COM] [2|4|COM] [3|4|SUBJ] [4|0|ROOT] [5|6|DET] [6|4|OBJ] [7|4|JCT] [8|9|MOD] [9|7|POBJ 10|4|PUNCT],[co|oh] [co|no] [pro:per|you] [part|put-PRESP] [pro:dem|that] [n|lego] [prep|down] [det:poss|my] [n|shirt ?],,,,,,,,,,MotherofNaima_Naima010111_78
+79,Mother,Naima010111,ah (.) it's not really fitting very well is it ?,Naima,211.391,218.388,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|NEG] [5|6|JCT] [6|3|XJCT] [7|8|JCT] [8|6|JCT] [9|10|AUX] [10|6|OBJ 11|3|PUNCT],[co|ah] [pro:per|it~cop|be&3S] [neg|not] [adv|real&dadj-LY] [part|fit-PRESP] [adv|very] [adv|well] [cop|be&3S] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_79
+80,Naima,Naima010111,coffee .,Naima,218.388,223.025,[],[1|0|INCROOT 2|1|PUNCT],[n|coffee .],,,,,,,,,,NaimaofNaima_Naima010111_80
+81,Mother,Naima010111,"coffee , that's right .",Naima,0.0,0.0,[],[1|0|INCROOT 2|1|LP] [3|5|LINK 4|5|AUX] [5|1|CJCT 6|1|PUNCT],[n|coffee cm|cm] [pro:rel|that~aux|be&3S] [n|right .],,,,,,,,,,MotherofNaima_Naima010111_81
+82,Mother,Naima010111,that's coffee .,Naima,223.025,224.288,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [n|coffee .],,,,,,,,,,MotherofNaima_Naima010111_82
+83,Mother,Naima010111,I'm drinking my coffee: .,Naima,224.288,228.236,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|5|MOD] [5|3|OBJ 6|3|PUNCT],[pro:sub|I~aux|be&1S] [n:gerund|drink-PRESP] [det:poss|my] [n|coffee .],,,,,,,,,,MotherofNaima_Naima010111_83
+84,Mother,Naima010111,and there's the little bits of paper: .,Naima,228.236,230.825,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|6|DET] [5|6|MOD] [6|3|PRED] [7|6|NJCT] [8|7|POBJ 9|3|PUNCT],[coord|and] [pro:exist|there~cop|be&3S] [det:art|the] [adj|little] [n|bit-PL] [prep|of] [n|paper .],,,,,,,,,,MotherofNaima_Naima010111_84
+85,Mother,Naima010111,where's the paper ?,Naima,230.825,232.355,[],[1|2|LINK 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [n|paper ?],,,,,,,,,,MotherofNaima_Naima010111_85
+86,Naima,Naima010111,yyy .,Naima,232.355,234.9,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_86
+87,Mother,Naima010111,give me some paper ?,Naima,234.9,236.231,[],[1|0|ROOT] [2|1|OBJ] [3|4|QUANT] [4|1|OBJ 5|1|PUNCT],[v|give] [pro:obj|me] [qn|some] [n|paper ?],,,,,,,,,,MotherofNaima_Naima010111_87
+88,Mother,Naima010111,give me some paper .,Naima,236.231,237.888,[],[1|0|ROOT] [2|1|OBJ] [3|4|QUANT] [4|1|OBJ 5|1|PUNCT],[v|give] [pro:obj|me] [qn|some] [n|paper .],,,,,,,,,,MotherofNaima_Naima010111_88
+89,Mother,Naima010111,paper .,Naima,237.888,239.155,[],[1|0|INCROOT 2|1|PUNCT],[n|paper .],,,,,,,,,,MotherofNaima_Naima010111_89
+90,Mother,Naima010111,give me some paper .,Naima,239.155,240.983,[],[1|0|ROOT] [2|1|OBJ] [3|4|QUANT] [4|1|OBJ 5|1|PUNCT],[v|give] [pro:obj|me] [qn|some] [n|paper .],,,,,,,,,,MotherofNaima_Naima010111_90
+91,Mother,Naima010111,thank you: .,Naima,240.983,244.556,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_91
+92,Mother,Naima010111,woohoo !,Naima,244.556,248.586,[],[1|0|INCROOT 2|1|PUNCT],[co|woohoo !],,,,,,,,,,MotherofNaima_Naima010111_92
+93,Mother,Naima010111,&woo !,Naima,248.586,250.465,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_93
+94,Mother,Naima010111,I'm throw:ing the paper: .,Naima,250.465,255.166,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[pro:sub|I~aux|be&1S] [part|throw-PRESP] [det:art|the] [n|paper .],,,,,,,,,,MotherofNaima_Naima010111_94
+95,Mother,Naima010111,ooh (t:t:trail off),Naima,255.166,257.543,[],[1|0|ROOT 2|1|PUNCT],[v|ooh (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_95
+96,Mother,Naima010111,throwing the paper: .,Naima,257.543,263.77,[],[1|0|INCROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[part|throw-PRESP] [det:art|the] [n|paper .],,,,,,,,,,MotherofNaima_Naima010111_96
+97,Naima,Naima010111,yyy yyy .,Naima,263.77,272.288,target may be building blockCHI picking up a green block,[],[],,,,,,,,,,NaimaofNaima_Naima010111_97
+98,Naima,Naima010111,{ lego (?) } .,Naima,272.288,273.761,[],[1|0|INCROOT 2|1|PUNCT],[n|lego .],,,,,,,,,,NaimaofNaima_Naima010111_98
+99,Naima,Naima010111,{ lego (?) } .,Naima,273.761,275.175,[],[1|0|INCROOT 2|1|PUNCT],[n|lego .],,,,,,,,,,NaimaofNaima_Naima010111_99
+100,Mother,Naima010111,you have a lego there ?,Naima,275.175,277.513,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|2|JCT 6|2|PUNCT],[pro:per|you] [v|have] [det:art|a] [n|lego] [adv|there ?],,,,,,,,,,MotherofNaima_Naima010111_100
+101,Naima,Naima010111,there !,Naima,277.513,284.361,[],[1|0|INCROOT 2|1|PUNCT],[adv|there !],,,,,,,,,,NaimaofNaima_Naima010111_101
+102,Mother,Naima010111,&-uh oh Mommy's gonna sneeze (t:t:trail off),Naima,284.361,291.958,[],[] [1|4|COM] [2|4|MOD 3|2|POSS] [4|5|SUBJ] [5|0|ROOT 6|5|PUNCT],[] [co|oh] [n:prop|Mommy~poss|s] [mod:aux|gonna] [v|sneeze (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_102
+103,Mother,Naima010111,ah ah ah ah (t:t:trail off),Naima,0.0,0.0,[],[1|3|COM] [2|3|COM] [3|0|INCROOT] [4|3|COM 5|3|PUNCT],[co|ah] [co|ah] [co|ah] [co|ah (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_103
+104,Naima,Naima010111,yyy (t:t:interruption),Naima,291.958,298.608,CHI cut off by MOT's sneezeCHI looking and pointing at camera,[1|0|ROOT],[(mt:interruption)],,,,,,,,,,NaimaofNaima_Naima010111_104
+105,Mother,Naima010111,xxx .,Naima,0.0,0.0,"sneezed , not sure if it was real or fake",[],[],,,,,,,,,,MotherofNaima_Naima010111_105
+106,Mother,Naima010111,I sneezed (.) achoo said the Mommy .,Naima,298.608,302.773,[],[1|2|SUBJ] [2|0|ROOT] [3|4|SUBJ] [4|2|COMP] [5|6|DET] [6|4|OBJ 7|2|PUNCT],[pro:sub|I] [v|sneeze-PAST] [n|achoo] [v|say&PAST] [det:art|the] [n:prop|Mommy .],,,,,,,,,,MotherofNaima_Naima010111_106
+107,Naima,Naima010111,yyy microphone .,Naima,302.773,307.571,CHI reaches for MOT's microphone,[] [1|0|INCROOT 2|1|PUNCT],[] [n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_107
+108,Mother,Naima010111,microphone .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,MotherofNaima_Naima010111_108
+109,Naima,Naima010111,yyy yyy yyy .,Naima,307.571,309.783,CHI playing with MOT's microphone,[],[],,,,,,,,,,NaimaofNaima_Naima010111_109
+110,Mother,Naima010111,you have a lego in your shirt now (t:t:interruption),Naima,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|2|JCT] [6|7|MOD] [7|5|POBJ] [8|2|JCT 9|2|PUNCT],[pro:per|you] [v|have] [det:art|a] [n|lego] [prep|in] [det:poss|your] [n|shirt] [adv|now (mt:interruption)],,,,,,,,,,MotherofNaima_Naima010111_110
+111,Naima,Naima010111,lego .,Naima,309.783,313.596,[],[1|0|INCROOT 2|1|PUNCT],[n|lego .],,,,,,,,,,NaimaofNaima_Naima010111_111
+112,Naima,Naima010111,yyy yyy .,Naima,313.596,321.486,CHI looking at lego,[],[],,,,,,,,,,NaimaofNaima_Naima010111_112
+113,Mother,Naima010111,there it is .,Naima,0.0,0.0,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:per|it] [cop|be&3S .],,,,,,,,,,MotherofNaima_Naima010111_113
+114,Mother,Naima010111,oh no !,Naima,321.486,328.166,[],[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|oh] [co|no !],,,,,,,,,,MotherofNaima_Naima010111_114
+115,Naima,Naima010111,microphone (t:t:interruption),Naima,328.166,331.161,this is cut off mid+word by MOT[],[1|0|INCROOT 2|1|PUNCT],[n|microphone (mt:interruption)],,,,,,,,,,NaimaofNaima_Naima010111_115
+116,Mother,Naima010111,what's this ?,Naima,0.0,0.0,MOT pointing to something in CHI's lips or mouth,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|this ?],,,,,,,,,,MotherofNaima_Naima010111_116
+117,Naima,Naima010111,microphone (t:t:self interruption),Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone (mt:self interruption)],,,,,,,,,,NaimaofNaima_Naima010111_117
+118,Mother,Naima010111,what's this ?,Naima,0.0,0.0,MOT pointing to CHI's lips,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|this ?],,,,,,,,,,MotherofNaima_Naima010111_118
+119,Mother,Naima010111,what's this ?,Naima,331.161,333.756,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|this ?],,,,,,,,,,MotherofNaima_Naima010111_119
+120,Mother,Naima010111,you know what that is (.) what is it ?,Naima,333.756,337.288,[],[1|2|SUBJ] [2|0|ROOT] [3|5|LINK] [4|5|SUBJ] [5|2|COMP] [6|5|PRED] [7|8|AUX] [8|6|OBJ 9|2|PUNCT],[pro:per|you] [v|know] [pro:int|what] [pro:dem|that] [cop|be&3S] [pro:int|what] [aux|be&3S] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_120
+121,Mother,Naima010111,what's that ?,Naima,337.288,339.235,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],,,,,,,,,,MotherofNaima_Naima010111_121
+122,Mother,Naima010111,that reminds me we have_to give you your fluoride .,Naima,339.235,343.725,[],[1|2|LINK] [2|0|ROOT] [3|2|OBJ] [4|6|SUBJ] [5|6|AUX] [6|2|COMP] [7|6|OBJ] [8|9|MOD] [9|7|OBJ 10|2|PUNCT],[pro:rel|that] [v|remind-3S] [pro:obj|me] [pro:sub|we] [mod:aux|have_to] [v|give] [pro:per|you] [det:poss|your] [n|fluoride .],,,,,,,,,,MotherofNaima_Naima010111_122
+123,Naima,Naima010111,{ fluoride (?) } .,Naima,343.725,347.38,[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,NaimaofNaima_Naima010111_123
+124,Mother,Naima010111,fluoride .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,MotherofNaima_Naima010111_124
+125,Naima,Naima010111,{ fluoride (?) } .,Naima,347.38,350.368,[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,NaimaofNaima_Naima010111_125
+126,Mother,Naima010111,fluoride .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,MotherofNaima_Naima010111_126
+127,Mother,Naima010111,what are these ?,Naima,350.368,352.96500000000003,MOT pointing to CHI's teeth,[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[pro:int|what] [aux|be&PRES] [pro:dem|these ?],,,,,,,,,,MotherofNaima_Naima010111_127
+128,Mother,Naima010111,what is that ?,Naima,352.96500000000003,355.571,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what] [cop|be&3S] [pro:dem|that ?],,,,,,,,,,MotherofNaima_Naima010111_128
+129,Naima,Naima010111,yyy .,Naima,355.571,358.246,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_129
+130,Mother,Naima010111,tee:th .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|tooth&PL .],,,,,,,,,,MotherofNaima_Naima010111_130
+131,Mother,Naima010111,tee:th .,Naima,358.246,360.698,[],[1|0|INCROOT 2|1|PUNCT],[n|tooth&PL .],,,,,,,,,,MotherofNaima_Naima010111_131
+132,Mother,Naima010111,oh_my_goodness .,Naima,360.698,368.621,[],[1|0|INCROOT 2|1|PUNCT],[co|oh_my_goodness .],,,,,,,,,,MotherofNaima_Naima010111_132
+133,Mother,Naima010111,you playing music with your feet again .,Naima,368.621,371.348,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|JCT] [5|6|MOD] [6|4|POBJ] [7|2|JCT 8|2|PUNCT],[pro:per|you] [part|play-PRESP] [n|music] [prep|with] [det:poss|your] [n|foot&PL] [adv|again .],,,,,,,,,,MotherofNaima_Naima010111_133
+134,Naima,Naima010111,xxx xxx .,Naima,371.348,399.398,CHI playing piano with feet,[],[],,,,,,,,,,NaimaofNaima_Naima010111_134
+135,Naima,Naima010111,xxx xxx xxx .,Naima,399.398,412.786,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_135
+136,Naima,Naima010111,yyy yyy yyy yyy .,Naima,412.786,416.646,CHI playing piano with her toes,[],[],,,,,,,,,,NaimaofNaima_Naima010111_136
+137,Mother,Naima010111,you playing with your toes ?,Naima,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ 6|2|PUNCT],[pro:per|you] [part|play-PRESP] [prep|with] [det:poss|your] [n|toe-PL ?],,,,,,,,,,MotherofNaima_Naima010111_137
+138,Naima,Naima010111,yyy yyy yyy .,Naima,416.646,421.651,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_138
+139,Mother,Naima010111,you playing music with your toes ?,Naima,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|JCT] [5|6|MOD] [6|4|POBJ 7|2|PUNCT],[pro:per|you] [part|play-PRESP] [n|music] [prep|with] [det:poss|your] [n|toe-PL ?],,,,,,,,,,MotherofNaima_Naima010111_139
+140,Mother,Naima010111,tissue (t:t:trail off),Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|tissue (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_140
+141,Naima,Naima010111,{ tissue (?) } .,Naima,421.651,434.425,[],[1|0|INCROOT 2|1|PUNCT],[n|tissue .],,,,,,,,,,NaimaofNaima_Naima010111_141
+142,Mother,Naima010111,tissue .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|tissue .],,,,,,,,,,MotherofNaima_Naima010111_142
+143,Naima,Naima010111,Mommy .,Naima,434.425,438.058,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy .],,,,,,,,,,NaimaofNaima_Naima010111_143
+144,Mother,Naima010111,yes .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofNaima_Naima010111_144
+145,Naima,Naima010111,Mommy !,Naima,438.058,439.656,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy !],,,,,,,,,,NaimaofNaima_Naima010111_145
+146,Mother,Naima010111,yes .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofNaima_Naima010111_146
+147,Mother,Naima010111,you have a little basket there I see with paper in it .,Naima,439.656,444.886,[],[1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|8|SUBJ] [6|8|JCT] [7|8|SUBJ] [8|2|COMP] [9|8|JCT] [10|9|POBJ] [11|10|NJCT] [12|11|POBJ 13|2|PUNCT],[pro:per|you] [v|have] [det:art|a] [adj|little] [n|basket] [adv|there] [pro:sub|I] [v|see] [prep|with] [n|paper] [prep|in] [pro:per|it .],,,,,,,,,,MotherofNaima_Naima010111_147
+148,Mother,Naima010111,that's just lovely .,Naima,444.886,447.923,[],[1|2|SUBJ 2|0|ROOT] [3|4|JCT] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [adv|just] [adj|love&dn-LY .],,,,,,,,,,MotherofNaima_Naima010111_148
+149,Naima,Naima010111,{ lovely (?) } .,Naima,447.923,451.01,[],[1|0|INCROOT 2|1|PUNCT],[adj|love&dn-LY .],,,,,,,,,,NaimaofNaima_Naima010111_149
+150,Mother,Naima010111,lovely .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[adj|love&dn-LY .],,,,,,,,,,MotherofNaima_Naima010111_150
+151,Naima,Naima010111,lovely .,Naima,451.01,454.31,[],[1|0|INCROOT 2|1|PUNCT],[adj|love&dn-LY .],,,,,,,,,,NaimaofNaima_Naima010111_151
+152,Mother,Naima010111,lovely .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[adj|love&dn-LY .],,,,,,,,,,MotherofNaima_Naima010111_152
+153,Naima,Naima010111,{ lovely (?) } .,Naima,454.31,455.951,target could be legoCHI looking at lego,[1|0|INCROOT 2|1|PUNCT],[adj|love&dn-LY .],,,,,,,,,,NaimaofNaima_Naima010111_153
+154,Mother,Naima010111,la la .,Naima,0.0,0.0,imitating CHI[],[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|la] [co|la .],,,,,,,,,,MotherofNaima_Naima010111_154
+155,Naima,Naima010111,yyy .,Naima,455.951,460.675,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_155
+156,Mother,Naima010111,here's some toys you haven't seen for a few days .,Naima,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|4|QUANT] [4|8|JCT] [5|8|SUBJ] [6|8|AUX 7|6|NEG] [8|2|PRED] [9|8|JCT] [10|12|DET] [11|12|QUANT] [12|9|POBJ 13|2|PUNCT],[pro:exist|here~cop|be&3S] [qn|some] [n|toy-PL] [pro:per|you] [aux|have~neg|not] [part|see&PASTP] [prep|for] [det:art|a] [qn|few] [n|day-PL .],,,,,,,,,,MotherofNaima_Naima010111_156
+157,Mother,Naima010111,hey (.) what's in that box ?,Naima,460.678,465.951,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[co|hey] [pro:int|what~cop|be&3S] [prep|in] [pro:dem|that] [n|box ?],,,,,,,,,,MotherofNaima_Naima010111_157
+158,Mother,Naima010111,what's that ?,Naima,465.951,475.765,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],,,,,,,,,,MotherofNaima_Naima010111_158
+159,Mother,Naima010111,who's that baby ?,Naima,475.765,481.566,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:int|who~cop|be&3S] [pro:dem|that] [n|baby ?],,,,,,,,,,MotherofNaima_Naima010111_159
+160,Mother,Naima010111,what else is in there ?,Naima,481.566,485.276,[],[1|3|LINK] [2|1|PQ] [3|0|ROOT] [4|5|JCT] [5|3|JCT 6|3|PUNCT],[pro:int|what] [post|else] [aux|be&3S] [adv|in] [adv|there ?],,,,,,,,,,MotherofNaima_Naima010111_160
+161,Mother,Naima010111,oh .,Naima,485.276,488.565,[],[1|0|INCROOT 2|1|PUNCT],[co|oh .],,,,,,,,,,MotherofNaima_Naima010111_161
+162,Mother,Naima010111,blocks and a lid .,Naima,488.565,492.885,[],[1|0|INCROOT] [2|1|CONJ] [3|4|DET] [4|2|COORD 5|1|PUNCT],[n|block-PL] [coord|and] [det:art|a] [n|lid .],,,,,,,,,,MotherofNaima_Naima010111_162
+163,Mother,Naima010111,that's stuck that looks like it's stuck .,Naima,492.885,496.501,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|5|LINK] [5|3|COMP] [6|9|LINK] [7|9|SUBJ 8|9|AUX] [9|5|COMP 10|2|PUNCT],[pro:dem|that~cop|be&3S] [v|stick&PAST] [pro:rel|that] [cop|look-3S] [conj|like] [pro:per|it~aux|be&3S] [v|stick&PAST .],,,,,,,,,,MotherofNaima_Naima010111_163
+164,Mother,Naima010111,get that out for you .,Naima,496.501,497.945,[],[1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|1|JCT] [5|4|POBJ 6|1|PUNCT],[v|get] [pro:dem|that] [adv|out] [prep|for] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_164
+165,Mother,Naima010111,here's the blocks .,Naima,497.945,499.865,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|the] [n|block-PL .],,,,,,,,,,MotherofNaima_Naima010111_165
+166,Mother,Naima010111,this block goes in xxx .,Naima,499.865,507.223,[],[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|3|PUNCT],[pro:dem|this] [n|block] [v|go-3S] [adv|in] [.],,,,,,,,,,MotherofNaima_Naima010111_166
+167,Mother,Naima010111,see ?,Naima,507.223,511.256,[],[1|0|ROOT 2|1|PUNCT],[v|see ?],,,,,,,,,,MotherofNaima_Naima010111_167
+168,Mother,Naima010111,and that one goes inside .,Naima,511.256,516.241,[],[1|4|LINK] [2|3|DET] [3|4|SUBJ] [4|0|ROOT] [5|4|JCT 6|4|PUNCT],[coord|and] [pro:dem|that] [pro:indef|one] [v|go-3S] [adv|inside .],,,,,,,,,,MotherofNaima_Naima010111_168
+169,Mother,Naima010111,this one goes inside of that one .,Naima,516.241,519.51,[],[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|3|JCT] [6|7|DET] [7|5|POBJ 8|3|PUNCT],[pro:dem|this] [pro:indef|one] [v|go-3S] [adv|inside] [prep|of] [pro:dem|that] [pro:indef|one .],,,,,,,,,,MotherofNaima_Naima010111_169
+170,Naima,Naima010111,yyy .,Naima,519.51,524.35,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_170
+171,Mother,Naima010111,that's a lid too that's a big lid .,Naima,524.35,527.501,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED] [5|4|PQ] [6|7|SUBJ 7|4|XMOD] [8|10|DET] [9|10|MOD] [10|7|PRED 11|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|a] [n|lid] [post|too] [pro:dem|that~cop|be&3S] [det:art|a] [adj|big] [n|lid .],,,,,,,,,,MotherofNaima_Naima010111_171
+172,Mother,Naima010111,oh I was wondering where this was .,Naima,527.501,530.02,[],[1|4|COM] [2|4|SUBJ] [3|4|AUX] [4|7|LINK] [5|7|LINK] [6|7|SUBJ] [7|0|ROOT 8|7|PUNCT],[co|oh] [pro:sub|I] [aux|be&PAST&13S] [part|wonder-PRESP] [adv:int|where] [pro:dem|this] [cop|be&PAST&13S .],,,,,,,,,,MotherofNaima_Naima010111_172
+173,Naima,Naima010111,yyy .,Naima,530.02,531.686,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_173
+174,Naima,Naima010111,yyy .,Naima,531.686,534.963,barely audible[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_174
+175,Mother,Naima010111,lots_of lids .,Naima,0.0,0.0,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[qn|lots_of] [n|lid-PL .],,,,,,,,,,MotherofNaima_Naima010111_175
+176,Mother,Naima010111,and what else is in here ?,Naima,534.963,541.298,[],[1|0|INCROOT] [2|1|COORD] [3|2|PQ] [4|6|AUX] [5|6|JCT] [6|2|JCT 7|1|PUNCT],[coord|and] [pro:int|what] [post|else] [aux|be&3S] [adv|in] [adv|here ?],,,,,,,,,,MotherofNaima_Naima010111_176
+177,Mother,Naima010111,what're (replacement:replacement:what are) you doing ?,Naima,572.281,577.221,[],[1|4|LINK 2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[pro:int|what aux|be&PRES] [pro:per|you] [part|do-PRESP ?],,,,,,,,,,MotherofNaima_Naima010111_177
+178,Mother,Naima010111,woah .,Naima,577.221,579.02,[],[1|0|INCROOT 2|1|PUNCT],[co|woah .],,,,,,,,,,MotherofNaima_Naima010111_178
+179,Mother,Naima010111,are you building a tower with that Cuisinart ?,Naima,579.02,582.375,[],[1|0|INCROOT] [2|1|OBJ] [3|2|OBJ] [4|5|DET] [5|3|OBJ] [6|5|NJCT] [7|6|POBJ] [8|7|APP 9|1|PUNCT],[aux|be&PRES] [pro:per|you] [n|building] [det:art|a] [n|tower] [prep|with] [det:dem|that] [n:prop|Cuisinart ?],,,,,,,,,,MotherofNaima_Naima010111_179
+180,Mother,Naima010111,hey that went inside .,Naima,582.375,585.953,[],[1|3|COM] [2|3|LINK] [3|0|ROOT] [4|3|JCT 5|3|PUNCT],[co|hey] [pro:rel|that] [v|go&PAST] [adv|inside .],,,,,,,,,,MotherofNaima_Naima010111_180
+181,Mother,Naima010111,very nice .,Naima,585.953,588.89,[],[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|very] [adj|nice .],,,,,,,,,,MotherofNaima_Naima010111_181
+182,Mother,Naima010111,I bet the Cuisinart xxx .,Naima,588.89,591.665,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|2|PUNCT],[pro:sub|I] [v|bet&ZERO] [det:art|the] [n:prop|Cuisinart] [.],,,,,,,,,,MotherofNaima_Naima010111_182
+183,Mother,Naima010111,are you putting lids inside the block ?,Naima,591.665,609.426,[],[1|0|ROOT] [2|1|PRED] [3|4|MOD] [4|2|OBJ] [5|4|NJCT] [6|7|DET] [7|5|POBJ 8|1|PUNCT],[cop|be&PRES] [pro:per|you] [part|put-PRESP] [n|lid-PL] [prep|inside] [det:art|the] [n|block ?],,,,,,,,,,MotherofNaima_Naima010111_183
+184,Mother,Naima010111,I think I'll put some paper in .,Naima,609.426,624.523,[],[1|2|SUBJ] [2|0|ROOT] [3|5|SUBJ 4|5|AUX] [5|2|COMP] [6|7|QUANT] [7|5|OBJ] [8|5|JCT 9|2|PUNCT],[pro:sub|I] [v|think] [pro:sub|I~mod|will] [v|put&ZERO] [qn|some] [n|paper] [adv|in .],,,,,,,,,,MotherofNaima_Naima010111_184
+185,Mother,Naima010111,paper on the block .,Naima,624.523,626.611,[],[1|0|INCROOT] [2|1|NJCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[n|paper] [prep|on] [det:art|the] [n|block .],,,,,,,,,,MotherofNaima_Naima010111_185
+186,Mother,Naima010111,I think I'll put paper on lids too .,Naima,626.611,637.418,[],[1|2|SUBJ] [2|0|ROOT] [3|5|SUBJ 4|5|AUX] [5|2|COMP] [6|5|OBJ] [7|5|JCT] [8|7|POBJ] [9|8|PQ 10|2|PUNCT],[pro:sub|I] [v|think] [pro:sub|I~mod|will] [v|put&ZERO] [n|paper] [prep|on] [n|lid-PL] [post|too .],,,,,,,,,,MotherofNaima_Naima010111_186
+187,Mother,Naima010111,paper and a picture of you .,Naima,637.418,661.823,[],[1|0|INCROOT] [2|1|CONJ] [3|4|DET] [4|2|COORD] [5|4|NJCT] [6|5|POBJ 7|1|PUNCT],[n|paper] [coord|and] [det:art|a] [n|picture] [prep|of] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_187
+188,Mother,Naima010111,where's the baby ?,Naima,661.823,664.021,[],[1|2|LINK 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [n|baby ?],,,,,,,,,,MotherofNaima_Naima010111_188
+189,Naima,Naima010111,there !,Naima,664.021,669.033,[],[1|0|INCROOT 2|1|PUNCT],[adv|there !],,,,,,,,,,NaimaofNaima_Naima010111_189
+190,Mother,Naima010111,there !,Naima,669.033,670.383,[],[1|0|INCROOT 2|1|PUNCT],[adv|there !],,,,,,,,,,MotherofNaima_Naima010111_190
+191,Mother,Naima010111,xxx .,Naima,670.383,673.701,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_191
+192,Mother,Naima010111,xxx there .,Naima,673.701,676.703,[],[] [1|0|INCROOT 2|1|PUNCT],[] [adv|there .],,,,,,,,,,MotherofNaima_Naima010111_192
+193,Naima,Naima010111,there !,Naima,676.703,683.83,[],[1|0|INCROOT 2|1|PUNCT],[adv|there !],,,,,,,,,,NaimaofNaima_Naima010111_193
+194,Mother,Naima010111,there she is .,Naima,683.83,686.123,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|she] [cop|be&3S .],,,,,,,,,,MotherofNaima_Naima010111_194
+195,Naima,Naima010111,there !,Naima,686.123,694.396,[],[1|0|INCROOT 2|1|PUNCT],[adv|there !],,,,,,,,,,NaimaofNaima_Naima010111_195
+196,Mother,Naima010111,there she is .,Naima,694.396,695.765,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|she] [cop|be&3S .],,,,,,,,,,MotherofNaima_Naima010111_196
+197,Mother,Naima010111,there .,Naima,695.765,709.098,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,MotherofNaima_Naima010111_197
+198,Mother,Naima010111,that baby's wearing yellow socks .,Naima,709.098,717.081,[],[1|2|DET] [2|4|SUBJ 3|4|AUX] [4|0|ROOT] [5|6|MOD] [6|4|OBJ 7|4|PUNCT],[pro:dem|that] [n|baby~aux|be&3S] [part|wear-PRESP] [n|yellow] [n|sock-PL .],,,,,,,,,,MotherofNaima_Naima010111_198
+199,Mother,Naima010111,that's you wearing your yellow socks .,Naima,717.081,720.721,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|3|XMOD] [5|7|MOD] [6|7|MOD] [7|4|OBJ 8|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:per|you] [part|wear-PRESP] [det:poss|your] [n|yellow] [n|sock-PL .],,,,,,,,,,MotherofNaima_Naima010111_199
+200,Mother,Naima010111,are you hiding ?,Naima,720.721,723.063,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[cop|be&PRES] [pro:per|you] [part|hide-PRESP ?],,,,,,,,,,MotherofNaima_Naima010111_200
+201,Mother,Naima010111,where's that baby ?,Naima,723.063,724.378,[],[1|2|LINK 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [pro:dem|that] [n|baby ?],,,,,,,,,,MotherofNaima_Naima010111_201
+202,Naima,Naima010111,there !,Naima,724.378,727.731,[],[1|0|INCROOT 2|1|PUNCT],[adv|there !],,,,,,,,,,NaimaofNaima_Naima010111_202
+203,Mother,Naima010111,there .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,MotherofNaima_Naima010111_203
+204,Mother,Naima010111,what's this ?,Naima,727.731,742.366,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|this ?],,,,,,,,,,MotherofNaima_Naima010111_204
+205,Mother,Naima010111,what is it ?,Naima,742.366,753.211,[],[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[pro:int|what] [aux|be&3S] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_205
+206,Naima,Naima010111,yyy .,Naima,753.211,754.85,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_206
+207,Naima,Naima010111,{ rabbit (?) } .,Naima,754.85,756.261,CHI handing MOT toy rabbit,[1|0|INCROOT 2|1|PUNCT],[n|rabbit .],,,,,,,,,,NaimaofNaima_Naima010111_207
+208,Mother,Naima010111,rabbit .,Naima,756.261,757.526,[],[1|0|INCROOT 2|1|PUNCT],[n|rabbit .],,,,,,,,,,MotherofNaima_Naima010111_208
+209,Mother,Naima010111,&aw Naima .,Naima,757.526,759.678,[],[] [1|0|INCROOT 2|1|PUNCT],[] [n:prop|Naima .],,,,,,,,,,MotherofNaima_Naima010111_209
+210,Mother,Naima010111,did you bite the bunny on its nose ?,Naima,759.678,763.486,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|3|JCT] [7|8|MOD] [8|6|POBJ 9|3|PUNCT],[v|do&PAST] [pro:per|you] [v|bite] [det:art|the] [n|bunny] [prep|on] [det:poss|its] [n|nose ?],,,,,,,,,,MotherofNaima_Naima010111_210
+211,Mother,Naima010111,I saw a bunny rabbit .,Naima,763.486,771.713,[],[1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|OBJ 6|2|PUNCT],[pro:sub|I] [v|see&PAST] [det:art|a] [n|bunny] [n|rabbit .],,,,,,,,,,MotherofNaima_Naima010111_211
+212,Mother,Naima010111,you gonna put the bunny rabbit in the box ?,Naima,771.713,778.278,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|6|DET] [5|6|MOD] [6|3|OBJ] [7|3|JCT] [8|9|DET] [9|7|POBJ 10|3|PUNCT],[pro:per|you] [mod:aux|gonna] [v|put&ZERO] [det:art|the] [n|bunny] [n|rabbit] [prep|in] [det:art|the] [n|box ?],,,,,,,,,,MotherofNaima_Naima010111_212
+213,Naima,Naima010111,ball .,Naima,778.278,792.555,CHI get toy ball,[1|0|INCROOT 2|1|PUNCT],[n|ball .],,,,,,,,,,NaimaofNaima_Naima010111_213
+214,Mother,Naima010111,what else is in the box ?,Naima,792.555,796.21,[],[1|3|LINK] [2|1|PQ] [3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[pro:int|what] [post|else] [aux|be&3S] [prep|in] [det:art|the] [n|box ?],,,,,,,,,,MotherofNaima_Naima010111_214
+215,Naima,Naima010111,ball .,Naima,796.21,797.86,[],[1|0|INCROOT 2|1|PUNCT],[n|ball .],,,,,,,,,,NaimaofNaima_Naima010111_215
+216,Naima,Naima010111,ball Ma .,Naima,797.86,800.166,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|ball] [n:prop|Ma .],,,,,,,,,,NaimaofNaima_Naima010111_216
+217,Naima,Naima010111,ball .,Naima,800.166,802.12,[],[1|0|INCROOT 2|1|PUNCT],[n|ball .],,,,,,,,,,NaimaofNaima_Naima010111_217
+218,Mother,Naima010111,ball .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|ball .],,,,,,,,,,MotherofNaima_Naima010111_218
+219,Mother,Naima010111,that's a nice ball .,Naima,802.12,804.555,[],[1|2|SUBJ 2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|a] [adj|nice] [n|ball .],,,,,,,,,,MotherofNaima_Naima010111_219
+220,Mother,Naima010111,good size .,Naima,804.555,806.676,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|good] [n|size .],,,,,,,,,,MotherofNaima_Naima010111_220
+221,Mother,Naima010111,I think I'm going to put (t:t:trail off),Naima,806.676,809.186,[],[1|2|SUBJ] [2|0|ROOT] [3|5|SUBJ 4|5|AUX] [5|2|COMP] [6|7|INF] [7|5|XCOMP 8|2|PUNCT],[pro:sub|I] [v|think] [pro:sub|I~aux|be&1S] [part|go-PRESP] [inf|to] [v|put&ZERO (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_221
+222,Mother,Naima010111,the ball in one of these boxes .,Naima,809.186,813.191,[],[1|2|DET] [2|0|INCROOT] [3|2|NJCT] [4|3|POBJ] [5|4|NJCT] [6|7|DET] [7|5|POBJ 8|2|PUNCT],[det:art|the] [n|ball] [prep|in] [det:num|one] [prep|of] [pro:dem|these] [n|box-PL .],,,,,,,,,,MotherofNaima_Naima010111_222
+223,Naima,Naima010111,ball .,Naima,813.191,814.633,[],[1|0|INCROOT 2|1|PUNCT],[n|ball .],,,,,,,,,,NaimaofNaima_Naima010111_223
+224,Mother,Naima010111,which box is it in ?,Naima,814.633,816.948,[],[1|2|LINK] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|JCT 6|4|PUNCT],[pro:rel|which] [n|box] [aux|be&3S] [pro:per|it] [adv|in ?],,,,,,,,,,MotherofNaima_Naima010111_224
+225,Mother,Naima010111,where's the ball ?,Naima,816.948,820.678,[],[1|2|LINK 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [n|ball ?],,,,,,,,,,MotherofNaima_Naima010111_225
+226,Mother,Naima010111,thank you .,Naima,820.678,836.253,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_226
+227,Naima,Naima010111,ball .,Naima,836.253,837.5,[],[1|0|INCROOT 2|1|PUNCT],[n|ball .],,,,,,,,,,NaimaofNaima_Naima010111_227
+228,Mother,Naima010111,where's the ball ?,Naima,837.5,838.593,[],[1|2|LINK 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [n|ball ?],,,,,,,,,,MotherofNaima_Naima010111_228
+229,Naima,Naima010111,there .,Naima,838.593,841.886,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,NaimaofNaima_Naima010111_229
+230,Mother,Naima010111,there .,Naima,841.886,842.983,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,MotherofNaima_Naima010111_230
+231,Mother,Naima010111,put the ball xxx ?,Naima,842.983,845.951,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|1|PUNCT],[v|put&ZERO] [det:art|the] [n|ball] [?],,,,,,,,,,MotherofNaima_Naima010111_231
+232,Mother,Naima010111,let's hide it .,Naima,845.951,847.231,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|3|OBJ 5|1|PUNCT],[v|let~pro:obj|us] [v|hide] [pro:per|it .],,,,,,,,,,MotherofNaima_Naima010111_232
+233,Mother,Naima010111,oh .,Naima,847.231,856.765,[],[1|0|INCROOT 2|1|PUNCT],[co|oh .],,,,,,,,,,MotherofNaima_Naima010111_233
+234,Mother,Naima010111,that ball is rolling .,Naima,856.765,859.426,[],[1|2|DET] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT 5|4|PUNCT],[pro:dem|that] [n|ball] [aux|be&3S] [part|roll-PRESP .],,,,,,,,,,MotherofNaima_Naima010111_234
+235,Mother,Naima010111,where's the ball ?,Naima,859.426,900.68,[],[1|2|LINK 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [n|ball ?],,,,,,,,,,MotherofNaima_Naima010111_235
+236,Naima,Naima010111,there (.) there .,Naima,900.68,905.38,[],[1|0|INCROOT] [2|1|JCT 3|1|PUNCT],[adv|there] [adv|there .],,,,,,,,,,NaimaofNaima_Naima010111_236
+237,Naima,Naima010111,yyy yyy .,Naima,905.381,912.825,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_237
+238,Mother,Naima010111,yes that's a new ball isn't it ?,Naima,0.0,0.0,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|6|DET] [5|6|MOD] [6|7|SUBJ] [7|3|PRED 8|7|NEG] [9|7|PRED 10|3|PUNCT],[co|yes] [pro:dem|that~cop|be&3S] [det:art|a] [adj|new] [n|ball] [cop|be&3S~neg|not] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_238
+239,Mother,Naima010111,it's very bright colored isn't it ?,Naima,912.826,917.423,[],[1|2|SUBJ 2|0|ROOT] [3|4|JCT] [4|2|PRED] [5|6|SUBJ] [6|2|JCT 7|6|NEG] [8|6|PRED 9|2|PUNCT],[pro:per|it~cop|be&3S] [adv|very] [adj|bright] [part|color-PASTP] [cop|be&3S~neg|not] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_239
+240,Mother,Naima010111,this is a tennis ball .,Naima,917.423,920.931,[],[1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[pro:dem|this] [cop|be&3S] [det:art|a] [n|tennis] [n|ball .],,,,,,,,,,MotherofNaima_Naima010111_240
+241,Mother,Naima010111,and that is a xxx ball .,Naima,920.931,925.016,[],[1|3|LINK] [2|3|LINK] [3|0|ROOT] [4|5|DET] [] [5|3|PRED 6|3|PUNCT],[coord|and] [pro:rel|that] [cop|be&3S] [det:art|a] [] [n|ball .],,,,,,,,,,MotherofNaima_Naima010111_241
+242,Mother,Naima010111,soft training baseball .,Naima,925.016,927.791,[],[1|0|INCROOT] [2|1|ENUM] [3|2|OBJ 4|1|PUNCT],[adj|soft] [n:gerund|train-PRESP] [n|baseball .],,,,,,,,,,MotherofNaima_Naima010111_242
+243,Mother,Naima010111,doesn't bounce that one bounces .,Naima,927.791,930.793,[],[1|3|AUX 2|1|NEG] [3|0|ROOT] [4|6|LINK] [5|6|QUANT] [6|3|OBJ 7|3|PUNCT],[mod|do&3S~neg|not] [v|bounce] [pro:rel|that] [det:num|one] [n|bounce-PL .],,,,,,,,,,MotherofNaima_Naima010111_243
+244,Mother,Naima010111,woo !,Naima,930.793,933.551,[],[1|0|INCROOT 2|1|PUNCT],[co|woo !],,,,,,,,,,MotherofNaima_Naima010111_244
+245,Mother,Naima010111,very nice .,Naima,933.551,934.633,[],[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|very] [adj|nice .],,,,,,,,,,MotherofNaima_Naima010111_245
+246,Naima,Naima010111,yyy yyy .,Naima,934.633,940.921,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_246
+247,Mother,Naima010111,yeah .,Naima,940.921,942.095,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofNaima_Naima010111_247
+248,Naima,Naima010111,where'd (replacement:replacement:where did) it go ?,Naima,942.095,943.886,CHI looking for her ball,[1|3|LINK 2|3|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[adv:int|where mod|do&PAST] [pro:per|it] [0v|go ?],,,,,,,,,,NaimaofNaima_Naima010111_248
+249,Mother,Naima010111,where did it go ?,Naima,943.886,945.095,[],[1|4|LINK] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[adv:int|where] [mod|do&PAST] [pro:per|it] [v|go ?],,,,,,,,,,MotherofNaima_Naima010111_249
+250,Mother,Naima010111,under the couch .,Naima,945.095,946.246,[],[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[prep|under] [det:art|the] [n|couch .],,,,,,,,,,MotherofNaima_Naima010111_250
+251,Mother,Naima010111,look under the couch .,Naima,946.246,947.59,[],[1|0|ROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[v|look] [prep|under] [det:art|the] [n|couch .],,,,,,,,,,MotherofNaima_Naima010111_251
+252,Naima,Naima010111,yyy yyy yyy .,Naima,947.59,966.15,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_252
+253,Mother,Naima010111,ha ha ha .,Naima,966.15,968.485,[],[1|3|COM] [2|3|COM] [3|0|INCROOT 4|3|PUNCT],[co|ha] [co|ha] [co|ha .],,,,,,,,,,MotherofNaima_Naima010111_253
+254,Mother,Naima010111,it's rolling .,Naima,0.0,0.0,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT 4|3|PUNCT],[pro:per|it~aux|be&3S] [part|roll-PRESP .],,,,,,,,,,MotherofNaima_Naima010111_254
+255,Naima,Naima010111,roll .,Naima,968.486,975.656,[],[1|0|INCROOT 2|1|PUNCT],[n|roll .],,,,,,,,,,NaimaofNaima_Naima010111_255
+256,Naima,Naima010111,yyy yyy .,Naima,975.656,977.971,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_256
+257,Mother,Naima010111,xxx the plane go .,Naima,977.973,987.096,[],[] [1|2|DET] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[] [det:art|the] [n|plane] [v|go .],,,,,,,,,,MotherofNaima_Naima010111_257
+258,Mother,Naima010111,smash and crash .,Naima,987.096,992.82,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[n|smash] [coord|and] [n|crash .],,,,,,,,,,MotherofNaima_Naima010111_258
+259,Mother,Naima010111,uhoh .,Naima,992.82,1001.513,[],[1|0|INCROOT 2|1|PUNCT],[co|uhoh .],,,,,,,,,,MotherofNaima_Naima010111_259
+260,Mother,Naima010111,that ball almost went in my coffee .,Naima,1001.513,1004.415,[],[1|2|DET] [2|4|SUBJ] [3|4|JCT] [4|0|ROOT] [5|4|JCT] [6|7|MOD] [7|5|POBJ 8|4|PUNCT],[pro:dem|that] [n|ball] [adv|almost] [v|go&PAST] [prep|in] [det:poss|my] [n|coffee .],,,,,,,,,,MotherofNaima_Naima010111_260
+261,Mother,Naima010111,that would've been a bad thing .,Naima,1004.415,1007.343,[],[1|4|SUBJ] [2|4|AUX 3|4|AUX] [4|0|ROOT] [5|7|DET] [6|7|MOD] [7|4|PRED 8|4|PUNCT],[pro:dem|that] [mod|will&COND~aux|have] [cop|be&PASTP] [det:art|a] [adj|bad] [n|thing .],,,,,,,,,,MotherofNaima_Naima010111_261
+262,Mother,Naima010111,put the ball in your cup .,Naima,1007.343,1011.093,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|1|JCT] [5|6|MOD] [6|4|POBJ 7|1|PUNCT],[v|put&ZERO] [det:art|the] [n|ball] [prep|in] [det:poss|your] [n|cup .],,,,,,,,,,MotherofNaima_Naima010111_262
+263,Mother,Naima010111,thank you .,Naima,1011.093,1016.096,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_263
+264,Mother,Naima010111,cup oh .,Naima,1016.096,1035.451,[],[1|0|INCROOT] [2|1|COM 3|1|PUNCT],[n|cup] [co|oh .],,,,,,,,,,MotherofNaima_Naima010111_264
+265,Mother,Naima010111,that ball fell out .,Naima,1035.451,1046.813,[],[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT 5|3|PUNCT],[pro:dem|that] [n|ball] [v|fall&PAST] [adv|out .],,,,,,,,,,MotherofNaima_Naima010111_265
+266,Mother,Naima010111,ball fell out .,Naima,1046.813,1049.158,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[n|ball] [v|fall&PAST] [adv|out .],,,,,,,,,,MotherofNaima_Naima010111_266
+267,Mother,Naima010111,this .,Naima,1049.158,1068.438,[],[1|0|INCROOT 2|1|PUNCT],[pro:dem|this .],,,,,,,,,,MotherofNaima_Naima010111_267
+268,Mother,Naima010111,woo .,Naima,1068.438,1074.236,[],[1|0|INCROOT 2|1|PUNCT],[co|woo .],,,,,,,,,,MotherofNaima_Naima010111_268
+269,Mother,Naima010111,where are the balls ?,Naima,1074.236,1081.161,[],[1|2|LINK] [2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where] [cop|be&PRES] [det:art|the] [n|ball-PL ?],,,,,,,,,,MotherofNaima_Naima010111_269
+270,Naima,Naima010111,ball .,Naima,1081.161,1102.625,[],[1|0|INCROOT 2|1|PUNCT],[n|ball .],,,,,,,,,,NaimaofNaima_Naima010111_270
+271,Naima,Naima010111,yyy .,Naima,0.0,0.0,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_271
+272,Naima,Naima010111,yyy .,Naima,1102.626,1105.108,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_272
+273,Mother,Naima010111,where's the other ball ?,Naima,0.0,0.0,[],[1|2|LINK 2|0|ROOT] [3|5|DET] [4|5|QUANT] [5|2|PRED 6|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [qn|other] [n|ball ?],,,,,,,,,,MotherofNaima_Naima010111_273
+274,Mother,Naima010111,look in the box .,Naima,1105.11,1107.121,[],[1|0|ROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[v|look] [prep|in] [det:art|the] [n|box .],,,,,,,,,,MotherofNaima_Naima010111_274
+275,Mother,Naima010111,can you close the box ?,Naima,1107.121,1116.26,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[mod|can] [pro:per|you] [v|close] [det:art|the] [n|box ?],,,,,,,,,,MotherofNaima_Naima010111_275
+276,Mother,Naima010111,hey Naima where are the balls ?,Naima,1116.26,1122.331,[],[1|4|COM] [2|4|SUBJ] [3|4|LINK] [4|0|ROOT] [5|6|DET] [6|4|PRED 7|4|PUNCT],[co|hey] [n:prop|Naima] [adv:int|where] [cop|be&PRES] [det:art|the] [n|ball-PL ?],,,,,,,,,,MotherofNaima_Naima010111_276
+277,Naima,Naima010111,there .,Naima,1122.331,1131.155,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,NaimaofNaima_Naima010111_277
+278,Mother,Naima010111,there it is .,Naima,1131.155,1132.41,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:per|it] [cop|be&3S .],,,,,,,,,,MotherofNaima_Naima010111_278
+279,Mother,Naima010111,uhoh .,Naima,1132.41,1133.288,[],[1|0|INCROOT 2|1|PUNCT],[co|uhoh .],,,,,,,,,,MotherofNaima_Naima010111_279
+280,Mother,Naima010111,is it gonna go down my dress ?,Naima,1133.288,1135.036,[],[1|4|LINK] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|JCT] [6|7|MOD] [7|4|OBJ 8|4|PUNCT],[cop|be&3S] [pro:per|it] [mod:aux|gonna] [v|go] [adv|down] [det:poss|my] [n|dress ?],,,,,,,,,,MotherofNaima_Naima010111_280
+281,Mother,Naima010111,I guess so .,Naima,1135.036,1137.256,[],[1|2|SUBJ] [2|0|INCROOT] [3|2|NJCT 4|2|PUNCT],[pro:sub|I] [n|guess] [adv|so .],,,,,,,,,,MotherofNaima_Naima010111_281
+282,Mother,Naima010111,now where is it ?,Naima,1137.256,1139.32,[],[1|4|JCT] [2|4|LINK] [3|4|AUX] [4|0|ROOT 5|4|PUNCT],[adv|now] [pro:rel|where] [aux|be&3S] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_282
+283,Mother,Naima010111,you wanna give them to me ?,Naima,1139.32,1185.763,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|5|POBJ 7|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|give] [pro:obj|them] [prep|to] [pro:obj|me ?],,,,,,,,,,MotherofNaima_Naima010111_283
+284,Naima,Naima010111,yyy .,Naima,1185.763,1187.32,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_284
+285,Mother,Naima010111,what ?,Naima,1187.32,1188.186,[],[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],,,,,,,,,,MotherofNaima_Naima010111_285
+286,Mother,Naima010111,what did you say ?,Naima,1188.186,1190.036,[],[1|4|LINK] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[pro:int|what] [mod|do&PAST] [pro:per|you] [v|say ?],,,,,,,,,,MotherofNaima_Naima010111_286
+287,Mother,Naima010111,open ?,Naima,1190.036,1193.185,[],[1|0|INCROOT 2|1|PUNCT],[adj|open ?],,,,,,,,,,MotherofNaima_Naima010111_287
+288,Naima,Naima010111,yyy .,Naima,1193.185,1200.496,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_288
+289,Mother,Naima010111,what else ?,Naima,1200.496,1203.761,[],[1|0|INCROOT] [2|1|PQ 3|1|PUNCT],[pro:int|what] [post|else ?],,,,,,,,,,MotherofNaima_Naima010111_289
+290,Mother,Naima010111,oh a yellow lid .,Naima,1203.761,1208.82,[],[1|4|COM] [2|4|DET] [3|4|MOD] [4|0|ROOT 5|4|PUNCT],[co|oh] [det:art|a] [n|yellow] [n|lid .],,,,,,,,,,MotherofNaima_Naima010111_290
+291,Mother,Naima010111,here's another kind of a ball (.) it's a kitty cat ball .,Naima,1208.82,1215.421,[],[1|2|SUBJ 2|0|ROOT] [3|4|QUANT] [4|2|PRED] [5|4|NJCT] [6|7|DET] [7|5|POBJ] [8|9|SUBJ 9|4|CMOD] [10|13|DET] [11|12|MOD] [12|13|MOD] [13|9|PRED 14|2|PUNCT],[pro:exist|here~cop|be&3S] [qn|another] [n|kind] [prep|of] [det:art|a] [n|ball] [pro:per|it~cop|be&3S] [det:art|a] [n|kitty] [n|cat] [n|ball .],,,,,,,,,,MotherofNaima_Naima010111_291
+292,Naima,Naima010111,meow .,Naima,1215.421,1218.096,[],[1|0|INCROOT 2|1|PUNCT],[on|meow .],,,,,,,,,,NaimaofNaima_Naima010111_292
+293,Mother,Naima010111,oh yes the tennis ball's still in there .,Naima,1218.096,1223.546,[],[1|5|COM] [2|5|COM] [3|5|DET] [4|5|MOD] [5|0|ROOT 6|5|POSS] [7|5|JCT] [8|5|JCT] [9|8|POBJ 10|5|PUNCT],[co|oh] [co|yes] [det:art|the] [n|tennis] [n|ball~poss|s] [adv|still] [prep|in] [adv|there .],,,,,,,,,,MotherofNaima_Naima010111_293
+294,Mother,Naima010111,okay you putting the lid in there too ?,Naima,0.0,0.0,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|3|JCT] [7|6|POBJ] [8|7|PQ 9|3|PUNCT],[co|okay] [pro:per|you] [part|put-PRESP] [det:art|the] [n|lid] [prep|in] [adv|there] [post|too ?],,,,,,,,,,MotherofNaima_Naima010111_294
+295,Naima,Naima010111,microphone .,Naima,1223.546,1227.485,this is CHI's word for microphone[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_295
+296,Naima,Naima010111,microphone .,Naima,1227.485,1229.613,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_296
+297,Naima,Naima010111,microphone .,Naima,1229.613,1231.825,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_297
+298,Mother,Naima010111,microphone .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,MotherofNaima_Naima010111_298
+299,Naima,Naima010111,yyy .,Naima,1231.825,1233.645,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_299
+300,Naima,Naima010111,yyy .,Naima,1233.645,1236.006,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_300
+301,Naima,Naima010111,yyy .,Naima,1236.006,1237.68,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_301
+302,Naima,Naima010111,microphone .,Naima,1237.68,1251.695,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_302
+303,Naima,Naima010111,meow .,Naima,1251.695,1257.441,[],[1|0|INCROOT 2|1|PUNCT],[on|meow .],,,,,,,,,,NaimaofNaima_Naima010111_303
+304,Mother,Naima010111,I don't think that's gonna fit down my shirt .,Naima,1257.441,1260.581,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|8|SUBJ 6|8|AUX] [7|8|AUX] [8|4|COMP] [9|8|JCT] [10|11|MOD] [11|9|POBJ 12|4|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|think] [pro:dem|that~aux|be&3S] [mod:aux|gonna] [part|fit&PASTP] [prep|down] [det:poss|my] [n|shirt .],,,,,,,,,,MotherofNaima_Naima010111_304
+305,Mother,Naima010111,xxx put the bottle lid in your shirt .,Naima,1260.581,1262.793,[],[] [1|0|ROOT] [2|4|DET] [3|4|MOD] [4|1|OBJ] [5|1|JCT] [6|7|MOD] [7|5|POBJ 8|1|PUNCT],[] [v|put&ZERO] [det:art|the] [n|bottle] [n|lid] [prep|in] [det:poss|your] [n|shirt .],,,,,,,,,,MotherofNaima_Naima010111_305
+306,Mother,Naima010111,that kitty xxx .,Naima,1262.793,1267.696,[],[1|2|DET] [2|0|INCROOT] [3|2|PUNCT],[pro:dem|that] [n|kitty] [.],,,,,,,,,,MotherofNaima_Naima010111_306
+307,Mother,Naima010111,neck (.) neck is that your neck ?,Naima,1267.696,1274.916,[],[1|2|MOD] [2|3|SUBJ] [3|0|ROOT] [4|3|PRED] [5|6|MOD] [6|4|OBJ 7|3|PUNCT],[n|neck] [n|neck] [cop|be&3S] [pro:rel|that] [det:poss|your] [n|neck ?],,,,,,,,,,MotherofNaima_Naima010111_307
+308,Mother,Naima010111,neck neck neck .,Naima,1274.916,1277.29,[],[1|3|MOD] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[n|neck] [n|neck] [n|neck .],,,,,,,,,,MotherofNaima_Naima010111_308
+309,Naima,Naima010111,yyy .,Naima,1277.29,1287.988,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_309
+310,Mother,Naima010111,neck .,Naima,1287.988,1289.646,[],[1|0|INCROOT 2|1|PUNCT],[n|neck .],,,,,,,,,,MotherofNaima_Naima010111_310
+311,Mother,Naima010111,here's the ball .,Naima,1289.646,1299.418,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|the] [n|ball .],,,,,,,,,,MotherofNaima_Naima010111_311
+312,Mother,Naima010111,ball and xxx .,Naima,1299.418,1304.083,[],[1|0|INCROOT] [2|1|CONJ] [3|1|PUNCT],[n|ball] [coord|and] [.],,,,,,,,,,MotherofNaima_Naima010111_312
+313,Mother,Naima010111,gonna get you some sand toys today .,Naima,1304.083,1308.925,[],[1|2|AUX] [2|0|ROOT] [3|2|OBJ2] [4|5|QUANT] [5|6|SUBJ] [6|2|COMP] [7|6|JCT 8|2|PUNCT],[mod:aux|gonna] [v|get] [pro:per|you] [qn|some] [n|sand] [v|toy-3S] [adv:tem|today .],,,,,,,,,,MotherofNaima_Naima010111_313
+314,Mother,Naima010111,sand .,Naima,1308.925,1310.325,[],[1|0|INCROOT 2|1|PUNCT],[n|sand .],,,,,,,,,,MotherofNaima_Naima010111_314
+315,Naima,Naima010111,sand .,Naima,1310.325,1312.833,[],[1|0|INCROOT 2|1|PUNCT],[n|sand .],,,,,,,,,,NaimaofNaima_Naima010111_315
+316,Mother,Naima010111,sand .,Naima,1312.833,1313.766,[],[1|0|INCROOT 2|1|PUNCT],[n|sand .],,,,,,,,,,MotherofNaima_Naima010111_316
+317,Naima,Naima010111,{ sand (?) } .,Naima,1313.766,1322.823,CHI made several practice s's before this utterance[],[1|0|INCROOT 2|1|PUNCT],[n|sand .],,,,,,,,,,NaimaofNaima_Naima010111_317
+318,Mother,Naima010111,yeah sand .,Naima,1322.823,1324.01,[],[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|yeah] [n|sand .],,,,,,,,,,MotherofNaima_Naima010111_318
+319,Mother,Naima010111,you playing in the sand this weekend ?,Naima,1324.01,1327.36,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ] [6|7|DET] [7|5|OBJ 8|2|PUNCT],[pro:per|you] [part|play-PRESP] [prep|in] [det:art|the] [v|sand] [pro:dem|this] [n|+n|week+n|end ?],,,,,,,,,,MotherofNaima_Naima010111_319
+320,Mother,Naima010111,at the beach ?,Naima,0.0,0.0,[],[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[prep|at] [det:art|the] [n|beach ?],,,,,,,,,,MotherofNaima_Naima010111_320
+321,Naima,Naima010111,xxx .,Naima,1327.36,1335.55,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_321
+322,Mother,Naima010111,xxx not here right now .,Naima,1335.55,1337.72,[],[] [1|2|NEG] [2|0|ROOT] [3|4|JCT] [4|2|JCT 5|2|PUNCT],[] [neg|not] [adv|here] [adv|right] [adv|now .],,,,,,,,,,MotherofNaima_Naima010111_322
+323,Naima,Naima010111,yyy .,Naima,1337.72,1339.44,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_323
+324,Mother,Naima010111,xxx not here right now either .,Naima,1339.44,1340.99,[],[] [1|2|NEG] [2|4|JCT] [3|4|JCT] [4|0|ROOT] [5|4|JCT 6|4|PUNCT],[] [neg|not] [adv|here] [adv|right] [adv|now] [adv|either .],,,,,,,,,,MotherofNaima_Naima010111_324
+325,Mother,Naima010111,but you're gonna see xxx tomorrow .,Naima,1340.99,1344.366,[],[1|3|LINK] [2|3|SUBJ 3|5|SUBJ] [4|5|AUX] [5|0|ROOT] [] [6|5|JCT 7|5|PUNCT],[conj|but] [pro:per|you~cop|be&PRES] [mod:aux|gonna] [v|see] [] [adv:tem|tomorrow .],,,,,,,,,,MotherofNaima_Naima010111_325
+326,Naima,Naima010111,xxx xxx .,Naima,1344.366,1350.366,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_326
+327,Mother,Naima010111,where's your picture of xxx ?,Naima,1350.366,1352.718,[],[1|2|LINK 2|0|ROOT] [3|4|MOD] [4|2|PRED] [5|4|NJCT] [6|2|PUNCT],[adv:int|where~cop|be&3S] [det:poss|your] [n|picture] [prep|of] [?],,,,,,,,,,MotherofNaima_Naima010111_327
+328,Naima,Naima010111,xxx .,Naima,1352.718,1358.01,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_328
+329,Naima,Naima010111,xxx .,Naima,1358.01,1359.233,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_329
+330,Naima,Naima010111,xxx .,Naima,1359.233,1362.448,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_330
+331,Mother,Naima010111,I don't know if it's here or if it's somewhere (.) in another room .,Naima,0.0,0.0,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|7|LINK] [6|7|SUBJ 7|4|COMP] [8|7|JCT] [9|7|CONJ] [10|12|LINK] [11|12|SUBJ 12|9|COORD] [13|12|JCT] [14|12|JCT] [15|16|QUANT] [16|14|POBJ 17|4|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|know] [conj|if] [pro:per|it~cop|be&3S] [adv|here] [coord|or] [conj|if] [pro:per|it~cop|be&3S] [adv|somewhere] [prep|in] [qn|another] [n|room .],,,,,,,,,,MotherofNaima_Naima010111_331
+332,Naima,Naima010111,room .,Naima,1362.448,1364.376,[],[1|0|INCROOT 2|1|PUNCT],[n|room .],,,,,,,,,,NaimaofNaima_Naima010111_332
+333,Mother,Naima010111,room .,Naima,1364.376,1365.421,[],[1|0|INCROOT 2|1|PUNCT],[n|room .],,,,,,,,,,MotherofNaima_Naima010111_333
+334,Naima,Naima010111,room .,Naima,1365.421,1367.505,[],[1|0|INCROOT 2|1|PUNCT],[n|room .],,,,,,,,,,NaimaofNaima_Naima010111_334
+335,Mother,Naima010111,it might be over here .,Naima,0.0,0.0,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|JCT] [5|4|POBJ 6|3|PUNCT],[pro:per|it] [mod|might] [cop|be] [prep|over] [adv|here .],,,,,,,,,,MotherofNaima_Naima010111_335
+336,Naima,Naima010111,{ room (?) } .,Naima,1367.505,1370.29,[],[1|0|INCROOT 2|1|PUNCT],[n|room .],,,,,,,,,,NaimaofNaima_Naima010111_336
+337,Mother,Naima010111,room (.) where's the picture of xxx ?,Naima,1370.29,1373.026,[],[1|0|INCROOT] [2|3|LINK 3|1|CMOD] [4|5|DET] [5|3|PRED] [6|5|NJCT] [7|1|PUNCT],[n|room] [adv:int|where~cop|be&3S] [det:art|the] [n|picture] [prep|of] [?],,,,,,,,,,MotherofNaima_Naima010111_337
+338,Naima,Naima010111,xxx xxx xxx xxx .,Naima,1373.026,1377.055,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_338
+339,Naima,Naima010111,yyy xxx .,Naima,1377.055,1386.311,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_339
+340,Mother,Naima010111,hey y'know (replacement:replacement:you know) what (.) did Daddy get the paper this morning .,Naima,0.0,0.0,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|7|SUBJ] [5|7|AUX] [6|7|SUBJ] [7|3|COMP] [8|9|DET] [9|7|OBJ] [10|11|DET] [11|9|APP 12|3|PUNCT],[co|hey] [pro:per|you v|know] [pro:int|what] [mod|do&PAST] [n:prop|Daddy] [v|get] [det:art|the] [n|paper] [pro:dem|this] [n|morning .],,,,,,,,,,MotherofNaima_Naima010111_340
+341,Mother,Naima010111,did Daddy get the newspaper with you this morning ?,Naima,1386.311,1388.815,[],[1|0|ROOT] [2|3|SUBJ] [3|1|XCOMP] [4|5|DET] [5|3|OBJ] [6|3|JCT] [7|9|SUBJ] [8|9|DET] [9|6|POBJ 10|1|PUNCT],[v|do&PAST] [n:prop|Daddy] [v|get] [det:art|the] [n|newspaper] [prep|with] [pro:per|you] [pro:dem|this] [n|morning ?],,,,,,,,,,MotherofNaima_Naima010111_341
+342,Naima,Naima010111,xxx xxx xxx xxx .,Naima,1388.815,1395.983,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_342
+343,Mother,Naima010111,hey there's a shoe .,Naima,0.0,0.0,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[co|hey] [pro:exist|there~cop|be&3S] [det:art|a] [n|shoe .],,,,,,,,,,MotherofNaima_Naima010111_343
+344,Mother,Naima010111,in this picture .,Naima,1395.983,1397.208,[],[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[prep|in] [pro:dem|this] [n|picture .],,,,,,,,,,MotherofNaima_Naima010111_344
+345,Mother,Naima010111,ah here's the picture of xxx .,Naima,1397.208,1402.556,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED] [6|5|NJCT] [7|3|PUNCT],[co|ah] [pro:exist|here~cop|be&3S] [det:art|the] [n|picture] [prep|of] [.],,,,,,,,,,MotherofNaima_Naima010111_345
+346,Naima,Naima010111,xxx xxx xxx .,Naima,1402.556,1405.653,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_346
+347,Mother,Naima010111,Glen (.) and who is she holding ?,Naima,1405.653,1407.248,[],[1|0|INCROOT] [2|1|CONJ] [3|6|OBJ] [4|6|AUX] [5|6|SUBJ] [6|2|COORD 7|1|PUNCT],[n:prop|Glen] [coord|and] [pro:int|who] [cop|be&3S] [pro:sub|she] [part|hold-PRESP ?],,,,,,,,,,MotherofNaima_Naima010111_347
+348,Mother,Naima010111,Glen is holding Naima in that picture .,Naima,1407.248,1411.776,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|4|JCT] [6|7|DET] [7|5|POBJ 8|3|PUNCT],[n:prop|Glen] [aux|be&3S] [part|hold-PRESP] [n:prop|Naima] [prep|in] [pro:dem|that] [n|picture .],,,,,,,,,,MotherofNaima_Naima010111_348
+349,Mother,Naima010111,you .,Naima,1411.776,1414.01,[],[1|0|INCROOT 2|1|PUNCT],[pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_349
+350,Mother,Naima010111,oh are you kissing ?,Naima,1414.01,1416.423,[],[1|4|COM] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[co|oh] [aux|be&PRES] [pro:per|you] [part|kiss-PRESP ?],,,,,,,,,,MotherofNaima_Naima010111_350
+351,Mother,Naima010111,Glen is holding you in that picture .,Naima,1416.423,1419.73,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|7|DET] [7|5|POBJ 8|3|PUNCT],[n:prop|Glen] [aux|be&3S] [part|hold-PRESP] [pro:per|you] [prep|in] [pro:dem|that] [n|picture .],,,,,,,,,,MotherofNaima_Naima010111_351
+352,Naima,Naima010111,yyy .,Naima,1419.73,1420.983,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_352
+353,Naima,Naima010111,xxx .,Naima,1420.983,1423.416,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_353
+354,Naima,Naima010111,xxx .,Naima,1423.416,1424.621,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_354
+355,Mother,Naima010111,xxx .,Naima,0.0,0.0,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_355
+356,Naima,Naima010111,xxx xxx .,Naima,1424.621,1431.436,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_356
+357,Mother,Naima010111,yeah hi xxx .,Naima,0.0,0.0,[],[1|2|COM] [2|0|INCROOT] [3|2|PUNCT],[co|yeah] [co|hi] [.],,,,,,,,,,MotherofNaima_Naima010111_357
+358,Mother,Naima010111,you're gonna see her tomorrow .,Naima,1431.438,1432.916,[],[1|4|SUBJ 2|4|AUX] [3|4|AUX] [4|0|ROOT] [5|4|OBJ] [6|4|JCT 7|4|PUNCT],[pro:per|you~aux|be&PRES] [mod:aux|gonna] [v|see] [pro:obj|her] [adv:tem|tomorrow .],,,,,,,,,,MotherofNaima_Naima010111_358
+359,Mother,Naima010111,lemme (replacement:replacement:let me) see oh yes that's xxx .,Naima,1432.916,1441.283,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|7|COM] [5|7|COM] [6|7|SUBJ 7|3|COMP] [8|1|PUNCT],[v|let&ZERO pro:obj|me] [v|see] [co|oh] [co|yes] [pro:dem|that~cop|be&3S] [.],,,,,,,,,,MotherofNaima_Naima010111_359
+360,Naima,Naima010111,xxx xxx xxx .,Naima,1441.283,1444.351,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_360
+361,Mother,Naima010111,xxx xxx .,Naima,1444.351,1446.041,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_361
+362,Naima,Naima010111,xxx .,Naima,1446.041,1448.295,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_362
+363,Naima,Naima010111,yyy .,Naima,1448.295,1450.39,sounds like k has some roundingCHI pointing to tv and vcr,[],[],,,,,,,,,,NaimaofNaima_Naima010111_363
+364,Naima,Naima010111,yyy yyy .,Naima,1450.39,1452.246,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_364
+365,Mother,Naima010111,that's the v_c_r .,Naima,1452.246,1457.795,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|the] [n|v_c_r .],,,,,,,,,,MotherofNaima_Naima010111_365
+366,Naima,Naima010111,yyy .,Naima,1457.795,1461.751,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_366
+367,Naima,Naima010111,yyy .,Naima,1461.751,1463.046,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_367
+368,Naima,Naima010111,yyy .,Naima,1463.046,1464.283,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_368
+369,Naima,Naima010111,yyy yyy yyy .,Naima,1464.283,1469.415,hard to transcribe second word[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_369
+370,Naima,Naima010111,yyy .,Naima,1469.415,1470.768,target could be room or roll[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_370
+371,Mother,Naima010111,what ?,Naima,1470.768,1471.756,[],[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],,,,,,,,,,MotherofNaima_Naima010111_371
+372,Naima,Naima010111,yyy .,Naima,1471.756,1472.828,target could be room or roll[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_372
+373,Mother,Naima010111,roll ?,Naima,1472.828,1473.81,[],[1|0|INCROOT 2|1|PUNCT],[n|roll ?],,,,,,,,,,MotherofNaima_Naima010111_373
+374,Naima,Naima010111,yyy .,Naima,1473.81,1475.086,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_374
+375,Naima,Naima010111,yyy .,Naima,1475.086,1476.555,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_375
+376,Naima,Naima010111,xxx .,Naima,1476.555,1479.498,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_376
+377,Mother,Naima010111,xxx .,Naima,0.0,0.0,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_377
+378,Naima,Naima010111,xxx .,Naima,1479.498,1483.865,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_378
+379,Naima,Naima010111,yyy .,Naima,0.0,0.0,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_379
+380,Mother,Naima010111,d'you (replacement:replacement:do you) want more yogurt ?,Naima,0.0,0.0,[],[1|3|AUX 2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[mod|do pro:per|you] [v|want] [qn|more] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_380
+381,Mother,Naima010111,you want a little bite of yogurt ?,Naima,1483.865,1485.216,[],[1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|OBJ] [6|5|NJCT] [7|6|POBJ 8|2|PUNCT],[pro:per|you] [v|want] [det:art|a] [adj|little] [n|bite] [prep|of] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_381
+382,Naima,Naima010111,yyy xxx .,Naima,1485.216,1486.953,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_382
+383,Mother,Naima010111,there's yogurt right here .,Naima,1486.953,1488.353,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|5|JCT] [5|3|NJCT 6|2|PUNCT],[pro:exist|there~cop|be&3S] [n|yogurt] [adv|right] [adv|here .],,,,,,,,,,MotherofNaima_Naima010111_383
+384,Mother,Naima010111,want some yogurt ?,Naima,0.0,0.0,[],[1|0|ROOT] [2|3|QUANT] [3|1|OBJ 4|1|PUNCT],[v|want] [qn|some] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_384
+385,Naima,Naima010111,yyy yyy .,Naima,1488.353,1496.553,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_385
+386,Mother,Naima010111,pro give you some if you come here (.) yogurt ?,Naima,1496.553,1503.62,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|5|QUANT] [5|7|LINK] [6|7|SUBJ] [7|2|CJCT] [8|9|JCT] [9|7|OBJ 10|2|PUNCT],[0pro|pro] [v|give] [pro:per|you] [qn|some] [conj|if] [pro:per|you] [v|come] [adv|here] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_386
+387,Mother,Naima010111,yogurt ?,Naima,1503.62,1505.615,[],[1|0|INCROOT 2|1|PUNCT],[n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_387
+388,Naima,Naima010111,{ yogurt (?) } { yogurt (?) } .,Naima,1505.615,1513.006,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|yogurt] [n|yogurt .],,,,,,,,,,NaimaofNaima_Naima010111_388
+389,Mother,Naima010111,yummy .,Naima,1513.006,1516.846,[],[1|0|INCROOT 2|1|PUNCT],[adj|yum&dn-Y .],,,,,,,,,,MotherofNaima_Naima010111_389
+390,Naima,Naima010111,Mommy .,Naima,1516.846,1520.516,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy .],,,,,,,,,,NaimaofNaima_Naima010111_390
+391,Mother,Naima010111,yeah .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofNaima_Naima010111_391
+392,Mother,Naima010111,wanna come on my lap ?,Naima,1520.516,1523.175,[],[1|2|AUX] [2|0|ROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ 6|2|PUNCT],[mod:aux|wanna] [v|come] [prep|on] [det:poss|my] [n|lap ?],,,,,,,,,,MotherofNaima_Naima010111_392
+393,Naima,Naima010111,lap .,Naima,1523.175,1525.028,[],[1|0|INCROOT 2|1|PUNCT],[n|lap .],,,,,,,,,,NaimaofNaima_Naima010111_393
+394,Mother,Naima010111,lap .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|lap .],,,,,,,,,,MotherofNaima_Naima010111_394
+395,Mother,Naima010111,that's my lap .,Naima,1525.028,1527.17,[],[1|2|SUBJ 2|0|ROOT] [3|4|MOD] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [det:poss|my] [n|lap .],,,,,,,,,,MotherofNaima_Naima010111_395
+396,Mother,Naima010111,you're on my lap .,Naima,1527.171,1530.743,[],[1|2|SUBJ 2|0|ROOT] [3|5|JCT] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[pro:per|you~aux|be&PRES] [adv|on] [det:poss|my] [n|lap .],,,,,,,,,,MotherofNaima_Naima010111_396
+397,Naima,Naima010111,lap .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|lap .],,,,,,,,,,NaimaofNaima_Naima010111_397
+398,Mother,Naima010111,lap .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|lap .],,,,,,,,,,MotherofNaima_Naima010111_398
+399,Naima,Naima010111,yyy .,Naima,1530.745,1532.166,CHI pointing to MOT's microphone or dress,[],[],,,,,,,,,,NaimaofNaima_Naima010111_399
+400,Naima,Naima010111,microphone .,Naima,1532.166,1533.575,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_400
+401,Naima,Naima010111,microphone .,Naima,1533.575,1534.828,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_401
+402,Naima,Naima010111,Mommy !,Naima,1534.828,1540.391,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy !],,,,,,,,,,NaimaofNaima_Naima010111_402
+403,Naima,Naima010111,Mommy .,Naima,1540.391,1541.99,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy .],,,,,,,,,,NaimaofNaima_Naima010111_403
+404,Mother,Naima010111,yes baby (.) plunk baby .,Naima,1541.99,1544.941,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[co|yes] [n|baby] [v|plunk] [n|baby .],,,,,,,,,,MotherofNaima_Naima010111_404
+405,Naima,Naima010111,microphone microphone .,Naima,1544.941,1549.365,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|microphone] [n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_405
+406,Mother,Naima010111,you want more yogurt ?,Naima,1549.365,1550.221,[],[1|2|SUBJ] [2|0|ROOT] [3|4|QUANT] [4|2|OBJ 5|2|PUNCT],[pro:per|you] [v|want] [qn|more] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_406
+407,Naima,Naima010111,yogurt .,Naima,1550.221,1551.296,[],[1|0|INCROOT 2|1|PUNCT],[n|yogurt .],,,,,,,,,,NaimaofNaima_Naima010111_407
+408,Mother,Naima010111,okay .,Naima,1551.296,1552.043,[],[1|0|INCROOT 2|1|PUNCT],[co|okay .],,,,,,,,,,MotherofNaima_Naima010111_408
+409,Mother,Naima010111,sit up straight .,Naima,1552.043,1553.491,[],[1|0|ROOT] [2|1|JCT] [3|2|POBJ 4|1|PUNCT],[v|sit] [adv|up] [n|straight .],,,,,,,,,,MotherofNaima_Naima010111_409
+410,Naima,Naima010111,Daddy .,Naima,1553.491,1555.085,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Daddy .],,,,,,,,,,NaimaofNaima_Naima010111_410
+411,Mother,Naima010111,sit back a little bit straighter so I can give you this .,Naima,1555.085,1557.115,[],[1|0|ROOT] [2|1|JCT] [3|5|DET] [4|5|MOD] [5|1|JCT] [6|5|POSTMOD] [7|10|LINK] [8|10|SUBJ] [9|10|AUX] [10|1|CJCT] [11|10|OBJ] [12|10|OBJ 13|1|PUNCT],[v|sit] [adv|back] [det:art|a] [adj|little] [n|bit] [adj|straight-CP] [conj|so] [pro:sub|I] [mod|can] [v|give] [pro:per|you] [pro:dem|this .],,,,,,,,,,MotherofNaima_Naima010111_411
+412,Mother,Naima010111,can't get it in your mouth this way .,Naima,1557.115,1559.398,[],[1|3|AUX 2|1|NEG] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|7|MOD] [7|5|POBJ] [8|9|DET] [9|3|PRED 10|3|PUNCT],[mod|can~neg|not] [v|get] [pro:per|it] [prep|in] [det:poss|your] [n|mouth] [pro:dem|this] [n|way .],,,,,,,,,,MotherofNaima_Naima010111_412
+413,Mother,Naima010111,Naima .,Naima,1559.398,1561.075,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Naima .],,,,,,,,,,MotherofNaima_Naima010111_413
+414,Mother,Naima010111,Naima .,Naima,1561.075,1562.22,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Naima .],,,,,,,,,,MotherofNaima_Naima010111_414
+415,Mother,Naima010111,yogurt .,Naima,1562.22,1563.726,[],[1|0|INCROOT 2|1|PUNCT],[n|yogurt .],,,,,,,,,,MotherofNaima_Naima010111_415
+416,Naima,Naima010111,yyy .,Naima,1563.726,1565.478,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_416
+417,Mother,Naima010111,come here .,Naima,1565.478,1566.255,[],[1|0|ROOT] [2|1|JCT 3|1|PUNCT],[v|come] [adv|here .],,,,,,,,,,MotherofNaima_Naima010111_417
+418,Mother,Naima010111,come here .,Naima,1566.255,1567.79,[],[1|0|ROOT] [2|1|JCT 3|1|PUNCT],[v|come] [adv|here .],,,,,,,,,,MotherofNaima_Naima010111_418
+419,Mother,Naima010111,have some yogurt .,Naima,1567.79,1569.58,[],[1|0|ROOT] [2|3|QUANT] [3|1|OBJ 4|1|PUNCT],[v|have] [qn|some] [n|yogurt .],,,,,,,,,,MotherofNaima_Naima010111_419
+420,Naima,Naima010111,yyy .,Naima,1569.58,1574.435,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_420
+421,Mother,Naima010111,is that good ?,Naima,1574.435,1575.788,[],[1|0|ROOT] [2|1|SUBJ] [3|1|PRED 4|1|PUNCT],[cop|be&3S] [pro:dem|that] [adj|good ?],,,,,,,,,,MotherofNaima_Naima010111_421
+422,Naima,Naima010111,yyy .,Naima,1575.788,1578.426,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_422
+423,Naima,Naima010111,Daddy .,Naima,1578.426,1580.245,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Daddy .],,,,,,,,,,NaimaofNaima_Naima010111_423
+424,Mother,Naima010111,Daddy went to work .,Naima,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|4|INF] [4|2|XCOMP 5|2|PUNCT],[n:prop|Daddy] [v|go&PAST] [inf|to] [v|work .],,,,,,,,,,MotherofNaima_Naima010111_424
+425,Mother,Naima010111,Daddy got in his car and xxx .,Naima,1580.245,1584.185,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ] [6|2|CONJ] [7|2|PUNCT],[n:prop|Daddy] [v|get&PAST] [prep|in] [det:poss|his] [n|car] [coord|and] [.],,,,,,,,,,MotherofNaima_Naima010111_425
+426,Naima,Naima010111,yyy yyy .,Naima,1584.186,1588.975,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_426
+427,Naima,Naima010111,yyy .,Naima,1588.975,1590.023,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_427
+428,Naima,Naima010111,yyy .,Naima,1590.023,1591.421,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_428
+429,Mother,Naima010111,it's a chicky rattle .,Naima,1591.421,1593.555,[],[1|2|SUBJ 2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|a] [adj|chick&dn-Y] [n|rattle .],,,,,,,,,,MotherofNaima_Naima010111_429
+430,Mother,Naima010111,oh (.) you can't have yogurt and a rattle in your mouth at the same time .,Naima,1593.555,1602.193,[],[1|5|COM] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|5|OBJ] [7|6|CONJ] [8|9|DET] [9|7|COORD] [10|9|NJCT] [11|12|MOD] [12|10|POBJ] [13|9|NJCT] [14|16|DET] [15|16|MOD] [16|13|POBJ 17|5|PUNCT],[co|oh] [pro:per|you] [mod|can~neg|not] [v|have] [n|yogurt] [coord|and] [det:art|a] [n|rattle] [prep|in] [det:poss|your] [n|mouth] [prep|at] [det:art|the] [adj|same] [n|time .],,,,,,,,,,MotherofNaima_Naima010111_430
+431,Mother,Naima010111,it's kinda (replacement:replacement:kind of) icky now .,Naima,1602.193,1611.346,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|3|NJCT] [5|6|COM] [6|4|POBJ 7|2|PUNCT],[pro:per|it~cop|be&3S] [n|kind prep|of] [co|icky] [adv|now .],,,,,,,,,,MotherofNaima_Naima010111_431
+432,Mother,Naima010111,that's a chick isn't it (.) a bird ?,Naima,1611.346,1614.723,[],[1|2|SUBJ 2|5|LINK] [3|4|DET] [4|5|SUBJ] [5|0|ROOT 6|5|NEG] [7|5|PRED] [8|9|DET] [9|7|OBJ 10|5|PUNCT],[pro:dem|that~cop|be&3S] [det:art|a] [n|chick] [cop|be&3S~neg|not] [pro:per|it] [det:art|a] [n|bird ?],,,,,,,,,,MotherofNaima_Naima010111_432
+433,Mother,Naima010111,we need to buy some bird food .,Naima,1614.723,1620.326,[],[1|2|SUBJ] [2|0|ROOT] [3|4|INF] [4|2|XCOMP] [5|6|QUANT] [6|7|MOD] [7|4|OBJ 8|2|PUNCT],[pro:sub|we] [v|need] [inf|to] [v|buy] [qn|some] [n|bird] [n|food .],,,,,,,,,,MotherofNaima_Naima010111_433
+434,Mother,Naima010111,birds aren't hanging around here anymore .,Naima,1620.326,1622.593,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|JCT] [6|5|POBJ] [7|4|JCT 8|4|PUNCT],[n|bird-PL] [aux|be&PRES~neg|not] [part|hang-PRESP] [prep|around] [adv|here] [adv|anymore .],,,,,,,,,,MotherofNaima_Naima010111_434
+435,Mother,Naima010111,I don't see any birds do you ?,Naima,1622.593,1632.481,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|7|OBJ] [5|6|QUANT] [6|7|SUBJ] [7|0|ROOT] [8|7|OBJ 9|7|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|see] [qn|any] [n|bird-PL] [v|do] [pro:per|you ?],,,,,,,,,,MotherofNaima_Naima010111_435
+436,Naima,Naima010111,yyy .,Naima,1632.481,1663.46,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_436
+437,Mother,Naima010111,chewy isn't it ?,Naima,1663.46,1664.58,[],[1|2|SUBJ] [2|0|ROOT 3|2|NEG] [4|2|PRED 5|2|PUNCT],[n|chewy] [cop|be&3S~neg|not] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_437
+438,Naima,Naima010111,Daddy .,Naima,1664.58,1672.325,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Daddy .],,,,,,,,,,NaimaofNaima_Naima010111_438
+439,Naima,Naima010111,yyy yyy yyy .,Naima,1672.325,1678.985,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_439
+440,Mother,Naima010111,it's a chick .,Naima,1678.985,1686.451,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|a] [n|chick .],,,,,,,,,,MotherofNaima_Naima010111_440
+441,Naima,Naima010111,yyy .,Naima,1686.451,1687.728,CHI could be imitating chicken noise[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_441
+442,Mother,Naima010111,buck buck buck buck buck buck buck .,Naima,1687.728,1690.52,[],[1|7|MOD] [2|7|MOD] [3|7|MOD] [4|7|MOD] [5|7|MOD] [6|7|MOD] [7|0|ROOT 8|7|PUNCT],[n|buck] [n|buck] [n|buck] [n|buck] [n|buck] [n|buck] [n|buck .],,,,,,,,,,MotherofNaima_Naima010111_442
+443,Mother,Naima010111,that's what a chicken says .,Naima,1690.52,1692.411,[],[1|2|SUBJ 2|0|ROOT] [3|6|LINK] [4|5|DET] [5|6|SUBJ] [6|2|PRED 7|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:int|what] [det:art|a] [n|chicken] [v|say-3S .],,,,,,,,,,MotherofNaima_Naima010111_443
+444,Naima,Naima010111,yyy .,Naima,1692.411,1694.373,imitating chicken and other animals below[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_444
+445,Mother,Naima010111,buck buck buck buck buck buck buck buck buck .,Naima,1694.373,1697.296,[],[1|9|MOD] [2|9|MOD] [3|9|MOD] [4|9|MOD] [5|9|MOD] [6|9|MOD] [7|9|MOD] [8|9|MOD] [9|0|ROOT 10|9|PUNCT],[n|buck] [n|buck] [n|buck] [n|buck] [n|buck] [n|buck] [n|buck] [n|buck] [n|buck .],,,,,,,,,,MotherofNaima_Naima010111_445
+446,Naima,Naima010111,yyy .,Naima,1697.296,1698.221,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_446
+447,Naima,Naima010111,yyy .,Naima,1698.221,1699.511,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_447
+448,Mother,Naima010111,buck@o buck@o buck@o buck@o buck@o .,Naima,1699.511,1701.506,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD] [4|3|CONJ] [5|4|COORD 6|1|PUNCT],[on|buck] [on|buck] [on|buck] [on|buck] [on|buck .],,,,,,,,,,MotherofNaima_Naima010111_448
+449,Mother,Naima010111,buck@o buck@o buck@o bagah@o .,Naima,1701.506,1703.616,[],[1|0|INCROOT] [2|1|OBJ] [3|2|CONJ] [4|3|COORD 5|1|PUNCT],[on|buck] [on|buck] [on|buck] [on|bagah .],,,,,,,,,,MotherofNaima_Naima010111_449
+450,Mother,Naima010111,buck@o buck@o bagah@o .,Naima,1703.616,1705.43,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[on|buck] [on|buck] [on|bagah .],,,,,,,,,,MotherofNaima_Naima010111_450
+451,Mother,Naima010111,that's what a chicken says .,Naima,1705.43,1706.588,[],[1|2|SUBJ 2|0|ROOT] [3|6|LINK] [4|5|DET] [5|6|SUBJ] [6|2|PRED 7|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:int|what] [det:art|a] [n|chicken] [v|say-3S .],,,,,,,,,,MotherofNaima_Naima010111_451
+452,Naima,Naima010111,yyy .,Naima,1706.588,1707.488,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_452
+453,Naima,Naima010111,yyy .,Naima,1707.488,1708.673,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_453
+454,Mother,Naima010111,buck@o buck@o buck@o .,Naima,0.0,0.0,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[on|buck] [on|buck] [on|buck .],,,,,,,,,,MotherofNaima_Naima010111_454
+455,Naima,Naima010111,yyy .,Naima,1708.673,1710.665,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_455
+456,Naima,Naima010111,yyy yyy .,Naima,1710.665,1712.156,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_456
+457,Mother,Naima010111,buck@o buck@o bagah@o bagah@o .,Naima,1712.156,1714.408,[],[1|0|INCROOT] [2|1|OBJ] [3|2|CONJ] [4|3|COORD 5|1|PUNCT],[on|buck] [on|buck] [on|bagah] [on|bagah .],,,,,,,,,,MotherofNaima_Naima010111_457
+458,Naima,Naima010111,Mommy .,Naima,1714.408,1715.896,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy .],,,,,,,,,,NaimaofNaima_Naima010111_458
+459,Mother,Naima010111,yes .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofNaima_Naima010111_459
+460,Naima,Naima010111,yyy (t:t:self interruption),Naima,1715.896,1719.816,[],[1|0|ROOT],[(mt:self interruption)],,,,,,,,,,NaimaofNaima_Naima010111_460
+461,Naima,Naima010111,Ma (t:t:self interruption),Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Ma (mt:self interruption)],,,,,,,,,,NaimaofNaima_Naima010111_461
+462,Naima,Naima010111,yyy yyy .,Naima,0.0,0.0,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_462
+463,Mother,Naima010111,oh yes you're a chicken .,Naima,0.0,0.0,[],[1|6|COM] [2|6|COM] [3|6|SUBJ 4|6|AUX] [5|6|DET] [6|0|INCROOT 7|6|PUNCT],[co|oh] [co|yes] [pro:per|you~aux|be&PRES] [det:art|a] [n|chicken .],,,,,,,,,,MotherofNaima_Naima010111_463
+464,Naima,Naima010111,yyy yyy yyy yyy yyy yyy yyy yyy .,Naima,1719.816,1722.856,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_464
+465,Mother,Naima010111,you're a chicken .,Naima,1722.856,1723.89,[],[1|4|SUBJ 2|4|AUX] [3|4|DET] [4|0|INCROOT 5|4|PUNCT],[pro:per|you~aux|be&PRES] [det:art|a] [n|chicken .],,,,,,,,,,MotherofNaima_Naima010111_465
+466,Mother,Naima010111,oh are you putting that nasty filthy thing down my shirt ?,Naima,1723.89,1730.265,[],[1|4|COM] [2|4|AUX] [3|2|OBJ2] [4|0|ROOT] [5|8|DET] [6|8|MOD] [7|8|MOD] [8|4|OBJ] [9|8|NJCT] [10|11|MOD] [11|9|POBJ 12|4|PUNCT],[co|oh] [aux|be&PRES] [pro:per|you] [part|put-PRESP] [pro:dem|that] [adj|nasty] [adj|filth&dn-Y] [n|thing] [prep|down] [det:poss|my] [n|shirt ?],,,,,,,,,,MotherofNaima_Naima010111_466
+467,Mother,Naima010111,with all your saliva all over it ?,Naima,1730.265,1733.265,[],[1|0|INCROOT] [2|4|QUANT] [3|4|MOD] [4|1|POBJ] [5|6|JCT] [6|1|JCT] [7|6|POBJ 8|1|PUNCT],[prep|with] [qn|all] [det:poss|your] [n|saliva] [adv|all] [prep|over] [pro:per|it ?],,,,,,,,,,MotherofNaima_Naima010111_467
+468,Mother,Naima010111,thank you (.) here .,Naima,1733.265,1734.965,[],[1|0|ROOT] [2|1|OBJ] [3|1|JCT 4|1|PUNCT],[v|thank] [pro:per|you] [adv|here .],,,,,,,,,,MotherofNaima_Naima010111_468
+469,Mother,Naima010111,have some yogurt .,Naima,1734.965,1735.993,[],[1|0|ROOT] [2|3|QUANT] [3|1|OBJ 4|1|PUNCT],[v|have] [qn|some] [n|yogurt .],,,,,,,,,,MotherofNaima_Naima010111_469
+470,Mother,Naima010111,buck@o buck@o buck@o buck@o buck@o buck@o baga:h@o .,Naima,1735.993,1742.585,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD] [4|3|CONJ] [5|4|COORD] [6|5|CONJ] [7|6|COORD 8|1|PUNCT],[on|buck] [on|buck] [on|buck] [on|buck] [on|buck] [on|buck] [on|bagah .],,,,,,,,,,MotherofNaima_Naima010111_470
+471,Naima,Naima010111,yyy yyy .,Naima,1742.585,1745.431,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_471
+472,Naima,Naima010111,yyy .,Naima,1745.431,1746.516,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_472
+473,Naima,Naima010111,yyy .,Naima,1746.516,1749.371,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_473
+474,Mother,Naima010111,my little chicken .,Naima,0.0,0.0,[],[1|3|MOD] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:poss|my] [adj|little] [n|chicken .],,,,,,,,,,MotherofNaima_Naima010111_474
+475,Mother,Naima010111,what does an owl say ?,Naima,1749.371,1752.013,[],[1|2|LINK] [2|0|ROOT] [3|4|DET] [4|5|SUBJ] [5|2|COMP 6|2|PUNCT],[pro:int|what] [v|do&3S] [det:art|a] [n|owl] [v|say ?],,,,,,,,,,MotherofNaima_Naima010111_475
+476,Mother,Naima010111,an owl not a dog .,Naima,0.0,0.0,[],[1|2|DET] [2|0|INCROOT] [3|2|NEG] [4|5|DET] [5|2|APP 6|2|PUNCT],[det:art|a] [n|owl] [neg|not] [det:art|a] [n|dog .],,,,,,,,,,MotherofNaima_Naima010111_476
+477,Naima,Naima010111,yyy yyy yyy yyy .,Naima,1752.013,1758.628,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_477
+478,Naima,Naima010111,yyy yyy yyy .,Naima,1758.628,1764.796,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_478
+479,Mother,Naima010111,you want more yogurt ?,Naima,1764.796,1766.558,[],[1|2|SUBJ] [2|0|ROOT] [3|4|QUANT] [4|2|OBJ 5|2|PUNCT],[pro:per|you] [v|want] [qn|more] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_479
+480,Naima,Naima010111,yyy yyy .,Naima,1766.558,1775.618,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_480
+481,Mother,Naima010111,what does a sea lion say ?,Naima,0.0,0.0,[],[1|2|LINK] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|6|SUBJ] [6|2|COMP 7|2|PUNCT],[pro:int|what] [v|do&3S] [det:art|a] [n|sea] [n|lion] [v|say ?],,,,,,,,,,MotherofNaima_Naima010111_481
+482,Naima,Naima010111,yyy yyy .,Naima,1775.618,1778.893,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_482
+483,Mother,Naima010111,xxx xxx xxx .,Naima,0.0,0.0,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_483
+484,Mother,Naima010111,what about an elephant ?,Naima,1778.893,1781.248,[],[1|4|LINK] [2|4|JCT] [3|4|DET] [4|0|INCROOT 5|4|PUNCT],[pro:int|what] [adv|about] [det:art|a] [n|elephant ?],,,,,,,,,,MotherofNaima_Naima010111_484
+485,Naima,Naima010111,yyy yyy .,Naima,1781.248,1784.498,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_485
+486,Mother,Naima010111,that's right .,Naima,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [n|right .],,,,,,,,,,MotherofNaima_Naima010111_486
+487,Mother,Naima010111,what about a frog ?,Naima,1784.498,1790.766,[],[1|4|LINK] [2|4|JCT] [3|4|DET] [4|0|INCROOT 5|4|PUNCT],[pro:int|what] [adv|about] [det:art|a] [n|frog ?],,,,,,,,,,MotherofNaima_Naima010111_487
+488,Naima,Naima010111,yyy yyy .,Naima,1790.766,1793.503,CHI inhales instead of exhales[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_488
+489,Mother,Naima010111,a frog ?,Naima,1793.503,1794.246,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|frog ?],,,,,,,,,,MotherofNaima_Naima010111_489
+490,Naima,Naima010111,yyy yyy .,Naima,1794.246,1795.753,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_490
+491,Mother,Naima010111,have s'more (replacement:replacement:some more) yogurt .,Naima,1795.753,1798.276,[],[1|0|ROOT] [2|4|QUANT 3|4|QUANT] [4|1|OBJ 5|1|PUNCT],[v|have] [qn|some qn|more] [n|yogurt .],,,,,,,,,,MotherofNaima_Naima010111_491
+492,Mother,Naima010111,what does a kitty cat say ?,Naima,0.0,0.0,[],[1|2|LINK] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|6|SUBJ] [6|2|COMP 7|2|PUNCT],[pro:int|what] [v|do&3S] [det:art|a] [n|kitty] [n|cat] [v|say ?],,,,,,,,,,MotherofNaima_Naima010111_492
+493,Naima,Naima010111,meow .,Naima,1798.276,1813.44,[],[1|0|INCROOT 2|1|PUNCT],[on|meow .],,,,,,,,,,NaimaofNaima_Naima010111_493
+494,Mother,Naima010111,you want another bite ?,Naima,1813.44,1818.243,[],[1|2|SUBJ] [2|0|ROOT] [3|4|QUANT] [4|2|OBJ 5|2|PUNCT],[pro:per|you] [v|want] [qn|another] [n|bite ?],,,,,,,,,,MotherofNaima_Naima010111_494
+495,Mother,Naima010111,hey .,Naima,1818.243,1820.566,[],[1|0|INCROOT 2|1|PUNCT],[co|hey .],,,,,,,,,,MotherofNaima_Naima010111_495
+496,Mother,Naima010111,hey hey you .,Naima,1820.566,1822.121,[],[1|3|COM] [2|3|COM] [3|0|ROOT 4|3|PUNCT],[co|hey] [co|hey] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_496
+497,Mother,Naima010111,hey .,Naima,1822.121,1823.773,[],[1|0|INCROOT 2|1|PUNCT],[co|hey .],,,,,,,,,,MotherofNaima_Naima010111_497
+498,Mother,Naima010111,eat your yogurt .,Naima,1823.773,1825.436,[],[1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[v|eat] [det:poss|your] [n|yogurt .],,,,,,,,,,MotherofNaima_Naima010111_498
+499,Naima,Naima010111,yyy yyy .,Naima,1825.436,1834.525,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_499
+500,Mother,Naima010111,menamuni@c .,Naima,1834.525,1837.826,[],[1|0|INCROOT 2|1|PUNCT],[chi|menamuni .],,,,,,,,,,MotherofNaima_Naima010111_500
+501,Mother,Naima010111,that's a big block .,Naima,1837.826,1868.915,[],[1|2|SUBJ 2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|a] [adj|big] [n|block .],,,,,,,,,,MotherofNaima_Naima010111_501
+502,Mother,Naima010111,xxx on my nose .,Naima,1868.915,1871.621,[],[] [1|0|INCROOT] [2|3|MOD] [3|1|POBJ 4|1|PUNCT],[] [prep|on] [det:poss|my] [n|nose .],,,,,,,,,,MotherofNaima_Naima010111_502
+503,Mother,Naima010111,woah .,Naima,1871.621,1880.693,[],[1|0|INCROOT 2|1|PUNCT],[co|woah .],,,,,,,,,,MotherofNaima_Naima010111_503
+504,Mother,Naima010111,woah .,Naima,1880.693,1882.628,[],[1|0|INCROOT 2|1|PUNCT],[co|woah .],,,,,,,,,,MotherofNaima_Naima010111_504
+505,Naima,Naima010111,xxx yyy yyy .,Naima,1882.626,1892.9,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_505
+506,Mother,Naima010111,&wahwee .,Naima,0.0,0.0,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_506
+507,Naima,Naima010111,yyy .,Naima,0.0,0.0,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_507
+508,Mother,Naima010111,&wahwee .,Naima,0.0,0.0,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_508
+509,Naima,Naima010111,yyy yyy .,Naima,0.0,0.0,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_509
+510,Mother,Naima010111,&wahwee: .,Naima,1892.9,1893.975,[],[],[],,,,,,,,,,MotherofNaima_Naima010111_510
+511,Mother,Naima010111,have s'more (replacement:replacement:some more) yogurt ?,Naima,1893.975,1896.475,[],[1|0|ROOT] [2|4|QUANT 3|4|QUANT] [4|1|OBJ 5|1|PUNCT],[v|have] [qn|some qn|more] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_511
+512,Mother,Naima010111,oh that's a loud noise .,Naima,1896.475,1900.218,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|6|DET] [5|6|MOD] [6|3|PRED 7|3|PUNCT],[co|oh] [pro:dem|that~cop|be&3S] [det:art|a] [adj|loud] [n|noise .],,,,,,,,,,MotherofNaima_Naima010111_512
+513,Mother,Naima010111,want s'more (replacement:replacement:some more) yogurt ?,Naima,1900.218,1902.75,[],[1|0|ROOT] [2|4|QUANT 3|4|QUANT] [4|1|OBJ 5|1|PUNCT],[v|want] [qn|some qn|more] [n|yogurt ?],,,,,,,,,,MotherofNaima_Naima010111_513
+514,Mother,Naima010111,Nai Nai .,Naima,1902.75,1907.681,[],[1|2|SUBJ] [2|0|INCROOT 3|2|PUNCT],[n:prop|Nai] [n:prop|Nai .],,,,,,,,,,MotherofNaima_Naima010111_514
+515,Naima,Naima010111,Nai Nai .,Naima,1907.681,1909.83,[],[1|2|SUBJ] [2|0|INCROOT 3|2|PUNCT],[n:prop|Nai] [n:prop|Nai .],,,,,,,,,,NaimaofNaima_Naima010111_515
+516,Mother,Naima010111,that's you .,Naima,1909.83,1910.91,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_516
+517,Mother,Naima010111,Nai Nai .,Naima,1910.91,1913.18,[],[1|2|SUBJ] [2|0|INCROOT 3|2|PUNCT],[n:prop|Nai] [n:prop|Nai .],,,,,,,,,,MotherofNaima_Naima010111_517
+518,Mother,Naima010111,that's so loud .,Naima,1913.18,1917.661,[],[1|2|SUBJ 2|0|ROOT] [3|4|JCT] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [adv|so] [adj|loud .],,,,,,,,,,MotherofNaima_Naima010111_518
+519,Mother,Naima010111,that's a big noise .,Naima,1917.661,1920.106,[],[1|2|SUBJ 2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|a] [adj|big] [n|noise .],,,,,,,,,,MotherofNaima_Naima010111_519
+520,Naima,Naima010111,microphone .,Naima,1920.106,1932.82,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_520
+521,Naima,Naima010111,microphone microphone microphone microphone .,Naima,1932.821,1937.121,[],[1|4|MOD] [2|4|MOD] [3|4|MOD] [4|0|ROOT 5|4|PUNCT],[n|microphone] [n|microphone] [n|microphone] [n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_521
+522,Mother,Naima010111,yogurt .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|yogurt .],,,,,,,,,,MotherofNaima_Naima010111_522
+523,Naima,Naima010111,microphone .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_523
+524,Mother,Naima010111,yogurt .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|yogurt .],,,,,,,,,,MotherofNaima_Naima010111_524
+525,Naima,Naima010111,microphone .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_525
+526,Naima,Naima010111,microphone microphone .,Naima,1937.123,1938.508,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|microphone] [n|microphone .],,,,,,,,,,NaimaofNaima_Naima010111_526
+527,Mother,Naima010111,microphone .,Naima,1938.508,1939.39,[],[1|0|INCROOT 2|1|PUNCT],[n|microphone .],,,,,,,,,,MotherofNaima_Naima010111_527
+528,Naima,Naima010111,yyy yyy yyy .,Naima,1939.39,1943.921,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_528
+529,Mother,Naima010111,woah &wahwee .,Naima,1943.921,1951.161,[],[1|0|INCROOT] [2|1|PUNCT],[co|woah] [.],,,,,,,,,,MotherofNaima_Naima010111_529
+530,Mother,Naima010111,that went way over there .,Naima,1951.161,1952.618,[],[1|2|LINK] [2|0|ROOT] [3|2|JCT] [4|2|JCT] [5|4|POBJ 6|2|PUNCT],[pro:rel|that] [v|go&PAST] [adv|way] [prep|over] [adv|there .],,,,,,,,,,MotherofNaima_Naima010111_530
+531,Naima,Naima010111,the { block (?) } .,Naima,1952.618,1956.408,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|block .],,,,,,,,,,NaimaofNaima_Naima010111_531
+532,Mother,Naima010111,block .,Naima,1956.408,1959.316,[],[1|0|INCROOT 2|1|PUNCT],[n|block .],,,,,,,,,,MotherofNaima_Naima010111_532
+533,Mother,Naima010111,woah .,Naima,1959.316,1965.451,[],[1|0|INCROOT 2|1|PUNCT],[co|woah .],,,,,,,,,,MotherofNaima_Naima010111_533
+534,Mother,Naima010111,you're throwing things .,Naima,1965.451,1967.98,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:per|you~aux|be&PRES] [part|throw-PRESP] [n|thing-PL .],,,,,,,,,,MotherofNaima_Naima010111_534
+535,Mother,Naima010111,you're running around and throwing things .,Naima,1967.98,1971.706,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|JCT] [5|3|CONJ] [6|7|MOD] [7|5|COORD 8|3|PUNCT],[pro:per|you~aux|be&PRES] [part|run-PRESP] [adv|around] [coord|and] [part|throw-PRESP] [n|thing-PL .],,,,,,,,,,MotherofNaima_Naima010111_535
+536,Mother,Naima010111,more yogurt (t:t:trail off),Naima,0.0,0.0,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[qn|more] [n|yogurt (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_536
+537,Mother,Naima010111,take your time .,Naima,1971.706,1976.645,[],[1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[v|take] [det:poss|your] [n|time .],,,,,,,,,,MotherofNaima_Naima010111_537
+538,Mother,Naima010111,oh_my_goodness where's she going ?,Naima,1976.645,1981.991,[],[1|5|COM] [2|5|LINK 3|5|AUX] [4|5|SUBJ] [5|0|ROOT 6|5|PUNCT],[co|oh_my_goodness] [pro:rel|where~aux|be&3S] [pro:sub|she] [part|go-PRESP ?],,,,,,,,,,MotherofNaima_Naima010111_538
+539,Mother,Naima010111,where's she going without her mommy (t:t:interruption question),Naima,0.0,0.0,[],[1|2|LINK 2|0|ROOT] [3|2|PRED] [4|3|XJCT] [5|4|JCT] [6|7|MOD] [7|5|POBJ 8|2|PUNCT],[adv:int|where~cop|be&3S] [pro:sub|she] [part|go-PRESP] [prep|without] [det:poss|her] [n|mommy (mt:interruption question)],,,,,,,,,,MotherofNaima_Naima010111_539
+540,Naima,Naima010111,{ there (?) } .,Naima,1981.991,1986.033,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,NaimaofNaima_Naima010111_540
+541,Mother,Naima010111,there she is !,Naima,1986.033,1987.42,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|she] [cop|be&3S !],,,,,,,,,,MotherofNaima_Naima010111_541
+542,Naima,Naima010111,Mommy .,Naima,1987.42,1988.558,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Mommy .],,,,,,,,,,NaimaofNaima_Naima010111_542
+543,Mother,Naima010111,yes .,Naima,1988.558,1989.476,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofNaima_Naima010111_543
+544,Mother,Naima010111,I'm just gonna wash off this rattle .,Naima,1989.476,1991.501,[],[1|5|SUBJ 2|5|AUX] [3|5|JCT] [4|5|AUX] [5|0|ROOT] [6|5|JCT] [7|8|DET] [8|6|POBJ 9|5|PUNCT],[pro:sub|I~aux|be&1S] [adv|just] [mod:aux|gonna] [v|wash] [prep|off] [pro:dem|this] [n|rattle .],,,,,,,,,,MotherofNaima_Naima010111_544
+545,Mother,Naima010111,the one that has all the yogurt and saliva all over it .,Naima,1991.501,1996.393,[],[1|2|DET] [2|0|INCROOT] [3|4|LINK] [4|2|CMOD] [5|7|QUANT] [6|7|DET] [7|4|OBJ] [8|4|CONJ] [9|8|COORD] [10|11|JCT] [11|9|NJCT] [12|11|POBJ 13|2|PUNCT],[det:art|the] [pro:indef|one] [pro:rel|that] [v|have&3S] [qn|all] [det:art|the] [n|yogurt] [coord|and] [n|saliva] [adv|all] [prep|over] [pro:per|it .],,,,,,,,,,MotherofNaima_Naima010111_545
+546,Naima,Naima010111,Ma Mommy .,Naima,1996.393,2002.865,[],[1|2|SUBJ] [2|0|INCROOT 3|2|PUNCT],[n:prop|Ma] [n:prop|Mommy .],,,,,,,,,,NaimaofNaima_Naima010111_546
+547,Mother,Naima010111,yes .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofNaima_Naima010111_547
+548,Naima,Naima010111,yyy .,Naima,2002.865,2004.563,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_548
+549,Naima,Naima010111,yyy yyy yyy .,Naima,2004.563,2006.616,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_549
+550,Mother,Naima010111,it's almost nine o'clock .,Naima,2006.616,2008.84,[],[1|2|SUBJ 2|0|ROOT] [3|5|JCT] [4|5|QUANT] [5|2|PRED 6|2|PUNCT],[pro:per|it~cop|be&3S] [adv|almost] [det:num|nine] [n|o'clock .],,,,,,,,,,MotherofNaima_Naima010111_550
+551,Naima,Naima010111,yyy .,Naima,2008.84,2011.388,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_551
+552,Mother,Naima010111,wow it's late .,Naima,0.0,0.0,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|PRED 5|3|PUNCT],[co|wow] [pro:per|it~cop|be&3S] [adj|late .],,,,,,,,,,MotherofNaima_Naima010111_552
+553,Naima,Naima010111,late .,Naima,2011.388,2012.975,[],[1|0|INCROOT 2|1|PUNCT],[adj|late .],,,,,,,,,,NaimaofNaima_Naima010111_553
+554,Mother,Naima010111,late .,Naima,2012.975,2014.293,[],[1|0|INCROOT 2|1|PUNCT],[adj|late .],,,,,,,,,,MotherofNaima_Naima010111_554
+555,Naima,Naima010111,yyy yyy yyy .,Naima,2014.293,2017.815,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_555
+556,Mother,Naima010111,want the rattle ?,Naima,2017.815,2020.951,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|want] [det:art|the] [n|rattle ?],,,,,,,,,,MotherofNaima_Naima010111_556
+557,Mother,Naima010111,lemme (replacement:replacement:let me) just wipe off your face a bit .,Naima,2020.951,2022.631,[],[1|0|ROOT 2|1|OBJ] [3|4|JCT] [4|1|OBJ] [5|4|NJCT] [6|7|MOD] [7|5|POBJ] [8|9|DET] [9|7|OBJ 10|1|PUNCT],[v|let&ZERO pro:obj|me] [adv|just] [n|wipe] [prep|off] [det:poss|your] [n|face] [det:art|a] [n|bit .],,,,,,,,,,MotherofNaima_Naima010111_557
+558,Mother,Naima010111,what did we do with that floor rag ?,Naima,2022.631,2025.228,[],[1|4|LINK] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT] [5|4|JCT] [6|8|DET] [7|8|MOD] [8|5|POBJ 9|4|PUNCT],[pro:int|what] [mod|do&PAST] [pro:sub|we] [v|do] [prep|with] [pro:dem|that] [n|floor] [n|rag ?],,,,,,,,,,MotherofNaima_Naima010111_558
+559,Mother,Naima010111,here .,Naima,2025.228,2026.731,[],[1|0|INCROOT 2|1|PUNCT],[adv|here .],,,,,,,,,,MotherofNaima_Naima010111_559
+560,Naima,Naima010111,{ floor (?) } .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|floor .],,,,,,,,,,NaimaofNaima_Naima010111_560
+561,Mother,Naima010111,floor .,Naima,2026.731,2029.303,[],[1|0|INCROOT 2|1|PUNCT],[n|floor .],,,,,,,,,,MotherofNaima_Naima010111_561
+562,Naima,Naima010111,{ floor (?) } .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|floor .],,,,,,,,,,NaimaofNaima_Naima010111_562
+563,Mother,Naima010111,hey .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|hey .],,,,,,,,,,MotherofNaima_Naima010111_563
+564,Mother,Naima010111,I seem to have a tennis ball in my belly button .,Naima,2029.303,2031.658,[],[1|2|SUBJ] [2|0|ROOT] [3|4|INF] [4|2|XCOMP] [5|7|DET] [6|7|MOD] [7|4|OBJ] [8|4|JCT] [9|11|MOD] [10|11|MOD] [11|8|POBJ 12|2|PUNCT],[pro:sub|I] [cop|seem] [inf|to] [v|have] [det:art|a] [n|tennis] [n|ball] [prep|in] [det:poss|my] [n|belly] [n|button .],,,,,,,,,,MotherofNaima_Naima010111_564
+565,Mother,Naima010111,there it is .,Naima,2031.658,2034.566,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:per|it] [cop|be&3S .],,,,,,,,,,MotherofNaima_Naima010111_565
+566,Mother,Naima010111,I thought that felt funny .,Naima,2034.566,2037.893,[],[1|2|SUBJ] [2|0|ROOT] [3|4|LINK] [4|2|COMP] [5|4|JCT 6|2|PUNCT],[pro:sub|I] [v|think&PAST] [pro:rel|that] [v|feel&PAST] [adj|fun&dn-Y .],,,,,,,,,,MotherofNaima_Naima010111_566
+567,Mother,Naima010111,thought that felt funny .,Naima,2037.893,2041.485,[],[1|0|ROOT] [2|3|LINK] [3|1|COMP] [4|3|JCT 5|1|PUNCT],[v|think&PAST] [pro:rel|that] [v|feel&PAST] [adj|fun&dn-Y .],,,,,,,,,,MotherofNaima_Naima010111_567
+568,Mother,Naima010111,hey we're gonna go on an outing this morning .,Naima,2041.485,2053.415,[],[1|5|COM] [2|5|SUBJ 3|5|AUX] [4|5|AUX] [5|0|ROOT] [6|5|JCT] [7|8|DET] [8|6|POBJ] [9|10|DET] [10|8|APP 11|5|PUNCT],[co|hey] [pro:sub|we~aux|be&PRES] [mod:aux|gonna] [v|go] [prep|on] [det:art|a] [n|outing] [pro:dem|this] [n|morning .],,,,,,,,,,MotherofNaima_Naima010111_568
+569,Mother,Naima010111,want a little bit of rice ?,Naima,2053.415,2054.77,[],[1|0|ROOT] [2|4|DET] [3|4|MOD] [4|1|OBJ] [5|4|NJCT] [6|5|POBJ 7|1|PUNCT],[v|want] [det:art|a] [adj|little] [n|bit] [prep|of] [n|rice ?],,,,,,,,,,MotherofNaima_Naima010111_569
+570,Naima,Naima010111,{ rice (?) } yyy .,Naima,2054.77,2057.085,[],[1|0|INCROOT] [2|1|PUNCT],[n|rice] [.],,,,,,,,,,NaimaofNaima_Naima010111_570
+571,Mother,Naima010111,rice .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|rice .],,,,,,,,,,MotherofNaima_Naima010111_571
+572,Naima,Naima010111,yyy .,Naima,2057.085,2059.02,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_572
+573,Naima,Naima010111,rice .,Naima,2059.02,2060.357,CHI uses this word often to refer to rice[],[1|0|INCROOT 2|1|PUNCT],[n|rice .],,,,,,,,,,NaimaofNaima_Naima010111_573
+574,Mother,Naima010111,rice .,Naima,2060.357,2061.698,[],[1|0|INCROOT 2|1|PUNCT],[n|rice .],,,,,,,,,,MotherofNaima_Naima010111_574
+575,Mother,Naima010111,let's get you some water to go .,Naima,2061.698,2064.623,[],[1|0|ROOT 2|1|OBJ] [3|1|COMP] [4|3|OBJ] [5|6|QUANT] [6|4|OBJ] [7|8|INF] [8|6|XCOMP 9|1|PUNCT],[v|let~pro:obj|us] [aux|get] [pro:per|you] [qn|some] [n|water] [inf|to] [v|go .],,,,,,,,,,MotherofNaima_Naima010111_575
+576,Naima,Naima010111,water .,Naima,2064.623,2066.09,[],[1|0|INCROOT 2|1|PUNCT],[n|water .],,,,,,,,,,NaimaofNaima_Naima010111_576
+577,Naima,Naima010111,yyy yyy .,Naima,2066.09,2078.15,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_577
+578,Naima,Naima010111,Daddy .,Naima,2078.15,2079.43,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Daddy .],,,,,,,,,,NaimaofNaima_Naima010111_578
+579,Naima,Naima010111,yyy .,Naima,2079.43,2081.583,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_579
+580,Mother,Naima010111,go with Daddy (.) go go Daddy .,Naima,0.0,0.0,[],[1|0|ROOT] [2|1|JCT] [3|5|SUBJ] [4|5|SRL] [5|2|POBJ] [6|5|OBJ 7|1|PUNCT],[v|go] [prep|with] [n:prop|Daddy] [v|go] [v|go] [n:prop|Daddy .],,,,,,,,,,MotherofNaima_Naima010111_580
+581,Naima,Naima010111,Daddy Daddy .,Naima,2081.583,2083.149,[],[1|2|SUBJ] [2|0|INCROOT 3|2|PUNCT],[n:prop|Daddy] [n:prop|Daddy .],,,,,,,,,,NaimaofNaima_Naima010111_581
+582,Mother,Naima010111,you have a nice chewy rattle ?,Naima,2083.149,2097.93,[],[1|2|SUBJ] [2|0|ROOT] [3|6|DET] [4|5|MOD] [5|6|MOD] [6|2|OBJ 7|2|PUNCT],[pro:per|you] [v|have] [det:art|a] [adj|nice] [n|chewy] [n|rattle ?],,,,,,,,,,MotherofNaima_Naima010111_582
+583,Mother,Naima010111,okay .,Naima,2097.93,2108.725,[],[1|0|INCROOT 2|1|PUNCT],[co|okay .],,,,,,,,,,MotherofNaima_Naima010111_583
+584,Mother,Naima010111,we need to go to the play+ground and we need to get some food .,Naima,2108.725,2115.211,[],[1|2|SUBJ] [2|0|ROOT] [3|4|INF] [4|2|XCOMP] [5|4|JCT] [6|7|DET] [7|5|POBJ] [8|10|LINK] [9|10|SUBJ] [10|4|COMP] [11|12|INF] [12|10|XCOMP] [13|14|QUANT] [14|12|OBJ 15|2|PUNCT],[pro:sub|we] [v|need] [inf|to] [v|go] [prep|to] [det:art|the] [n|+n|play+n|ground] [coord|and] [pro:sub|we] [v|need] [inf|to] [v|get] [qn|some] [n|food .],,,,,,,,,,MotherofNaima_Naima010111_584
+585,Mother,Naima010111,at the store .,Naima,2115.211,2116.381,[],[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[prep|at] [det:art|the] [n|store .],,,,,,,,,,MotherofNaima_Naima010111_585
+586,Mother,Naima010111,we need to go look at a house .,Naima,2116.381,2119.806,[],[1|2|SUBJ] [2|0|ROOT] [3|4|INF] [4|2|XCOMP] [5|4|OBJ] [6|5|JCT] [7|8|DET] [8|6|POBJ 9|2|PUNCT],[pro:sub|we] [v|need] [inf|to] [v|go] [v|look] [prep|at] [det:art|a] [n|house .],,,,,,,,,,MotherofNaima_Naima010111_586
+587,Naima,Naima010111,yyy .,Naima,2119.806,2122.318,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_587
+588,Mother,Naima010111,we hafta be back home by eleven .,Naima,2122.318,2124.313,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|5|JCT] [5|3|JCT] [6|3|JCT] [7|6|POBJ 8|3|PUNCT],[pro:sub|we] [mod:aux|hafta] [cop|be] [adv|back] [n|home] [prep|by] [det:num|eleven .],,,,,,,,,,MotherofNaima_Naima010111_588
+589,Naima,Naima010111,water .,Naima,2124.313,2127.123,[],[1|0|INCROOT 2|1|PUNCT],[n|water .],,,,,,,,,,NaimaofNaima_Naima010111_589
+590,Mother,Naima010111,xxx coming .,Naima,0.0,0.0,[],[] [1|0|INCROOT 2|1|PUNCT],[] [part|come-PRESP .],,,,,,,,,,MotherofNaima_Naima010111_590
+591,Naima,Naima010111,water .,Naima,2127.123,2128.541,[],[1|0|INCROOT 2|1|PUNCT],[n|water .],,,,,,,,,,NaimaofNaima_Naima010111_591
+592,Mother,Naima010111,yes you can have some water .,Naima,2128.541,2130.265,[],[1|4|COM] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|6|QUANT] [6|4|OBJ 7|4|PUNCT],[co|yes] [pro:per|you] [mod|can] [v|have] [qn|some] [n|water .],,,,,,,,,,MotherofNaima_Naima010111_592
+593,Mother,Naima010111,this is for you .,Naima,2130.265,2131.393,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:dem|this] [cop|be&3S] [prep|for] [pro:per|you .],,,,,,,,,,MotherofNaima_Naima010111_593
+594,Mother,Naima010111,here you go .,Naima,2131.393,2132.885,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|here] [pro:per|you] [v|go .],,,,,,,,,,MotherofNaima_Naima010111_594
+595,Mother,Naima010111,let's get your fluoride in there .,Naima,2132.885,2137.21,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|5|MOD] [5|3|OBJ] [6|3|JCT] [7|6|POBJ 8|1|PUNCT],[v|let~pro:obj|us] [v|get] [det:poss|your] [n|fluoride] [prep|in] [adv|there .],,,,,,,,,,MotherofNaima_Naima010111_595
+596,Naima,Naima010111,yyy yyy .,Naima,2137.21,2142.05,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_596
+597,Mother,Naima010111,is that good .,Naima,0.0,0.0,[],[1|0|ROOT] [2|1|SUBJ] [3|1|PRED 4|1|PUNCT],[cop|be&3S] [pro:dem|that] [adj|good .],,,,,,,,,,MotherofNaima_Naima010111_597
+598,Mother,Naima010111,is that water good ?,Naima,2142.05,2143.173,[],[1|0|ROOT] [2|3|DET] [3|1|PRED] [4|3|PRED 5|1|PUNCT],[cop|be&3S] [pro:dem|that] [n|water] [adj|good ?],,,,,,,,,,MotherofNaima_Naima010111_598
+599,Naima,Naima010111,water .,Naima,2143.173,2148.241,[],[1|0|INCROOT 2|1|PUNCT],[n|water .],,,,,,,,,,NaimaofNaima_Naima010111_599
+600,Naima,Naima010111,yyy yyy .,Naima,0.0,0.0,[],[],[],,,,,,,,,,NaimaofNaima_Naima010111_600
+601,Naima,Naima010111,water .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|water .],,,,,,,,,,NaimaofNaima_Naima010111_601
+602,Mother,Naima010111,let's get the fluoride .,Naima,2148.241,2149.546,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|5|DET] [5|3|OBJ 6|1|PUNCT],[v|let~pro:obj|us] [v|get] [det:art|the] [n|fluoride .],,,,,,,,,,MotherofNaima_Naima010111_602
+603,Naima,Naima010111,fluoride .,Naima,2149.546,2153.313,[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,NaimaofNaima_Naima010111_603
+604,Mother,Naima010111,fluoride .,Naima,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,MotherofNaima_Naima010111_604
+605,Mother,Naima010111,I think it's in the other room have a little more rice ?,Naima,2153.313,2157.031,[],[1|2|SUBJ] [2|0|ROOT] [3|4|SUBJ 4|2|COMP] [5|4|JCT] [6|8|DET] [7|8|QUANT] [8|5|POBJ] [9|4|XJCT] [10|13|DET] [11|13|MOD] [12|13|JCT] [13|9|OBJ 14|2|PUNCT],[pro:sub|I] [v|think] [pro:per|it~cop|be&3S] [prep|in] [det:art|the] [qn|other] [n|room] [v|have] [det:art|a] [adj|little] [adv|more] [n|rice ?],,,,,,,,,,MotherofNaima_Naima010111_605
+606,Naima,Naima010111,fluoride .,Naima,2157.031,2159.555,[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,NaimaofNaima_Naima010111_606
+607,Mother,Naima010111,here (.) no okay .,Naima,2159.555,2161.58,[],[1|2|JCT] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[adv|here] [qn|no] [adj|okay .],,,,,,,,,,MotherofNaima_Naima010111_607
+608,Naima,Naima010111,fluoride .,Naima,2161.58,2164.37,f has a little rounding[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,NaimaofNaima_Naima010111_608
+609,Mother,Naima010111,do you wanna come with me while I look for the fluoride ?,Naima,0.0,0.0,[],[1|4|LINK] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|JCT] [6|5|POBJ] [7|9|LINK] [8|9|SUBJ] [9|4|CJCT] [10|9|JCT] [11|12|DET] [12|10|POBJ 13|4|PUNCT],[0aux|do] [pro:per|you] [mod:aux|wanna] [v|come] [prep|with] [pro:obj|me] [conj|while] [pro:sub|I] [v|look] [prep|for] [det:art|the] [n|fluoride ?],,,,,,,,,,MotherofNaima_Naima010111_609
+610,Naima,Naima010111,fluoride .,Naima,2164.37,2165.563,f has a little rounding[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,NaimaofNaima_Naima010111_610
+611,Naima,Naima010111,fluoride .,Naima,2165.563,2170.563,unsure if f has rounding or if it's followed by w[],[1|0|INCROOT 2|1|PUNCT],[n|fluoride .],,,,,,,,,,NaimaofNaima_Naima010111_611
+612,Mother,Naima010111,I think it's in the (t:t:trail off),Naima,2170.563,2175.42,[],[1|2|SUBJ] [2|0|ROOT] [3|4|SUBJ 4|2|COMP] [5|4|JCT] [6|5|POBJ 7|2|PUNCT],[pro:sub|I] [v|think] [pro:per|it~cop|be&3S] [prep|in] [det:art|the (mt:trail off)],,,,,,,,,,MotherofNaima_Naima010111_612
+613,Mother,Naima010111,we'll be back .,Naima,2175.42,2192.028,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|JCT 5|3|PUNCT],[pro:sub|we~mod|will] [cop|be] [adv|back .],,,,,,,,,,MotherofNaima_Naima010111_613
+614,Mother,Naima010111,xxx .,Naima,2192.026,2252.805,audio gone and video messed up but very near end of session anywaysilence while in other room,[],[],,,,,,,,,,MotherofNaima_Naima010111_614

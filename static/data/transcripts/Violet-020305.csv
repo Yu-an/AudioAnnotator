@@ -1,0 +1,999 @@
+Record #,Speaker,Session,Orthography,Child,start_seconds,end_seconds,Situation,GRASP,Morphology,SpeechAct,ClauseType,UttGoals,SubQ,SubI,Comments,FollowUp?,TagType,ToAdults?,uttid
+1,Mother,Violet020305,I'm too close .,Violet,0.0,0.0,[],[1|4|SUBJ 2|4|AUX] [3|4|JCT] [4|0|ROOT 5|4|PUNCT],[pro:sub|I~aux|be&1S] [adv|too] [adj|close .],,,,,,,,,,MotherofViolet_Violet020305_1
+2,Violet,Violet020305,yyy yyy yyy .,Violet,0.0,6.856,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_2
+3,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_3
+4,Violet,Violet020305,xxx .,Violet,6.856,10.39,growling,[],[],,,,,,,,,,VioletofViolet_Violet020305_4
+5,Mother,Violet020305,where are you ?,Violet,0.0,0.0,[],[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[adv:int|where] [aux|be&PRES] [pro:per|you ?],,,,,,,,,,MotherofViolet_Violet020305_5
+6,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_6
+7,Violet,Violet020305,right here .,Violet,10.39,11.678,[],[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|right] [adv|here .],,,,,,,,,,VioletofViolet_Violet020305_7
+8,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_8
+9,Brother,Violet020305,I don't (replacement:replacement:do not) never wanna get off .,Violet,0.0,0.0,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|6|JCT] [5|6|AUX] [6|0|ROOT] [7|6|JCT 8|6|PUNCT],[pro:sub|I] [mod|do neg|not] [adv|never] [mod:aux|wanna] [v|get] [adv|off .],,,,,,,,,,BrotherofViolet_Violet020305_9
+10,Violet,Violet020305,yyy .,Violet,11.678,18.65,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_10
+11,Mother,Violet020305,say cheese again at the camera .,Violet,0.0,0.0,[],[1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|1|JCT] [5|6|DET] [6|4|POBJ 7|1|PUNCT],[v|say] [n|cheese] [adv|again] [prep|at] [det:art|the] [n|camera .],,,,,,,,,,MotherofViolet_Violet020305_11
+12,Violet,Violet020305,cheese cheese .,Violet,18.65,24.653,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|cheese] [n|cheese .],,,,,,,,,,VioletofViolet_Violet020305_12
+13,Brother,Violet020305,mama I made this xxx especially for xxx you .,Violet,0.0,0.0,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [] [5|3|JCT] [6|3|JCT] [] [7|6|POBJ 8|3|PUNCT],[n|mama] [pro:sub|I] [v|make&PAST] [pro:dem|this] [] [adv|especial&dadj-LY] [prep|for] [] [pro:per|you .],,,,,,,,,,BrotherofViolet_Violet020305_13
+14,Violet,Violet020305,you made a yyy .,Violet,24.653,29.321,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|PUNCT],[pro:per|you] [v|make&PAST] [det:art|a] [.],,,,,,,,,,VioletofViolet_Violet020305_14
+15,Brother,Violet020305,"xxx , sit , sit , just sit .",Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT 3|2|LP] [4|2|ENUM 5|4|LP] [6|7|JCT] [7|2|COMP 8|2|PUNCT],[cm|cm] [v|sit cm|cm] [v|sit cm|cm] [adv|just] [v|sit .],,,,,,,,,,BrotherofViolet_Violet020305_15
+16,Brother,Violet020305,just sit like this and then you'll xxx .,Violet,29.323,32.92,[],[1|2|JCT] [2|0|ROOT] [3|2|JCT] [4|3|POBJ] [5|2|CONJ] [6|8|JCT] [7|8|SUBJ 8|5|COORD] [9|2|PUNCT],[adv|just] [v|sit] [prep|like] [pro:dem|this] [coord|and] [adv:tem|then] [pro:per|you~mod|will] [.],,,,,,,,,,BrotherofViolet_Violet020305_16
+17,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_17
+18,Brother,Violet020305,"xxx , <o>kay ?",Violet,32.92,35.458,[],[1|0|INCROOT] [2|1|PRED 3|1|PUNCT],[cm|cm] [adj|okay ?],,,,,,,,,,BrotherofViolet_Violet020305_18
+19,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_19
+20,Violet,Violet020305,I { come (?) } here .,Violet,35.458,37.415,BRO is trying to get CHI to sit on a little chair .,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[pro:sub|I] [v|come] [adv|here .],,,,,,,,,,VioletofViolet_Violet020305_20
+21,Father,Violet020305,"alright , mister xxx , I need my boy to get ready .",Violet,37.415,40.115,[],[1|6|COM 2|1|LP] [3|1|ENUM] [4|3|LP] [5|6|SUBJ] [6|0|ROOT] [7|8|MOD] [8|6|OBJ] [9|10|INF] [10|6|XCOMP] [11|10|PRED 12|6|PUNCT],[co|alright cm|cm] [n|mister] [cm|cm] [pro:sub|I] [v|need] [det:poss|my] [n|boy] [inf|to] [v|get] [adj|ready .],,,,,,,,,,FatherofViolet_Violet020305_21
+22,Father,Violet020305,get that jacket on .,Violet,40.115,41.981,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|3|POSTMOD 5|1|PUNCT],[v|get] [pro:dem|that] [n|jacket] [adv|on .],,,,,,,,,,FatherofViolet_Violet020305_22
+23,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_23
+24,Mother,Violet020305,"this is xxx school show on here if you , I'll write it down so you can (t:t:interruption)",Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [] [3|4|MOD] [4|2|PRED] [5|4|NJCT] [6|5|POBJ] [7|12|LINK] [8|12|JCT 9|8|LP] [10|12|SUBJ 11|12|AUX] [12|2|CJCT] [13|12|OBJ] [14|12|JCT] [15|17|LINK] [16|17|SUBJ] [17|2|CJCT 18|2|PUNCT],[pro:dem|this] [cop|be&3S] [] [n|school] [n|show] [prep|on] [adv|here] [conj|if] [pro:per|you cm|cm] [pro:sub|I~mod|will] [v|write] [pro:per|it] [adv|down] [conj|so] [pro:per|you] [mod|can (mt:interruption)],,,,,,,,,,MotherofViolet_Violet020305_24
+25,Father,Violet020305,"oh , okay .",Violet,41.981,47.648,[],[1|0|INCROOT 2|1|LP] [3|1|ENUM 4|1|PUNCT],[co|oh cm|cm] [adj|okay .],,,,,,,,,,FatherofViolet_Violet020305_25
+26,Mother,Violet020305,you can watch it (t:t:interruption),Violet,0.0,0.0,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:per|you] [mod|can] [v|watch] [pro:per|it (mt:interruption)],,,,,,,,,,MotherofViolet_Violet020305_26
+27,Violet,Violet020305,yyy .,Violet,47.648,50.721,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_27
+28,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_28
+29,Father,Violet020305,xxx .,Violet,50.721,53.046,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_29
+30,Brother,Violet020305,you wanna watch it ?,Violet,0.0,0.0,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|watch] [pro:per|it ?],,,,,,,,,,BrotherofViolet_Violet020305_30
+31,Father,Violet020305,"not right now , sweetie , but I would love to this weekend .",Violet,0.0,0.0,[],[1|3|NEG] [2|3|JCT] [3|10|JCT 4|3|LP] [5|10|COM 6|5|LP] [7|10|LINK] [8|10|SUBJ] [9|10|AUX] [10|0|ROOT] [11|10|JCT] [12|13|DET] [13|11|POBJ 14|10|PUNCT],[neg|not] [adv|right] [adv|now cm|cm] [co|sweetie cm|cm] [conj|but] [pro:sub|I] [mod|will&COND] [v|love] [prep|to] [pro:dem|this] [n|+n|week+n|end .],,,,,,,,,,FatherofViolet_Violet020305_31
+32,Mother,Violet020305,oh !,Violet,53.046,57.106,[],[1|0|INCROOT 2|1|PUNCT],[co|oh !],,,,,,,,,,MotherofViolet_Violet020305_32
+33,Father,Violet020305,&-uh .,Violet,0.0,0.0,CHI has fallen off the chair .,[],[],,,,,,,,,,FatherofViolet_Violet020305_33
+34,Father,Violet020305,"oh , xxx .",Violet,0.0,0.0,[],[1|0|INCROOT 2|1|LP] [3|1|PUNCT],[co|oh cm|cm] [.],,,,,,,,,,FatherofViolet_Violet020305_34
+35,Violet,Violet020305,xxx .,Violet,57.106,59.258,CHI is crying .,[],[],,,,,,,,,,VioletofViolet_Violet020305_35
+36,Violet,Violet020305,xxx I want yyy I want mommy mommy .,Violet,59.258,66.0,[],[] [1|2|SUBJ] [2|0|ROOT] [] [3|4|SUBJ] [4|2|COMP] [5|6|MOD] [6|4|OBJ 7|2|PUNCT],[] [pro:sub|I] [v|want] [] [pro:sub|I] [v|want] [n|mommy] [n|mommy .],,,,,,,,,,VioletofViolet_Violet020305_36
+37,Mother,Violet020305,&aw .,Violet,0.0,0.0,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_37
+38,Father,Violet020305,&aw .,Violet,66.001,67.38,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_38
+39,Mother,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_39
+40,Violet,Violet020305,xxx .,Violet,67.38,69.8,whining,[],[],,,,,,,,,,VioletofViolet_Violet020305_40
+41,Father,Violet020305,can I give you a little kiss ?,Violet,0.0,0.0,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|7|DET] [6|7|MOD] [7|3|OBJ 8|3|PUNCT],[mod|can] [pro:sub|I] [v|give] [pro:per|you] [det:art|a] [adj|little] [n|kiss ?],,,,,,,,,,FatherofViolet_Violet020305_41
+42,Mother,Violet020305,you hurt yourself ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:per|you] [v|hurt&ZERO] [pro:refl|yourself ?],,,,,,,,,,MotherofViolet_Violet020305_42
+43,Violet,Violet020305,yeah .,Violet,69.8,74.145,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_43
+44,Mother,Violet020305,mommy'll (replacement:replacement:mommy will) hold you and I'll kiss the back of your head (t:t:interruption),Violet,0.0,0.0,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|8|LINK] [6|8|SUBJ 7|8|AUX] [8|3|CJCT] [9|10|DET] [10|8|OBJ] [11|10|NJCT] [12|13|MOD] [13|11|POBJ 14|3|PUNCT],[n|mommy mod|will] [v|hold] [pro:per|you] [coord|and] [pro:sub|I~mod|will] [v|kiss] [det:art|the] [n|back] [prep|of] [det:poss|your] [n|head (mt:interruption)],,,,,,,,,,MotherofViolet_Violet020305_44
+45,Mother,Violet020305,"okay , daddy fix it .",Violet,0.0,0.0,[],[1|4|COM 2|1|LP] [3|4|SUBJ] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[co|okay cm|cm] [n|daddy] [v|fix] [pro:per|it .],,,,,,,,,,MotherofViolet_Violet020305_45
+46,Father,Violet020305,xxx .,Violet,74.146,77.456,FAT kisses CHI .[],[],[],,,,,,,,,,FatherofViolet_Violet020305_46
+47,Violet,Violet020305,xxx .,Violet,77.456,83.91,whining .,[],[],,,,,,,,,,VioletofViolet_Violet020305_47
+48,Father,Violet020305,"oh , xxx , hippo (t:t:trail off)",Violet,0.0,0.0,[],[1|0|INCROOT 2|1|LP] [3|1|LP] [4|1|ENUM 5|1|PUNCT],[co|oh cm|cm] [cm|cm] [n|hippo (mt:trail off)],,,,,,,,,,FatherofViolet_Violet020305_48
+49,Mother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_49
+50,Violet,Violet020305,xxx .,Violet,83.91,88.121,whining .,[],[],,,,,,,,,,VioletofViolet_Violet020305_50
+51,Mother,Violet020305,xxx throw it away please ?,Violet,0.0,0.0,[],[] [1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|1|COM 5|1|PUNCT],[] [v|throw] [pro:per|it] [adv|away] [co|please ?],,,,,,,,,,MotherofViolet_Violet020305_51
+52,Father,Violet020305,I will throw that away .,Violet,0.0,0.0,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|COMP] [5|4|JCT 6|3|PUNCT],[pro:sub|I] [mod|will] [v|throw] [pro:rel|that] [adv|away .],,,,,,,,,,FatherofViolet_Violet020305_52
+53,Violet,Violet020305,xxx .,Violet,88.121,94.241,whining,[],[],,,,,,,,,,VioletofViolet_Violet020305_53
+54,Mother,Violet020305,"oh , that stinky slide .",Violet,0.0,0.0,[],[1|5|COM 2|1|LP] [3|5|LINK] [4|5|MOD] [5|0|INCROOT 6|5|PUNCT],[co|oh cm|cm] [pro:rel|that] [adj|stink&dn-Y] [n|slide .],,,,,,,,,,MotherofViolet_Violet020305_54
+55,Violet,Violet020305,that stinky slide .,Violet,94.243,96.511,[],[1|3|DET] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[pro:dem|that] [adj|stink&dn-Y] [n|slide .],,,,,,,,,,VioletofViolet_Violet020305_55
+56,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_56
+57,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_57
+58,Violet,Violet020305,xxx yyy yyy .,Violet,96.511,99.74,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_58
+59,Mother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_59
+60,Mother,Violet020305,"when you come home from school , we'll put the batteries in it and see what it does .",Violet,99.74,102.185,[],[1|3|LINK] [2|3|SUBJ] [3|10|CJCT] [4|3|JCT] [5|3|JCT] [6|5|POBJ 7|3|LP] [8|10|SUBJ 9|10|AUX] [10|0|ROOT] [11|12|DET] [12|10|OBJ] [13|10|JCT] [14|13|POBJ] [15|10|CONJ] [16|15|COORD] [17|19|LINK] [18|19|SUBJ] [19|16|COMP 20|10|PUNCT],[conj|when] [pro:per|you] [v|come] [adv|home] [prep|from] [n|school cm|cm] [pro:sub|we~mod|will] [v|put&ZERO] [det:art|the] [n|battery-PL] [prep|in] [pro:per|it] [coord|and] [v|see] [pro:int|what] [pro:per|it] [mod|do&3S .],,,,,,,,,,MotherofViolet_Violet020305_60
+61,Mother,Violet020305,"oh , but actually you know what you have after school ?",Violet,102.188,104.58,[],[1|6|COM 2|1|LP] [3|6|LINK] [4|6|JCT] [5|6|SUBJ] [6|0|ROOT] [7|9|LINK] [8|9|SUBJ] [9|6|COMP] [10|9|JCT] [11|10|POBJ 12|6|PUNCT],[co|oh cm|cm] [conj|but] [adv|actual&dadj-LY] [pro:per|you] [v|know] [pro:int|what] [pro:per|you] [v|have] [prep|after] [n|school ?],,,,,,,,,,MotherofViolet_Violet020305_61
+62,Mother,Violet020305,if you want (t:t:trail off question),Violet,0.0,0.0,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[conj|if] [pro:per|you] [v|want (mt:trail off question)],,,,,,,,,,MotherofViolet_Violet020305_62
+63,Violet,Violet020305,xxx .,Violet,104.58,107.843,whining .,[],[],,,,,,,,,,VioletofViolet_Violet020305_63
+64,Mother,Violet020305,try the ballet at the y@l today .,Violet,0.0,0.0,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|3|NJCT] [5|7|DET] [6|7|MOD] [7|4|POBJ 8|1|PUNCT],[v|try] [det:art|the] [n|ballet] [prep|at] [det:art|the] [n:let|y] [adv:tem|today .],,,,,,,,,,MotherofViolet_Violet020305_64
+65,Violet,Violet020305,xxx .,Violet,111.108,114.455,crying,[],[],,,,,,,,,,VioletofViolet_Violet020305_65
+66,Mother,Violet020305,you wanna try it ?,Violet,0.0,0.0,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|try] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_66
+67,Violet,Violet020305,xxx .,Violet,114.455,116.68,crying,[],[],,,,,,,,,,VioletofViolet_Violet020305_67
+68,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_68
+69,Mother,Violet020305,after school .,Violet,116.68,117.82,[],[1|0|INCROOT] [2|1|POBJ 3|1|PUNCT],[prep|after] [n|school .],,,,,,,,,,MotherofViolet_Violet020305_69
+70,Violet,Violet020305,mama look at what you did .,Violet,117.82,123.505,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|6|LINK] [5|6|SUBJ] [6|3|POBJ 7|2|PUNCT],[n|mama] [v|look] [prep|at] [pro:int|what] [pro:per|you] [v|do&PAST .],,,,,,,,,,VioletofViolet_Violet020305_70
+71,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_71
+72,Violet,Violet020305,yyy .,Violet,123.506,126.643,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_72
+73,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_73
+74,Violet,Violet020305,yyy you make the picture .,Violet,126.643,130.55,[],[] [1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[] [pro:per|you] [v|make] [det:art|the] [n|picture .],,,,,,,,,,VioletofViolet_Violet020305_74
+75,Brother,Violet020305,xxx .,Violet,0.0,0.0,CHI is talking to MOT while FAT and BRO talk inaudibly .[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_75
+76,Mother,Violet020305,we're gonna see if Violet can do ballet too today .,Violet,130.55,132.79,[],[1|4|SUBJ 2|4|AUX] [3|4|AUX] [4|0|ROOT] [5|8|LINK] [6|8|SUBJ] [7|8|AUX] [8|4|CJCT] [9|8|OBJ] [10|9|PQ] [11|8|JCT 12|4|PUNCT],[pro:sub|we~aux|be&PRES] [mod:aux|gonna] [v|see] [conj|if] [n:prop|Violet] [mod|can] [v|do] [n|ballet] [post|too] [adv:tem|today .],,,,,,,,,,MotherofViolet_Violet020305_76
+77,Mother,Violet020305,you wanna do ballet today Violet ?,Violet,132.79,135.1,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|6|MOD] [5|6|JCT] [6|3|OBJ 7|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|do] [n|ballet] [adv:tem|today] [n:prop|Violet ?],,,,,,,,,,MotherofViolet_Violet020305_77
+78,Violet,Violet020305,yeah .,Violet,135.1,136.445,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_78
+79,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_79
+80,Brother,Violet020305,xxx .,Violet,136.445,138.715,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_80
+81,Mother,Violet020305,"mm , could be .",Violet,138.715,140.9,[],[1|4|COM 2|1|LP] [3|4|AUX] [4|0|ROOT 5|4|PUNCT],[co|mm cm|cm] [mod|could] [cop|be .],,,,,,,,,,MotherofViolet_Violet020305_81
+82,Father,Violet020305,probably .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[adv|probable&dadj-LY .],,,,,,,,,,FatherofViolet_Violet020305_82
+83,Violet,Violet020305,yyy .,Violet,140.901,141.986,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_83
+84,Violet,Violet020305,yyy yyy .,Violet,141.988,144.815,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_84
+85,Brother,Violet020305,"xxx , after school .",Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|JCT] [3|2|POBJ 4|1|PUNCT],[cm|cm] [prep|after] [n|school .],,,,,,,,,,BrotherofViolet_Violet020305_85
+86,Violet,Violet020305,xxx yyy .,Violet,144.815,151.14600000000002,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_86
+87,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_87
+88,Mother,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_88
+89,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_89
+90,Violet,Violet020305,I don't want to (t:t:trail off),Violet,151.14600000000002,155.91,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|JCT 6|4|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|want] [prep|to (mt:trail off)],,,,,,,,,,VioletofViolet_Violet020305_90
+91,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_91
+92,Mother,Violet020305,"alright , have fun xxx .",Violet,155.91,158.14600000000002,[],[1|0|INCROOT 2|1|LP] [3|1|ENUM] [4|3|OBJ] [5|1|PUNCT],[co|alright cm|cm] [v|have] [n|fun] [.],,,,,,,,,,MotherofViolet_Violet020305_92
+93,Father,Violet020305,"alright xxx , let's go .",Violet,158.145,159.325,[],[1|0|INCROOT] [2|1|LP] [3|1|ENUM 4|3|OBJ] [5|3|XCOMP 6|1|PUNCT],[co|alright] [cm|cm] [v|let~pro:obj|us] [v|go .],,,,,,,,,,FatherofViolet_Violet020305_93
+94,Brother,Violet020305,xxx .,Violet,159.326,162.051,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_94
+95,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_95
+96,Violet,Violet020305,xxx .,Violet,162.051,164.976,whining,[],[],,,,,,,,,,VioletofViolet_Violet020305_96
+97,Father,Violet020305,alright (t:t:trail off),Violet,164.976,170.376,[],[1|0|INCROOT 2|1|PUNCT],[co|alright (mt:trail off)],,,,,,,,,,FatherofViolet_Violet020305_97
+98,Brother,Violet020305,xxx .,Violet,170.376,176.7,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_98
+99,Violet,Violet020305,my back hurts .,Violet,176.7,179.385,CHI is complaining about her backpack hurting her .[],[1|3|COM] [2|3|MOD] [3|0|ROOT 4|3|PUNCT],[co|my] [adj|back] [v|hurt-3S .],,,,,,,,,,VioletofViolet_Violet020305_99
+100,Mother,Violet020305,"xxx , gimme (replacement:replacement:give me) a kiss .",Violet,179.385,181.395,[],[1|2|SUBJ] [2|0|ROOT 3|2|OBJ] [4|5|DET] [5|2|OBJ 6|2|PUNCT],[cm|cm] [v|give pro:obj|me] [det:art|a] [n|kiss .],,,,,,,,,,MotherofViolet_Violet020305_100
+101,Brother,Violet020305,xxx .,Violet,181.395,183.256,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_101
+102,Mother,Violet020305,have fun .,Violet,0.0,0.0,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|have] [n|fun .],,,,,,,,,,MotherofViolet_Violet020305_102
+103,Violet,Violet020305,my back hurts .,Violet,183.256,186.008,[],[1|3|COM] [2|3|MOD] [3|0|ROOT 4|3|PUNCT],[co|my] [adj|back] [v|hurt-3S .],,,,,,,,,,VioletofViolet_Violet020305_103
+104,Mother,Violet020305,"alright , I'll fix it , what's the matter ?",Violet,0.0,0.0,[],[1|5|COM 2|1|LP] [3|5|SUBJ 4|5|AUX] [5|0|ROOT] [6|5|OBJ 7|5|LP] [8|11|MOD 9|8|POSS] [10|11|DET] [11|5|COMP 12|5|PUNCT],[co|alright cm|cm] [pro:sub|I~mod|will] [v|fix] [pro:per|it cm|cm] [pro:int|what~poss|s] [det:art|the] [v|matter ?],,,,,,,,,,MotherofViolet_Violet020305_104
+105,Mother,Violet020305,"you got , it's <be>cause you got this thing on .",Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT 3|2|LP] [4|5|SUBJ 5|2|COMP] [6|8|LINK] [7|8|SUBJ] [8|5|CJCT] [9|10|DET] [10|8|OBJ] [11|8|JCT 12|2|PUNCT],[pro:per|you] [v|get&PAST cm|cm] [pro:per|it~aux|be&3S] [conj|because] [pro:per|you] [v|get&PAST] [pro:dem|this] [n|thing] [adv|on .],,,,,,,,,,MotherofViolet_Violet020305_105
+106,Brother,Violet020305,xxx .,Violet,186.008,187.88,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_106
+107,Brother,Violet020305,"see , this is an ornament .",Violet,187.88,189.923,[],[1|4|COM 2|1|LP] [3|4|SUBJ] [4|0|ROOT] [5|6|DET] [6|4|PRED 7|4|PUNCT],[co|see cm|cm] [pro:dem|this] [cop|be&3S] [det:art|a] [n|ornament .],,,,,,,,,,BrotherofViolet_Violet020305_107
+108,Mother,Violet020305,"yeah , I'll put it with the christmas stuff .",Violet,189.923,192.1,[],[1|5|COM 2|1|LP] [3|5|SUBJ 4|5|AUX] [5|0|ROOT] [6|5|OBJ] [7|5|JCT] [8|10|DET] [9|10|MOD] [10|7|POBJ 11|5|PUNCT],[co|yeah cm|cm] [pro:sub|I~mod|will] [v|put&ZERO] [pro:per|it] [prep|with] [det:art|the] [n|christmas] [n|stuff .],,,,,,,,,,MotherofViolet_Violet020305_108
+109,Father,Violet020305,"alright , see ya (replacement:replacement:you) .",Violet,192.101,193.775,[],[1|3|COM 2|1|LP] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[co|alright cm|cm] [v|see] [pro:per|you .],,,,,,,,,,FatherofViolet_Violet020305_109
+110,Mother,Violet020305,"alright , bye guys .",Violet,0.0,0.0,[],[1|4|COM 2|1|LP] [3|4|COM] [4|0|ROOT 5|4|PUNCT],[co|alright cm|cm] [co|bye] [n|guy-PL .],,,,,,,,,,MotherofViolet_Violet020305_110
+111,Mother,Violet020305,"have fun , say bye to xxx .",Violet,193.776,195.643,[],[1|0|ROOT] [2|1|OBJ 3|2|LP] [4|1|COMP] [5|6|COM] [6|4|JCT] [7|1|PUNCT],[v|have] [n|fun cm|cm] [v|say] [co|bye] [prep|to] [.],,,,,,,,,,MotherofViolet_Violet020305_111
+112,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_112
+113,Father,Violet020305,xxx we'll be back .,Violet,195.643,198.375,[],[] [1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|JCT 5|3|PUNCT],[] [pro:sub|we~mod|will] [cop|be] [adv|back .],,,,,,,,,,FatherofViolet_Violet020305_113
+114,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_114
+115,Mother,Violet020305,"say bye to xxx , Violet .",Violet,198.375,201.451,[],[1|2|COM] [2|0|INCROOT] [3|2|JCT] [4|3|LP] [5|3|POBJ 6|2|PUNCT],[co|say] [co|bye] [prep|to] [cm|cm] [n:prop|Violet .],,,,,,,,,,MotherofViolet_Violet020305_115
+116,Brother,Violet020305,bye bye Violet .,Violet,201.451,202.626,[],[1|3|COM] [2|3|COM] [3|0|ROOT 4|3|PUNCT],[co|bye] [co|bye] [n:prop|Violet .],,,,,,,,,,BrotherofViolet_Violet020305_116
+117,Mother,Violet020305,you want mommy to read you some books ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|5|INF] [5|2|XCOMP] [6|5|OBJ] [7|8|QUANT] [8|5|OBJ 9|2|PUNCT],[pro:per|you] [v|want] [n|mommy] [inf|to] [v|read&ZERO] [pro:per|you] [qn|some] [n|book-PL ?],,,,,,,,,,MotherofViolet_Violet020305_117
+118,Violet,Violet020305,yyy yeah .,Violet,202.626,205.041,[],[] [1|0|INCROOT 2|1|PUNCT],[] [co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_118
+119,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_119
+120,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_120
+121,Violet,Violet020305,yyy { watch (?) } a little bit .,Violet,205.043,208.588,[],[] [1|0|ROOT] [2|4|DET] [3|4|MOD] [4|1|JCT 5|1|PUNCT],[] [v|watch] [det:art|a] [adj|little] [n|bit .],,,,,,,,,,VioletofViolet_Violet020305_121
+122,Father,Violet020305,"in the car , okay .",Violet,0.0,0.0,[],[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|3|LP] [5|1|ENUM 6|1|PUNCT],[prep|in] [det:art|the] [n|car cm|cm] [adj|okay .],,,,,,,,,,FatherofViolet_Violet020305_122
+123,Violet,Violet020305,xxx .,Violet,208.588,211.015,screaming,[],[],,,,,,,,,,VioletofViolet_Violet020305_123
+124,Father,Violet020305,let's go .,Violet,0.0,0.0,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP 4|1|PUNCT],[v|let~pro:obj|us] [v|go .],,,,,,,,,,FatherofViolet_Violet020305_124
+125,Violet,Violet020305,xxx .,Violet,211.015,213.211,whining,[],[],,,,,,,,,,VioletofViolet_Violet020305_125
+126,Mother,Violet020305,is it too tight ?,Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|OBJ] [3|4|JCT] [4|2|JCT 5|1|PUNCT],[aux|be&3S] [pro:per|it] [adv|too] [adv|tight ?],,,,,,,,,,MotherofViolet_Violet020305_126
+127,Violet,Violet020305,xxx .,Violet,213.211,214.583,screaming,[],[],,,,,,,,,,VioletofViolet_Violet020305_127
+128,Mother,Violet020305,"xxx , lemme (replacement:replacement:let me) fix it .",Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT 3|2|OBJ] [4|2|XCOMP] [5|4|OBJ 6|2|PUNCT],[cm|cm] [v|let&ZERO pro:obj|me] [v|fix] [pro:per|it .],,,,,,,,,,MotherofViolet_Violet020305_128
+129,Violet,Violet020305,xxx .,Violet,214.583,217.908,whining,[],[],,,,,,,,,,VioletofViolet_Violet020305_129
+130,Brother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,BrotherofViolet_Violet020305_130
+131,Violet,Violet020305,xxx .,Violet,217.908,220.58,sighing,[],[],,,,,,,,,,VioletofViolet_Violet020305_131
+132,Mother,Violet020305,is that better ?,Violet,0.0,0.0,[],[1|0|ROOT] [2|1|SUBJ] [3|1|PRED 4|1|PUNCT],[cop|be&3S] [pro:dem|that] [adj|good&CP ?],,,,,,,,,,MotherofViolet_Violet020305_132
+133,Violet,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_133
+134,Mother,Violet020305,alright (t:t:interruption),Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|alright (mt:interruption)],,,,,,,,,,MotherofViolet_Violet020305_134
+135,Violet,Violet020305,yyy here's the bookcase .,Violet,220.58,223.258,[],[] [1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[] [pro:exist|here~cop|be&3S] [det:art|the] [n|bookcase .],,,,,,,,,,VioletofViolet_Violet020305_135
+136,Violet,Violet020305,yyy .,Violet,223.258,226.108,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_136
+137,Mother,Violet020305,"&-uh , is your diaper falling down ?",Violet,0.0,0.0,[],[1|5|SUBJ] [2|5|AUX] [3|4|MOD] [4|5|SUBJ] [5|0|ROOT] [6|5|JCT 7|5|PUNCT],[cm|cm] [aux|be&3S] [det:poss|your] [n|diaper] [part|fall-PRESP] [adv|down ?],,,,,,,,,,MotherofViolet_Violet020305_137
+138,Violet,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_138
+139,Mother,Violet020305,"alright , let's fix that .",Violet,226.108,227.146,[],[1|0|INCROOT 2|1|LP] [3|1|ENUM 4|3|OBJ] [5|3|XCOMP] [6|5|OBJ 7|1|PUNCT],[co|alright cm|cm] [v|let~pro:obj|us] [v|fix] [pro:dem|that .],,,,,,,,,,MotherofViolet_Violet020305_139
+140,Violet,Violet020305,yyy .,Violet,227.146,230.06,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_140
+141,Mother,Violet020305,let's take it off .,Violet,0.0,0.0,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|3|OBJ] [5|3|JCT 6|1|PUNCT],[v|let~pro:obj|us] [v|take] [pro:per|it] [adv|off .],,,,,,,,,,MotherofViolet_Violet020305_141
+142,Violet,Violet020305,I wanna take it off .,Violet,230.06,234.108,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT 6|3|PUNCT],[pro:sub|I] [mod:aux|wanna] [v|take] [pro:per|it] [adv|off .],,,,,,,,,,VioletofViolet_Violet020305_142
+143,Mother,Violet020305,there .,Violet,234.108,235.445,[],[1|0|INCROOT 2|1|PUNCT],[adv|there .],,,,,,,,,,MotherofViolet_Violet020305_143
+144,Violet,Violet020305,xxx .,Violet,235.445,237.8,grunting,[],[],,,,,,,,,,VioletofViolet_Violet020305_144
+145,Mother,Violet020305,"now tell me if you have_to make a pee , okay ?",Violet,0.0,0.0,[],[1|2|JCT] [2|0|ROOT] [3|2|OBJ] [4|7|LINK] [5|7|SUBJ] [6|7|AUX] [7|2|CJCT] [8|9|DET] [9|7|OBJ 10|9|LP] [11|9|POSTMOD 12|2|PUNCT],[adv|now] [v|tell] [pro:obj|me] [conj|if] [pro:per|you] [mod:aux|have_to] [v|make] [det:art|a] [n|pee cm|cm] [adj|okay ?],,,,,,,,,,MotherofViolet_Violet020305_145
+146,Mother,Violet020305,got no diaper on .,Violet,237.801,238.836,[],[1|0|ROOT] [2|3|QUANT] [3|1|OBJ] [4|1|JCT 5|1|PUNCT],[v|get&PAST] [qn|no] [n|diaper] [adv|on .],,,,,,,,,,MotherofViolet_Violet020305_146
+147,Mother,Violet020305,"don't pee in your , in your , &-uh , pjs .",Violet,238.838,242.125,[],[1|3|AUX 2|1|NEG] [3|0|ROOT] [4|3|JCT] [5|4|POBJ 6|5|LP] [7|5|JCT] [8|11|MOD 9|8|LP] [10|8|LP] [11|7|POBJ 12|3|PUNCT],[mod|do~neg|not] [v|pee] [prep|in] [det:poss|your cm|cm] [prep|in] [det:poss|your cm|cm] [cm|cm] [n|+n|p+n|j-PL .],,,,,,,,,,MotherofViolet_Violet020305_147
+148,Mother,Violet020305,alright ?,Violet,242.125,243.258,[],[1|0|INCROOT 2|1|PUNCT],[co|alright ?],,,,,,,,,,MotherofViolet_Violet020305_148
+149,Violet,Violet020305,yyy mama .,Violet,243.258,246.245,[],[] [1|0|INCROOT 2|1|PUNCT],[] [n|mama .],,,,,,,,,,VioletofViolet_Violet020305_149
+150,Violet,Violet020305,xxx .,Violet,246.245,248.123,whining,[],[],,,,,,,,,,VioletofViolet_Violet020305_150
+151,Mother,Violet020305,what ?,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],,,,,,,,,,MotherofViolet_Violet020305_151
+152,Violet,Violet020305,I wanna go yyy read yyy a book .,Violet,248.123,250.8,[],[1|4|SUBJ] [2|4|AUX] [3|4|SRL] [] [4|0|ROOT] [] [5|6|DET] [6|4|OBJ 7|4|PUNCT],[pro:sub|I] [mod:aux|wanna] [v|go] [] [v|read&ZERO] [] [det:art|a] [n|book .],,,,,,,,,,VioletofViolet_Violet020305_152
+153,Mother,Violet020305,"yeah , I'm just throwing that diaper away .",Violet,250.8,252.536,[],[1|6|COM 2|1|LP] [3|6|SUBJ 4|6|AUX] [5|6|JCT] [6|0|ROOT] [7|8|DET] [8|6|OBJ] [9|6|JCT 10|6|PUNCT],[co|yeah cm|cm] [pro:sub|I~aux|be&1S] [adv|just] [part|throw-PRESP] [pro:dem|that] [n|diaper] [adv|away .],,,,,,,,,,MotherofViolet_Violet020305_153
+154,Mother,Violet020305,and look what I found ?,Violet,252.538,255.648,[],[1|2|LINK] [2|0|ROOT] [3|5|LINK] [4|5|SUBJ] [5|2|COMP 6|2|PUNCT],[coord|and] [v|look] [pro:int|what] [pro:sub|I] [v|find&PAST ?],,,,,,,,,,MotherofViolet_Violet020305_154
+155,Violet,Violet020305,look what you found ?,Violet,255.648,257.92,[],[1|0|ROOT] [2|4|LINK] [3|4|SUBJ] [4|1|COMP 5|1|PUNCT],[v|look] [pro:int|what] [pro:per|you] [v|find&PAST ?],,,,,,,,,,VioletofViolet_Violet020305_155
+156,Mother,Violet020305,your coasters .,Violet,0.0,0.0,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[det:poss|your] [co#n|aster-PL .],,,,,,,,,,MotherofViolet_Violet020305_156
+157,Violet,Violet020305,xxx .,Violet,257.92,259.924,whimpering,[],[],,,,,,,,,,VioletofViolet_Violet020305_157
+158,Violet,Violet020305,yyy see .,Violet,259.924,262.58,[],[] [1|0|ROOT 2|1|PUNCT],[] [v|see .],,,,,,,,,,VioletofViolet_Violet020305_158
+159,Mother,Violet020305,see ?,Violet,0.0,0.0,[],[1|0|ROOT 2|1|PUNCT],[v|see ?],,,,,,,,,,MotherofViolet_Violet020305_159
+160,Violet,Violet020305,xxx .,Violet,262.58,266.905,whining,[],[],,,,,,,,,,VioletofViolet_Violet020305_160
+161,Violet,Violet020305,xxx yyy wanna yyy book .,Violet,266.906,271.575,[],[] [] [1|2|MOD] [] [2|0|INCROOT 3|2|PUNCT],[] [] [mod:aux|wanna] [] [n|book .],,,,,,,,,,VioletofViolet_Violet020305_161
+162,Mother,Violet020305,okay .,Violet,271.576,273.75,[],[1|0|INCROOT 2|1|PUNCT],[co|okay .],,,,,,,,,,MotherofViolet_Violet020305_162
+163,Violet,Violet020305,yyy .,Violet,273.75,276.25,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_163
+164,Mother,Violet020305,okay .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|okay .],,,,,,,,,,MotherofViolet_Violet020305_164
+165,Mother,Violet020305,can you choose one ?,Violet,276.25,279.141,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[mod|can] [pro:per|you] [v|choose] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_165
+166,Violet,Violet020305,this is a good one .,Violet,279.141,281.905,[],[1|2|DET] [2|0|ROOT] [3|5|MOD] [4|5|MOD] [5|2|OBJ 6|2|PUNCT],[pro:dem|this] [0aux|is] [0det|a] [adj|good] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_166
+167,Violet,Violet020305,yyy this one ?,Violet,281.905,284.31,[],[] [1|2|DET] [2|0|INCROOT 3|2|PUNCT],[] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,VioletofViolet_Violet020305_167
+168,Violet,Violet020305,yyy this one .,Violet,284.31,287.983,[],[] [1|2|DET] [2|0|INCROOT 3|2|PUNCT],[] [pro:dem|this] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_168
+169,Violet,Violet020305,yyy .,Violet,287.883,293.676,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_169
+170,Violet,Violet020305,this one .,Violet,293.676,294.315,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_170
+171,Violet,Violet020305,yyy this one .,Violet,294.21500000000003,295.325,[],[] [1|2|DET] [2|0|INCROOT 3|2|PUNCT],[] [pro:dem|this] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_171
+172,Mother,Violet020305,"oh yeah , you like that one about the attic ?",Violet,295.325,297.545,[],[1|5|COM] [2|5|COM 3|2|LP] [4|5|SUBJ] [5|7|COM] [6|7|DET] [7|0|ROOT] [8|7|NJCT] [9|10|DET] [10|8|POBJ 11|7|PUNCT],[co|oh] [co|yeah cm|cm] [pro:per|you] [co|like] [pro:dem|that] [pro:indef|one] [prep|about] [det:art|the] [n|attic ?],,,,,,,,,,MotherofViolet_Violet020305_172
+173,Violet,Violet020305,yeah .,Violet,297.545,298.856,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_173
+174,Violet,Violet020305,I have this xxx .,Violet,298.856,305.04,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|PUNCT],[pro:sub|I] [v|have] [pro:dem|this] [.],,,,,,,,,,VioletofViolet_Violet020305_174
+175,Violet,Violet020305,"I don't want this , I want this .",Violet,305.04,308.506,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|OBJ 6|4|LP] [7|8|SUBJ] [8|4|COMP] [9|8|OBJ 10|4|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|want] [pro:dem|this cm|cm] [pro:sub|I] [v|want] [pro:dem|this .],,,,,,,,,,VioletofViolet_Violet020305_175
+176,Violet,Violet020305,xxx .,Violet,308.506,311.11,muttering,[],[],,,,,,,,,,VioletofViolet_Violet020305_176
+177,Mother,Violet020305,"xxx , sit over here .",Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|2|JCT 5|2|PUNCT],[cm|cm] [v|sit] [adv|over] [adv|here .],,,,,,,,,,MotherofViolet_Violet020305_177
+178,Mother,Violet020305,what are these things ?,Violet,311.11,313.14,[],[1|2|LINK] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[pro:int|what] [0aux|are] [pro:dem|these] [n|thing-PL ?],,,,,,,,,,MotherofViolet_Violet020305_178
+179,Violet,Violet020305,xxx .,Violet,313.14,314.646,MOT talking over VIO,[],[],,,,,,,,,,VioletofViolet_Violet020305_179
+180,Mother,Violet020305,you sit right here ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|2|JCT 5|2|PUNCT],[pro:per|you] [v|sit] [adv|right] [adv|here ?],,,,,,,,,,MotherofViolet_Violet020305_180
+181,Violet,Violet020305,yeah .,Violet,314.646,315.508,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_181
+182,Mother,Violet020305,<o>kay .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|okay .],,,,,,,,,,MotherofViolet_Violet020305_182
+183,Violet,Violet020305,yyy yyy yyy .,Violet,315.508,317.371,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_183
+184,Violet,Violet020305,something fell down .,Violet,317.373,320.243,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[pro:indef|something] [v|fall&PAST] [adv|down .],,,,,,,,,,VioletofViolet_Violet020305_184
+185,Violet,Violet020305,something (t:t:interruption),Violet,320.243,323.375,[],[1|0|INCROOT 2|1|PUNCT],[pro:indef|something (mt:interruption)],,,,,,,,,,VioletofViolet_Violet020305_185
+186,Mother,Violet020305,"but I wonder if you should , we should put a diaper on you .",Violet,0.0,0.0,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|10|LINK] [5|10|SUBJ] [6|10|AUX 7|6|LP] [8|10|SUBJ] [9|10|AUX] [10|3|CJCT] [11|12|DET] [12|10|OBJ] [13|10|JCT] [14|13|POBJ 15|3|PUNCT],[conj|but] [pro:sub|I] [v|wonder] [conj|if] [pro:per|you] [mod|should cm|cm] [pro:sub|we] [mod|should] [v|put&ZERO] [det:art|a] [n|diaper] [prep|on] [pro:per|you .],,,,,,,,,,MotherofViolet_Violet020305_186
+187,Mother,Violet020305,I don't want you to pee on the couch .,Violet,323.375,327.05,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|OBJ] [6|7|INF] [7|4|XCOMP] [8|7|JCT] [9|10|DET] [10|8|POBJ 11|4|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|want] [pro:per|you] [inf|to] [v|pee] [prep|on] [det:art|the] [n|couch .],,,,,,,,,,MotherofViolet_Violet020305_187
+188,Violet,Violet020305,mama .,Violet,327.05,328.28,[],[1|0|INCROOT 2|1|PUNCT],[n|mama .],,,,,,,,,,VioletofViolet_Violet020305_188
+189,Violet,Violet020305,mama .,Violet,328.28,330.175,[],[1|0|INCROOT 2|1|PUNCT],[n|mama .],,,,,,,,,,VioletofViolet_Violet020305_189
+190,Mother,Violet020305,can we put a diaper on you ?,Violet,0.0,0.0,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|3|JCT] [7|6|POBJ 8|3|PUNCT],[mod|can] [pro:sub|we] [v|put&ZERO] [det:art|a] [n|diaper] [prep|on] [pro:per|you ?],,,,,,,,,,MotherofViolet_Violet020305_190
+191,Violet,Violet020305,no .,Violet,330.176,331.588,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,VioletofViolet_Violet020305_191
+192,Mother,Violet020305,"well , I don't want you to pee on the couch , okay ?",Violet,331.588,333.508,[],[1|6|COM 2|1|LP] [3|6|SUBJ] [4|6|AUX 5|4|NEG] [6|0|ROOT] [7|6|OBJ] [8|6|JCT] [9|8|POBJ] [10|9|NJCT] [11|12|DET] [12|10|POBJ 13|12|LP] [14|6|JCT 15|6|PUNCT],[co|well cm|cm] [pro:sub|I] [mod|do~neg|not] [v|want] [pro:per|you] [prep|to] [n|pee] [prep|on] [det:art|the] [n|couch cm|cm] [adj|okay ?],,,,,,,,,,MotherofViolet_Violet020305_192
+193,Mother,Violet020305,can you promise not to pee on the couch ?,Violet,333.508,337.5,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|NEG] [5|6|INF] [6|3|XCOMP] [7|6|JCT] [8|9|DET] [9|7|POBJ 10|3|PUNCT],[mod|can] [pro:per|you] [v|promise] [neg|not] [inf|to] [v|pee] [prep|on] [det:art|the] [n|couch ?],,,,,,,,,,MotherofViolet_Violet020305_193
+194,Violet,Violet020305,yeah I not pee yyy pee .,Violet,337.5,340.375,[],[1|5|COM] [2|5|MOD] [3|2|NEG] [4|5|MOD] [] [5|0|ROOT 6|5|PUNCT],[co|yeah] [pro:sub|I] [neg|not] [n|pee] [] [n|pee .],,,,,,,,,,VioletofViolet_Violet020305_194
+195,Violet,Violet020305,yyy who made this ?,Violet,340.375,343.681,[],[] [1|2|LINK] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[] [pro:rel|who] [v|make&PAST] [pro:dem|this ?],,,,,,,,,,VioletofViolet_Violet020305_195
+196,Mother,Violet020305,I'm not sure who made that .,Violet,343.681,347.308,[],[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|2|PRED] [5|6|LINK] [6|4|CMOD] [7|6|OBJ 8|2|PUNCT],[pro:sub|I~cop|be&1S] [neg|not] [adj|sure] [pro:rel|who] [v|make&PAST] [pro:dem|that .],,,,,,,,,,MotherofViolet_Violet020305_196
+197,Mother,Violet020305,"pretty cool though , huh ?",Violet,347.308,349.51,[],[1|2|JCT] [2|0|ROOT] [3|2|JCT 4|2|LP] [5|2|ENUM 6|2|PUNCT],[adv|pretty] [adj|cool] [adv|though cm|cm] [co|huh ?],,,,,,,,,,MotherofViolet_Violet020305_197
+198,Violet,Violet020305,maybe grandma made this .,Violet,349.51,353.641,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[adv|maybe] [grand#n|ma] [v|make&PAST] [pro:dem|this .],,,,,,,,,,VioletofViolet_Violet020305_198
+199,Mother,Violet020305,grandpa ?,Violet,353.641,354.66,[],[1|0|INCROOT 2|1|PUNCT],[grand#n|pa ?],,,,,,,,,,MotherofViolet_Violet020305_199
+200,Violet,Violet020305,no grandma .,Violet,354.66,356.278,[],[1|2|COM] [2|0|ROOT 3|2|PUNCT],[co|no] [grand#n|ma .],,,,,,,,,,VioletofViolet_Violet020305_200
+201,Mother,Violet020305,"oh , grandma ?",Violet,356.278,357.055,[],[1|0|INCROOT 2|1|LP] [3|1|ENUM 4|1|PUNCT],[co|oh cm|cm] [grand#n|ma ?],,,,,,,,,,MotherofViolet_Violet020305_201
+202,Violet,Violet020305,yeah .,Violet,357.055,359.646,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_202
+203,Mother,Violet020305,this one is to make a different thing (t:t:trail off),Violet,0.0,0.0,[],[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|8|DET] [7|8|MOD] [8|5|OBJ 9|3|PUNCT],[pro:dem|this] [pro:indef|one] [cop|be&3S] [inf|to] [v|make] [det:art|a] [adj|different] [n|thing (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_203
+204,Mother,Violet020305,that they were making .,Violet,359.648,361.876,[],[1|4|LINK] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT 5|4|PUNCT],[pro:rel|that] [pro:sub|they] [aux|be&PAST] [part|make-PRESP .],,,,,,,,,,MotherofViolet_Violet020305_204
+205,Mother,Violet020305,remember when they were making these ?,Violet,361.876,363.521,[],[1|0|ROOT] [2|5|LINK] [3|5|SUBJ] [4|5|AUX] [5|1|COMP] [6|5|OBJ 7|1|PUNCT],[v|remember] [conj|when] [pro:sub|they] [aux|be&PAST] [part|make-PRESP] [pro:dem|these ?],,,,,,,,,,MotherofViolet_Violet020305_205
+206,Violet,Violet020305,yeah .,Violet,363.521,365.188,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_206
+207,Mother,Violet020305,Christmas ?,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Christmas ?],,,,,,,,,,MotherofViolet_Violet020305_207
+208,Violet,Violet020305,yeah .,Violet,365.188,366.343,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_208
+209,Mother,Violet020305,but I don't remember what they were making .,Violet,366.343,368.545,[],[1|5|LINK] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|9|LINK] [7|9|SUBJ] [8|9|AUX] [9|5|COMP 10|5|PUNCT],[conj|but] [pro:sub|I] [mod|do~neg|not] [v|remember] [pro:int|what] [pro:sub|they] [aux|be&PAST] [part|make-PRESP .],,,,,,,,,,MotherofViolet_Violet020305_209
+210,Mother,Violet020305,do you ?,Violet,368.545,370.465,[],[1|0|INCROOT] [2|1|OBJ 3|1|PUNCT],[mod|do] [pro:per|you ?],,,,,,,,,,MotherofViolet_Violet020305_210
+211,Violet,Violet020305,yeah .,Violet,370.465,373.276,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_211
+212,Mother,Violet020305,with this (t:t:trail off question),Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|POBJ 3|1|PUNCT],[prep|with] [pro:dem|this (mt:trail off question)],,,,,,,,,,MotherofViolet_Violet020305_212
+213,Violet,Violet020305,yeah .,Violet,373.276,374.581,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_213
+214,Mother,Violet020305,what did they make ?,Violet,374.581,376.343,[],[1|4|LINK] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[pro:int|what] [mod|do&PAST] [pro:sub|they] [v|make ?],,,,,,,,,,MotherofViolet_Violet020305_214
+215,Violet,Violet020305,they { maked (= made) } a { cool (?) } yyy of them .,Violet,376.343,380.75,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [] [5|4|JCT] [6|5|POBJ 7|2|PUNCT],[pro:sub|they] [v|make-PAST] [det:art|a] [adj|cool] [] [prep|of] [pro:obj|them .],,,,,,,,,,VioletofViolet_Violet020305_215
+216,Mother,Violet020305,mm (t:t:interruption),Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|mm (mt:interruption)],,,,,,,,,,MotherofViolet_Violet020305_216
+217,Violet,Violet020305,yyy yyy christmas on .,Violet,380.75,384.975,[],[] [] [1|0|INCROOT] [2|1|POSTMOD 3|1|PUNCT],[] [] [n|christmas] [adv|on .],,,,,,,,,,VioletofViolet_Violet020305_217
+218,Mother,Violet020305,mm .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|mm .],,,,,,,,,,MotherofViolet_Violet020305_218
+219,Mother,Violet020305,oh yeah .,Violet,384.975,386.053,[],[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|oh] [co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_219
+220,Violet,Violet020305,we got (t:t:trail off),Violet,386.053,387.576,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:sub|we] [v|get&PAST (mt:trail off)],,,,,,,,,,VioletofViolet_Violet020305_220
+221,Violet,Violet020305,yyy .,Violet,387.576,394.795,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_221
+222,Mother,Violet020305,"I wonder how many pieces , does this have one more piece to it ?",Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|9|LINK] [4|5|QUANT] [5|9|SUBJ 6|5|LP] [7|9|AUX] [8|9|SUBJ] [9|2|COMP] [10|9|OBJ] [11|12|QUANT] [12|10|OBJ] [13|12|NJCT] [14|13|POBJ 15|2|PUNCT],[pro:sub|I] [v|wonder] [adv:int|how] [qn|many] [n|piece-PL cm|cm] [mod|do&3S] [pro:dem|this] [v|have] [pro:indef|one] [qn|more] [n|piece] [prep|to] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_222
+223,Violet,Violet020305,yeah .,Violet,394.795,399.61,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_223
+224,Mother,Violet020305,or that's it ?,Violet,399.61,400.843,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|3|PRED 5|3|PUNCT],[coord|or] [pro:dem|that~cop|be&3S] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_224
+225,Violet,Violet020305,that's it .,Violet,400.843,402.723,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:per|it .],,,,,,,,,,VioletofViolet_Violet020305_225
+226,Mother,Violet020305,if I don't even know what this one's (replacement:replacement:one is) supposed to do .,Violet,402.723,405.478,[],[1|6|LINK] [2|6|SUBJ] [3|6|AUX 4|3|NEG] [5|6|JCT] [6|0|ROOT] [7|11|LINK] [8|9|DET] [9|11|SUBJ 10|11|AUX] [11|6|COMP] [12|13|INF] [13|11|XCOMP 14|6|PUNCT],[conj|if] [pro:sub|I] [mod|do~neg|not] [adv|even] [v|know] [pro:int|what] [pro:dem|this] [pro:indef|one aux|be&3S] [part|suppose-PASTP] [inf|to] [v|do .],,,,,,,,,,MotherofViolet_Violet020305_226
+227,Mother,Violet020305,do you ?,Violet,405.478,408.198,[],[1|0|INCROOT] [2|1|OBJ 3|1|PUNCT],[mod|do] [pro:per|you ?],,,,,,,,,,MotherofViolet_Violet020305_227
+228,Violet,Violet020305,yyy .,Violet,408.198,410.013,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_228
+229,Violet,Violet020305,yyy yyy yyy the yyy .,Violet,410.013,414.75,[],[] [] [] [1|0|INCROOT] [2|1|PUNCT],[] [] [] [det:art|the] [.],,,,,,,,,,VioletofViolet_Violet020305_229
+230,Violet,Violet020305,I put the yyy xxx .,Violet,414.751,419.06,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [] [4|2|PUNCT],[pro:sub|I] [v|put&ZERO] [det:art|the] [] [.],,,,,,,,,,VioletofViolet_Violet020305_230
+231,Mother,Violet020305,those ones are supposed to do something .,Violet,0.0,0.0,[],[1|4|LINK] [2|4|QUANT] [3|4|AUX] [4|0|ROOT] [5|6|INF] [6|4|XCOMP] [7|6|OBJ 8|4|PUNCT],[pro:dem|those] [det:num|one-PL] [aux|be&PRES] [part|suppose-PASTP] [inf|to] [v|do] [pro:indef|something .],,,,,,,,,,MotherofViolet_Violet020305_231
+232,Mother,Violet020305,but they didn't .,Violet,419.061,422.215,[],[1|0|INCROOT] [2|5|SUBJ] [3|5|AUX 4|3|NEG 5|1|PUNCT],[conj|but] [pro:sub|they] [mod|do&PAST~neg|not .],,,,,,,,,,MotherofViolet_Violet020305_232
+233,Violet,Violet020305,here's a here's one .,Violet,422.215,430.971,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|4|XMOD] [6|5|PRED 7|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|a] [pro:exist|here~cop|be&3S] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_233
+234,Violet,Violet020305,yyy yyy yyy .,Violet,430.971,441.911,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_234
+235,Violet,Violet020305,yyy .,Violet,441.911,443.081,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_235
+236,Violet,Violet020305,that's it .,Violet,443.081,447.371,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:per|it .],,,,,,,,,,VioletofViolet_Violet020305_236
+237,Mother,Violet020305,that's it ?,Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_237
+238,Violet,Violet020305,yeah yyy .,Violet,447.371,450.108,[],[1|0|INCROOT] [2|1|PUNCT],[co|yeah] [.],,,,,,,,,,VioletofViolet_Violet020305_238
+239,Violet,Violet020305,yyy yyy .,Violet,450.108,453.973,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_239
+240,Violet,Violet020305,xxx .,Violet,453.973,457.238,grunting,[],[],,,,,,,,,,VioletofViolet_Violet020305_240
+241,Violet,Violet020305,yyy this .,Violet,457.238,458.846,[],[] [1|0|INCROOT 2|1|PUNCT],[] [pro:dem|this .],,,,,,,,,,VioletofViolet_Violet020305_241
+242,Violet,Violet020305,can you read me a book ?,Violet,468.046,470.741,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|6|DET] [6|3|OBJ 7|3|PUNCT],[mod|can] [pro:per|you] [v|read&ZERO] [pro:obj|me] [det:art|a] [n|book ?],,,,,,,,,,VioletofViolet_Violet020305_242
+243,Mother,Violet020305,mhm .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofViolet_Violet020305_243
+244,Violet,Violet020305,yyy yyy .,Violet,470.741,474.1,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_244
+245,Mother,Violet020305,the attic one ?,Violet,0.0,0.0,[],[1|2|DET] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[det:art|the] [n|attic] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_245
+246,Violet,Violet020305,yeah .,Violet,474.101,475.171,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_246
+247,Mother,Violet020305,alright why don't you sit up on my lap ?,Violet,0.0,0.0,[],[1|6|COM] [2|6|LINK] [3|6|AUX 4|3|NEG] [5|6|SUBJ] [6|0|ROOT] [7|6|JCT] [8|6|JCT] [9|10|MOD] [10|8|POBJ 11|6|PUNCT],[co|alright] [adv:int|why] [mod|do~neg|not] [pro:per|you] [v|sit] [adv|up] [prep|on] [det:poss|my] [n|lap ?],,,,,,,,,,MotherofViolet_Violet020305_247
+248,Violet,Violet020305,xxx .,Violet,475.173,478.976,MOT talking over VIO,[],[],,,,,,,,,,VioletofViolet_Violet020305_248
+249,Violet,Violet020305,sit up on your lap .,Violet,478.976,482.081,[],[1|0|ROOT] [2|1|JCT] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[v|sit] [adv|up] [prep|on] [det:poss|your] [n|lap .],,,,,,,,,,VioletofViolet_Violet020305_249
+250,Mother,Violet020305,xxx .,Violet,0.0,0.0,clearing throat,[],[],,,,,,,,,,MotherofViolet_Violet020305_250
+251,Violet,Violet020305,sit up on your lap .,Violet,481.881,484.781,[],[1|0|ROOT] [2|1|JCT] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[v|sit] [adv|up] [prep|on] [det:poss|your] [n|lap .],,,,,,,,,,VioletofViolet_Violet020305_251
+252,Violet,Violet020305,sit up on your lap .,Violet,484.781,487.041,[],[1|0|ROOT] [2|1|JCT] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[v|sit] [adv|up] [prep|on] [det:poss|your] [n|lap .],,,,,,,,,,VioletofViolet_Violet020305_252
+253,Violet,Violet020305,sit up on your lap .,Violet,487.041,490.445,[],[1|0|ROOT] [2|1|JCT] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[v|sit] [adv|up] [prep|on] [det:poss|your] [n|lap .],,,,,,,,,,VioletofViolet_Violet020305_253
+254,Violet,Violet020305,sit up on your lap .,Violet,490.445,495.711,whispered,[1|0|ROOT] [2|1|JCT] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[v|sit] [adv|up] [prep|on] [det:poss|your] [n|lap .],,,,,,,,,,VioletofViolet_Violet020305_254
+255,Violet,Violet020305,sit up on your lap .,Violet,495.711,501.245,whispered,[1|0|ROOT] [2|1|JCT] [3|1|JCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[v|sit] [adv|up] [prep|on] [det:poss|your] [n|lap .],,,,,,,,,,VioletofViolet_Violet020305_255
+256,Mother,Violet020305,I had a million toys but I was bored .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|OBJ] [6|9|LINK] [7|9|SUBJ] [8|9|AUX] [9|2|CJCT 10|2|PUNCT],[pro:sub|I] [v|have&PAST] [det:art|a] [det:num|million] [n|toy-PL] [conj|but] [pro:sub|I] [aux|be&PAST&13S] [part|bore-PASTP .],,,,,,,,,,MotherofViolet_Violet020305_256
+257,Mother,Violet020305,so I climbed into the attic .,Violet,501.245,505.186,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[co|so] [pro:sub|I] [v|climb-PAST] [prep|into] [det:art|the] [n|attic .],,,,,,,,,,MotherofViolet_Violet020305_257
+258,Violet,Violet020305,yyy yyy .,Violet,505.186,510.148,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_258
+259,Mother,Violet020305,the attic was empty .,Violet,0.0,0.0,[],[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|3|PRED 5|3|PUNCT],[det:art|the] [n|attic] [cop|be&PAST&13S] [adj|empty .],,,,,,,,,,MotherofViolet_Violet020305_259
+260,Mother,Violet020305,or was it ?,Violet,510.148,511.661,[],[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[coord|or] [cop|be&PAST&13S] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_260
+261,Mother,Violet020305,I found a family of mice .,Violet,511.661,515.615,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|4|NJCT] [6|5|POBJ 7|2|PUNCT],[pro:sub|I] [v|find&PAST] [det:art|a] [n|family] [prep|of] [n|mouse&PL .],,,,,,,,,,MotherofViolet_Violet020305_261
+262,Mother,Violet020305,xxx .,Violet,515.615,519.726,hmming,[],[],,,,,,,,,,MotherofViolet_Violet020305_262
+263,Mother,Violet020305,see all the mice ?,Violet,519.726,521.853,[],[1|0|ROOT] [2|4|QUANT] [3|4|DET] [4|1|OBJ 5|1|PUNCT],[v|see] [qn|all] [det:art|the] [n|mouse&PL ?],,,,,,,,,,MotherofViolet_Violet020305_263
+264,Violet,Violet020305,yeah .,Violet,521.853,522.547,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_264
+265,Mother,Violet020305,what are they doing ?,Violet,522.547,523.348,[],[1|4|SUBJ] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[det:int|what] [aux|be&PRES] [pro:sub|they] [part|do-PRESP ?],,,,,,,,,,MotherofViolet_Violet020305_265
+266,Mother,Violet020305,all different stuff ?,Violet,523.348,526.11,[],[1|2|JCT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[adv|all] [adj|different] [n|stuff ?],,,,,,,,,,MotherofViolet_Violet020305_266
+267,Violet,Violet020305,yeah yyy .,Violet,526.11,529.241,[],[1|0|INCROOT] [2|1|PUNCT],[co|yeah] [.],,,,,,,,,,VioletofViolet_Violet020305_267
+268,Violet,Violet020305,yyy yyy yyy yyy yyy yyy .,Violet,529.241,535.815,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_268
+269,Mother,Violet020305,xxx .,Violet,0.0,0.0,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_269
+270,Violet,Violet020305,I yyy a box .,Violet,535.815,538.921,[],[1|0|INCROOT] [] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[pro:sub|I] [] [det:art|a] [n|box .],,,,,,,,,,VioletofViolet_Violet020305_270
+271,Mother,Violet020305,mhm .,Violet,538.921,543.238,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofViolet_Violet020305_271
+272,Mother,Violet020305,what else are they doing ?,Violet,0.0,0.0,[],[1|5|LINK] [2|1|PQ] [3|5|AUX] [4|5|SUBJ] [5|0|ROOT 6|5|PUNCT],[pro:int|what] [post|else] [cop|be&PRES] [pro:sub|they] [part|do-PRESP ?],,,,,,,,,,MotherofViolet_Violet020305_272
+273,Violet,Violet020305,yyy mouse is sleeping on top .,Violet,543.238,549.313,[],[] [1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|JCT] [5|4|POBJ 6|3|PUNCT],[] [n|mouse] [aux|be&3S] [part|sleep-PRESP] [prep|on] [n|top .],,,,,,,,,,VioletofViolet_Violet020305_273
+274,Violet,Violet020305,one mouse is on top of yyy yyy yyy .,Violet,549.313,554.013,[],[1|2|QUANT] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|4|POBJ] [6|5|NJCT] [] [] [7|3|PUNCT],[det:num|one] [n|mouse] [cop|be&3S] [prep|on] [n|top] [prep|of] [] [] [.],,,,,,,,,,VioletofViolet_Violet020305_274
+275,Violet,Violet020305,yyy .,Violet,554.013,556.586,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_275
+276,Mother,Violet020305,what about these guys ?,Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[pro:int|what] [prep|about] [pro:dem|these] [n|guy-PL ?],,,,,,,,,,MotherofViolet_Violet020305_276
+277,Violet,Violet020305,what about those guys ?,Violet,556.586,558.745,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[pro:int|what] [prep|about] [pro:dem|those] [n|guy-PL ?],,,,,,,,,,VioletofViolet_Violet020305_277
+278,Mother,Violet020305,what are they doing ?,Violet,558.745,559.943,[],[1|4|SUBJ] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[det:int|what] [aux|be&PRES] [pro:sub|they] [part|do-PRESP ?],,,,,,,,,,MotherofViolet_Violet020305_278
+279,Violet,Violet020305,yyy .,Violet,559.943,562.08,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_279
+280,Violet,Violet020305,they get a yyy yyy .,Violet,562.08,565.45,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [] [4|2|PUNCT],[pro:sub|they] [v|get] [det:art|a] [] [.],,,,,,,,,,VioletofViolet_Violet020305_280
+281,Violet,Violet020305,and they get (t:t:trail off),Violet,565.45,570.28,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[coord|and] [pro:sub|they] [v|get (mt:trail off)],,,,,,,,,,VioletofViolet_Violet020305_281
+282,Violet,Violet020305,yyy yyy .,Violet,0.0,0.0,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_282
+283,Violet,Violet020305,a a { brush (?) } .,Violet,570.28,572.81,[],[1|3|DET] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[det:art|a] [det:art|a] [n|brush .],,,,,,,,,,VioletofViolet_Violet020305_283
+284,Violet,Violet020305,yyy .,Violet,572.81,575.591,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_284
+285,Mother,Violet020305,toothbrush .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|+n|tooth+n|brush .],,,,,,,,,,MotherofViolet_Violet020305_285
+286,Violet,Violet020305,yeah .,Violet,575.591,576.4159999999999,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_286
+287,Violet,Violet020305,and the toothpaste .,Violet,576.4159999999999,580.351,[],[1|3|LINK] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[coord|and] [det:art|the] [n|+n|tooth+n|paste .],,,,,,,,,,VioletofViolet_Violet020305_287
+288,Mother,Violet020305,and a cool quiet place to rest and think .,Violet,580.351,587.48,[],[1|0|INCROOT] [2|5|DET] [3|5|MOD] [4|5|MOD] [5|1|COORD] [6|5|NJCT] [7|6|POBJ] [8|5|CONJ] [9|8|COORD 10|1|PUNCT],[coord|and] [det:art|a] [adj|cool] [adj|quiet] [n|place] [prep|to] [n|rest] [coord|and] [v|think .],,,,,,,,,,MotherofViolet_Violet020305_288
+289,Violet,Violet020305,xxx .,Violet,587.48,596.445,whispering,[],[],,,,,,,,,,VioletofViolet_Violet020305_289
+290,Mother,Violet020305,I met a spider and we made a web .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|7|LINK] [6|7|SUBJ] [7|2|CJCT] [8|9|DET] [9|7|OBJ 10|2|PUNCT],[pro:sub|I] [v|meet&PAST] [det:art|a] [n|spider] [coord|and] [pro:sub|we] [v|make&PAST] [det:art|a] [n|web .],,,,,,,,,,MotherofViolet_Violet020305_290
+291,Mother,Violet020305,I opened windows to other worlds .,Violet,596.445,604.786,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|JCT] [5|6|QUANT] [6|4|POBJ 7|2|PUNCT],[pro:sub|I] [v|open-PAST] [n|window-PL] [prep|to] [qn|other] [n|world-PL .],,,,,,,,,,MotherofViolet_Violet020305_291
+292,Mother,Violet020305,I found an old flying machine and I made it work .,Violet,604.786,615.013,[],[1|2|SUBJ] [2|0|ROOT] [3|6|DET] [4|6|MOD] [5|6|MOD] [6|2|OBJ] [7|9|LINK] [8|9|SUBJ] [9|2|CJCT] [10|11|SUBJ] [11|9|COMP 12|2|PUNCT],[pro:sub|I] [v|find&PAST] [det:art|a] [adj|old] [n:gerund|fly-PRESP] [n|machine] [coord|and] [pro:sub|I] [v|make&PAST] [pro:per|it] [v|work .],,,,,,,,,,MotherofViolet_Violet020305_292
+293,Mother,Violet020305,I went out to look for someone (t:t:trail off),Violet,615.013,620.388,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|5|INF] [5|2|XCOMP] [6|5|JCT] [7|6|POBJ 8|2|PUNCT],[pro:sub|I] [v|go&PAST] [adv|out] [inf|to] [v|look] [prep|for] [pro:indef|someone (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_293
+294,Mother,Violet020305,to share what I had found .,Violet,620.388,622.175,[],[1|2|INF] [2|0|ROOT] [3|2|OBJ] [4|5|SUBJ] [5|3|COMP] [6|5|OBJ 7|2|PUNCT],[inf|to] [v|share] [pro:int|what] [pro:sub|I] [v|have&PAST] [v|found .],,,,,,,,,,MotherofViolet_Violet020305_294
+295,Mother,Violet020305,and I found a friend I could talk to .,Violet,622.175,626.121,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|8|SUBJ] [7|8|AUX] [8|5|CMOD] [9|8|JCT 10|3|PUNCT],[coord|and] [pro:sub|I] [v|find&PAST] [det:art|a] [n|friend] [pro:sub|I] [mod|could] [v|talk] [prep|to .],,,,,,,,,,MotherofViolet_Violet020305_295
+296,Mother,Violet020305,who's his friend ?,Violet,626.121,627.79,[],[1|2|SUBJ 2|0|ROOT] [3|4|MOD] [4|2|PRED 5|2|PUNCT],[pro:int|who~cop|be&3S] [det:poss|his] [n|friend ?],,,,,,,,,,MotherofViolet_Violet020305_296
+297,Violet,Violet020305,the yyy the tiger .,Violet,627.79,631.381,[],[1|3|DET] [] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[det:art|the] [] [det:art|the] [n|tiger .],,,,,,,,,,VioletofViolet_Violet020305_297
+298,Mother,Violet020305,mm .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|mm .],,,,,,,,,,MotherofViolet_Violet020305_298
+299,Violet,Violet020305,and who's that one ?,Violet,631.381,635.983,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[coord|and] [pro:int|who~cop|be&3S] [pro:dem|that] [pro:indef|one ?],,,,,,,,,,VioletofViolet_Violet020305_299
+300,Violet,Violet020305,what is that ?,Violet,635.983,639.043,[],[1|2|LINK] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:int|what] [0aux|is] [pro:dem|that ?],,,,,,,,,,VioletofViolet_Violet020305_300
+301,Mother,Violet020305,it just shows what he's saying .,Violet,639.043,640.656,[],[1|3|SUBJ] [2|3|JCT] [3|0|ROOT] [4|7|LINK] [5|7|SUBJ 6|7|AUX] [7|3|COMP 8|3|PUNCT],[pro:per|it] [adv|just] [v|show-3S] [pro:int|what] [pro:sub|he~aux|be&3S] [part|say-PRESP .],,,,,,,,,,MotherofViolet_Violet020305_301
+302,Violet,Violet020305,and this is him .,Violet,640.656,645.71,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|PRED 5|3|PUNCT],[coord|and] [pro:dem|this] [cop|be&3S] [pro:obj|him .],,,,,,,,,,VioletofViolet_Violet020305_302
+303,Mother,Violet020305,"that's what he's saying , yeah .",Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|6|LINK] [4|6|SUBJ 5|6|AUX] [6|2|COMP 7|6|LP] [8|6|ENUM 9|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:int|what] [pro:sub|he~aux|be&3S] [part|say-PRESP cm|cm] [co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_303
+304,Violet,Violet020305,how <a>bout this ?,Violet,645.71,648.511,[],[1|0|INCROOT] [2|1|JCT] [3|2|POBJ 4|1|PUNCT],[adv:int|how] [prep|about] [pro:dem|this ?],,,,,,,,,,VioletofViolet_Violet020305_304
+305,Mother,Violet020305,that's what the boy's (replacement:replacement:boy is) saying .,Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|7|LINK] [4|5|DET] [5|7|SUBJ 6|7|AUX] [7|2|PRED 8|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:int|what] [det:art|the] [n|boy aux|be&3S] [part|say-PRESP .],,,,,,,,,,MotherofViolet_Violet020305_305
+306,Mother,Violet020305,or thinking .,Violet,648.511,652.463,[],[1|0|INCROOT] [2|1|COORD 3|1|PUNCT],[coord|or] [part|think-PRESP .],,,,,,,,,,MotherofViolet_Violet020305_306
+307,Violet,Violet020305,yyy yyy .,Violet,652.463,656.646,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_307
+308,Mother,Violet020305,my friend and I found a game that could go on forever .,Violet,656.646,660.261,[],[1|2|MOD] [2|0|INCROOT] [3|5|LINK] [4|5|SUBJ] [5|2|CMOD] [6|7|DET] [7|5|OBJ] [8|10|SUBJ] [9|10|AUX] [10|7|COMP] [11|12|JCT] [12|10|JCT 13|2|PUNCT],[det:poss|my] [n|friend] [coord|and] [pro:sub|I] [v|find&PAST] [det:art|a] [v|game] [pro:dem|that] [mod|could] [v|go] [adv|on] [adv:tem|forever .],,,,,,,,,,MotherofViolet_Violet020305_308
+309,Mother,Violet020305,but it was time for dinner .,Violet,660.261,662.648,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|PRED] [5|4|NJCT] [6|5|POBJ 7|3|PUNCT],[conj|but] [pro:per|it] [cop|be&PAST&13S] [n|time] [prep|for] [n|dinner .],,,,,,,,,,MotherofViolet_Violet020305_309
+310,Mother,Violet020305,what kind of game does he play ?,Violet,662.648,667.056,[],[1|7|LINK] [2|7|JCT] [3|2|NJCT] [4|5|SUBJ] [5|3|POBJ] [6|7|SUBJ] [7|0|ROOT 8|7|PUNCT],[pro:int|what] [n|kind] [prep|of] [n|game] [v|do&3S] [pro:sub|he] [v|play ?],,,,,,,,,,MotherofViolet_Violet020305_310
+311,Violet,Violet020305,he play ?,Violet,667.056,672.85,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:sub|he] [v|play ?],,,,,,,,,,VioletofViolet_Violet020305_311
+312,Mother,Violet020305,what does the boy have in his hand ?,Violet,672.85,674.573,[],[1|2|LINK] [2|0|ROOT] [3|4|DET] [4|5|SUBJ] [5|2|COMP] [6|5|JCT] [7|8|MOD] [8|6|POBJ 9|2|PUNCT],[pro:int|what] [v|do&3S] [det:art|the] [n|boy] [v|have] [prep|in] [det:poss|his] [n|hand ?],,,,,,,,,,MotherofViolet_Violet020305_312
+313,Mother,Violet020305,what does that look like ?,Violet,674.573,677.92,[],[1|4|SUBJ] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT] [5|4|JCT 6|4|PUNCT],[0pro|what] [mod|do&3S] [pro:dem|that] [v|look] [prep|like ?],,,,,,,,,,MotherofViolet_Violet020305_313
+314,Violet,Violet020305,yyy .,Violet,677.92,681.711,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_314
+315,Violet,Violet020305,planet or something .,Violet,681.711,684.248,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[n|planet] [coord|or] [pro:indef|something .],,,,,,,,,,VioletofViolet_Violet020305_315
+316,Mother,Violet020305,xxx what ?,Violet,683.948,685.011,[],[] [1|0|INCROOT 2|1|PUNCT],[] [pro:int|what ?],,,,,,,,,,MotherofViolet_Violet020305_316
+317,Violet,Violet020305,xxx yyy something .,Violet,685.011,686.7860000000001,whispering,[] [] [1|0|INCROOT 2|1|PUNCT],[] [] [pro:indef|something .],,,,,,,,,,VioletofViolet_Violet020305_317
+318,Mother,Violet020305,a what ?,Violet,686.7860000000001,687.543,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [pro:int|what ?],,,,,,,,,,MotherofViolet_Violet020305_318
+319,Violet,Violet020305,a planet or (t:t:interruption),Violet,687.543,690.908,[],[1|2|DET] [2|0|INCROOT] [3|2|CONJ 4|2|PUNCT],[det:art|a] [n|planet] [coord|or (mt:interruption)],,,,,,,,,,VioletofViolet_Violet020305_319
+320,Mother,Violet020305,a planet or something ?,Violet,0.0,0.0,[],[1|2|DET] [2|0|INCROOT] [3|2|CONJ] [4|3|COORD 5|2|PUNCT],[det:art|a] [n|planet] [coord|or] [pro:indef|something ?],,,,,,,,,,MotherofViolet_Violet020305_320
+321,Violet,Violet020305,yeah .,Violet,690.908,694.588,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_321
+322,Mother,Violet020305,"clever girl , yeah it is a planet .",Violet,0.0,0.0,[],[1|2|MOD] [2|0|INCROOT 3|2|LP] [4|6|COM] [5|6|SUBJ] [6|2|CJCT] [7|8|DET] [8|6|PRED 9|2|PUNCT],[adj|clever] [n|girl cm|cm] [co|yeah] [pro:per|it] [cop|be&3S] [det:art|a] [n|planet .],,,,,,,,,,MotherofViolet_Violet020305_322
+323,Mother,Violet020305,so I climbed out of the attic and told my mother where I'd been all day .,Violet,694.588,701.33,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|3|JCT] [6|7|DET] [7|5|POBJ] [8|3|CONJ] [9|8|COORD] [10|11|MOD] [11|9|OBJ] [12|17|LINK] [13|17|SUBJ 14|17|AUX] [15|17|AUX] [16|17|QUANT] [17|11|CMOD 18|3|PUNCT],[co|so] [pro:sub|I] [v|climb-PAST] [adv|out] [prep|of] [det:art|the] [n|attic] [coord|and] [v|tell&PAST] [det:poss|my] [n|mother] [pro:rel|where] [pro:sub|I~mod|genmod] [aux|be&PASTP] [qn|all] [n|day .],,,,,,,,,,MotherofViolet_Violet020305_323
+324,Mother,Violet020305,but we don't have an attic she said .,Violet,701.33,703.85,[],[1|5|LINK] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|7|DET] [7|5|OBJ] [8|9|SUBJ] [9|7|CMOD 10|5|PUNCT],[conj|but] [pro:sub|we] [mod|do~neg|not] [v|have] [det:art|a] [n|attic] [pro:sub|she] [v|say&PAST .],,,,,,,,,,MotherofViolet_Violet020305_324
+325,Violet,Violet020305,is she making dinner .,Violet,703.85,707.19,[],[1|0|ROOT] [2|4|MOD] [3|4|MOD] [4|1|PRED 5|1|PUNCT],[cop|be&3S] [pro:sub|she] [part|make-PRESP] [n|dinner .],,,,,,,,,,VioletofViolet_Violet020305_325
+326,Mother,Violet020305,mhm .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofViolet_Violet020305_326
+327,Violet,Violet020305,yyy .,Violet,707.19,711.175,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_327
+328,Mother,Violet020305,she said they don't have an attic .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|6|SUBJ] [4|6|AUX 5|4|NEG] [6|2|COMP] [7|8|DET] [8|6|OBJ 9|2|PUNCT],[pro:sub|she] [v|say&PAST] [pro:sub|they] [mod|do~neg|not] [v|have] [det:art|a] [n|attic .],,,,,,,,,,MotherofViolet_Violet020305_328
+329,Violet,Violet020305,yyy .,Violet,711.175,716.64,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_329
+330,Mother,Violet020305,I guess she doesn't know about the attic .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|6|SUBJ] [4|6|AUX 5|4|NEG] [6|2|COMP] [7|6|JCT] [8|9|DET] [9|7|POBJ 10|2|PUNCT],[pro:sub|I] [v|guess] [pro:sub|she] [mod|do&3S~neg|not] [v|know] [prep|about] [det:art|the] [n|attic .],,,,,,,,,,MotherofViolet_Violet020305_330
+331,Mother,Violet020305,she hasn't found the ladder .,Violet,716.64,719.278,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|6|DET] [6|4|OBJ 7|4|PUNCT],[pro:sub|she] [aux|have&3S~neg|not] [v|find&PAST] [det:art|the] [n|ladder .],,,,,,,,,,MotherofViolet_Violet020305_331
+332,Violet,Violet020305,yyy yyy yyy yyy { truck (?) } .,Violet,719.278,723.748,[],[] [] [] [] [1|0|INCROOT 2|1|PUNCT],[] [] [] [] [n|truck .],,,,,,,,,,VioletofViolet_Violet020305_332
+333,Mother,Violet020305,he has the ladder right ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|4|POSTMOD 6|2|PUNCT],[pro:sub|he] [v|have&3S] [det:art|the] [n|ladder] [adj|right ?],,,,,,,,,,MotherofViolet_Violet020305_333
+334,Violet,Violet020305,yeah .,Violet,723.748,727.79,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_334
+335,Violet,Violet020305,there's his friend .,Violet,727.79,731.71,[],[1|2|SUBJ 2|0|ROOT] [3|4|MOD] [4|2|PRED 5|2|PUNCT],[pro:exist|there~cop|be&3S] [det:poss|his] [n|friend .],,,,,,,,,,VioletofViolet_Violet020305_335
+336,Violet,Violet020305,there are his friends .,Violet,731.71,736.39,[],[1|2|JCT] [2|0|ROOT] [3|4|MOD] [4|2|OBJ 5|2|PUNCT],[adv|there] [0aux|are] [det:poss|his] [n|friend-PL .],,,,,,,,,,VioletofViolet_Violet020305_336
+337,Mother,Violet020305,yeah xxx .,Violet,736.39,739.398,laughter,[1|0|INCROOT] [2|1|PUNCT],[co|yeah] [.],,,,,,,,,,MotherofViolet_Violet020305_337
+338,Violet,Violet020305,yyy black .,Violet,739.398,742.451,[],[] [1|0|INCROOT 2|1|PUNCT],[] [n|black .],,,,,,,,,,VioletofViolet_Violet020305_338
+339,Mother,Violet020305,and there's the moon .,Violet,742.451,744.861,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[coord|and] [pro:exist|there~cop|be&3S] [det:art|the] [n|moon .],,,,,,,,,,MotherofViolet_Violet020305_339
+340,Violet,Violet020305,the moon .,Violet,744.861,746.52,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|moon .],,,,,,,,,,VioletofViolet_Violet020305_340
+341,Violet,Violet020305,and the dark { guy (?) } .,Violet,746.52,749.652,[],[1|4|LINK] [2|4|DET] [3|4|MOD] [4|0|ROOT 5|4|PUNCT],[coord|and] [det:art|the] [n|dark] [n|guy .],,,,,,,,,,VioletofViolet_Violet020305_341
+342,Violet,Violet020305,and that's her yyy .,Violet,749.652,752.87,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|3|PRED] [5|3|PUNCT],[coord|and] [pro:dem|that~cop|be&3S] [pro:obj|her] [.],,,,,,,,,,VioletofViolet_Violet020305_342
+343,Mother,Violet020305,mm I like this picture .,Violet,752.87,754.202,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[co|mm] [pro:sub|I] [v|like] [pro:dem|this] [n|picture .],,,,,,,,,,MotherofViolet_Violet020305_343
+344,Mother,Violet020305,which picture do you like ?,Violet,754.202,759.423,[],[1|2|LINK] [2|0|INCROOT] [3|4|AUX] [4|2|OBJ] [5|4|COM 6|2|PUNCT],[pro:rel|which] [n|picture] [mod|do] [pro:per|you] [co|like ?],,,,,,,,,,MotherofViolet_Violet020305_344
+345,Violet,Violet020305,I like yyy .,Violet,759.423,764.61,[],[1|0|INCROOT] [2|1|COM] [3|1|PUNCT],[pro:sub|I] [co|like] [.],,,,,,,,,,VioletofViolet_Violet020305_345
+346,Mother,Violet020305,you like the one with the mice I bet .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|9|LINK] [3|4|DET] [4|2|OBJ] [5|4|NJCT] [6|7|DET] [7|5|POBJ] [8|9|SUBJ] [9|0|ROOT 10|9|PUNCT],[pro:per|you] [conj|like] [det:art|the] [pro:indef|one] [prep|with] [det:art|the] [n|mouse&PL] [pro:sub|I] [v|bet&ZERO .],,,,,,,,,,MotherofViolet_Violet020305_346
+347,Violet,Violet020305,I don't { have (?) } { any (?) } yyy .,Violet,764.61,768.695,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|OBJ] [6|4|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|have] [qn|any] [.],,,,,,,,,,VioletofViolet_Violet020305_347
+348,Mother,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_348
+349,Violet,Violet020305,yyy you yyy that one .,Violet,768.695,772.113,[],[] [1|0|INCROOT] [] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[] [pro:per|you] [] [pro:dem|that] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_349
+350,Violet,Violet020305,yyy .,Violet,772.113,774.892,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_350
+351,Mother,Violet020305,move all these pieces .,Violet,774.892,776.122,[],[1|0|INCROOT] [2|3|QUANT] [3|4|DET] [4|1|ENUM 5|1|PUNCT],[n|move] [qn|all] [pro:dem|these] [n|piece-PL .],,,,,,,,,,MotherofViolet_Violet020305_351
+352,Violet,Violet020305,yyy .,Violet,776.122,777.465,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_352
+353,Violet,Violet020305,yyy yyy one .,Violet,777.465,779.93,[],[] [] [1|0|INCROOT 2|1|PUNCT],[] [] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_353
+354,Mother,Violet020305,you can get one .,Violet,779.93,781.668,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:per|you] [mod|can] [v|get] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_354
+355,Mother,Violet020305,you choose one that you like .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|3|COMP] [5|4|OBJ] [6|5|COM 7|2|PUNCT],[pro:per|you] [v|choose] [pro:indef|one] [pro:rel|that] [pro:per|you] [co|like .],,,,,,,,,,MotherofViolet_Violet020305_355
+356,Violet,Violet020305,you get one .,Violet,781.668,784.5,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:per|you] [v|get] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_356
+357,Mother,Violet020305,no you get one .,Violet,0.0,0.0,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[co|no] [pro:per|you] [v|get] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_357
+358,Violet,Violet020305,you get one .,Violet,784.5,786.123,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:per|you] [v|get] [pro:indef|one .],,,,,,,,,,VioletofViolet_Violet020305_358
+359,Violet,Violet020305,xxx yyy yyy .,Violet,786.123,792.388,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_359
+360,Mother,Violet020305,"oh I thought there was more pieces , here they are .",Violet,0.0,0.0,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|7|SUBJ] [5|7|AUX] [6|7|JCT] [7|11|SUBJ 8|7|LP] [9|11|JCT] [10|11|SUBJ] [11|3|COMP 12|3|PUNCT],[co|oh] [pro:sub|I] [v|think&PAST] [pro:exist|there] [aux|be&PAST&13S] [adv|more] [n|piece-PL cm|cm] [adv|here] [pro:sub|they] [cop|be&PRES .],,,,,,,,,,MotherofViolet_Violet020305_360
+361,Mother,Violet020305,down here .,Violet,792.388,793.955,[],[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|down] [adv|here .],,,,,,,,,,MotherofViolet_Violet020305_361
+362,Mother,Violet020305,look at that one .,Violet,793.955,800.062,[],[1|0|ROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[v|look] [prep|at] [pro:dem|that] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_362
+363,Mother,Violet020305,see this is one two three (t:t:trail off),Violet,800.062,806.718,[],[1|0|ROOT] [2|3|SUBJ] [3|1|COMP] [4|5|QUANT] [5|6|QUANT] [6|3|PRED 7|1|PUNCT],[v|see] [pro:dem|this] [cop|be&3S] [det:num|one] [det:num|two] [det:num|three (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_363
+364,Mother,Violet020305,four .,Violet,806.718,807.848,[],[1|0|INCROOT 2|1|PUNCT],[det:num|four .],,,,,,,,,,MotherofViolet_Violet020305_364
+365,Mother,Violet020305,five pieces to this puzzle .,Violet,807.848,810.112,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[det:num|five] [n|piece-PL] [prep|to] [pro:dem|this] [n|puzzle .],,,,,,,,,,MotherofViolet_Violet020305_365
+366,Violet,Violet020305,is that a puzzle ?,Violet,810.112,812.617,[],[1|0|ROOT] [2|1|PRED] [3|4|DET] [4|2|OBJ 5|1|PUNCT],[cop|be&3S] [pro:rel|that] [det:art|a] [n|puzzle ?],,,,,,,,,,VioletofViolet_Violet020305_366
+367,Mother,Violet020305,yeah it's a puzzle alright .,Violet,812.617,814.815,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED] [6|5|POSTMOD 7|3|PUNCT],[co|yeah] [pro:per|it~cop|be&3S] [det:art|a] [n|puzzle] [adj|alright .],,,,,,,,,,MotherofViolet_Violet020305_367
+368,Violet,Violet020305,mama .,Violet,814.815,816.82,[],[1|0|INCROOT 2|1|PUNCT],[n|mama .],,,,,,,,,,VioletofViolet_Violet020305_368
+369,Violet,Violet020305,yyy you got a yyy yyy .,Violet,816.82,820.813,[],[] [1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [] [4|2|PUNCT],[] [pro:per|you] [v|get&PAST] [det:art|a] [] [.],,,,,,,,,,VioletofViolet_Violet020305_369
+370,Violet,Violet020305,you got a million toys .,Violet,820.813,824.087,[],[1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|QUANT] [5|2|OBJ 6|2|PUNCT],[pro:per|you] [v|get&PAST] [det:art|a] [det:num|million] [n|toy-PL .],,,,,,,,,,VioletofViolet_Violet020305_370
+371,Mother,Violet020305,xxx .,Violet,824.087,825.077,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_371
+372,Violet,Violet020305,yyy .,Violet,824.577,826.922,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_372
+373,Mother,Violet020305,you've got a million toys .,Violet,0.0,0.0,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|6|DET] [5|6|QUANT] [6|3|OBJ 7|3|PUNCT],[pro:per|you~aux|have] [part|get&PASTP] [det:art|a] [det:num|million] [n|toy-PL .],,,,,,,,,,MotherofViolet_Violet020305_373
+374,Violet,Violet020305,you've got a million .,Violet,826.922,829.638,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[pro:per|you~aux|have] [part|get&PASTP] [det:art|a] [det:num|million .],,,,,,,,,,VioletofViolet_Violet020305_374
+375,Mother,Violet020305,not me .,Violet,0.0,0.0,[],[1|2|NEG] [2|0|INCROOT 3|2|PUNCT],[neg|not] [pro:obj|me .],,,,,,,,,,MotherofViolet_Violet020305_375
+376,Violet,Violet020305,you have (t:t:interruption),Violet,829.638,833.025,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:per|you] [v|have (mt:interruption)],,,,,,,,,,VioletofViolet_Violet020305_376
+377,Mother,Violet020305,you're the one with all the toys .,Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|2|JCT] [6|8|QUANT] [7|8|DET] [8|5|POBJ 9|2|PUNCT],[pro:per|you~aux|be&PRES] [det:art|the] [pro:indef|one] [prep|with] [qn|all] [det:art|the] [n|toy-PL .],,,,,,,,,,MotherofViolet_Violet020305_377
+378,Violet,Violet020305,all the toys ?,Violet,833.025,836.853,[],[1|3|QUANT] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[qn|all] [det:art|the] [n|toy-PL ?],,,,,,,,,,VioletofViolet_Violet020305_378
+379,Mother,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_379
+380,Violet,Violet020305,and you play a puzzle .,Violet,836.853,839.04,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[coord|and] [pro:per|you] [v|play] [det:art|a] [n|puzzle .],,,,,,,,,,VioletofViolet_Violet020305_380
+381,Mother,Violet020305,I know .,Violet,839.04,840.042,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:sub|I] [v|know .],,,,,,,,,,MotherofViolet_Violet020305_381
+382,Violet,Violet020305,wee .,Violet,840.042,841.605,[],[1|0|INCROOT 2|1|PUNCT],[adj|wee .],,,,,,,,,,VioletofViolet_Violet020305_382
+383,Mother,Violet020305,xxx .,Violet,0.0,0.0,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_383
+384,Violet,Violet020305,yyy yyy yyy .,Violet,841.605,844.307,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_384
+385,Violet,Violet020305,yyy yyy .,Violet,844.307,848.572,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_385
+386,Violet,Violet020305,my back hurts .,Violet,848.572,850.562,[],[1|3|COM] [2|3|MOD] [3|0|ROOT 4|3|PUNCT],[co|my] [adj|back] [v|hurt-3S .],,,,,,,,,,VioletofViolet_Violet020305_386
+387,Mother,Violet020305,xxx .,Violet,850.562,851.458,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_387
+388,Mother,Violet020305,you gotta keep that on til the taping .,Violet,851.458,853.538,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|3|JCT] [7|8|DET] [8|6|POBJ 9|3|PUNCT],[pro:per|you] [mod:aux|gotta] [v|keep] [pro:dem|that] [adv|on] [prep|until] [det:art|the] [part|tape-PRESP .],,,,,,,,,,MotherofViolet_Violet020305_388
+389,Mother,Violet020305,you want me to fix it ?,Violet,853.538,855.148,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|5|INF] [5|2|XCOMP] [6|5|OBJ 7|2|PUNCT],[pro:per|you] [v|want] [pro:obj|me] [inf|to] [v|fix] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_389
+390,Violet,Violet020305,yeah .,Violet,855.148,856.112,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_390
+391,Violet,Violet020305,yeah .,Violet,856.112,858.052,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_391
+392,Mother,Violet020305,well come here .,Violet,0.0,0.0,[],[1|2|COM] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[co|well] [v|come] [adv|here .],,,,,,,,,,MotherofViolet_Violet020305_392
+393,Mother,Violet020305,"oh , turn around .",Violet,858.052,861.317,[],[1|0|INCROOT 2|1|LP] [3|1|ENUM] [4|3|NJCT 5|1|PUNCT],[co|oh cm|cm] [n|turn] [adv|around .],,,,,,,,,,MotherofViolet_Violet020305_393
+394,Mother,Violet020305,we { got (= have) } problems .,Violet,861.317,863.182,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:sub|we] [v|get&PAST] [n|problem-PL .],,,,,,,,,,MotherofViolet_Violet020305_394
+395,Mother,Violet020305,this is supposed to be like this .,Violet,863.182,865.803,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|5|JCT] [7|6|POBJ 8|3|PUNCT],[pro:dem|this] [aux|be&3S] [part|suppose-PASTP] [inf|to] [cop|be] [prep|like] [pro:dem|this .],,,,,,,,,,MotherofViolet_Violet020305_395
+396,Mother,Violet020305,wait a minute .,Violet,865.803,868.31,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|wait] [det:art|a] [n|minute .],,,,,,,,,,MotherofViolet_Violet020305_396
+397,Mother,Violet020305,okay wait a minute let me fix it .,Violet,868.31,872.09,[],[1|2|COM] [2|5|LINK] [3|4|DET] [4|5|SUBJ] [5|0|ROOT] [6|5|OBJ] [7|5|XCOMP] [8|7|OBJ 9|5|PUNCT],[co|okay] [v|wait] [det:art|a] [n|minute] [v|let&ZERO] [pro:obj|me] [v|fix] [pro:per|it .],,,,,,,,,,MotherofViolet_Violet020305_397
+398,Violet,Violet020305,xxx .,Violet,872.09,880.003,grunting,[],[],,,,,,,,,,VioletofViolet_Violet020305_398
+399,Mother,Violet020305,wait wait wait .,Violet,880.003,880.803,[],[1|3|COM] [2|3|COM] [3|0|INCROOT 4|3|PUNCT],[co|wait] [co|wait] [co|wait .],,,,,,,,,,MotherofViolet_Violet020305_399
+400,Violet,Violet020305,wait wait .,Violet,880.803,883.992,whispering,[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|wait] [co|wait .],,,,,,,,,,VioletofViolet_Violet020305_400
+401,Mother,Violet020305,is that better ?,Violet,0.0,0.0,[],[1|0|ROOT] [2|1|SUBJ] [3|1|PRED 4|1|PUNCT],[cop|be&3S] [pro:dem|that] [adj|good&CP ?],,,,,,,,,,MotherofViolet_Violet020305_401
+402,Violet,Violet020305,yeah .,Violet,883.992,884.718,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_402
+403,Mother,Violet020305,xxx .,Violet,884.718,885.543,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_403
+404,Violet,Violet020305,now .,Violet,885.543,886.632,[],[1|0|INCROOT 2|1|PUNCT],[adv|now .],,,,,,,,,,VioletofViolet_Violet020305_404
+405,Violet,Violet020305,yyy yyy fly down .,Violet,886.632,890.507,[],[] [] [1|0|INCROOT] [2|1|JCT 3|1|PUNCT],[] [] [n|fly] [adv|down .],,,,,,,,,,VioletofViolet_Violet020305_405
+406,Violet,Violet020305,yyy fly wee .,Violet,890.307,896.677,[],[] [1|0|INCROOT] [2|1|POSTMOD 3|1|PUNCT],[] [n|fly] [adj|wee .],,,,,,,,,,VioletofViolet_Violet020305_406
+407,Violet,Violet020305,wee .,Violet,896.677,900.74,[],[1|0|INCROOT 2|1|PUNCT],[adj|wee .],,,,,,,,,,VioletofViolet_Violet020305_407
+408,Mother,Violet020305,I guess if I saw a picture of this it would be easier .,Violet,900.74,903.117,[],[1|2|SUBJ] [2|0|INCROOT] [3|5|LINK] [4|5|SUBJ] [5|2|CJCT] [6|7|DET] [7|5|OBJ] [8|7|NJCT] [9|8|POBJ] [10|12|SUBJ] [11|12|AUX] [12|9|CMOD] [13|12|PRED 14|2|PUNCT],[pro:sub|I] [n|guess] [conj|if] [pro:sub|I] [v|see&PAST] [det:art|a] [n|picture] [prep|of] [pro:dem|this] [pro:per|it] [mod|will&COND] [cop|be] [adj|ease&dn-Y-CP .],,,,,,,,,,MotherofViolet_Violet020305_408
+409,Mother,Violet020305,of how it's supposed to go .,Violet,0.0,0.0,[],[1|0|INCROOT] [2|5|LINK] [3|5|SUBJ 4|5|AUX] [5|1|POBJ] [6|7|INF] [7|5|XCOMP 8|1|PUNCT],[prep|of] [adv:int|how] [pro:per|it~aux|be&3S] [part|suppose-PASTP] [inf|to] [v|go .],,,,,,,,,,MotherofViolet_Violet020305_409
+410,Violet,Violet020305,wee .,Violet,903.117,905.67,[],[1|0|INCROOT 2|1|PUNCT],[adj|wee .],,,,,,,,,,VioletofViolet_Violet020305_410
+411,Violet,Violet020305,wee .,Violet,905.67,908.287,[],[1|0|INCROOT 2|1|PUNCT],[adj|wee .],,,,,,,,,,VioletofViolet_Violet020305_411
+412,Violet,Violet020305,wee .,Violet,908.287,912.982,[],[1|0|INCROOT 2|1|PUNCT],[adj|wee .],,,,,,,,,,VioletofViolet_Violet020305_412
+413,Mother,Violet020305,ya (replacement:replacement:you) know ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:per|you] [v|know ?],,,,,,,,,,MotherofViolet_Violet020305_413
+414,Violet,Violet020305,bump .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|bump .],,,,,,,,,,VioletofViolet_Violet020305_414
+415,Violet,Violet020305,ouch .,Violet,912.982,915.032,[],[1|0|INCROOT 2|1|PUNCT],[co|ouch .],,,,,,,,,,VioletofViolet_Violet020305_415
+416,Mother,Violet020305,"well come sit down then if it hurts , come here .",Violet,915.032,918.557,[],[1|2|COM] [2|0|ROOT] [3|2|OBJ] [4|2|JCT] [5|2|JCT] [6|8|LINK] [7|8|SUBJ] [8|5|CJCT 9|8|LP] [10|8|COMP] [11|10|JCT 12|2|PUNCT],[co|well] [v|come] [v|sit] [adv|down] [adv:tem|then] [conj|if] [pro:per|it] [v|hurt-3S cm|cm] [v|come] [adv|here .],,,,,,,,,,MotherofViolet_Violet020305_416
+417,Mother,Violet020305,I'll get some books .,Violet,918.557,919.765,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[pro:sub|I~mod|will] [v|get] [qn|some] [n|book-PL .],,,,,,,,,,MotherofViolet_Violet020305_417
+418,Violet,Violet020305,xxx get some books .,Violet,919.765,921.593,[],[] [1|0|ROOT] [2|3|QUANT] [3|1|OBJ 4|1|PUNCT],[] [v|get] [qn|some] [n|book-PL .],,,,,,,,,,VioletofViolet_Violet020305_418
+419,Mother,Violet020305,I wonder why it hurts ?,Violet,921.593,923.033,[],[1|2|SUBJ] [2|0|ROOT] [3|5|LINK] [4|5|SUBJ] [5|2|COMP 6|2|PUNCT],[pro:sub|I] [v|wonder] [adv:int|why] [pro:per|it] [v|hurt-3S ?],,,,,,,,,,MotherofViolet_Violet020305_419
+420,Violet,Violet020305,ow hurt yyy .,Violet,923.033,925.902,[],[1|2|COM] [2|0|ROOT] [3|2|PUNCT],[co|ow] [v|hurt&ZERO] [.],,,,,,,,,,VioletofViolet_Violet020305_420
+421,Mother,Violet020305,you sit down and xxx and I<'ll> and I'll read you some books then it won't hurt while you're up here .,Violet,925.902,930.97,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|2|CONJ] [] [5|11|LINK] [6|11|SUBJ 7|11|AUX] [8|11|LINK] [9|11|SUBJ 10|11|AUX] [11|4|COORD] [12|11|OBJ] [13|14|QUANT] [14|19|SUBJ] [15|19|JCT] [16|19|SUBJ] [17|19|AUX 18|17|NEG] [19|11|CJCT] [20|22|LINK] [21|22|SUBJ 22|19|COMP] [23|22|JCT] [24|22|PRED 25|2|PUNCT],[pro:per|you] [v|sit] [adv|down] [coord|and] [] [coord|and] [pro:sub|I~mod|will] [coord|and] [pro:sub|I~mod|will] [v|read&ZERO] [pro:per|you] [qn|some] [n|book-PL] [adv:tem|then] [pro:per|it] [mod|will~neg|not] [v|hurt&ZERO] [conj|while] [pro:per|you~cop|be&PRES] [adv|up] [adv|here .],,,,,,,,,,MotherofViolet_Violet020305_421
+422,Mother,Violet020305,<o>kay ?,Violet,930.97,932.605,[],[1|0|INCROOT 2|1|PUNCT],[co|okay ?],,,,,,,,,,MotherofViolet_Violet020305_422
+423,Mother,Violet020305,want me to go get some ?,Violet,932.605,933.677,[],[1|0|ROOT] [2|1|OBJ] [3|4|INF] [4|5|SRL] [5|1|XCOMP] [6|5|OBJ 7|1|PUNCT],[v|want] [pro:obj|me] [inf|to] [v|go] [v|get] [qn|some ?],,,,,,,,,,MotherofViolet_Violet020305_423
+424,Violet,Violet020305,yeah .,Violet,933.677,934.458,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_424
+425,Violet,Violet020305,xxx .,Violet,934.458,936.673,grunting,[],[],,,,,,,,,,VioletofViolet_Violet020305_425
+426,Mother,Violet020305,<o>kay .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|okay .],,,,,,,,,,MotherofViolet_Violet020305_426
+427,Violet,Violet020305,downstairs .,Violet,936.673,937.83,[],[1|0|INCROOT 2|1|PUNCT],[adv|downstairs .],,,,,,,,,,VioletofViolet_Violet020305_427
+428,Mother,Violet020305,huh ?,Violet,937.83,938.657,[],[1|0|INCROOT 2|1|PUNCT],[co|huh ?],,,,,,,,,,MotherofViolet_Violet020305_428
+429,Violet,Violet020305,downstairs .,Violet,938.657,940.533,[],[1|0|INCROOT 2|1|PUNCT],[adv|downstairs .],,,,,,,,,,VioletofViolet_Violet020305_429
+430,Mother,Violet020305,downstairs is what ?,Violet,940.533,941.645,[],[1|2|JCT] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[adv|downstairs] [cop|be&3S] [pro:int|what ?],,,,,,,,,,MotherofViolet_Violet020305_430
+431,Violet,Violet020305,{ is (= are) } the books .,Violet,941.645,943.308,[],[1|0|ROOT] [2|3|DET] [3|1|PRED 4|1|PUNCT],[cop|be&3S] [det:art|the] [n|book-PL .],,,,,,,,,,VioletofViolet_Violet020305_431
+432,Mother,Violet020305,ah .,Violet,943.308,945.022,[],[1|0|INCROOT 2|1|PUNCT],[co|ah .],,,,,,,,,,MotherofViolet_Violet020305_432
+433,Violet,Violet020305,and upstairs is is the book too .,Violet,945.022,949.292,[],[1|3|LINK] [2|3|JCT] [3|4|SUBJ] [4|0|ROOT] [5|6|DET] [6|4|PRED] [7|6|PQ 8|4|PUNCT],[coord|and] [adv|upstairs] [cop|be&3S] [cop|be&3S] [det:art|the] [n|book] [post|too .],,,,,,,,,,VioletofViolet_Violet020305_433
+434,Mother,Violet020305,yeah we { got (= have) } lots_of books .,Violet,949.292,952.025,[],[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[co|yeah] [pro:sub|we] [v|get&PAST] [qn|lots_of] [n|book-PL .],,,,,,,,,,MotherofViolet_Violet020305_434
+435,Violet,Violet020305,and you get them up there .,Violet,952.025,954.137,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|5|POBJ 7|3|PUNCT],[coord|and] [pro:per|you] [v|get] [pro:obj|them] [adv|up] [adv|there .],,,,,,,,,,VioletofViolet_Violet020305_435
+436,Mother,Violet020305,look what I made .,Violet,954.137,955.227,[],[1|0|ROOT] [2|4|LINK] [3|4|SUBJ] [4|1|COMP 5|1|PUNCT],[v|look] [pro:int|what] [pro:sub|I] [v|make&PAST .],,,,,,,,,,MotherofViolet_Violet020305_436
+437,Mother,Violet020305,xxx .,Violet,955.227,956.16,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_437
+438,Violet,Violet020305,you made ?,Violet,956.16,957.363,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:per|you] [v|make&PAST ?],,,,,,,,,,VioletofViolet_Violet020305_438
+439,Mother,Violet020305,yep (replacement:replacement:yes) whoop .,Violet,957.363,958.642,[],[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|yes] [co|whoop .],,,,,,,,,,MotherofViolet_Violet020305_439
+440,Violet,Violet020305,xxx .,Violet,958.442,960.483,drowned out by MOT talking,[],[],,,,,,,,,,VioletofViolet_Violet020305_440
+441,Mother,Violet020305,you're having problems today huh ?,Violet,0.0,0.0,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|4|OBJ] [6|5|COM 7|3|PUNCT],[pro:per|you~aux|be&PRES] [part|have-PRESP] [n|problem-PL] [adv:tem|today] [co|huh ?],,,,,,,,,,MotherofViolet_Violet020305_441
+442,Violet,Violet020305,xxx .,Violet,960.283,964.417,crying,[],[],,,,,,,,,,VioletofViolet_Violet020305_442
+443,Mother,Violet020305,"here , hop up here .",Violet,964.417,965.28,[],[1|3|JCT 2|1|LP] [3|0|INCROOT] [4|3|NJCT] [5|4|POBJ 6|3|PUNCT],[adv|here cm|cm] [n|hop] [adv|up] [adv|here .],,,,,,,,,,MotherofViolet_Violet020305_443
+444,Violet,Violet020305,xxx .,Violet,965.28,966.183,grunting,[],[],,,,,,,,,,VioletofViolet_Violet020305_444
+445,Mother,Violet020305,if you sit down does it feel better ?,Violet,966.183,969.23,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|7|AUX] [6|7|SUBJ] [7|3|CJCT] [8|7|JCT 9|3|PUNCT],[conj|if] [pro:per|you] [v|sit] [adv|down] [mod|do&3S] [pro:per|it] [v|feel] [adj|good&CP ?],,,,,,,,,,MotherofViolet_Violet020305_445
+446,Violet,Violet020305,yeah .,Violet,969.23,970.785,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_446
+447,Mother,Violet020305,alright lemme (replacement:replacement:let me) get some books hold on .,Violet,970.785,972.192,[],[1|2|COM] [2|0|ROOT 3|2|OBJ] [4|2|XCOMP] [5|6|QUANT] [6|7|MOD] [7|4|OBJ] [8|4|JCT 9|2|PUNCT],[co|alright] [v|let&ZERO pro:obj|me] [v|get] [qn|some] [n|book-PL] [n|hold] [adv|on .],,,,,,,,,,MotherofViolet_Violet020305_447
+448,Mother,Violet020305,or you wanna do puzzles or books ?,Violet,972.192,975.403,[],[1|4|LINK] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|OBJ] [6|5|CONJ] [7|6|COORD 8|4|PUNCT],[coord|or] [pro:per|you] [mod:aux|wanna] [v|do] [n|puzzle-PL] [coord|or] [n|book-PL ?],,,,,,,,,,MotherofViolet_Violet020305_448
+449,Violet,Violet020305,books .,Violet,975.403,982.525,microphone disturbance during this utterance[],[1|0|INCROOT 2|1|PUNCT],[n|book-PL .],,,,,,,,,,VioletofViolet_Violet020305_449
+450,Mother,Violet020305,books ?,Violet,0.0,0.0,mic interference,[1|0|INCROOT 2|1|PUNCT],[n|book-PL ?],,,,,,,,,,MotherofViolet_Violet020305_450
+451,Mother,Violet020305,"this little chick , you like that one ?",Violet,982.525,985.06,[],[1|3|DET] [2|3|MOD] [3|0|INCROOT 4|3|LP] [5|8|SUBJ] [6|5|COM] [7|8|DET] [8|3|ENUM 9|3|PUNCT],[pro:dem|this] [adj|little] [n|chick cm|cm] [pro:per|you] [co|like] [pro:dem|that] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_451
+452,Violet,Violet020305,yeah .,Violet,985.06,985.512,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_452
+453,Mother,Violet020305,and do you like (t:t:trail off),Violet,985.512,990.122,[],[1|2|LINK] [2|0|ROOT] [3|2|OBJ] [4|2|COM 5|2|PUNCT],[coord|and] [v|do] [pro:per|you] [co|like (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_453
+454,Mother,Violet020305,"ooh , I got a good one .",Violet,990.122,996.993,[],[1|4|LINK 2|1|LP] [3|4|SUBJ] [4|0|ROOT] [5|7|DET] [6|7|MOD] [7|4|OBJ 8|4|PUNCT],[v|ooh cm|cm] [pro:sub|I] [v|get&PAST] [det:art|a] [adj|good] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_454
+455,Violet,Violet020305,xxx .,Violet,996.993,998.613,muffled by mic interference and MOT speaking,[],[],,,,,,,,,,VioletofViolet_Violet020305_455
+456,Mother,Violet020305,it's the cat in the hat .,Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED] [5|4|NJCT] [6|7|DET] [7|5|POBJ 8|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|the] [n|cat] [prep|in] [det:art|the] [n|hat .],,,,,,,,,,MotherofViolet_Violet020305_456
+457,Mother,Violet020305,flap book .,Violet,998.613,999.992,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|flap] [n|book .],,,,,,,,,,MotherofViolet_Violet020305_457
+458,Mother,Violet020305,xxx .,Violet,999.992,1002.188,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_458
+459,Violet,Violet020305,yyy yyy yyy yyy .,Violet,1002.188,1006.873,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_459
+460,Mother,Violet020305,I don't remember where we got this from .,Violet,0.0,0.0,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|7|LINK] [6|7|SUBJ] [7|4|COMP] [8|7|OBJ] [9|7|JCT 10|4|PUNCT],[pro:sub|I] [mod|do~neg|not] [v|remember] [pro:rel|where] [pro:sub|we] [v|get&PAST] [pro:dem|this] [prep|from .],,,,,,,,,,MotherofViolet_Violet020305_460
+461,Violet,Violet020305,yyy yyy .,Violet,1006.873,1011.06,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_461
+462,Mother,Violet020305,want to have lots_of good fun that is funny ?,Violet,1011.06,1014.56,[],[1|0|ROOT] [2|3|INF] [3|1|XCOMP] [4|6|QUANT] [5|6|MOD] [6|3|OBJ] [7|8|LINK] [8|6|CMOD] [9|8|PRED 10|1|PUNCT],[v|want] [inf|to] [v|have] [qn|lots_of] [adj|good] [n|fun] [pro:rel|that] [cop|be&3S] [adj|fun&dn-Y ?],,,,,,,,,,MotherofViolet_Violet020305_462
+463,Mother,Violet020305,flip the flaps and find things to count .,Violet,1014.56,1017.725,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|3|CONJ] [5|4|COORD] [6|5|OBJ] [7|5|JCT] [8|7|POBJ 9|1|PUNCT],[v|flip] [det:art|the] [v|flap-3S] [coord|and] [v|find] [n|thing-PL] [prep|to] [n|count .],,,,,,,,,,MotherofViolet_Violet020305_463
+464,Mother,Violet020305,nine wet pets .,Violet,1017.725,1020.162,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|nine] [adj|wet] [n|pet-PL .],,,,,,,,,,MotherofViolet_Violet020305_464
+465,Mother,Violet020305,two things .,Violet,1020.162,1022.278,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|two] [n|thing-PL .],,,,,,,,,,MotherofViolet_Violet020305_465
+466,Mother,Violet020305,thing one .,Violet,1022.278,1023.15,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|thing] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_466
+467,Mother,Violet020305,thing two .,Violet,1023.15,1024.407,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|thing] [det:num|two .],,,,,,,,,,MotherofViolet_Violet020305_467
+468,Violet,Violet020305,yyy what's in the book ?,Violet,1024.407,1027.963,[],[] [1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[] [pro:int|what~cop|be&3S] [prep|in] [det:art|the] [n|book ?],,,,,,,,,,VioletofViolet_Violet020305_468
+469,Mother,Violet020305,one (t:t:trail off),Violet,1027.963,1029.305,[],[1|0|INCROOT 2|1|PUNCT],[pro:indef|one (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_469
+470,Mother,Violet020305,oh seven .,Violet,1029.305,1031.12,[],[1|2|COM] [2|0|ROOT 3|2|PUNCT],[co|oh] [det:num|seven .],,,,,,,,,,MotherofViolet_Violet020305_470
+471,Mother,Violet020305,seven humps on the wump@wp of gump@wp .,Violet,1031.12,1033.412,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT] [4|5|DET] [5|3|POBJ] [6|5|NJCT] [7|6|POBJ 8|2|PUNCT],[det:num|seven] [n|hump-PL] [prep|on] [det:art|the] [wplay|wump] [prep|of] [wplay|gump .],,,,,,,,,,MotherofViolet_Violet020305_471
+472,Mother,Violet020305,thirteen beetles in a bottle .,Violet,1033.412,1037.157,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[det:num|thirteen] [n|beetle-PL] [prep|in] [det:art|a] [n|bottle .],,,,,,,,,,MotherofViolet_Violet020305_472
+473,Mother,Violet020305,ten teeny tiny teeth .,Violet,1037.157,1044.458,[],[1|4|QUANT] [2|4|MOD] [3|4|MOD] [4|0|INCROOT 5|4|PUNCT],[det:num|ten] [adj|teeny] [adj|tiny] [n|tooth&PL .],,,,,,,,,,MotherofViolet_Violet020305_473
+474,Mother,Violet020305,fifteen free freeze sneezing .,Violet,1044.458,1049.203,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT] [4|3|XJCT 5|3|PUNCT],[det:num|fifteen] [adj|free] [n|freeze] [part|sneeze-PRESP .],,,,,,,,,,MotherofViolet_Violet020305_474
+475,Mother,Violet020305,six sick bricks .,Violet,1049.203,1051.983,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|six] [adj|sick] [n|brick-PL .],,,,,,,,,,MotherofViolet_Violet020305_475
+476,Mother,Violet020305,xxx .,Violet,1051.983,1053.85,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_476
+477,Mother,Violet020305,twelve hooks in a book .,Violet,1053.85,1058.017,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[det:num|twelve] [n|hook-PL] [prep|in] [det:art|a] [n|book .],,,,,,,,,,MotherofViolet_Violet020305_477
+478,Mother,Violet020305,twenty (t:t:trail off),Violet,1058.017,1060.67,[],[1|0|INCROOT 2|1|PUNCT],[det:num|twenty (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_478
+479,Mother,Violet020305,xxx with hair in their heads .,Violet,1060.67,1063.787,[],[] [1|0|INCROOT] [2|1|POBJ] [3|2|NJCT] [4|5|MOD] [5|3|POBJ 6|1|PUNCT],[] [prep|with] [n|hair] [prep|in] [det:poss|their] [n|head-PL .],,,,,,,,,,MotherofViolet_Violet020305_479
+480,Violet,Violet020305,what's in here ?,Violet,1063.787,1070.767,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_480
+481,Mother,Violet020305,four (t:t:trail off),Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[det:num|four (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_481
+482,Mother,Violet020305,balls fall .,Violet,1070.767,1072.962,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|ball-3S] [n|fall .],,,,,,,,,,MotherofViolet_Violet020305_482
+483,Violet,Violet020305,what's in here ?,Violet,1072.962,1077.607,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_483
+484,Mother,Violet020305,sixteen sheep walking in their sleep .,Violet,1077.607,1081.363,[],[1|2|QUANT] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|6|MOD] [6|4|POBJ 7|3|PUNCT],[det:num|sixteen] [n|sheep] [part|walk-PRESP] [prep|in] [det:poss|their] [n|sleep .],,,,,,,,,,MotherofViolet_Violet020305_484
+485,Mother,Violet020305,seventeen stars sparkle around mars .,Violet,1081.363,1085.268,[],[1|2|QUANT] [2|3|SUBJ] [3|0|ROOT] [4|5|JCT] [5|3|COMP 6|3|PUNCT],[det:num|seventeen] [n|star-PL] [v|sparkle] [adv|around] [v|mar-3S .],,,,,,,,,,MotherofViolet_Violet020305_485
+486,Mother,Violet020305,fourteen seven flies with fourteen eyes .,Violet,1085.268,1091.478,[],[1|3|QUANT] [2|3|QUANT] [3|0|INCROOT] [4|3|NJCT] [5|6|QUANT] [6|4|POBJ 7|3|PUNCT],[det:num|fourteen] [det:num|seven] [n|fly-PL] [prep|with] [det:num|fourteen] [n|eye-PL .],,,,,,,,,,MotherofViolet_Violet020305_486
+487,Violet,Violet020305,seven flies with fourteen eyes .,Violet,1091.478,1098.912,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT] [4|5|QUANT] [5|3|POBJ 6|2|PUNCT],[det:num|seven] [n|fly-PL] [prep|with] [det:num|fourteen] [n|eye-PL .],,,,,,,,,,VioletofViolet_Violet020305_487
+488,Violet,Violet020305,yyy what's in here ?,Violet,1098.912,1101.502,[],[] [1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[] [pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_488
+489,Mother,Violet020305,let's see nineteen cups piled up .,Violet,1101.502,1105.695,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|5|QUANT] [5|6|SUBJ] [6|3|COMP] [7|6|JCT 8|1|PUNCT],[v|let~pro:obj|us] [v|see] [det:num|nineteen] [n|cup-PL] [v|pile-PAST] [adv|up .],,,,,,,,,,MotherofViolet_Violet020305_489
+490,Violet,Violet020305,yyy yyy .,Violet,1105.695,1111.945,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_490
+491,Violet,Violet020305,what's in here ?,Violet,1111.945,1113.602,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_491
+492,Mother,Violet020305,I dunno (replacement:replacement:don't know) .,Violet,1113.602,1115.975,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT],[pro:sub|I] [mod|do~neg|not v|know .],,,,,,,,,,MotherofViolet_Violet020305_492
+493,Mother,Violet020305,eighteen mice skating on ice .,Violet,1115.975,1118.052,[],[1|2|QUANT] [2|0|INCROOT] [3|2|XJCT] [4|3|JCT] [5|4|POBJ 6|2|PUNCT],[det:num|eighteen] [n|mouse&PL] [part|skate-PRESP] [prep|on] [n|ice .],,,,,,,,,,MotherofViolet_Violet020305_493
+494,Violet,Violet020305,what's in here ?,Violet,1118.052,1120.453,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_494
+495,Mother,Violet020305,that one doesn't open .,Violet,1120.453,1124.262,[],[1|2|DET] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT 6|5|PUNCT],[pro:dem|that] [pro:indef|one] [mod|do&3S~neg|not] [v|open .],,,,,,,,,,MotherofViolet_Violet020305_495
+496,Mother,Violet020305,how <a>bout this one ?,Violet,1124.262,1125.14,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[adv:int|how] [prep|about] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_496
+497,Mother,Violet020305,eleven fingers .,Violet,1125.14,1127.703,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|eleven] [n|finger-PL .],,,,,,,,,,MotherofViolet_Violet020305_497
+498,Violet,Violet020305,how <a>bout this one ?,Violet,1127.703,1134.638,mother's speech overlaps with end of utterance[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[adv:int|how] [prep|about] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,VioletofViolet_Violet020305_498
+499,Mother,Violet020305,one (t:t:trail off),Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[pro:indef|one (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_499
+500,Mother,Violet020305,fish .,Violet,1134.638,1136.093,[],[1|0|INCROOT 2|1|PUNCT],[n|fish .],,,,,,,,,,MotherofViolet_Violet020305_500
+501,Mother,Violet020305,five cakes bake .,Violet,1136.093,1139.543,[],[1|2|QUANT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[det:num|five] [n|cake-PL] [v|bake .],,,,,,,,,,MotherofViolet_Violet020305_501
+502,Mother,Violet020305,what about this one ?,Violet,1139.543,1142.947,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[pro:int|what] [prep|about] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_502
+503,Mother,Violet020305,eight mice eat nice rice .,Violet,1142.947,1146.27,[],[1|2|QUANT] [2|3|SUBJ] [3|0|ROOT] [4|5|MOD] [5|3|OBJ 6|3|PUNCT],[det:num|eight] [n|mouse&PL] [v|eat] [adj|nice] [n|rice .],,,,,,,,,,MotherofViolet_Violet020305_503
+504,Mother,Violet020305,nine wet pets .,Violet,1146.27,1151.462,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|nine] [adj|wet] [n|pet-PL .],,,,,,,,,,MotherofViolet_Violet020305_504
+505,Mother,Violet020305,how <a>bout this one ?,Violet,1151.462,1152.167,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[adv:int|how] [prep|about] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_505
+506,Mother,Violet020305,three little cats .,Violet,1152.167,1156.27,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|three] [adj|little] [n|cat-PL .],,,,,,,,,,MotherofViolet_Violet020305_506
+507,Violet,Violet020305,how <a>bout this one ?,Violet,1156.27,1162.997,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[adv:int|how] [prep|about] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,VioletofViolet_Violet020305_507
+508,Mother,Violet020305,mister brown (t:t:trail off),Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|OM 3|1|PUNCT],[n|mister] [adj|brown (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_508
+509,Mother,Violet020305,"can moo , can you ?",Violet,1162.997,1167.807,[],[1|2|AUX] [2|0|ROOT 3|2|LP] [4|5|AUX] [5|2|OBJ 6|2|PUNCT],[mod|can] [v|moo cm|cm] [mod|can] [pro:per|you ?],,,,,,,,,,MotherofViolet_Violet020305_509
+510,Mother,Violet020305,flip the flaps and make noise too .,Violet,0.0,0.0,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|3|CONJ] [5|4|COORD] [6|5|OBJ] [7|6|PQ 8|1|PUNCT],[v|flip] [det:art|the] [v|flap-3S] [coord|and] [v|make] [n|noise] [post|too .],,,,,,,,,,MotherofViolet_Violet020305_510
+511,Mother,Violet020305,buzz buzz says the bee .,Violet,1167.807,1170.953,[],[1|2|MOD] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[n|buzz] [n|buzz] [v|say-3S] [det:art|the] [n|bee .],,,,,,,,,,MotherofViolet_Violet020305_511
+512,Violet,Violet020305,what's in { this (?) } { thing (?) } .,Violet,1170.953,1173.147,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [pro:dem|this] [n|thing .],,,,,,,,,,VioletofViolet_Violet020305_512
+513,Mother,Violet020305,hoo@o hoo@o hoo@o .,Violet,1173.147,1175.148,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[on|hoo] [on|hoo] [on|hoo .],,,,,,,,,,MotherofViolet_Violet020305_513
+514,Violet,Violet020305,what's in here ?,Violet,1175.148,1176.963,gurgling confounds CHI speech,[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_514
+515,Mother,Violet020305,clop clop .,Violet,1176.963,1179.095,[],[1|0|INCROOT] [2|1|ENUM 3|1|PUNCT],[on|clop] [on|clop .],,,,,,,,,,MotherofViolet_Violet020305_515
+516,Mother,Violet020305,what is it ?,Violet,1179.095,1181.967,[],[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[pro:int|what] [aux|be&3S] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_516
+517,Violet,Violet020305,it's a horse .,Violet,1181.967,1186.285,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|a] [n|horse .],,,,,,,,,,VioletofViolet_Violet020305_517
+518,Mother,Violet020305,clop clop .,Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|ENUM 3|1|PUNCT],[on|clop] [on|clop .],,,,,,,,,,MotherofViolet_Violet020305_518
+519,Mother,Violet020305,you need to sit in my lap lap .,Violet,1186.285,1191.375,[],[1|2|SUBJ] [2|0|ROOT] [3|4|INF] [4|2|XCOMP] [5|4|JCT] [6|8|MOD] [7|8|MOD] [8|5|POBJ 9|2|PUNCT],[pro:per|you] [v|need] [inf|to] [v|sit] [prep|in] [det:poss|my] [n|lap] [n|lap .],,,,,,,,,,MotherofViolet_Violet020305_519
+520,Mother,Violet020305,come here sit in my lap .,Violet,0.0,0.0,[],[1|0|ROOT] [2|3|JCT] [3|1|COMP] [4|3|JCT] [5|6|MOD] [6|4|POBJ 7|1|PUNCT],[v|come] [adv|here] [v|sit] [prep|in] [det:poss|my] [n|lap .],,,,,,,,,,MotherofViolet_Violet020305_520
+521,Mother,Violet020305,<be>cause I don't want you to pee pee on my couch .,Violet,1191.375,1193.902,[],[1|5|LINK] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|5|OBJ] [7|5|JCT] [8|9|MOD] [9|7|POBJ] [10|5|JCT] [11|12|MOD] [12|10|POBJ 13|5|PUNCT],[conj|because] [pro:sub|I] [mod|do~neg|not] [v|want] [pro:per|you] [prep|to] [n|pee] [n|pee] [prep|on] [det:poss|my] [n|couch .],,,,,,,,,,MotherofViolet_Violet020305_521
+522,Violet,Violet020305,xxx .,Violet,1193.902,1200.395,muttering,[],[],,,,,,,,,,VioletofViolet_Violet020305_522
+523,Violet,Violet020305,xxx .,Violet,1200.395,1203.205,muttering,[],[],,,,,,,,,,VioletofViolet_Violet020305_523
+524,Mother,Violet020305,what about in the barn door ?,Violet,1203.205,1205.508,[],[1|0|INCROOT] [2|1|JCT] [3|2|JCT] [4|6|DET] [5|6|MOD] [6|3|POBJ 7|1|PUNCT],[pro:int|what] [adv|about] [prep|in] [det:art|the] [n|barn] [n|door ?],,,,,,,,,,MotherofViolet_Violet020305_524
+525,Mother,Violet020305,you got another barn door .,Violet,1205.508,1210.622,[],[1|2|SUBJ] [2|0|ROOT] [3|4|QUANT] [4|5|MOD] [5|2|OBJ 6|2|PUNCT],[pro:per|you] [v|get&PAST] [qn|another] [n|barn] [n|door .],,,,,,,,,,MotherofViolet_Violet020305_525
+526,Mother,Violet020305,three more barn doors .,Violet,1210.622,1213.362,[],[1|4|QUANT] [2|3|JCT] [3|4|MOD] [4|0|ROOT 5|4|PUNCT],[det:num|three] [adv|more] [n|barn] [n|door-PL .],,,,,,,,,,MotherofViolet_Violet020305_526
+527,Mother,Violet020305,cock_a_doodle_doo .,Violet,1213.362,1218.13,[],[1|0|INCROOT 2|1|PUNCT],[co|cock_a_doodle_doo .],,,,,,,,,,MotherofViolet_Violet020305_527
+528,Mother,Violet020305,how <a>bout this one ?,Violet,1218.13,1219.605,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[adv:int|how] [prep|about] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_528
+529,Mother,Violet020305,moo moo moo .,Violet,1219.605,1222.743,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[v|moo] [v|moo] [on|moo .],,,,,,,,,,MotherofViolet_Violet020305_529
+530,Violet,Violet020305,cow .,Violet,1222.743,1223.547,[],[1|0|INCROOT 2|1|PUNCT],[n|cow .],,,,,,,,,,VioletofViolet_Violet020305_530
+531,Violet,Violet020305,what's in here ?,Violet,1223.547,1229.5,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_531
+532,Mother,Violet020305,xxx how <a>bout under the cat ?,Violet,1229.5,1233.88,[],[] [1|0|INCROOT] [2|1|JCT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|1|PUNCT],[] [adv:int|how] [adv|about] [prep|under] [det:art|the] [n|cat ?],,,,,,,,,,MotherofViolet_Violet020305_532
+533,Mother,Violet020305,slurp slurp slurp .,Violet,1233.88,1238.343,[],[1|0|ROOT] [2|1|OBJ] [3|2|OBJ 4|1|PUNCT],[v|slurp] [v|slurp] [v|slurp .],,,,,,,,,,MotherofViolet_Violet020305_533
+534,Violet,Violet020305,yyy a cat .,Violet,1238.343,1243.105,[],[] [1|2|DET] [2|0|INCROOT 3|2|PUNCT],[] [det:art|a] [n|cat .],,,,,,,,,,VioletofViolet_Violet020305_534
+535,Mother,Violet020305,mhm .,Violet,1243.105,1243.908,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofViolet_Violet020305_535
+536,Mother,Violet020305,how <a>bout behind xxx the brown cart ?,Violet,1243.908,1246.998,[],[1|0|INCROOT] [2|1|JCT] [3|2|JCT] [] [4|6|DET] [5|6|MOD] [6|3|POBJ 7|1|PUNCT],[adv:int|how] [adv|about] [prep|behind] [] [det:art|the] [adj|brown] [n|cart ?],,,,,,,,,,MotherofViolet_Violet020305_536
+537,Mother,Violet020305,what's behind his head ?,Violet,1246.998,1263.276,mic interference,[1|2|LINK 2|0|ROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ 6|2|PUNCT],[pro:int|what~aux|be&3S] [prep|behind] [det:poss|his] [n|head ?],,,,,,,,,,MotherofViolet_Violet020305_537
+538,Mother,Violet020305,hoo@o hoo@o hoo@o .,Violet,1263.278,1266.912,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[on|hoo] [on|hoo] [on|hoo .],,,,,,,,,,MotherofViolet_Violet020305_538
+539,Mother,Violet020305,moo moo moo .,Violet,1266.912,1276.865,mic interference,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[v|moo] [v|moo] [on|moo .],,,,,,,,,,MotherofViolet_Violet020305_539
+540,Mother,Violet020305,and I lift the flap and find other creatures lurking about .,Violet,1276.865,1281.173,mic interference,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|5|CONJ] [7|6|COORD] [8|9|QUANT] [9|7|OBJ] [10|9|XMOD] [11|10|JCT 12|3|PUNCT],[coord|and] [pro:sub|I] [v|lift] [det:art|the] [v|flap] [coord|and] [v|find] [qn|other] [n|creature-PL] [part|lurk-PRESP] [adv|about .],,,,,,,,,,MotherofViolet_Violet020305_540
+541,Mother,Violet020305,xxx in my basket .,Violet,1281.173,1286.702,mic interference,[] [1|0|INCROOT] [2|3|MOD] [3|1|POBJ 4|1|PUNCT],[] [prep|in] [det:poss|my] [n|basket .],,,,,,,,,,MotherofViolet_Violet020305_541
+542,Violet,Violet020305,yyy yyy .,Violet,1286.702,1290.19,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_542
+543,Violet,Violet020305,in the pot .,Violet,1290.19,1292.372,[],[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[prep|in] [det:art|the] [n|pot .],,,,,,,,,,VioletofViolet_Violet020305_543
+544,Mother,Violet020305,who's in the pot ?,Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|who~cop|be&3S] [prep|in] [det:art|the] [n|pot ?],,,,,,,,,,MotherofViolet_Violet020305_544
+545,Mother,Violet020305,xxx .,Violet,1292.372,1295.96,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_545
+546,Mother,Violet020305,he's hiding xxx .,Violet,1295.96,1318.976,mic interference,[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|PUNCT],[pro:sub|he~aux|be&3S] [part|hide-PRESP] [.],,,,,,,,,,MotherofViolet_Violet020305_546
+547,Violet,Violet020305,xxx .,Violet,1318.977,1323.538,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_547
+548,Mother,Violet020305,xxx the book xxx .,Violet,0.0,0.0,mic interference,[] [1|2|DET] [2|0|INCROOT] [3|2|PUNCT],[] [det:art|the] [n|book] [.],,,,,,,,,,MotherofViolet_Violet020305_548
+549,Mother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_549
+550,Violet,Violet020305,yyy .,Violet,1323.538,1339.096,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_550
+551,Mother,Violet020305,I wonder if he's in the closet ?,Violet,1339.097,1342.25,whispering,[1|2|SUBJ] [2|0|ROOT] [3|5|LINK] [4|5|SUBJ 5|2|CJCT] [6|5|JCT] [7|8|DET] [8|6|POBJ 9|2|PUNCT],[pro:sub|I] [v|wonder] [conj|if] [pro:sub|he~cop|be&3S] [prep|in] [det:art|the] [n|closet ?],,,,,,,,,,MotherofViolet_Violet020305_551
+552,Mother,Violet020305,xxx .,Violet,1342.25,1359.231,laughing,[],[],,,,,,,,,,MotherofViolet_Violet020305_552
+553,Mother,Violet020305,he's behind the pot .,Violet,0.0,0.0,mic interference,[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:sub|he~cop|be&3S] [prep|behind] [det:art|the] [n|pot .],,,,,,,,,,MotherofViolet_Violet020305_553
+554,Mother,Violet020305,xxx come on .,Violet,1359.232,1390.406,mic interference,[] [1|0|ROOT] [2|1|JCT 3|1|PUNCT],[] [v|come] [adv|on .],,,,,,,,,,MotherofViolet_Violet020305_554
+555,Mother,Violet020305,xxx the curtain .,Violet,1390.407,1393.045,[],[] [1|2|DET] [2|0|INCROOT 3|2|PUNCT],[] [det:art|the] [n|curtain .],,,,,,,,,,MotherofViolet_Violet020305_555
+556,Mother,Violet020305,xxx who does that xxx ?,Violet,1393.045,1396.483,[],[] [1|3|OBJ] [2|3|AUX] [3|0|INCROOT] [4|3|PUNCT],[] [pro:int|who] [mod|do&3S] [pro:dem|that] [?],,,,,,,,,,MotherofViolet_Violet020305_556
+557,Violet,Violet020305,yeah .,Violet,1396.483,1398.195,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_557
+558,Mother,Violet020305,Nubberd in the cupboard .,Violet,1398.195,1400.538,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[n:prop|Nubberd] [prep|in] [det:art|the] [n|cupboard .],,,,,,,,,,MotherofViolet_Violet020305_558
+559,Mother,Violet020305,xxx .,Violet,1400.538,1414.665,mic interference,[],[],,,,,,,,,,MotherofViolet_Violet020305_559
+560,Mother,Violet020305,xxx in the closet .,Violet,1414.665,1419.078,mic interference,[] [1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[] [prep|in] [det:art|the] [n|closet .],,,,,,,,,,MotherofViolet_Violet020305_560
+561,Mother,Violet020305,who's behind the window ?,Violet,1419.078,1423.203,[],[1|2|LINK 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:rel|who~aux|be&3S] [prep|behind] [det:art|the] [n|window ?],,,,,,,,,,MotherofViolet_Violet020305_561
+562,Violet,Violet020305,xxx yyy .,Violet,1423.203,1426.415,laughter,[],[],,,,,,,,,,VioletofViolet_Violet020305_562
+563,Mother,Violet020305,xxx .,Violet,0.0,0.0,giggling,[],[],,,,,,,,,,MotherofViolet_Violet020305_563
+564,Mother,Violet020305,oops xxx who's in the closet ?,Violet,1426.415,1442.096,mic interference,[1|3|COM] [] [2|3|LINK 3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[co|oops] [] [pro:rel|who~aux|be&3S] [prep|in] [det:art|the] [n|closet ?],,,,,,,,,,MotherofViolet_Violet020305_564
+565,Violet,Violet020305,xxx the window yyy the window .,Violet,1442.097,1450.292,mic interference,[] [1|2|DET] [2|0|INCROOT] [] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[] [det:art|the] [n|window] [] [det:art|the] [n|window .],,,,,,,,,,VioletofViolet_Violet020305_565
+566,Mother,Violet020305,the window ?,Violet,0.0,0.0,mic interference,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|window ?],,,,,,,,,,MotherofViolet_Violet020305_566
+567,Violet,Violet020305,yeah .,Violet,1450.292,1451.085,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_567
+568,Mother,Violet020305,xxx window .,Violet,1451.085,1452.972,[],[] [1|0|INCROOT 2|1|PUNCT],[] [n|window .],,,,,,,,,,MotherofViolet_Violet020305_568
+569,Mother,Violet020305,xxx .,Violet,1452.972,1454.14,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_569
+570,Mother,Violet020305,xxx .,Violet,1454.14,1460.81,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_570
+571,Mother,Violet020305,who's in the closet ?,Violet,1460.81,1463.088,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|who~cop|be&3S] [prep|in] [det:art|the] [n|closet ?],,,,,,,,,,MotherofViolet_Violet020305_571
+572,Mother,Violet020305,go ahead and show me !,Violet,1463.088,1464.69,[],[1|0|ROOT] [2|1|JCT] [3|1|CONJ] [4|3|COORD] [5|4|OBJ 6|1|PUNCT],[v|go] [adv|ahead] [coord|and] [v|show] [pro:obj|me !],,,,,,,,,,MotherofViolet_Violet020305_572
+573,Violet,Violet020305,yyy open it .,Violet,1464.69,1468.258,[],[] [1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[] [v|open] [pro:per|it .],,,,,,,,,,VioletofViolet_Violet020305_573
+574,Mother,Violet020305,you want me to open the closet for you ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|5|INF] [5|2|XCOMP] [6|7|DET] [7|5|OBJ] [8|5|JCT] [9|8|POBJ 10|2|PUNCT],[pro:per|you] [v|want] [pro:obj|me] [inf|to] [v|open] [det:art|the] [n|closet] [prep|for] [pro:per|you ?],,,,,,,,,,MotherofViolet_Violet020305_574
+575,Mother,Violet020305,xxx .,Violet,1468.258,1469.81,gasping,[],[],,,,,,,,,,MotherofViolet_Violet020305_575
+576,Mother,Violet020305,you ready ?,Violet,1469.81,1470.705,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:per|you] [v|ready ?],,,,,,,,,,MotherofViolet_Violet020305_576
+577,Violet,Violet020305,yeah .,Violet,1470.705,1471.348,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_577
+578,Mother,Violet020305,wazit (replacement:replacement:what is it) .,Violet,1471.348,1473.413,[],[1|2|LINK 2|0|ROOT 3|2|OBJ 4|2|PUNCT],[pro:int|what aux|be&3S pro:per|it .],,,,,,,,,,MotherofViolet_Violet020305_578
+579,Mother,Violet020305,it's a wazit (replacement:replacement:what is it) in the closet .,Violet,1473.413,1476.437,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|6|SUBJ 5|6|AUX 6|2|COMP] [7|6|JCT] [8|9|DET] [9|7|POBJ 10|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|a] [pro:int|what aux|be&3S pro:per|it] [prep|in] [det:art|the] [n|closet .],,,,,,,,,,MotherofViolet_Violet020305_579
+580,Mother,Violet020305,can we look behind the pot now ?,Violet,1476.437,1479.432,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ] [7|3|JCT 8|3|PUNCT],[mod|can] [pro:sub|we] [v|look] [prep|behind] [det:art|the] [n|pot] [adv|now ?],,,,,,,,,,MotherofViolet_Violet020305_580
+581,Violet,Violet020305,yeah .,Violet,1479.432,1483.843,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_581
+582,Mother,Violet020305,can mommy do it ?,Violet,1483.843,1485.003,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[mod|can] [n|mommy] [v|do] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_582
+583,Mother,Violet020305,can I look behind the pot ?,Violet,1485.003,1487.928,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[mod|can] [pro:sub|I] [v|look] [prep|behind] [det:art|the] [n|pot ?],,,,,,,,,,MotherofViolet_Violet020305_583
+584,Violet,Violet020305,yeah .,Violet,1487.928,1488.988,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_584
+585,Mother,Violet020305,are you ready ?,Violet,1488.988,1489.547,[],[1|0|ROOT] [2|1|OBJ] [3|2|PRED 4|1|PUNCT],[cop|be&PRES] [pro:per|you] [adj|ready ?],,,,,,,,,,MotherofViolet_Violet020305_585
+586,Violet,Violet020305,xxx .,Violet,1489.547,1490.228,giggling,[],[],,,,,,,,,,VioletofViolet_Violet020305_586
+587,Mother,Violet020305,yacht .,Violet,1490.228,1494.325,[],[1|0|INCROOT 2|1|PUNCT],[n|yacht .],,,,,,,,,,MotherofViolet_Violet020305_587
+588,Mother,Violet020305,a yacht in a pot .,Violet,1494.325,1495.72,[],[1|2|DET] [2|0|INCROOT] [3|2|NJCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[det:art|a] [n|yacht] [prep|in] [det:art|a] [n|pot .],,,,,,,,,,MotherofViolet_Violet020305_588
+589,Mother,Violet020305,who's in here ?,Violet,1495.72,1497.757,[],[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|who~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,MotherofViolet_Violet020305_589
+590,Mother,Violet020305,more nubirds@n .,Violet,1497.757,1499.715,[],[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|more] [neo|nubirds .],,,,,,,,,,MotherofViolet_Violet020305_590
+591,Mother,Violet020305,xxx .,Violet,1499.715,1500.507,giggling,[],[],,,,,,,,,,MotherofViolet_Violet020305_591
+592,Mother,Violet020305,more nubirds@n in the cupboards .,Violet,1500.507,1502.223,[],[1|2|JCT] [2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[adv|more] [neo|nubirds] [prep|in] [det:art|the] [n|cupboard-PL .],,,,,,,,,,MotherofViolet_Violet020305_592
+593,Mother,Violet020305,okay let's see .,Violet,1502.223,1505.443,[],[1|2|COM] [2|0|ROOT 3|2|OBJ] [4|2|XCOMP 5|2|PUNCT],[co|okay] [v|let~pro:obj|us] [v|see .],,,,,,,,,,MotherofViolet_Violet020305_593
+594,Mother,Violet020305,"from here to there , from there to here from here to there funny things everywhere .",Violet,1505.443,1510.745,[],[1|0|INCROOT] [2|1|POBJ] [3|2|JCT] [4|3|POBJ 5|3|LP] [6|3|POBJ] [7|6|POBJ] [8|6|NJCT] [9|8|POBJ] [10|9|NJCT] [11|16|JCT] [12|16|JCT] [13|15|JCT] [14|15|MOD] [15|12|POBJ] [16|10|POBJ 17|1|PUNCT],[prep|from] [adv|here] [prep|to] [adv|there cm|cm] [prep|from] [adv|there] [prep|to] [adv|here] [prep|from] [adv|here] [prep|to] [adv|there] [adj|fun&dn-Y] [n|thing-PL] [adv|everywhere .],,,,,,,,,,MotherofViolet_Violet020305_594
+595,Mother,Violet020305,blue fish .,Violet,1510.745,1513.5,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|blue] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_595
+596,Mother,Violet020305,red fish blue fish .,Violet,1513.5,1515.242,[],[1|2|MOD] [2|4|MOD] [3|4|MOD] [4|0|INCROOT 5|4|PUNCT],[adj|red] [n|fish] [adj|blue] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_596
+597,Mother,Violet020305,some are thin .,Violet,1515.242,1516.838,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:indef|some] [cop|be&PRES] [adj|thin .],,,,,,,,,,MotherofViolet_Violet020305_597
+598,Mother,Violet020305,some are fat .,Violet,1516.838,1517.882,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:indef|some] [cop|be&PRES] [adj|fat .],,,,,,,,,,MotherofViolet_Violet020305_598
+599,Mother,Violet020305,the fat one has a yellow hat .,Violet,1517.882,1519.622,[],[1|2|DET] [2|4|LINK] [3|4|SUBJ] [4|0|ROOT] [5|7|DET] [6|7|MOD] [7|4|OBJ 8|4|PUNCT],[det:art|the] [n|fat] [pro:indef|one] [v|have&3S] [det:art|a] [n|yellow] [n|hat .],,,,,,,,,,MotherofViolet_Violet020305_599
+600,Mother,Violet020305,some are sad .,Violet,1519.622,1522.342,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:indef|some] [cop|be&PRES] [adj|sad .],,,,,,,,,,MotherofViolet_Violet020305_600
+601,Mother,Violet020305,some are (t:t:trail off),Violet,1522.342,1527.555,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:indef|some] [cop|be&PRES (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_601
+602,Mother,Violet020305,what ?,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],,,,,,,,,,MotherofViolet_Violet020305_602
+603,Mother,Violet020305,mad .,Violet,1527.555,1529.405,[],[1|0|INCROOT 2|1|PUNCT],[adj|mad .],,,,,,,,,,MotherofViolet_Violet020305_603
+604,Violet,Violet020305,yyy .,Violet,1529.405,1531.855,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_604
+605,Violet,Violet020305,yeah .,Violet,1531.855,1533.04,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_605
+606,Mother,Violet020305,black fish .,Violet,1533.04,1534.008,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|black] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_606
+607,Mother,Violet020305,blue fish .,Violet,1534.008,1535.253,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|blue] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_607
+608,Violet,Violet020305,red fish .,Violet,1535.253,1538.352,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|red] [n|fish .],,,,,,,,,,VioletofViolet_Violet020305_608
+609,Mother,Violet020305,red fish blue fish .,Violet,0.0,0.0,[],[1|2|MOD] [2|4|MOD] [3|4|MOD] [4|0|INCROOT 5|4|PUNCT],[adj|red] [n|fish] [adj|blue] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_609
+610,Mother,Violet020305,one fish .,Violet,1538.352,1541.357,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|one] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_610
+611,Violet,Violet020305,two .,Violet,1541.357,1544.278,[],[1|0|INCROOT 2|1|PUNCT],[det:num|two .],,,,,,,,,,VioletofViolet_Violet020305_611
+612,Mother,Violet020305,"two fish , good !",Violet,1544.278,1546.292,[],[1|2|QUANT] [2|0|INCROOT 3|2|LP] [4|2|ENUM 5|2|PUNCT],[det:num|two] [n|fish cm|cm] [adj|good !],,,,,,,,,,MotherofViolet_Violet020305_612
+613,Mother,Violet020305,old fish .,Violet,1546.292,1549.158,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|old] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_613
+614,Mother,Violet020305,and new fish .,Violet,1549.158,1552.375,[],[1|3|LINK] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[coord|and] [adj|new] [n|fish .],,,,,,,,,,MotherofViolet_Violet020305_614
+615,Mother,Violet020305,see the new baby ?,Violet,1552.375,1554.725,[],[1|0|ROOT] [2|4|DET] [3|4|MOD] [4|1|OBJ 5|1|PUNCT],[v|see] [det:art|the] [adj|new] [n|baby ?],,,,,,,,,,MotherofViolet_Violet020305_615
+616,Violet,Violet020305,yeah .,Violet,1554.725,1555.415,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_616
+617,Violet,Violet020305,and that's the mommy .,Violet,1555.415,1557.715,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[coord|and] [pro:dem|that~cop|be&3S] [det:art|the] [n|mommy .],,,,,,,,,,VioletofViolet_Violet020305_617
+618,Violet,Violet020305,yyy pushing the baby .,Violet,1557.715,1562.048,[],[] [1|0|INCROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[] [part|push-PRESP] [det:art|the] [n|baby .],,,,,,,,,,VioletofViolet_Violet020305_618
+619,Mother,Violet020305,yep (replacement:replacement:yes) .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofViolet_Violet020305_619
+620,Violet,Violet020305,I like this page .,Violet,1562.048,1566.348,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[pro:sub|I] [v|like] [pro:dem|this] [n|page .],,,,,,,,,,VioletofViolet_Violet020305_620
+621,Violet,Violet020305,I wanna do yyy yyy this page .,Violet,1566.348,1569.9,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [] [] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[pro:sub|I] [mod:aux|wanna] [v|do] [] [] [pro:dem|this] [n|page .],,,,,,,,,,VioletofViolet_Violet020305_621
+622,Mother,Violet020305,<o>kay it's the alphabet page .,Violet,1569.9,1572.335,[],[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|6|DET] [5|6|MOD] [6|3|PRED 7|3|PUNCT],[co|okay] [pro:per|it~cop|be&3S] [det:art|the] [n|alphabet] [n|page .],,,,,,,,,,MotherofViolet_Violet020305_622
+623,Violet,Violet020305,a@l b@l c@l d@l (t:t:trail off),Violet,1572.335,1579.817,[],[1|0|INCROOT] [2|1|OBJ] [3|2|OM] [4|3|OM 5|1|PUNCT],[n:let|a] [n:let|b] [n:let|c] [n:let|d (mt:trail off)],,,,,,,,,,VioletofViolet_Violet020305_623
+624,Mother,Violet020305,e@l f@l g@l .,Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[n:let|e] [n:let|f] [n:let|g .],,,,,,,,,,MotherofViolet_Violet020305_624
+625,Violet,Violet020305,I'll open this xxx .,Violet,1579.817,1583.655,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|PUNCT],[pro:sub|I~mod|will] [v|open] [pro:dem|this] [.],,,,,,,,,,VioletofViolet_Violet020305_625
+626,Mother,Violet020305,i@l is for (t:t:trail off),Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[n:let|i] [cop|be&3S] [prep|for (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_626
+627,Mother,Violet020305,Ichabod .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Ichabod .],,,,,,,,,,MotherofViolet_Violet020305_627
+628,Violet,Violet020305,xxx .,Violet,1583.655,1584.725,drowned out by MOT speech,[],[],,,,,,,,,,VioletofViolet_Violet020305_628
+629,Violet,Violet020305,Ichabod .,Violet,1584.725,1587.462,[],[1|0|INCROOT 2|1|PUNCT],[n:prop|Ichabod .],,,,,,,,,,VioletofViolet_Violet020305_629
+630,Mother,Violet020305,j@l is for joey jar .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ 6|2|PUNCT],[n:let|j] [cop|be&3S] [prep|for] [n|joey] [n|jar .],,,,,,,,,,MotherofViolet_Violet020305_630
+631,Violet,Violet020305,yyy .,Violet,1587.462,1593.288,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_631
+632,Mother,Violet020305,k@l is for (t:t:trail off),Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[n:let|k] [cop|be&3S] [prep|for (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_632
+633,Violet,Violet020305,yyy yyy yyy .,Violet,1593.288,1595.59,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_633
+634,Mother,Violet020305,what ?,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],,,,,,,,,,MotherofViolet_Violet020305_634
+635,Violet,Violet020305,kangaroo yyy xxx .,Violet,1595.59,1599.312,[],[1|0|INCROOT] [] [2|1|PUNCT],[n|kangaroo] [] [.],,,,,,,,,,VioletofViolet_Violet020305_635
+636,Mother,Violet020305,r@l is for (t:t:trail off),Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[n:let|r] [cop|be&3S] [prep|for (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_636
+637,Mother,Violet020305,xxx rhinoceros .,Violet,1599.312,1601.998,[],[] [1|0|INCROOT 2|1|PUNCT],[] [n|rhinoceros .],,,,,,,,,,MotherofViolet_Violet020305_637
+638,Mother,Violet020305,w@l is for wuzzit (replacement:replacement:what is it) .,Violet,1601.998,1606.997,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|4|INCROOT 6|5|OBJ 7|5|PUNCT],[n:let|w] [cop|be&3S] [prep|for] [pro:int|what aux|be&3S pro:per|it .],,,,,,,,,,MotherofViolet_Violet020305_638
+639,Violet,Violet020305,yyy what's in here ?,Violet,1606.997,1611.988,[],[] [1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[] [pro:int|what~cop|be&3S] [prep|in] [adv|here ?],,,,,,,,,,VioletofViolet_Violet020305_639
+640,Violet,Violet020305,yyy yyy yyy .,Violet,1611.988,1614.223,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_640
+641,Mother,Violet020305,h@l is for (t:t:trail off),Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[n:let|h] [cop|be&3S] [prep|for (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_641
+642,Mother,Violet020305,hungry horse .,Violet,1614.223,1615.845,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|hungry] [n|horse .],,,,,,,,,,MotherofViolet_Violet020305_642
+643,Violet,Violet020305,yyy yyy xxx hungry horse .,Violet,1615.845,1619.093,[],[] [] [] [1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[] [] [] [adj|hungry] [n|horse .],,,,,,,,,,VioletofViolet_Violet020305_643
+644,Violet,Violet020305,a dabbit@c in my dabbit@c a dabbit@c in my (t:t:interruption),Violet,1619.093,1626.74,[],[1|2|DET] [2|0|INCROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ] [6|7|DET] [7|5|OBJ] [8|7|JCT] [9|8|POBJ 10|2|PUNCT],[det:art|a] [chi|dabbit] [prep|in] [det:poss|my] [chi|dabbit] [det:art|a] [chi|dabbit] [prep|in] [det:poss|my (mt:interruption)],,,,,,,,,,VioletofViolet_Violet020305_644
+645,Mother,Violet020305,d@l is for (t:t:trail off),Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[n:let|d] [cop|be&3S] [prep|for (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_645
+646,Violet,Violet020305,dabbit@c xxx .,Violet,1626.74,1630.312,mic interference,[1|0|INCROOT] [2|1|PUNCT],[chi|dabbit] [.],,,,,,,,,,VioletofViolet_Violet020305_646
+647,Mother,Violet020305,d@l is for (t:t:trail off),Violet,1630.312,1632.303,[],[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[n:let|d] [cop|be&3S] [prep|for (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_647
+648,Violet,Violet020305,yyy .,Violet,1632.303,1633.508,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_648
+649,Mother,Violet020305,duck dog .,Violet,1633.508,1635.023,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|duck] [n|dog .],,,,,,,,,,MotherofViolet_Violet020305_649
+650,Violet,Violet020305,duck dog I will call him duck dog yyy (t:t:interruption),Violet,1635.023,1640.002,[],[1|2|MOD] [2|5|LINK] [3|5|SUBJ] [4|5|AUX] [5|0|ROOT] [6|5|OBJ] [7|8|MOD] [8|5|OBJ] [9|5|PUNCT],[n|duck] [n|dog] [pro:sub|I] [mod|will] [v|call] [pro:obj|him] [n|duck] [n|dog] [(mt:interruption)],,,,,,,,,,VioletofViolet_Violet020305_650
+651,Mother,Violet020305,b@l is for bumble+bee .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[n:let|b] [cop|be&3S] [prep|for] [n|+n|bumble+n|bee .],,,,,,,,,,MotherofViolet_Violet020305_651
+652,Violet,Violet020305,b@l is for bumble+bee .,Violet,1640.002,1643.265,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[n:let|b] [cop|be&3S] [prep|for] [n|+n|bumble+n|bee .],,,,,,,,,,VioletofViolet_Violet020305_652
+653,Mother,Violet020305,c@l is for camel on the ceiling .,Violet,1643.265,1644.95,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ] [5|4|NJCT] [6|7|DET] [7|5|POBJ 8|2|PUNCT],[n:let|c] [cop|be&3S] [prep|for] [n|camel] [prep|on] [det:art|the] [n|ceiling .],,,,,,,,,,MotherofViolet_Violet020305_653
+654,Mother,Violet020305,xxx this is a funny one .,Violet,1644.95,1648.223,laughter,[] [1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[] [pro:dem|this] [cop|be&3S] [det:art|a] [adj|fun&dn-Y] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_654
+655,Mother,Violet020305,let's see what it is .,Violet,1648.223,1650.575,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|6|LINK] [5|6|SUBJ] [6|3|COMP 7|1|PUNCT],[v|let~pro:obj|us] [v|see] [pro:int|what] [pro:per|it] [cop|be&3S .],,,,,,,,,,MotherofViolet_Violet020305_655
+656,Mother,Violet020305,elevator xxx .,Violet,1650.575,1660.021,whispering then mic interference,[1|0|INCROOT] [2|1|PUNCT],[n|elevator] [.],,,,,,,,,,MotherofViolet_Violet020305_656
+657,Violet,Violet020305,what's behind the { wallet (?) } .,Violet,1660.023,1662.868,[],[1|2|LINK 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|what~aux|be&3S] [prep|behind] [det:art|the] [n|wallet .],,,,,,,,,,VioletofViolet_Violet020305_657
+658,Mother,Violet020305,nose .,Violet,1662.668,1663.908,[],[1|0|INCROOT 2|1|PUNCT],[n|nose .],,,,,,,,,,MotherofViolet_Violet020305_658
+659,Violet,Violet020305,goes .,Violet,1663.908,1666.25,[],[1|0|ROOT 2|1|PUNCT],[v|go-3S .],,,,,,,,,,VioletofViolet_Violet020305_659
+660,Violet,Violet020305,goes .,Violet,1666.25,1668.015,[],[1|0|ROOT 2|1|PUNCT],[v|go-3S .],,,,,,,,,,VioletofViolet_Violet020305_660
+661,Mother,Violet020305,lollipop .,Violet,1668.015,1669.055,[],[1|0|INCROOT 2|1|PUNCT],[n|lollipop .],,,,,,,,,,MotherofViolet_Violet020305_661
+662,Violet,Violet020305,goes .,Violet,1669.055,1671.563,[],[1|0|ROOT 2|1|PUNCT],[v|go-3S .],,,,,,,,,,VioletofViolet_Violet020305_662
+663,Mother,Violet020305,licking lion .,Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|OBJ 3|1|PUNCT],[part|lick-PRESP] [n|lion .],,,,,,,,,,MotherofViolet_Violet020305_663
+664,Violet,Violet020305,{ goes (?) } xxx goes .,Violet,1671.563,1680.94,mic interference,[1|0|ROOT] [] [2|1|OBJ 3|1|PUNCT],[v|go-3S] [] [v|go-3S .],,,,,,,,,,VioletofViolet_Violet020305_664
+665,Violet,Violet020305,closet closet .,Violet,1680.94,1687.278,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|closet] [n|closet .],,,,,,,,,,VioletofViolet_Violet020305_665
+666,Mother,Violet020305,what's in my closet xxx ?,Violet,0.0,0.0,gasping,[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ] [6|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [det:poss|my] [n|closet] [?],,,,,,,,,,MotherofViolet_Violet020305_666
+667,Violet,Violet020305,a gazit@c .,Violet,1687.278,1690.432,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [chi|gazit .],,,,,,,,,,VioletofViolet_Violet020305_667
+668,Mother,Violet020305,wazit@c .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[chi|wazit .],,,,,,,,,,MotherofViolet_Violet020305_668
+669,Mother,Violet020305,xxx .,Violet,0.0,0.0,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_669
+670,Violet,Violet020305,a (t:t:trail off),Violet,1690.432,1692.028,[],[1|0|INCROOT 2|1|PUNCT],[det:art|a (mt:trail off)],,,,,,,,,,VioletofViolet_Violet020305_670
+671,Violet,Violet020305,gazit@c .,Violet,1692.028,1693.402,[],[1|0|INCROOT 2|1|PUNCT],[chi|gazit .],,,,,,,,,,VioletofViolet_Violet020305_671
+672,Violet,Violet020305,gazit@c .,Violet,1693.402,1695.188,[],[1|0|INCROOT 2|1|PUNCT],[chi|gazit .],,,,,,,,,,VioletofViolet_Violet020305_672
+673,Mother,Violet020305,xxx .,Violet,1695.188,1696.088,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_673
+674,Mother,Violet020305,let's do this one .,Violet,0.0,0.0,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|5|DET] [5|3|OBJ 6|1|PUNCT],[v|let~pro:obj|us] [v|do] [pro:dem|this] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_674
+675,Violet,Violet020305,xxx .,Violet,1696.088,1698.518,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_675
+676,Mother,Violet020305,xxx .,Violet,1698.518,1704.801,mic interference,[],[],,,,,,,,,,MotherofViolet_Violet020305_676
+677,Mother,Violet020305,yuck .,Violet,1704.802,1706.233,[],[1|0|INCROOT 2|1|PUNCT],[co|yuck .],,,,,,,,,,MotherofViolet_Violet020305_677
+678,Violet,Violet020305,yyy yyy yyy .,Violet,1706.233,1710.407,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_678
+679,Mother,Violet020305,soda straw .,Violet,1710.407,1711.98,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|soda] [n|straw .],,,,,,,,,,MotherofViolet_Violet020305_679
+680,Violet,Violet020305,yyy .,Violet,1711.98,1714.63,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_680
+681,Mother,Violet020305,put xxx in a pail .,Violet,1714.63,1716.27,[],[1|0|ROOT] [] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[v|put&ZERO] [] [prep|in] [det:art|a] [n|pail .],,,,,,,,,,MotherofViolet_Violet020305_681
+682,Mother,Violet020305,kangaroo .,Violet,1716.27,1730.115,mic interference,[1|0|INCROOT 2|1|PUNCT],[n|kangaroo .],,,,,,,,,,MotherofViolet_Violet020305_682
+683,Mother,Violet020305,xxx .,Violet,1730.115,1735.498,mic interference,[],[],,,,,,,,,,MotherofViolet_Violet020305_683
+684,Mother,Violet020305,look at this one Vera on the violin .,Violet,1735.498,1739.215,[],[1|0|ROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ] [5|1|COMP] [6|5|JCT] [7|8|DET] [8|6|POBJ 9|1|PUNCT],[v|look] [prep|at] [pro:dem|this] [pro:indef|one] [n:prop|Vera] [prep|on] [det:art|the] [n|violin .],,,,,,,,,,MotherofViolet_Violet020305_684
+685,Violet,Violet020305,xxx .,Violet,1739.215,1743.64,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_685
+686,Mother,Violet020305,tired turtle .,Violet,1743.64,1744.607,[],[1|0|INCROOT] [2|1|OBJ 3|1|PUNCT],[part|tire-PASTP] [n|turtle .],,,,,,,,,,MotherofViolet_Violet020305_686
+687,Mother,Violet020305,umbrella .,Violet,1744.607,1747.328,[],[1|0|INCROOT 2|1|PUNCT],[n|umbrella .],,,,,,,,,,MotherofViolet_Violet020305_687
+688,Mother,Violet020305,Vera on the violin .,Violet,1747.328,1751.06,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[n:prop|Vera] [prep|on] [det:art|the] [n|violin .],,,,,,,,,,MotherofViolet_Violet020305_688
+689,Mother,Violet020305,xxx .,Violet,1751.06,1753.742,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_689
+690,Violet,Violet020305,yyy .,Violet,1753.742,1755.47,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_690
+691,Mother,Violet020305,tired turtle .,Violet,1755.47,1756.988,[],[1|0|INCROOT] [2|1|OBJ 3|1|PUNCT],[part|tire-PASTP] [n|turtle .],,,,,,,,,,MotherofViolet_Violet020305_691
+692,Violet,Violet020305,yyy .,Violet,1756.988,1759.405,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_692
+693,Mother,Violet020305,tired turtle .,Violet,0.0,0.0,[],[1|0|INCROOT] [2|1|OBJ 3|1|PUNCT],[part|tire-PASTP] [n|turtle .],,,,,,,,,,MotherofViolet_Violet020305_693
+694,Violet,Violet020305,yyy (t:t:interruption),Violet,1759.405,1761.352,[],[1|0|ROOT],[(mt:interruption)],,,,,,,,,,VioletofViolet_Violet020305_694
+695,Mother,Violet020305,umbrella .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|umbrella .],,,,,,,,,,MotherofViolet_Violet020305_695
+696,Mother,Violet020305,tired turtle .,Violet,1761.352,1762.288,[],[1|0|INCROOT] [2|1|OBJ 3|1|PUNCT],[part|tire-PASTP] [n|turtle .],,,,,,,,,,MotherofViolet_Violet020305_696
+697,Mother,Violet020305,t@l .,Violet,1762.288,1764.932,[],[1|0|INCROOT 2|1|PUNCT],[n:let|t .],,,,,,,,,,MotherofViolet_Violet020305_697
+698,Violet,Violet020305,yyy .,Violet,1764.832,1765.862,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_698
+699,Violet,Violet020305,yyy .,Violet,1765.862,1767.11,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_699
+700,Mother,Violet020305,xxx .,Violet,1767.11,1768.855,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_700
+701,Violet,Violet020305,a wazit (replacement:replacement:what is it) .,Violet,1768.855,1771.842,[],[1|2|DET] [2|0|INCROOT 3|5|AUX 4|3|OBJ 5|2|PUNCT],[det:art|a] [pro:int|what aux|be&3S pro:per|it .],,,,,,,,,,VioletofViolet_Violet020305_701
+702,Mother,Violet020305,zizzer@wp zazzer@wp zice@wp .,Violet,1771.842,1773.58,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[wplay|zizzer] [wplay|zazzer] [wplay|zice .],,,,,,,,,,MotherofViolet_Violet020305_702
+703,Mother,Violet020305,yep (replacement:replacement:yes) .,Violet,1773.58,1778.492,[],[1|0|INCROOT 2|1|PUNCT],[co|yes .],,,,,,,,,,MotherofViolet_Violet020305_703
+704,Mother,Violet020305,there's a wazit (replacement:replacement:what is it) in there .,Violet,1778.492,1783.115,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PUNCT 5|4|INCROOT 6|5|OBJ] [7|6|JCT] [8|7|POBJ 9|5|PUNCT],[pro:exist|there~cop|be&3S] [det:art|a] [pro:int|what aux|be&3S pro:per|it] [prep|in] [adv|there .],,,,,,,,,,MotherofViolet_Violet020305_704
+705,Mother,Violet020305,in here .,Violet,1783.115,1784.677,[],[1|0|INCROOT] [2|1|POBJ 3|1|PUNCT],[prep|in] [adv|here .],,,,,,,,,,MotherofViolet_Violet020305_705
+706,Mother,Violet020305,let's see this one .,Violet,1784.677,1786.972,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|5|DET] [5|3|OBJ 6|1|PUNCT],[v|let~pro:obj|us] [v|see] [pro:dem|this] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_706
+707,Mother,Violet020305,queen of Quincy .,Violet,1786.972,1788.747,[],[1|0|INCROOT] [2|1|NJCT] [3|2|POBJ 4|1|PUNCT],[n|queen] [prep|of] [n:prop|Quincy .],,,,,,,,,,MotherofViolet_Violet020305_707
+708,Mother,Violet020305,xxx .,Violet,1788.747,1791.003,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_708
+709,Mother,Violet020305,four fluffy feathers on a xxx .,Violet,1791.003,1795.61,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT] [4|3|NJCT] [5|4|POBJ] [6|3|PUNCT],[det:num|four] [adj|fluff&dn-Y] [n|feather-PL] [prep|on] [det:art|a] [.],,,,,,,,,,MotherofViolet_Violet020305_709
+710,Mother,Violet020305,goat in goggles .,Violet,1795.61,1798.815,[],[1|0|INCROOT] [2|1|JCT] [3|2|POBJ 4|1|PUNCT],[n|goat] [prep|in] [n|goggle-PL .],,,,,,,,,,MotherofViolet_Violet020305_710
+711,Mother,Violet020305,xxx .,Violet,1798.815,1799.69,laughter,[],[],,,,,,,,,,MotherofViolet_Violet020305_711
+712,Mother,Violet020305,hungry horse .,Violet,1799.69,1801.54,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|hungry] [n|horse .],,,,,,,,,,MotherofViolet_Violet020305_712
+713,Mother,Violet020305,goat in goggles .,Violet,1801.54,1805.277,[],[1|0|INCROOT] [2|1|JCT] [3|2|POBJ 4|1|PUNCT],[n|goat] [prep|in] [n|goggle-PL .],,,,,,,,,,MotherofViolet_Violet020305_713
+714,Mother,Violet020305,is that funny ?,Violet,1805.277,1806.072,[],[1|0|ROOT] [2|1|SUBJ] [3|1|PRED 4|1|PUNCT],[cop|be&3S] [pro:dem|that] [adj|fun&dn-Y ?],,,,,,,,,,MotherofViolet_Violet020305_714
+715,Violet,Violet020305,yeah .,Violet,1806.072,1806.858,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_715
+716,Mother,Violet020305,why did the goat wear goggles ?,Violet,1806.858,1809.107,[],[1|5|LINK] [2|5|AUX] [3|4|DET] [4|5|SUBJ] [5|0|ROOT] [6|5|OBJ 7|5|PUNCT],[adv:int|why] [mod|do&PAST] [det:art|the] [n|goat] [v|wear] [n|goggle-PL ?],,,,,,,,,,MotherofViolet_Violet020305_716
+717,Mother,Violet020305,x@l ray .,Violet,1809.107,1811.032,[],[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[n:let|x] [n|ray .],,,,,,,,,,MotherofViolet_Violet020305_717
+718,Violet,Violet020305,yyy yyy yyy .,Violet,1811.032,1816.433,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_718
+719,Mother,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_719
+720,Violet,Violet020305,xxx .,Violet,1816.433,1822.453,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_720
+721,Mother,Violet020305,xxx .,Violet,0.0,0.0,mic intereference,[],[],,,,,,,,,,MotherofViolet_Violet020305_721
+722,Mother,Violet020305,you like this one ?,Violet,1822.453,1825.393,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[pro:per|you] [v|like] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_722
+723,Violet,Violet020305,this one yeah .,Violet,1825.393,1827.43,[],[1|2|DET] [2|0|ROOT] [3|2|COM 4|2|PUNCT],[pro:dem|this] [pro:indef|one] [co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_723
+724,Mother,Violet020305,yeah ?,Violet,1827.43,1827.978,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah ?],,,,,,,,,,MotherofViolet_Violet020305_724
+725,Violet,Violet020305,xxx .,Violet,1827.978,1830.785,muttering,[],[],,,,,,,,,,VioletofViolet_Violet020305_725
+726,Violet,Violet020305,yyy read .,Violet,1830.785,1831.927,[],[] [1|0|ROOT 2|1|PUNCT],[] [v|read&ZERO .],,,,,,,,,,VioletofViolet_Violet020305_726
+727,Mother,Violet020305,right .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|right .],,,,,,,,,,MotherofViolet_Violet020305_727
+728,Violet,Violet020305,read .,Violet,1831.927,1836.672,[],[1|0|ROOT 2|1|PUNCT],[v|read&ZERO .],,,,,,,,,,VioletofViolet_Violet020305_728
+729,Mother,Violet020305,"yeah , I'm opening a book .",Violet,0.0,0.0,[],[1|5|COM 2|1|LP] [3|5|SUBJ 4|5|AUX] [5|0|ROOT] [6|7|DET] [7|5|OBJ 8|5|PUNCT],[co|yeah cm|cm] [pro:sub|I~aux|be&1S] [part|open-PRESP] [det:art|a] [n|book .],,,,,,,,,,MotherofViolet_Violet020305_729
+730,Violet,Violet020305,read .,Violet,1836.672,1838.303,[],[1|0|ROOT 2|1|PUNCT],[v|read&ZERO .],,,,,,,,,,VioletofViolet_Violet020305_730
+731,Mother,Violet020305,right .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|right .],,,,,,,,,,MotherofViolet_Violet020305_731
+732,Violet,Violet020305,read to me .,Violet,1838.303,1847.701,[],[1|0|ROOT] [2|1|JCT] [3|2|POBJ 4|1|PUNCT],[v|read&ZERO] [prep|to] [pro:obj|me .],,,,,,,,,,VioletofViolet_Violet020305_732
+733,Mother,Violet020305,xxx read to you xxx .,Violet,0.0,0.0,mic interference,[] [1|0|ROOT] [2|1|JCT] [3|2|POBJ] [4|1|PUNCT],[] [v|read&ZERO] [prep|to] [pro:per|you] [.],,,,,,,,,,MotherofViolet_Violet020305_733
+734,Mother,Violet020305,this little chick from over the way went to play with the pigs one day .,Violet,1847.703,1852.213,[],[1|3|DET] [2|3|MOD] [3|0|INCROOT] [4|3|NJCT] [5|4|POBJ] [6|7|DET] [7|8|SUBJ] [8|5|POBJ] [9|10|INF] [10|3|XCOMP] [11|10|JCT] [12|13|DET] [13|15|MOD] [14|15|QUANT] [15|11|POBJ 16|3|PUNCT],[pro:dem|this] [adj|little] [n|chick] [prep|from] [prep|over] [det:art|the] [n|way] [v|go&PAST] [inf|to] [v|play] [prep|with] [det:art|the] [n|pig-PL] [det:num|one] [n|day .],,,,,,,,,,MotherofViolet_Violet020305_734
+735,Mother,Violet020305,and what do you think they heard him say ?,Violet,1852.213,1855.065,[],[1|5|LINK] [2|5|SUBJ] [3|5|AUX] [4|5|SUBJ] [5|0|ROOT] [6|7|SUBJ] [7|5|COMP] [8|7|OBJ] [9|7|XCOMP 10|5|PUNCT],[coord|and] [pro:int|what] [mod|do] [pro:per|you] [v|think] [pro:sub|they] [v|hear&PAST] [pro:obj|him] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_735
+736,Violet,Violet020305,tweet tweet .,Violet,1855.065,1857.638,[],[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|tweet] [on|tweet .],,,,,,,,,,VioletofViolet_Violet020305_736
+737,Mother,Violet020305,what did the pig say ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|5|SUBJ] [5|2|COMP 6|2|PUNCT],[det:int|what] [v|do&PAST] [det:art|the] [n|pig] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_737
+738,Violet,Violet020305,yyy .,Violet,1857.638,1859.56,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_738
+739,Mother,Violet020305,doof@c doof@c ?,Violet,1859.56,1860.288,[],[1|0|INCROOT] [2|1|SUBJ 3|1|PUNCT],[chi|doof] [chi|doof ?],,,,,,,,,,MotherofViolet_Violet020305_739
+740,Violet,Violet020305,yeah .,Violet,1860.288,1861.138,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_740
+741,Mother,Violet020305,no .,Violet,1861.138,1862.005,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,MotherofViolet_Violet020305_741
+742,Mother,Violet020305,"he doesn't , what does the pig say ?",Violet,1862.005,1863.207,[],[1|6|SUBJ] [2|4|AUX 3|2|NEG 4|1|LP] [5|6|AUX] [6|0|ROOT] [7|8|DET] [8|9|SUBJ] [9|6|COMP 10|6|PUNCT],[pro:sub|he] [mod|do&3S~neg|not cm|cm] [det:int|what] [v|do&3S] [det:art|the] [n|pig] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_742
+743,Violet,Violet020305,duff duff .,Violet,1863.207,1865.647,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|duff] [n|duff .],,,,,,,,,,VioletofViolet_Violet020305_743
+744,Mother,Violet020305,duff duff ?,Violet,0.0,0.0,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|duff] [n|duff ?],,,,,,,,,,MotherofViolet_Violet020305_744
+745,Violet,Violet020305,yeah .,Violet,1865.647,1866.212,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_745
+746,Mother,Violet020305,no !,Violet,1866.212,1867.987,[],[1|0|INCROOT 2|1|PUNCT],[co|no !],,,,,,,,,,MotherofViolet_Violet020305_746
+747,Violet,Violet020305,yeah xxx yyy duff duff .,Violet,1867.987,1871.253,[],[1|3|COM] [] [] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[co|yeah] [] [] [n|duff] [n|duff .],,,,,,,,,,VioletofViolet_Violet020305_747
+748,Mother,Violet020305,quack quack ?,Violet,0.0,0.0,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|quack] [n|quack ?],,,,,,,,,,MotherofViolet_Violet020305_748
+749,Violet,Violet020305,xxx .,Violet,1871.253,1873.53,coughing,[],[],,,,,,,,,,VioletofViolet_Violet020305_749
+750,Violet,Violet020305,dock xxx .,Violet,1873.33,1875.638,[],[1|0|INCROOT] [2|1|PUNCT],[n|dock] [.],,,,,,,,,,VioletofViolet_Violet020305_750
+751,Mother,Violet020305,dock dock ?,Violet,0.0,0.0,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|dock] [n|dock ?],,,,,,,,,,MotherofViolet_Violet020305_751
+752,Violet,Violet020305,yeah .,Violet,1875.638,1876.272,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_752
+753,Mother,Violet020305,no !,Violet,1876.272,1877.408,[],[1|0|INCROOT 2|1|PUNCT],[co|no !],,,,,,,,,,MotherofViolet_Violet020305_753
+754,Mother,Violet020305,what does he say ?,Violet,1877.408,1879.022,[],[1|2|LINK] [2|0|ROOT] [3|4|SUBJ] [4|2|COMP 5|2|PUNCT],[pro:int|what] [v|do&3S] [pro:sub|he] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_754
+755,Violet,Violet020305,&bup &bup .,Violet,1879.022,1880.822,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_755
+756,Mother,Violet020305,&bup &bup ?,Violet,0.0,0.0,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_756
+757,Violet,Violet020305,yeah .,Violet,1880.822,1882.565,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_757
+758,Mother,Violet020305,no .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,MotherofViolet_Violet020305_758
+759,Violet,Violet020305,xxx .,Violet,1882.565,1885.842,giggling,[],[],,,,,,,,,,VioletofViolet_Violet020305_759
+760,Mother,Violet020305,what does he say ?,Violet,0.0,0.0,[],[1|2|LINK] [2|0|ROOT] [3|4|SUBJ] [4|2|COMP 5|2|PUNCT],[pro:int|what] [v|do&3S] [pro:sub|he] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_760
+761,Violet,Violet020305,dop@o dop@o xxx .,Violet,1885.842,1889.365,[],[1|0|INCROOT] [2|1|ENUM] [3|1|PUNCT],[on|dop] [on|dop] [.],,,,,,,,,,VioletofViolet_Violet020305_761
+762,Mother,Violet020305,let's see what he says .,Violet,0.0,0.0,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|6|LINK] [5|6|SUBJ] [6|3|COMP 7|1|PUNCT],[v|let~pro:obj|us] [v|see] [pro:int|what] [pro:sub|he] [v|say-3S .],,,,,,,,,,MotherofViolet_Violet020305_762
+763,Mother,Violet020305,he says (t:t:trail off),Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:sub|he] [v|say-3S (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_763
+764,Violet,Violet020305,dop@o !,Violet,1889.365,1891.463,[],[1|0|INCROOT 2|1|PUNCT],[on|dop !],,,,,,,,,,VioletofViolet_Violet020305_764
+765,Mother,Violet020305,moo moo moo .,Violet,1891.463,1893.918,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[v|moo] [v|moo] [on|moo .],,,,,,,,,,MotherofViolet_Violet020305_765
+766,Violet,Violet020305,dop@o dop@o dop@o .,Violet,1893.918,1896.448,[],[1|0|INCROOT] [2|1|CONJ] [3|2|COORD 4|1|PUNCT],[on|dop] [on|dop] [on|dop .],,,,,,,,,,VioletofViolet_Violet020305_766
+767,Mother,Violet020305,piggy says moo .,Violet,1896.448,1899.102,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[n|pig-DIM] [v|say-3S] [on|moo .],,,,,,,,,,MotherofViolet_Violet020305_767
+768,Violet,Violet020305,he says moo ?,Violet,1899.102,1901.97,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:sub|he] [v|say-3S] [on|moo ?],,,,,,,,,,VioletofViolet_Violet020305_768
+769,Mother,Violet020305,yeah .,Violet,1901.97,1902.677,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_769
+770,Mother,Violet020305,is that what the piggy says ?,Violet,1902.677,1905.23,[],[1|6|AUX] [2|6|DET] [3|6|LINK] [4|5|DET] [5|6|SUBJ] [6|0|ROOT 7|6|PUNCT],[cop|be&3S] [pro:dem|that] [pro:int|what] [det:art|the] [n|pig-DIM] [v|say-3S ?],,,,,,,,,,MotherofViolet_Violet020305_770
+771,Violet,Violet020305,no !,Violet,1905.23,1906.54,[],[1|0|INCROOT 2|1|PUNCT],[co|no !],,,,,,,,,,VioletofViolet_Violet020305_771
+772,Mother,Violet020305,oh xxx .,Violet,0.0,0.0,laughing,[1|0|INCROOT] [2|1|PUNCT],[co|oh] [.],,,,,,,,,,MotherofViolet_Violet020305_772
+773,Violet,Violet020305,yyy xxx .,Violet,1906.54,1911.742,rest of sentence drowned out by mic interference and MOT speech,[],[],,,,,,,,,,VioletofViolet_Violet020305_773
+774,Mother,Violet020305,he says { oink (x) } .,Violet,1911.742,1914.265,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:sub|he] [v|say-3S] [on|oink .],,,,,,,,,,MotherofViolet_Violet020305_774
+775,Violet,Violet020305,yyy yyy yyy yyy yyy yyy yyy .,Violet,1914.265,1924.223,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_775
+776,Mother,Violet020305,this little chick from over the way went to swim with the ducks one day .,Violet,0.0,0.0,[],[1|3|DET] [2|3|MOD] [3|0|INCROOT] [4|3|NJCT] [5|8|JCT] [6|7|DET] [7|8|SUBJ] [8|4|POBJ] [9|8|JCT] [10|9|POBJ] [11|10|NJCT] [12|13|DET] [13|15|MOD] [14|15|QUANT] [15|11|POBJ 16|3|PUNCT],[pro:dem|this] [adj|little] [n|chick] [prep|from] [prep|over] [det:art|the] [n|way] [v|go&PAST] [prep|to] [n|swim] [prep|with] [det:art|the] [n|duck-PL] [det:num|one] [n|day .],,,,,,,,,,MotherofViolet_Violet020305_776
+777,Mother,Violet020305,and what do you think they heard him say ?,Violet,0.0,0.0,[],[1|5|LINK] [2|5|SUBJ] [3|5|AUX] [4|5|SUBJ] [5|0|ROOT] [6|7|SUBJ] [7|5|COMP] [8|7|OBJ] [9|7|XCOMP 10|5|PUNCT],[coord|and] [pro:int|what] [mod|do] [pro:per|you] [v|think] [pro:sub|they] [v|hear&PAST] [pro:obj|him] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_777
+778,Violet,Violet020305,quack quack .,Violet,1924.223,1926.432,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|quack] [n|quack .],,,,,,,,,,VioletofViolet_Violet020305_778
+779,Mother,Violet020305,{ quack (x) } .,Violet,1926.432,1928.07,[],[1|0|INCROOT 2|1|PUNCT],[n|quack .],,,,,,,,,,MotherofViolet_Violet020305_779
+780,Violet,Violet020305,{ quack (x) } .,Violet,1928.07,1935.441,mic interference,[1|0|INCROOT 2|1|PUNCT],[n|quack .],,,,,,,,,,VioletofViolet_Violet020305_780
+781,Mother,Violet020305,and what do you think they heard him say ?,Violet,1935.443,1942.586,mic interference,[1|5|LINK] [2|5|SUBJ] [3|5|AUX] [4|5|SUBJ] [5|0|ROOT] [6|7|SUBJ] [7|5|COMP] [8|7|OBJ] [9|7|XCOMP 10|5|PUNCT],[coord|and] [pro:int|what] [mod|do] [pro:per|you] [v|think] [pro:sub|they] [v|hear&PAST] [pro:obj|him] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_781
+782,Mother,Violet020305,ribbit .,Violet,1942.587,1943.56,[],[1|0|INCROOT 2|1|PUNCT],[on|ribbit .],,,,,,,,,,MotherofViolet_Violet020305_782
+783,Violet,Violet020305,moo .,Violet,1943.56,1945.255,[],[1|0|INCROOT 2|1|PUNCT],[on|moo .],,,,,,,,,,VioletofViolet_Violet020305_783
+784,Mother,Violet020305,{ moo (x) } .,Violet,1945.255,1947.238,[],[1|0|INCROOT 2|1|PUNCT],[on|moo .],,,,,,,,,,MotherofViolet_Violet020305_784
+785,Violet,Violet020305,ribbit .,Violet,1947.238,1948.19,[],[1|0|INCROOT 2|1|PUNCT],[on|ribbit .],,,,,,,,,,VioletofViolet_Violet020305_785
+786,Mother,Violet020305,this little chick from over the way went to jump with the frogs one day .,Violet,1948.19,1951.835,[],[1|3|DET] [2|3|MOD] [3|0|INCROOT] [4|3|NJCT] [5|8|JCT] [6|7|DET] [7|8|SUBJ] [8|4|POBJ] [9|8|JCT] [10|9|POBJ] [11|10|NJCT] [12|13|DET] [13|15|MOD] [14|15|QUANT] [15|11|POBJ 16|3|PUNCT],[pro:dem|this] [adj|little] [n|chick] [prep|from] [prep|over] [det:art|the] [n|way] [v|go&PAST] [prep|to] [n|jump] [prep|with] [det:art|the] [n|frog-PL] [det:num|one] [n|day .],,,,,,,,,,MotherofViolet_Violet020305_786
+787,Mother,Violet020305,and what do you think they heard him say ?,Violet,1951.835,1953.345,[],[1|5|LINK] [2|5|SUBJ] [3|5|AUX] [4|5|SUBJ] [5|0|ROOT] [6|7|SUBJ] [7|5|COMP] [8|7|OBJ] [9|7|XCOMP 10|5|PUNCT],[coord|and] [pro:int|what] [mod|do] [pro:per|you] [v|think] [pro:sub|they] [v|hear&PAST] [pro:obj|him] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_787
+788,Violet,Violet020305,xxx .,Violet,1953.345,1957.548,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_788
+789,Mother,Violet020305,{ baa (x) } .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|baa .],,,,,,,,,,MotherofViolet_Violet020305_789
+790,Violet,Violet020305,no xxx .,Violet,1957.548,1960.913,[],[1|0|INCROOT] [2|1|PUNCT],[co|no] [.],,,,,,,,,,VioletofViolet_Violet020305_790
+791,Mother,Violet020305,no xxx what's the xxx say ?,Violet,0.0,0.0,mic interference,[1|5|COM] [] [2|5|MOD 3|2|POSS] [4|5|DET] [] [5|0|INCROOT 6|5|PUNCT],[co|no] [] [pro:int|what~poss|s] [det:art|the] [] [co|say ?],,,,,,,,,,MotherofViolet_Violet020305_791
+792,Mother,Violet020305,{ quack (x) } .,Violet,1960.913,1964.188,[],[1|0|INCROOT 2|1|PUNCT],[n|quack .],,,,,,,,,,MotherofViolet_Violet020305_792
+793,Violet,Violet020305,yeah .,Violet,1964.188,1965.882,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_793
+794,Mother,Violet020305,what ?,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],,,,,,,,,,MotherofViolet_Violet020305_794
+795,Violet,Violet020305,xxx .,Violet,1965.882,1969.122,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_795
+796,Mother,Violet020305,{ ribbit (x) } .,Violet,1969.122,1970.388,[],[1|0|INCROOT 2|1|PUNCT],[on|ribbit .],,,,,,,,,,MotherofViolet_Violet020305_796
+797,Violet,Violet020305,yyy yyy xxx .,Violet,1970.388,1973.04,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_797
+798,Mother,Violet020305,this little chick from over the way went to skip with the lambs one day and what do you think they heard him say ?,Violet,1973.04,1977.685,[],[1|3|DET] [2|3|MOD] [3|0|INCROOT] [4|3|NJCT] [5|8|JCT] [6|7|DET] [7|8|SUBJ] [8|4|POBJ] [9|8|JCT] [10|9|POBJ] [11|10|NJCT] [12|13|DET] [13|11|POBJ] [14|15|QUANT] [15|13|CMOD] [16|15|CONJ] [17|20|SUBJ] [18|20|AUX] [19|20|SUBJ] [20|16|COORD] [21|22|SUBJ] [22|20|COMP] [23|22|OBJ] [24|22|XCOMP 25|3|PUNCT],[pro:dem|this] [adj|little] [n|chick] [prep|from] [prep|over] [det:art|the] [n|way] [v|go&PAST] [prep|to] [n|skip] [prep|with] [det:art|the] [n|lamb-PL] [det:num|one] [n|day] [coord|and] [pro:int|what] [mod|do] [pro:per|you] [v|think] [pro:sub|they] [v|hear&PAST] [pro:obj|him] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_798
+799,Mother,Violet020305,{ baa (x) } .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|baa .],,,,,,,,,,MotherofViolet_Violet020305_799
+800,Violet,Violet020305,yyy yyy .,Violet,1977.685,1983.883,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_800
+801,Violet,Violet020305,{ quack (?) (x) } xxx .,Violet,1983.883,1990.07,[],[1|0|INCROOT] [2|1|PUNCT],[n|quack] [.],,,,,,,,,,VioletofViolet_Violet020305_801
+802,Mother,Violet020305,xxx at the end of the day .,Violet,1990.07,1993.428,mic interference,[] [1|0|INCROOT] [2|3|DET] [3|1|POBJ] [4|3|NJCT] [5|6|DET] [6|4|POBJ 7|1|PUNCT],[] [prep|at] [det:art|the] [n|end] [prep|of] [det:art|the] [n|day .],,,,,,,,,,MotherofViolet_Violet020305_802
+803,Mother,Violet020305,and what do you think she heard him say ?,Violet,1993.428,1995.235,[],[1|5|LINK] [2|5|SUBJ] [3|5|AUX] [4|5|SUBJ] [5|0|ROOT] [6|7|SUBJ] [7|5|COMP] [8|7|OBJ] [9|7|XCOMP 10|5|PUNCT],[coord|and] [pro:int|what] [mod|do] [pro:per|you] [v|think] [pro:sub|she] [v|hear&PAST] [pro:obj|him] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_803
+804,Violet,Violet020305,{ yyy (x) } .,Violet,1995.235,1997.63,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_804
+805,Mother,Violet020305,she said moo xxx ribbit ribbit moo moo quack xxx .,Violet,1997.63,2011.785,mic interference,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [] [4|7|SUBJ] [5|7|AUX] [6|7|SUBJ] [7|3|COMP] [8|7|OBJ] [9|2|PUNCT],[pro:sub|she] [v|say&PAST] [v|moo] [] [on|ribbit] [on|ribbit] [v|moo] [v|moo] [n|quack] [.],,,,,,,,,,MotherofViolet_Violet020305_805
+806,Violet,Violet020305,yyy yyy xxx .,Violet,2011.785,2029.615,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_806
+807,Mother,Violet020305,xxx .,Violet,0.0,0.0,mic interference,[],[],,,,,,,,,,MotherofViolet_Violet020305_807
+808,Violet,Violet020305,yyy ribbit ?,Violet,2029.615,2032.87,[],[] [1|0|INCROOT 2|1|PUNCT],[] [on|ribbit ?],,,,,,,,,,VioletofViolet_Violet020305_808
+809,Violet,Violet020305,xxx .,Violet,2032.87,2045.77,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_809
+810,Mother,Violet020305,do you have any sisters ?,Violet,0.0,0.0,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[mod|do] [pro:per|you] [v|have] [qn|any] [n|sister-PL ?],,,,,,,,,,MotherofViolet_Violet020305_810
+811,Violet,Violet020305,yeah .,Violet,2045.77,2048.893,mic interference,[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_811
+812,Mother,Violet020305,no !,Violet,2048.893,2050.12,[],[1|0|INCROOT 2|1|PUNCT],[co|no !],,,,,,,,,,MotherofViolet_Violet020305_812
+813,Mother,Violet020305,do you have any brothers ?,Violet,2050.12,2051.422,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[mod|do] [pro:per|you] [v|have] [qn|any] [n|brother-PL ?],,,,,,,,,,MotherofViolet_Violet020305_813
+814,Violet,Violet020305,no .,Violet,2051.422,2053.155,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,VioletofViolet_Violet020305_814
+815,Mother,Violet020305,yes !,Violet,2053.155,2054.49,[],[1|0|INCROOT 2|1|PUNCT],[co|yes !],,,,,,,,,,MotherofViolet_Violet020305_815
+816,Violet,Violet020305,no .,Violet,2054.49,2056.379,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,VioletofViolet_Violet020305_816
+817,Mother,Violet020305,you have one brother .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|4|QUANT] [4|2|OBJ 5|2|PUNCT],[pro:per|you] [v|have] [det:num|one] [n|brother .],,,,,,,,,,MotherofViolet_Violet020305_817
+818,Violet,Violet020305,xxx .,Violet,2056.379,2059.481,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_818
+819,Mother,Violet020305,do you have any mothers ?,Violet,2059.481,2061.373,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[mod|do] [pro:per|you] [v|have] [qn|any] [n|mother-PL ?],,,,,,,,,,MotherofViolet_Violet020305_819
+820,Violet,Violet020305,yeah .,Violet,2061.373,2064.967,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_820
+821,Mother,Violet020305,how many ?,Violet,2064.967,2065.742,[],[1|2|LINK] [2|0|INCROOT 3|2|PUNCT],[adv:int|how] [qn|many ?],,,,,,,,,,MotherofViolet_Violet020305_821
+822,Violet,Violet020305,I have xxx mother .,Violet,2065.742,2068.57,[],[1|2|SUBJ] [2|0|ROOT] [] [3|2|OBJ 4|2|PUNCT],[pro:sub|I] [v|have] [] [n|mother .],,,,,,,,,,VioletofViolet_Violet020305_822
+823,Violet,Violet020305,yyy (t:t:interruption),Violet,2068.57,2071.534,[],[1|0|ROOT],[(mt:interruption)],,,,,,,,,,VioletofViolet_Violet020305_823
+824,Mother,Violet020305,do you have any fathers ?,Violet,0.0,0.0,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[mod|do] [pro:per|you] [v|have] [qn|any] [n|father-PL ?],,,,,,,,,,MotherofViolet_Violet020305_824
+825,Violet,Violet020305,xxx .,Violet,2071.534,2076.304,muttering,[],[],,,,,,,,,,VioletofViolet_Violet020305_825
+826,Mother,Violet020305,how many fathers do you have ?,Violet,0.0,0.0,[],[1|2|LINK] [2|3|QUANT] [3|4|SUBJ] [4|0|ROOT] [5|4|OBJ] [6|4|CJCT 7|4|PUNCT],[adv:int|how] [qn|many] [n|father-PL] [v|do] [pro:per|you] [v|have ?],,,,,,,,,,MotherofViolet_Violet020305_826
+827,Violet,Violet020305,I like this one xxx .,Violet,2076.304,2079.833,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|2|PUNCT],[pro:sub|I] [v|like] [pro:dem|this] [pro:indef|one] [.],,,,,,,,,,VioletofViolet_Violet020305_827
+828,Mother,Violet020305,you like that one ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[pro:per|you] [v|like] [pro:dem|that] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_828
+829,Violet,Violet020305,yeah yyy yyy yyy .,Violet,2079.833,2082.752,[],[1|0|INCROOT] [] [] [2|1|PUNCT],[co|yeah] [] [] [.],,,,,,,,,,VioletofViolet_Violet020305_829
+830,Violet,Violet020305,xxx .,Violet,2082.752,2086.893,mic interference,[],[],,,,,,,,,,VioletofViolet_Violet020305_830
+831,Mother,Violet020305,"I'm trying to decide what we're gonna do this morning , I think we're go<nna> (replacement:replacement:going to) , I don't know if we'll go to the gym or I'll just do the treadmill .",Violet,2086.893,2092.635,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|10|LINK] [7|10|SUBJ 8|10|AUX] [9|10|AUX] [10|5|COMP] [11|12|DET] [12|10|OBJ 13|12|LP] [14|15|SUBJ] [15|10|COMP] [16|18|SUBJ 17|18|AUX] [18|15|COMP 19|18|JCT 20|19|LP] [21|24|SUBJ] [22|24|AUX 23|22|NEG] [24|19|POBJ] [25|28|LINK] [26|28|SUBJ 27|28|AUX] [28|24|CJCT] [29|28|JCT] [30|31|DET] [31|29|POBJ] [32|36|LINK] [33|36|SUBJ 34|36|AUX] [35|36|JCT] [36|31|CMOD] [37|38|DET] [38|36|OBJ 39|3|PUNCT],[pro:sub|I~aux|be&1S] [part|try-PRESP] [inf|to] [v|decide] [pro:int|what] [pro:sub|we~aux|be&PRES] [mod:aux|gonna] [v|do] [pro:dem|this] [n|morning cm|cm] [pro:sub|I] [v|think] [pro:sub|we~aux|be&PRES] [part|go-PRESP prep|to cm|cm] [pro:sub|I] [mod|do~neg|not] [v|know] [conj|if] [pro:sub|we~mod|will] [v|go] [prep|to] [det:art|the] [n|gym] [coord|or] [pro:sub|I~mod|will] [adv|just] [v|do] [det:art|the] [n|treadmill .],,,,,,,,,,MotherofViolet_Violet020305_831
+832,Mother,Violet020305,I think I'll do the treadmill in the basement .,Violet,2092.635,2095.537,[],[1|2|SUBJ] [2|0|ROOT] [3|5|SUBJ 4|5|AUX] [5|2|COMP] [6|7|DET] [7|5|OBJ] [8|5|JCT] [9|10|DET] [10|8|POBJ 11|2|PUNCT],[pro:sub|I] [v|think] [pro:sub|I~mod|will] [v|do] [det:art|the] [n|treadmill] [prep|in] [det:art|the] [n|basement .],,,,,,,,,,MotherofViolet_Violet020305_832
+833,Violet,Violet020305,{ treadmill (?) } ?,Violet,2095.537,2096.745,[],[1|0|INCROOT 2|1|PUNCT],[n|treadmill ?],,,,,,,,,,VioletofViolet_Violet020305_833
+834,Violet,Violet020305,yyy .,Violet,2096.745,2097.947,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_834
+835,Violet,Violet020305,yyy yyy what's a treadmill ?,Violet,2097.947,2102.567,[],[] [] [1|4|LINK 2|4|AUX] [3|4|DET] [4|0|INCROOT 5|4|PUNCT],[] [] [pro:int|what~aux|be&3S] [det:art|a] [n|treadmill ?],,,,,,,,,,VioletofViolet_Violet020305_835
+836,Mother,Violet020305,you know what the treadmill is .,Violet,2102.567,2104.042,[],[1|2|SUBJ] [2|0|ROOT] [3|6|LINK] [4|5|DET] [5|6|SUBJ] [6|2|COMP 7|2|PUNCT],[pro:per|you] [v|know] [pro:int|what] [det:art|the] [n|treadmill] [cop|be&3S .],,,,,,,,,,MotherofViolet_Violet020305_836
+837,Violet,Violet020305,yyy .,Violet,2104.042,2105.842,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_837
+838,Mother,Violet020305,you wanna look at this one again ?,Violet,2105.842,2108.052,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ] [7|3|JCT 8|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|look] [prep|at] [pro:dem|this] [pro:indef|one] [adv|again ?],,,,,,,,,,MotherofViolet_Violet020305_838
+839,Violet,Violet020305,yyy yyy yyy .,Violet,2108.052,2111.577,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_839
+840,Mother,Violet020305,which page do you like ?,Violet,0.0,0.0,[],[1|2|LINK] [2|0|INCROOT] [3|4|AUX] [4|2|OBJ] [5|4|COM 6|2|PUNCT],[pro:rel|which] [n|page] [mod|do] [pro:per|you] [co|like ?],,,,,,,,,,MotherofViolet_Violet020305_840
+841,Violet,Violet020305,&-uh this .,Violet,2111.577,2113.165,[],[] [1|0|INCROOT 2|1|PUNCT],[] [pro:dem|this .],,,,,,,,,,VioletofViolet_Violet020305_841
+842,Mother,Violet020305,this page you like ?,Violet,0.0,0.0,[],[1|2|DET] [2|0|INCROOT] [3|2|OBJ] [4|3|COM 5|2|PUNCT],[pro:dem|this] [n|page] [pro:per|you] [co|like ?],,,,,,,,,,MotherofViolet_Violet020305_842
+843,Violet,Violet020305,yeah .,Violet,2113.165,2115.17,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_843
+844,Violet,Violet020305,do it to me .,Violet,2115.17,2118.16,[],[1|0|INCROOT] [2|1|OBJ] [3|2|JCT] [4|3|POBJ 5|1|PUNCT],[mod|do] [pro:per|it] [prep|to] [pro:obj|me .],,,,,,,,,,VioletofViolet_Violet020305_844
+845,Mother,Violet020305,xxx yeah but which page do you wanna do ?,Violet,0.0,0.0,[],[] [1|5|COM] [2|5|LINK] [3|4|MOD] [4|5|SUBJ] [5|8|OBJ] [6|5|OBJ] [7|8|AUX] [8|0|ROOT 9|8|PUNCT],[] [co|yeah] [conj|but] [pro:int|which] [n|page] [v|do] [pro:per|you] [mod:aux|wanna] [v|do ?],,,,,,,,,,MotherofViolet_Violet020305_845
+846,Violet,Violet020305,this page .,Violet,2118.16,2120.557,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [n|page .],,,,,,,,,,VioletofViolet_Violet020305_846
+847,Mother,Violet020305,"which one , this one ?",Violet,2120.557,2121.632,[],[1|2|LINK] [2|0|ROOT 3|2|LP] [4|5|DET] [5|2|ENUM 6|2|PUNCT],[pro:rel|which] [pro:indef|one cm|cm] [pro:dem|this] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_847
+848,Violet,Violet020305,yeah .,Violet,2121.632,2122.363,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_848
+849,Mother,Violet020305,numbers one ?,Violet,2122.363,2123.61,[],[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|number-PL] [pro:indef|one ?],,,,,,,,,,MotherofViolet_Violet020305_849
+850,Violet,Violet020305,yeah .,Violet,2123.61,2124.477,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,VioletofViolet_Violet020305_850
+851,Mother,Violet020305,want to have lots_of good fun that is funny ?,Violet,2124.477,2127.463,[],[1|0|ROOT] [2|3|INF] [3|1|XCOMP] [4|6|QUANT] [5|6|MOD] [6|3|OBJ] [7|8|LINK] [8|6|CMOD] [9|8|PRED 10|1|PUNCT],[v|want] [inf|to] [v|have] [qn|lots_of] [adj|good] [n|fun] [pro:rel|that] [cop|be&3S] [adj|fun&dn-Y ?],,,,,,,,,,MotherofViolet_Violet020305_851
+852,Mother,Violet020305,flip the flaps and find funny things to count .,Violet,2127.463,2131.59,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|3|CONJ] [5|4|COORD] [6|7|MOD] [7|5|OBJ] [8|7|NJCT] [9|8|POBJ 10|1|PUNCT],[v|flip] [det:art|the] [v|flap-3S] [coord|and] [v|find] [adj|fun&dn-Y] [n|thing-PL] [prep|to] [n|count .],,,,,,,,,,MotherofViolet_Violet020305_852
+853,Violet,Violet020305,yyy flip .,Violet,2131.59,2136.697,[],[] [1|0|ROOT 2|1|PUNCT],[] [v|flip .],,,,,,,,,,VioletofViolet_Violet020305_853
+854,Violet,Violet020305,flip the page .,Violet,2136.697,2138.762,[],[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|flip] [det:art|the] [n|page .],,,,,,,,,,VioletofViolet_Violet020305_854
+855,Mother,Violet020305,three (t:t:trail off),Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[det:num|three (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_855
+856,Violet,Violet020305,flap .,Violet,2138.762,2140.23,[],[1|0|ROOT 2|1|PUNCT],[v|flap .],,,,,,,,,,VioletofViolet_Violet020305_856
+857,Mother,Violet020305,eight mice .,Violet,2140.23,2141.442,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|eight] [n|mouse&PL .],,,,,,,,,,MotherofViolet_Violet020305_857
+858,Mother,Violet020305,eat nice rice .,Violet,0.0,0.0,[],[1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[v|eat] [adj|nice] [n|rice .],,,,,,,,,,MotherofViolet_Violet020305_858
+859,Violet,Violet020305,xxx .,Violet,2141.442,2143.168,drowned out by MOT speech,[],[],,,,,,,,,,VioletofViolet_Violet020305_859
+860,Violet,Violet020305,yyy .,Violet,2143.168,2147.13,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_860
+861,Mother,Violet020305,xxx .,Violet,0.0,0.0,muttering,[],[],,,,,,,,,,MotherofViolet_Violet020305_861
+862,Violet,Violet020305,yyy yyy .,Violet,2147.13,2150.128,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_862
+863,Mother,Violet020305,yarn wet pets .,Violet,0.0,0.0,[],[1|3|MOD] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[n|yarn] [adj|wet] [n|pet-PL .],,,,,,,,,,MotherofViolet_Violet020305_863
+864,Violet,Violet020305,nine { cat (= cats) } .,Violet,2150.128,2152.295,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|nine] [n|cat .],,,,,,,,,,VioletofViolet_Violet020305_864
+865,Violet,Violet020305,"cat , nine cats .",Violet,2152.295,2155.593,[],[1|0|INCROOT 2|1|LP] [3|4|QUANT] [4|1|ENUM 5|1|PUNCT],[n|cat cm|cm] [det:num|nine] [n|cat-PL .],,,,,,,,,,VioletofViolet_Violet020305_865
+866,Violet,Violet020305,yyy cats .,Violet,2155.593,2159.135,[],[] [1|0|INCROOT 2|1|PUNCT],[] [n|cat-PL .],,,,,,,,,,VioletofViolet_Violet020305_866
+867,Mother,Violet020305,nine wet pets .,Violet,2159.135,2161.42,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|nine] [adj|wet] [n|pet-PL .],,,,,,,,,,MotherofViolet_Violet020305_867
+868,Mother,Violet020305,nineteen cups .,Violet,2161.42,2163.137,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|nineteen] [n|cup-PL .],,,,,,,,,,MotherofViolet_Violet020305_868
+869,Mother,Violet020305,stacked up .,Violet,2163.137,2164.587,[],[1|0|INCROOT] [2|1|JCT 3|1|PUNCT],[part|stack-PASTP] [adv|up .],,,,,,,,,,MotherofViolet_Violet020305_869
+870,Violet,Violet020305,stacked up !,Violet,2164.587,2165.765,[],[1|0|INCROOT] [2|1|JCT 3|1|PUNCT],[part|stack-PASTP] [adv|up !],,,,,,,,,,VioletofViolet_Violet020305_870
+871,Mother,Violet020305,xxx .,Violet,0.0,0.0,gasping,[],[],,,,,,,,,,MotherofViolet_Violet020305_871
+872,Mother,Violet020305,fifteen mice skating on ice .,Violet,2165.765,2167.665,[],[1|2|QUANT] [2|0|INCROOT] [3|2|XJCT] [4|3|JCT] [5|4|POBJ 6|2|PUNCT],[det:num|fifteen] [n|mouse&PL] [part|skate-PRESP] [prep|on] [n|ice .],,,,,,,,,,MotherofViolet_Violet020305_872
+873,Violet,Violet020305,{ eighteen (?) } mice skating on ice .,Violet,2167.665,2173.842,[],[1|2|QUANT] [2|0|INCROOT] [3|2|XJCT] [4|3|JCT] [5|4|POBJ 6|2|PUNCT],[det:num|eighteen] [n|mouse&PL] [part|skate-PRESP] [prep|on] [n|ice .],,,,,,,,,,VioletofViolet_Violet020305_873
+874,Mother,Violet020305,crab cakes .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[n|crab] [v|cake-3S .],,,,,,,,,,MotherofViolet_Violet020305_874
+875,Mother,Violet020305,bake .,Violet,2173.842,2176.525,[],[1|0|ROOT 2|1|PUNCT],[v|bake .],,,,,,,,,,MotherofViolet_Violet020305_875
+876,Violet,Violet020305,crab cakes yyy cakes .,Violet,2176.525,2180.352,[],[1|2|SUBJ] [2|0|ROOT] [] [3|2|OBJ 4|2|PUNCT],[n|crab] [v|cake-3S] [] [n|cake-PL .],,,,,,,,,,VioletofViolet_Violet020305_876
+877,Violet,Violet020305,five cakes .,Violet,2180.352,2184.442,[],[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|five] [n|cake-PL .],,,,,,,,,,VioletofViolet_Violet020305_877
+878,Mother,Violet020305,you know how to bake cakes ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|5|INF] [5|3|XCOMP] [6|5|OBJ 7|2|PUNCT],[pro:per|you] [v|know] [adv:int|how] [inf|to] [v|bake] [n|cake-PL ?],,,,,,,,,,MotherofViolet_Violet020305_878
+879,Violet,Violet020305,yeah yyy .,Violet,2184.442,2186.222,[],[1|0|INCROOT] [2|1|PUNCT],[co|yeah] [.],,,,,,,,,,VioletofViolet_Violet020305_879
+880,Violet,Violet020305,ah .,Violet,2186.222,2187.893,[],[1|0|INCROOT 2|1|PUNCT],[co|ah .],,,,,,,,,,VioletofViolet_Violet020305_880
+881,Mother,Violet020305,here comes daddy !,Violet,0.0,0.0,[],[1|2|JCT] [2|0|ROOT] [3|2|SUBJ 4|2|PUNCT],[adv|here] [v|come-3S] [n|daddy !],,,,,,,,,,MotherofViolet_Violet020305_881
+882,Mother,Violet020305,xxx .,Violet,2187.893,2189.875,gasping,[],[],,,,,,,,,,MotherofViolet_Violet020305_882
+883,Mother,Violet020305,hi daddy .,Violet,2189.875,2190.925,[],[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|hi] [n|daddy .],,,,,,,,,,MotherofViolet_Violet020305_883
+884,Father,Violet020305,hi !,Violet,2190.925,2191.987,[],[1|0|INCROOT 2|1|PUNCT],[co|hi !],,,,,,,,,,FatherofViolet_Violet020305_884
+885,Mother,Violet020305,is it cold out there ?,Violet,2191.987,2192.872,[],[1|0|INCROOT] [2|3|MOD] [3|1|OBJ] [4|3|NJCT] [5|3|JCT 6|1|PUNCT],[0aux|is] [0pro|it] [n|cold] [adv|out] [adv|there ?],,,,,,,,,,MotherofViolet_Violet020305_885
+886,Father,Violet020305,freezing !,Violet,2192.872,2194.21,[],[1|0|INCROOT 2|1|PUNCT],[part|freeze-PRESP !],,,,,,,,,,FatherofViolet_Violet020305_886
+887,Violet,Violet020305,you yyy you got what do you { got (= have) } ?,Violet,2194.21,2198.8,[],[1|3|LINK] [] [2|3|SUBJ] [3|0|ROOT] [4|7|LINK] [5|7|JCT] [6|7|SUBJ] [7|3|COMP 8|3|PUNCT],[pro:per|you] [] [pro:per|you] [v|get&PAST] [pro:int|what] [0aux|do] [pro:per|you] [v|get&PAST ?],,,,,,,,,,VioletofViolet_Violet020305_887
+888,Father,Violet020305,I got some of xxx &-uh dirty dishes from yesterday's lunch that were in the car .,Violet,2198.7,2203.76,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|3|NJCT] [] [] [5|4|POBJ] [6|5|OBJ] [7|10|JCT] [8|10|SUBJ 9|10|AUX] [10|2|OBJ] [11|12|LINK] [12|10|CMOD] [13|12|JCT] [14|15|DET] [15|13|POBJ 16|2|PUNCT],[pro:sub|I] [v|get&PAST] [qn|some] [prep|of] [] [] [v|dirty] [n|dish-PL] [prep|from] [adv:tem|yesterday~aux|be&3S] [n|lunch] [pro:rel|that] [cop|be&PAST] [prep|in] [det:art|the] [n|car .],,,,,,,,,,FatherofViolet_Violet020305_888
+889,Mother,Violet020305,mm .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|mm .],,,,,,,,,,MotherofViolet_Violet020305_889
+890,Father,Violet020305,I'm bringing them into the kitchen !,Violet,2203.76,2205.308,[],[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|7|DET] [7|5|POBJ 8|3|PUNCT],[pro:sub|I~aux|be&1S] [part|bring-PRESP] [pro:obj|them] [prep|into] [det:art|the] [n|kitchen !],,,,,,,,,,FatherofViolet_Violet020305_890
+891,Violet,Violet020305,{ and (?) } what { is (?) } { that (?) } ?,Violet,2205.308,2210.517,[],[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|PRED 5|3|PUNCT],[coord|and] [pro:int|what] [cop|be&3S] [pro:dem|that ?],,,,,,,,,,VioletofViolet_Violet020305_891
+892,Father,Violet020305,some trash from my car .,Violet,0.0,0.0,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT] [4|5|MOD] [5|3|POBJ 6|2|PUNCT],[qn|some] [n|trash] [prep|from] [det:poss|my] [n|car .],,,,,,,,,,FatherofViolet_Violet020305_892
+893,Violet,Violet020305,trash from your car .,Violet,2210.517,2214.693,[],[1|0|INCROOT] [2|1|NJCT] [3|4|MOD] [4|2|POBJ 5|1|PUNCT],[n|trash] [prep|from] [det:poss|your] [n|car .],,,,,,,,,,VioletofViolet_Violet020305_893
+894,Violet,Violet020305,and what's in the thing ?,Violet,0.0,0.0,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[coord|and] [pro:int|what~cop|be&3S] [prep|in] [det:art|the] [n|thing ?],,,,,,,,,,VioletofViolet_Violet020305_894
+895,Father,Violet020305,xxx .,Violet,2214.693,2217.585,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_895
+896,Mother,Violet020305,xxx .,Violet,0.0,0.0,mumbling,[],[],,,,,,,,,,MotherofViolet_Violet020305_896
+897,Violet,Violet020305,xxx .,Violet,2217.585,2224.61,muttering,[],[],,,,,,,,,,VioletofViolet_Violet020305_897
+898,Violet,Violet020305,yyy yyy .,Violet,2224.61,2226.673,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_898
+899,Violet,Violet020305,yyy { tonight (?) } .,Violet,2226.673,2230.29,[],[] [1|0|INCROOT 2|1|PUNCT],[] [adv:tem|tonight .],,,,,,,,,,VioletofViolet_Violet020305_899
+900,Mother,Violet020305,three little cats .,Violet,2230.29,2233.555,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|three] [adj|little] [n|cat-PL .],,,,,,,,,,MotherofViolet_Violet020305_900
+901,Violet,Violet020305,three little cats .,Violet,2233.555,2235.993,[],[1|3|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|three] [adj|little] [n|cat-PL .],,,,,,,,,,VioletofViolet_Violet020305_901
+902,Mother,Violet020305,uhoh .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|uhoh .],,,,,,,,,,MotherofViolet_Violet020305_902
+903,Violet,Violet020305,oh .,Violet,2235.993,2241.172,[],[1|0|INCROOT 2|1|PUNCT],[co|oh .],,,,,,,,,,VioletofViolet_Violet020305_903
+904,Violet,Violet020305,yyy yyy .,Violet,2241.172,2242.87,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_904
+905,Mother,Violet020305,xxx .,Violet,0.0,0.0,drowned out by VIO speech,[],[],,,,,,,,,,MotherofViolet_Violet020305_905
+906,Violet,Violet020305,xxx .,Violet,2242.87,2244.622,whispering,[],[],,,,,,,,,,VioletofViolet_Violet020305_906
+907,Mother,Violet020305,oh .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|oh .],,,,,,,,,,MotherofViolet_Violet020305_907
+908,Violet,Violet020305,that .,Violet,2244.622,2245.698,[],[1|0|INCROOT 2|1|PUNCT],[pro:dem|that .],,,,,,,,,,VioletofViolet_Violet020305_908
+909,Violet,Violet020305,{ eight (?) } .,Violet,2245.698,2246.375,[],[1|0|INCROOT 2|1|PUNCT],[det:num|eight .],,,,,,,,,,VioletofViolet_Violet020305_909
+910,Mother,Violet020305,thirteen beetles in a bottle .,Violet,2246.375,2247.913,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[det:num|thirteen] [n|beetle-PL] [prep|in] [det:art|a] [n|bottle .],,,,,,,,,,MotherofViolet_Violet020305_910
+911,Violet,Violet020305,xxx .,Violet,2247.913,2252.71,making noises,[],[],,,,,,,,,,VioletofViolet_Violet020305_911
+912,Mother,Violet020305,how'd (replacement:replacement:how did) the drop off go ?,Violet,0.0,0.0,[],[1|4|LINK 2|4|AUX] [3|4|DET] [4|0|INCROOT] [5|4|JCT] [6|5|POBJ 7|4|PUNCT],[adv:int|how mod|do&PAST] [det:art|the] [n|drop] [prep|off] [v|go ?],,,,,,,,,,MotherofViolet_Violet020305_912
+913,Father,Violet020305,fine .,Violet,2252.71,2254.298,[],[1|0|INCROOT 2|1|PUNCT],[adv|fine .],,,,,,,,,,FatherofViolet_Violet020305_913
+914,Violet,Violet020305,yyy fine yyy .,Violet,2254.298,2257.433,[],[] [1|0|INCROOT] [2|1|PUNCT],[] [adv|fine] [.],,,,,,,,,,VioletofViolet_Violet020305_914
+915,Mother,Violet020305,did the teacher ask about the computer ?,Violet,0.0,0.0,[],[1|4|LINK] [2|3|DET] [3|4|SUBJ] [4|0|ROOT] [5|4|JCT] [6|7|DET] [7|5|POBJ 8|4|PUNCT],[v|do&PAST] [det:art|the] [n|teach&dv-AGT] [v|ask] [prep|about] [det:art|the] [n|compute&dv-AGT ?],,,,,,,,,,MotherofViolet_Violet020305_915
+916,Violet,Violet020305,yyy yyy .,Violet,2257.433,2259.743,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_916
+917,Father,Violet020305,xxx .,Violet,0.0,0.0,indiscernable speech,[],[],,,,,,,,,,FatherofViolet_Violet020305_917
+918,Violet,Violet020305,yyy yyy yyy yyy .,Violet,2259.743,2265.282,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_918
+919,Mother,Violet020305,she was trying to ask your advice the other day .,Violet,0.0,0.0,[],[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|7|MOD] [7|5|OBJ] [8|10|DET] [9|10|QUANT] [10|5|JCT 11|3|PUNCT],[pro:sub|she] [aux|be&PAST&13S] [part|try-PRESP] [inf|to] [v|ask] [det:poss|your] [n|advice] [det:art|the] [qn|other] [n|day .],,,,,,,,,,MotherofViolet_Violet020305_919
+920,Father,Violet020305,I talked to her the other day .,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ] [5|7|DET] [6|7|QUANT] [7|2|JCT 8|2|PUNCT],[pro:sub|I] [v|talk-PAST] [prep|to] [pro:obj|her] [det:art|the] [qn|other] [n|day .],,,,,,,,,,FatherofViolet_Violet020305_920
+921,Mother,Violet020305,alright .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|alright .],,,,,,,,,,MotherofViolet_Violet020305_921
+922,Violet,Violet020305,xxx .,Violet,2265.282,2268.525,muttering,[],[],,,,,,,,,,VioletofViolet_Violet020305_922
+923,Father,Violet020305,xxx .,Violet,0.0,0.0,can't be heard,[],[],,,,,,,,,,FatherofViolet_Violet020305_923
+924,Violet,Violet020305,yyy yyy .,Violet,2268.525,2271.052,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_924
+925,Violet,Violet020305,mice in the bottle .,Violet,2271.052,2274.538,[],[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ 5|1|PUNCT],[n|mouse&PL] [prep|in] [det:art|the] [n|bottle .],,,,,,,,,,VioletofViolet_Violet020305_925
+926,Father,Violet020305,xxx .,Violet,0.0,0.0,can't be heard,[],[],,,,,,,,,,FatherofViolet_Violet020305_926
+927,Violet,Violet020305,yyy .,Violet,2274.538,2276.185,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_927
+928,Mother,Violet020305,yeah .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|yeah .],,,,,,,,,,MotherofViolet_Violet020305_928
+929,Mother,Violet020305,what'd she say ?,Violet,2276.185,2277.217,[],[1|4|LINK 2|4|AUX] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[pro:int|what~mod|genmod] [pro:sub|she] [v|say ?],,,,,,,,,,MotherofViolet_Violet020305_929
+930,Violet,Violet020305,yyy .,Violet,2277.217,2280.423,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_930
+931,Violet,Violet020305,bottle .,Violet,2280.423,2282.937,[],[1|0|INCROOT 2|1|PUNCT],[n|bottle .],,,,,,,,,,VioletofViolet_Violet020305_931
+932,Mother,Violet020305,what time is it ?,Violet,2282.937,2284.085,[],[1|2|MOD] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT 5|4|PUNCT],[pro:int|what] [n|time] [aux|be&3S] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_932
+933,Violet,Violet020305,mice .,Violet,2283.985,2285.23,[],[1|0|INCROOT 2|1|PUNCT],[n|mouse&PL .],,,,,,,,,,VioletofViolet_Violet020305_933
+934,Mother,Violet020305,ten o (replacement:replacement:zero) nine ?,Violet,0.0,0.0,[],[1|2|QUANT] [2|3|QUANT] [3|0|INCROOT 4|3|PUNCT],[det:num|ten] [det:num|zero] [det:num|nine ?],,,,,,,,,,MotherofViolet_Violet020305_934
+935,Father,Violet020305,ten o (replacement:replacement:zero) nine .,Violet,2285.23,2288.16,[],[1|2|QUANT] [2|3|QUANT] [3|0|INCROOT 4|3|PUNCT],[det:num|ten] [det:num|zero] [det:num|nine .],,,,,,,,,,FatherofViolet_Violet020305_935
+936,Mother,Violet020305,"alright I'm , what are you gonna do ?",Violet,0.0,0.0,[],[1|3|COM] [2|3|SUBJ 3|9|AUX 4|3|LP] [5|9|LINK] [6|7|AUX] [7|9|SUBJ] [8|9|AUX] [9|0|ROOT 10|9|PUNCT],[co|alright] [pro:sub|I~aux|be&1S cm|cm] [pro:int|what] [aux|be&PRES] [pro:per|you] [mod:aux|gonna] [v|do ?],,,,,,,,,,MotherofViolet_Violet020305_936
+937,Father,Violet020305,I gotta xxx my shaver and do a quick shave and (t:t:trail off),Violet,2288.16,2291.372,[],[1|4|SUBJ] [2|4|AUX] [] [3|4|COM] [4|0|ROOT] [5|4|CONJ] [6|5|COORD] [7|9|DET] [8|9|MOD] [9|6|OBJ] [10|9|OBJ 11|4|PUNCT],[pro:sub|I] [mod:aux|gotta] [] [co|my] [n|shave&dv-AGT] [coord|and] [v|do] [det:art|a] [adj|quick] [v|shave] [coord|and (mt:trail off)],,,,,,,,,,FatherofViolet_Violet020305_937
+938,Father,Violet020305,"wash my face , brush my teeth and I'm (t:t:trail off)",Violet,2291.372,2293.107,[],[1|0|ROOT] [2|3|MOD] [3|7|MOD 4|3|LP] [5|7|MOD] [6|7|MOD] [7|1|OBJ] [8|7|CONJ] [9|10|SUBJ 10|8|COORD 11|1|PUNCT],[v|wash] [det:poss|my] [n|face cm|cm] [n|brush] [det:poss|my] [n|tooth&PL] [coord|and] [pro:sub|I~aux|be&1S (mt:trail off)],,,,,,,,,,FatherofViolet_Violet020305_938
+939,Father,Violet020305,out .,Violet,2293.107,2295.71,[],[1|0|INCROOT 2|1|PUNCT],[adv|out .],,,,,,,,,,FatherofViolet_Violet020305_939
+940,Mother,Violet020305,"why , are you leaving early ?",Violet,2295.71,2297.098,[],[1|5|LINK 2|1|LP] [3|5|AUX] [4|5|SUBJ] [5|0|ROOT] [6|5|JCT 7|5|PUNCT],[adv:int|why cm|cm] [aux|be&PRES] [pro:per|you] [part|leave-PRESP] [adv|early ?],,,,,,,,,,MotherofViolet_Violet020305_940
+941,Father,Violet020305,it's not too early .,Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|5|JCT] [5|2|JCT 6|2|PUNCT],[pro:per|it~cop|be&3S] [neg|not] [adv|too] [adv|early .],,,,,,,,,,FatherofViolet_Violet020305_941
+942,Violet,Violet020305,yyy .,Violet,2297.098,2299.232,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_942
+943,Mother,Violet020305,I xxx I wanted to do treadmill .,Violet,0.0,0.0,[],[1|3|LINK] [] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|5|OBJ 7|3|PUNCT],[pro:sub|I] [] [pro:sub|I] [v|want-PAST] [inf|to] [v|do] [n|treadmill .],,,,,,,,,,MotherofViolet_Violet020305_943
+944,Violet,Violet020305,xxx .,Violet,2299.232,2300.888,mumbling,[],[],,,,,,,,,,VioletofViolet_Violet020305_944
+945,Father,Violet020305,okay .,Violet,2300.888,2304.968,[],[1|0|INCROOT 2|1|PUNCT],[co|okay .],,,,,,,,,,FatherofViolet_Violet020305_945
+946,Mother,Violet020305,maybe she can go upstairs with you .,Violet,0.0,0.0,[],[1|4|JCT] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|JCT] [6|4|JCT] [7|6|POBJ 8|4|PUNCT],[adv|maybe] [pro:sub|she] [mod|can] [v|go] [adv|upstairs] [prep|with] [pro:per|you .],,,,,,,,,,MotherofViolet_Violet020305_946
+947,Father,Violet020305,sure !,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[adj|sure !],,,,,,,,,,FatherofViolet_Violet020305_947
+948,Violet,Violet020305,yyy .,Violet,2304.968,2308.078,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_948
+949,Violet,Violet020305,xxx yyy yyy .,Violet,2308.078,2312.985,[],[],[],,,,,,,,,,VioletofViolet_Violet020305_949
+950,Mother,Violet020305,maybe daddy wants to read this new book .,Violet,2312.985,2317.472,[],[1|3|JCT] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|8|DET] [7|8|MOD] [8|5|OBJ 9|3|PUNCT],[adv|maybe] [n|daddy] [v|want-3S] [inf|to] [v|read&ZERO] [pro:dem|this] [adj|new] [n|book .],,,,,,,,,,MotherofViolet_Violet020305_950
+951,Father,Violet020305,"ooh , could I read that new book wi<th> , to you ?",Violet,0.0,0.0,[],[1|0|ROOT 2|1|LP] [3|5|AUX] [4|5|SUBJ] [5|1|CJCT] [6|8|DET] [7|8|MOD] [8|5|OBJ] [9|8|NJCT 10|9|LP] [11|9|JCT] [12|11|POBJ 13|1|PUNCT],[v|ooh cm|cm] [mod|could] [pro:sub|I] [v|read&ZERO] [pro:dem|that] [adj|new] [n|book] [prep|with cm|cm] [prep|to] [pro:per|you ?],,,,,,,,,,FatherofViolet_Violet020305_951
+952,Violet,Violet020305,no .,Violet,2317.472,2318.588,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,VioletofViolet_Violet020305_952
+953,Violet,Violet020305,xxx .,Violet,2318.588,2321.167,crying,[],[],,,,,,,,,,VioletofViolet_Violet020305_953
+954,Mother,Violet020305,you know what you could show him ?,Violet,0.0,0.0,[],[1|2|SUBJ] [2|0|ROOT] [3|6|LINK] [4|6|SUBJ] [5|6|AUX] [6|2|COMP] [7|6|OBJ 8|2|PUNCT],[pro:per|you] [v|know] [pro:int|what] [pro:per|you] [mod|could] [v|show] [pro:obj|him ?],,,,,,,,,,MotherofViolet_Violet020305_954
+955,Mother,Violet020305,what's behind the pot .,Violet,2321.167,2323.143,[],[1|2|LINK 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|what~aux|be&3S] [prep|behind] [det:art|the] [n|pot .],,,,,,,,,,MotherofViolet_Violet020305_955
+956,Mother,Violet020305,what is it ?,Violet,2323.143,2325.633,[],[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[pro:int|what] [aux|be&3S] [pro:per|it ?],,,,,,,,,,MotherofViolet_Violet020305_956
+957,Father,Violet020305,what's behind the pot ?,Violet,2325.633,2329.815,[],[1|2|LINK 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|what~aux|be&3S] [prep|behind] [det:art|the] [n|pot ?],,,,,,,,,,FatherofViolet_Violet020305_957
+958,Mother,Violet020305,"let's show him the page , let's see the , find the page .",Violet,0.0,0.0,[],[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|3|OBJ] [5|6|DET] [6|3|OBJ 7|6|LP] [8|6|XMOD 9|8|OBJ] [10|8|XCOMP] [11|12|DET 12|13|SUBJ] [13|10|COMP] [14|15|DET] [15|13|OBJ 16|1|PUNCT],[v|let~pro:obj|us] [v|show] [pro:obj|him] [det:art|the] [n|page cm|cm] [v|let~pro:obj|us] [v|see] [det:art|the cm|cm] [v|find] [det:art|the] [n|page .],,,,,,,,,,MotherofViolet_Violet020305_958
+959,Mother,Violet020305,"ready , not that one .",Violet,2329.815,2332.085,[],[1|5|MOD 2|1|LP] [3|1|NEG] [4|5|LINK] [5|0|ROOT 6|5|PUNCT],[adj|ready cm|cm] [neg|not] [pro:rel|that] [pro:indef|one .],,,,,,,,,,MotherofViolet_Violet020305_959
+960,Mother,Violet020305,ooh it's the pot .,Violet,2332.085,2335.723,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[v|ooh] [pro:per|it~cop|be&3S] [det:art|the] [n|pot .],,,,,,,,,,MotherofViolet_Violet020305_960
+961,Father,Violet020305,ooh what's behind there ?,Violet,2335.723,2339.525,[],[1|0|ROOT] [2|4|SUBJ 3|4|AUX] [4|1|OBJ] [5|4|JCT 6|1|PUNCT],[v|ooh] [pro:int|what~aux|be&3S] [n|behind] [adv|there ?],,,,,,,,,,FatherofViolet_Violet020305_961
+962,Mother,Violet020305,xxx .,Violet,0.0,0.0,laughing,[],[],,,,,,,,,,MotherofViolet_Violet020305_962
+963,Father,Violet020305,"oh , I don't wanna see it .",Violet,0.0,0.0,[],[1|7|COM 2|1|LP] [3|7|SUBJ] [4|7|AUX 5|4|NEG] [6|7|AUX] [7|0|ROOT] [8|7|OBJ 9|7|PUNCT],[co|oh cm|cm] [pro:sub|I] [mod|do~neg|not] [mod:aux|wanna] [v|see] [pro:per|it .],,,,,,,,,,FatherofViolet_Violet020305_963
+964,Mother,Violet020305,don't look .,Violet,2339.525,2341.105,[],[1|3|AUX 2|1|NEG] [3|0|ROOT 4|3|PUNCT],[mod|do~neg|not] [v|look .],,,,,,,,,,MotherofViolet_Violet020305_964
+965,Father,Violet020305,xxx .,Violet,0.0,0.0,laughter,[],[],,,,,,,,,,FatherofViolet_Violet020305_965
+966,Father,Violet020305,only if (t:t:interruption),Violet,2341.105,2344.412,[],[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|only] [conj|if (mt:interruption)],,,,,,,,,,FatherofViolet_Violet020305_966
+967,Mother,Violet020305,don't look .,Violet,0.0,0.0,[],[1|3|AUX 2|1|NEG] [3|0|ROOT 4|3|PUNCT],[mod|do~neg|not] [v|look .],,,,,,,,,,MotherofViolet_Violet020305_967
+968,Father,Violet020305,only if Violet shows me do I wanna see it .,Violet,0.0,0.0,[],[1|4|JCT] [2|4|LINK] [3|4|SUBJ] [4|0|ROOT] [5|4|OBJ] [6|4|XCOMP] [7|9|SUBJ] [8|9|AUX] [9|6|COMP] [10|9|OBJ 11|4|PUNCT],[adv|only] [conj|if] [n:prop|Violet] [v|show-3S] [pro:obj|me] [v|do] [pro:sub|I] [mod:aux|wanna] [v|see] [pro:per|it .],,,,,,,,,,FatherofViolet_Violet020305_968
+969,Mother,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_969
+970,Violet,Violet020305,xxx you show you open it .,Violet,2344.412,2347.942,[],[] [1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|XCOMP] [5|4|OBJ 6|2|PUNCT],[] [pro:per|you] [v|show] [pro:per|you] [v|open] [pro:per|it .],,,,,,,,,,VioletofViolet_Violet020305_970
+971,Mother,Violet020305,{ me (= I) } show him ?,Violet,2347.942,2349.225,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:obj|me] [v|show] [pro:obj|him ?],,,,,,,,,,MotherofViolet_Violet020305_971
+972,Father,Violet020305,"are you sure , I'll open it .",Violet,0.0,0.0,[],[1|7|LINK] [2|7|SUBJ] [3|7|JCT 4|3|LP] [5|7|SUBJ 6|7|AUX] [7|0|ROOT] [8|7|OBJ 9|7|PUNCT],[cop|be&PRES] [pro:per|you] [adj|sure cm|cm] [pro:sub|I~mod|will] [v|open] [pro:per|it .],,,,,,,,,,FatherofViolet_Violet020305_972
+973,Violet,Violet020305,xxx .,Violet,2349.225,2350.503,grunting,[],[],,,,,,,,,,VioletofViolet_Violet020305_973
+974,Father,Violet020305,you tell me what it is .,Violet,2350.503,2352.588,[],[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|6|LINK] [5|6|SUBJ] [6|2|COMP 7|2|PUNCT],[pro:per|you] [v|tell] [pro:obj|me] [pro:int|what] [pro:per|it] [cop|be&3S .],,,,,,,,,,FatherofViolet_Violet020305_974
+975,Father,Violet020305,xxx .,Violet,2352.588,2354.157,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_975
+976,Mother,Violet020305,it's a (t:t:trail off),Violet,2353.957,2357.44,[],[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|a (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_976
+977,Mother,Violet020305,it's a yacht !,Violet,0.0,0.0,[],[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:per|it~cop|be&3S] [det:art|a] [n|yacht !],,,,,,,,,,MotherofViolet_Violet020305_977
+978,Father,Violet020305,a yacht !,Violet,0.0,0.0,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|yacht !],,,,,,,,,,FatherofViolet_Violet020305_978
+979,Mother,Violet020305,xxx .,Violet,2357.44,2361.605,[],[],[],,,,,,,,,,MotherofViolet_Violet020305_979
+980,Father,Violet020305,xxx .,Violet,0.0,0.0,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_980
+981,Violet,Violet020305,xxx .,Violet,0.0,0.0,laughter .,[],[],,,,,,,,,,VioletofViolet_Violet020305_981
+982,Mother,Violet020305,and what's in the closet ?,Violet,0.0,0.0,[],[1|3|LINK] [2|3|SUBJ 3|0|ROOT] [4|3|JCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[coord|and] [pro:int|what~cop|be&3S] [prep|in] [det:art|the] [n|closet ?],,,,,,,,,,MotherofViolet_Violet020305_982
+983,Father,Violet020305,a broom ?,Violet,2361.605,2364.557,[],[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|broom ?],,,,,,,,,,FatherofViolet_Violet020305_983
+984,Mother,Violet020305,nope (replacement:replacement:no) .,Violet,2364.557,2366.055,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,MotherofViolet_Violet020305_984
+985,Father,Violet020305,no .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[co|no .],,,,,,,,,,FatherofViolet_Violet020305_985
+986,Father,Violet020305,"&-uh , some old light bulbs .",Violet,2366.055,2368.215,[],[1|5|MOD] [2|3|QUANT] [3|5|MOD] [4|5|MOD] [5|0|INCROOT 6|5|PUNCT],[cm|cm] [qn|some] [adj|old] [adj|light] [n|bulb-PL .],,,,,,,,,,FatherofViolet_Violet020305_986
+987,Mother,Violet020305,no !,Violet,2368.215,2370.505,[],[1|0|INCROOT 2|1|PUNCT],[co|no !],,,,,,,,,,MotherofViolet_Violet020305_987
+988,Mother,Violet020305,towels .,Violet,0.0,0.0,[],[1|0|INCROOT 2|1|PUNCT],[n|towel-PL .],,,,,,,,,,MotherofViolet_Violet020305_988
+989,Mother,Violet020305,is it towels ?,Violet,2372.603,2375.935,[],[1|3|AUX] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[aux|be&3S] [pro:per|it] [v|towel-3S ?],,,,,,,,,,MotherofViolet_Violet020305_989
+990,Father,Violet020305,a hundred pack of toilet paper .,Violet,2375.935,2378.312,[],[1|3|DET] [2|3|QUANT] [3|0|INCROOT] [4|3|NJCT] [5|6|MOD] [6|4|POBJ 7|3|PUNCT],[det:art|a] [det:num|hundred] [n|pack] [prep|of] [n|toilet] [n|paper .],,,,,,,,,,FatherofViolet_Violet020305_990
+991,Mother,Violet020305,in the closet ?,Violet,2378.312,2379.432,[],[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[prep|in] [det:art|the] [n|closet ?],,,,,,,,,,MotherofViolet_Violet020305_991
+992,Mother,Violet020305,xxx a wazit (replacement:replacement:what is it) !,Violet,2379.432,2381.208,[],[] [1|2|DET] [2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT],[] [det:art|a] [pro:int|what aux|be&3S pro:per|it !],,,,,,,,,,MotherofViolet_Violet020305_992
+993,Father,Violet020305,a wazit (replacement:replacement:what is it) !,Violet,0.0,0.0,[],[1|2|DET] [2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT],[det:art|a] [pro:int|what aux|be&3S pro:per|it !],,,,,,,,,,FatherofViolet_Violet020305_993
+994,Mother,Violet020305,xxx alright let's take off your pack+back (replacement:replacement:back+pack) .,Violet,2381.208,2385.137,[],[] [1|2|COM] [2|0|ROOT 3|2|OBJ] [4|2|XCOMP] [5|4|JCT] [6|7|MOD] [7|5|POBJ 8|2|PUNCT],[] [co|alright] [v|let~pro:obj|us] [v|take] [prep|off] [det:poss|your] [n|+n|back+n|pack .],,,,,,,,,,MotherofViolet_Violet020305_994
+995,Father,Violet020305,xxx .,Violet,2385.137,2387.63,[],[],[],,,,,,,,,,FatherofViolet_Violet020305_995
+996,Mother,Violet020305,she doesn't have a diaper on .,Violet,2387.63,2389.047,[],[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|6|DET] [6|4|OBJ] [7|4|JCT 8|4|PUNCT],[pro:sub|she] [mod|do&3S~neg|not] [v|have] [det:art|a] [n|diaper] [adv|on .],,,,,,,,,,MotherofViolet_Violet020305_996
+997,Father,Violet020305,"no diaper on , eh ?",Violet,2389.047,2390.537,[],[1|2|QUANT] [2|0|INCROOT] [3|2|NJCT 4|3|LP] [5|2|COM 6|2|PUNCT],[qn|no] [n|diaper] [adv|on cm|cm] [co|eh ?],,,,,,,,,,FatherofViolet_Violet020305_997
+998,Mother,Violet020305,"that's why she was sitting on my lap , <be>cause I didn't want her to (t:t:trail off)",Violet,2390.537,2392.933,[],[1|2|SUBJ 2|0|ROOT] [3|6|LINK] [4|6|SUBJ] [5|6|AUX] [6|2|PRED] [7|6|JCT] [8|9|MOD] [9|7|POBJ 10|6|LP] [11|15|LINK] [12|15|SUBJ] [13|15|AUX 14|13|NEG] [15|2|CJCT] [16|15|OBJ] [17|15|JCT 18|2|PUNCT],[pro:dem|that~cop|be&3S] [adv:int|why] [pro:sub|she] [aux|be&PAST&13S] [part|sit-PRESP] [prep|on] [det:poss|my] [n|lap cm|cm] [conj|because] [pro:sub|I] [mod|do&PAST~neg|not] [v|want] [pro:obj|her] [prep|to (mt:trail off)],,,,,,,,,,MotherofViolet_Violet020305_998

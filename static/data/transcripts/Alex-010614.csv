@@ -1,0 +1,967 @@
+Utt#,Record #,Speaker,Session,Orthography,Child,start_seconds,end_seconds,Situation,SpeechAct,ClauseType,UttGoals,SubQ,SubI,Comments,FollowUp?,TagType,ToAdults?,S-lifting,GRASP,Morphology,uttid
+1,1,Mother,Alex010614,what's in that box ?,Alex,0.0,2.381,,,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [pro:dem|that] [n|box ?],MotherofAlex_Alex010614_1
+2,2,Mother,Alex010614,what's in the box ?,Alex,2.381,4.623,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [det:art|the] [n|box ?],MotherofAlex_Alex010614_2
+3,3,Mother,Alex010614,huh ?,Alex,4.623,10.365,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|huh ?],MotherofAlex_Alex010614_3
+4,4,Mother,Alex010614,clean it .,Alex,10.365,15.588,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|clean] [pro:per|it .],MotherofAlex_Alex010614_4
+5,5,Mother,Alex010614,right (.) clean it .,Alex,15.588,18.501,[],,,,,,,,,,,[1|2|JCT] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[adv|right] [v|clean] [pro:per|it .],MotherofAlex_Alex010614_5
+6,6,Mother,Alex010614,a little dusty .,Alex,18.501,19.695,[],,,,,,,,,,,[1|3|DET] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:art|a] [adj|little] [adj|dust&dn-Y .],MotherofAlex_Alex010614_6
+7,7,Mother,Alex010614,nobody feels good huh ?,Alex,19.695,32.101,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|2|COM 5|2|PUNCT],[pro:indef|nobody] [v|feel-3S] [adj|good] [co|huh ?],MotherofAlex_Alex010614_7
+8,8,Mother,Alex010614,everybody feels crummy .,Alex,32.101,34.858,,,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[pro:indef|everybody] [v|feel-3S] [adj|crummy .],MotherofAlex_Alex010614_8
+9,9,Mother,Alex010614,what's in here ?,Alex,34.858,38.178,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what~cop|be&3S] [prep|in] [adv|here ?],MotherofAlex_Alex010614_9
+10,10,Mother,Alex010614,look .,Alex,38.178,40.285,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|look .],MotherofAlex_Alex010614_10
+11,11,Mother,Alex010614,wow .,Alex,40.285,43.018,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_11
+12,12,Mother,Alex010614,what is in there ?,Alex,43.018,45.843,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[pro:int|what] [cop|be&3S] [prep|in] [adv|there ?],MotherofAlex_Alex010614_12
+13,13,Mother,Alex010614,wow .,Alex,45.843,48.583,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_13
+14,14,Mother,Alex010614,what's that ?,Alex,48.583,51.283,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_14
+15,15,Alex,Alex010614,yyy yyy .,Alex,51.283,53.826,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_15
+16,16,Alex,Alex010614,yyy .,Alex,53.826,56.876,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_16
+17,17,Alex,Alex010614,yyy yyy yyy yyy .,Alex,56.876,62.296,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_17
+18,18,Alex,Alex010614,yyy yyy yyy yyy .,Alex,62.296,71.795,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_18
+19,19,Mother,Alex010614,that's a (.) rock .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|a] [n|rock .],MotherofAlex_Alex010614_19
+20,20,Alex,Alex010614,yyy .,Alex,71.795,75.368,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_20
+21,21,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,75.368,79.761,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_21
+22,22,Alex,Alex010614,yyy yyy .,Alex,79.761,81.42,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_22
+23,23,Mother,Alex010614,xxx .,Alex,81.42,103.413,silence,,,,,,,,,,,[],[],MotherofAlex_Alex010614_23
+24,24,Mother,Alex010614,did you have a nice little nap ?,Alex,103.413,106.961,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|7|DET] [5|7|MOD] [6|7|MOD] [7|3|OBJ 8|3|PUNCT],[v|do&PAST] [pro:per|you] [v|have] [det:art|a] [adj|nice] [adj|little] [n|nap ?],MotherofAlex_Alex010614_24
+25,25,Mother,Alex010614,huh ?,Alex,106.961,109.23,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|huh ?],MotherofAlex_Alex010614_25
+26,26,Alex,Alex010614,yyy yyy .,Alex,109.23,115.1,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_26
+27,27,Mother,Alex010614,what's that ?,Alex,115.1,120.965,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_27
+28,28,Alex,Alex010614,yyy yyy (t:t:self interruption),Alex,120.965,123.703,both Is are barely audible but some sort of vowel is breaking up the cluster and target could be what's that[],,,,,,,,,,,[] [1|0|ROOT],[] [(mt:self interruption)],AlexofAlex_Alex010614_28
+29,29,Mother,Alex010614,what's that ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_29
+30,30,Alex,Alex010614,yyy yyy .,Alex,123.703,126.518,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_30
+31,31,Mother,Alex010614,what's that ?,Alex,126.518,127.493,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_31
+32,32,Mother,Alex010614,c'mere (replacement:replacement:come here) .,Alex,127.493,131.993,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|here .],MotherofAlex_Alex010614_32
+33,33,Mother,Alex010614,come over here ,Alex,131.993,133.545,[],,,,,,,,,,,[1|0|ROOT] [2|1|JCT] [3|4|JCT] ,[v|come] [adv|over] [adv|here],MotherofAlex_Alex010614_33
+34,33,Mother,Alex010614,help me .,Alex,0.0,0.0,,,,,,,,,,,,[4|1|COMP] [5|4|OBJ 6|1|PUNCT], [v|help] [pro:obj|me .],MotherofAlex_Alex010614_33
+35,34,Mother,Alex010614,help me .,Alex,133.545,134.996,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|help] [pro:obj|me .],MotherofAlex_Alex010614_34
+36,35,Mother,Alex010614,help Mommy .,Alex,134.996,138.758,[],,,,,,,,,,,[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|help] [n:prop|Mommy .],MotherofAlex_Alex010614_35
+37,36,Mother,Alex010614,oop go get it .,Alex,138.758,144.375,[],,,,,,,,,,,[1|2|COM] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[co|oop] [v|go] [v|get] [pro:per|it .],MotherofAlex_Alex010614_36
+38,37,Mother,Alex010614,uhoh .,Alex,144.375,151.031,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|uhoh .],MotherofAlex_Alex010614_37
+39,38,Alex,Alex010614,uhoh .,Alex,151.031,154.881,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|uhoh .],AlexofAlex_Alex010614_38
+40,39,Mother,Alex010614,uhoh .,Alex,154.881,156.436,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|uhoh .],MotherofAlex_Alex010614_39
+41,40,Mother,Alex010614,what happened ?,Alex,156.436,157.436,[],,,,,,,,,,,[1|2|LINK] [2|0|ROOT 3|2|PUNCT],[pro:int|what] [v|happen-PAST ?],MotherofAlex_Alex010614_40
+42,41,Mother,Alex010614,there .,Alex,157.436,159.53,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_41
+43,42,Mother,Alex010614,all nice and polished .,Alex,159.53,161.155,[],,,,,,,,,,,[1|2|JCT] [2|0|ROOT] [3|2|CONJ] [4|3|COORD 5|2|PUNCT],[adv|all] [adj|nice] [coord|and] [v|polish-PAST .],MotherofAlex_Alex010614_42
+44,43,Alex,Alex010614,yyy .,Alex,161.155,165.68,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_43
+45,44,Mother,Alex010614,alright I don't know if I remember how to do this .,Alex,165.68,167.896,[],,,,,,,,,,,[1|5|LINK] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|8|LINK] [7|8|SUBJ] [8|5|CJCT] [9|8|OBJ] [10|11|INF] [11|9|XCOMP] [12|11|OBJ 13|5|PUNCT],[adj|alright] [pro:sub|I] [mod|do~neg|not] [v|know] [conj|if] [pro:sub|I] [v|remember] [adv:int|how] [inf|to] [v|do] [pro:dem|this .],MotherofAlex_Alex010614_44
+46,45,Mother,Alex010614,this is daddy's project .,Alex,167.896,170.041,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|5|MOD 4|3|POSS] [5|2|PRED 6|2|PUNCT],[pro:dem|this] [cop|be&3S] [n|daddy~poss|s] [n|project .],MotherofAlex_Alex010614_45
+47,46,Mother,Alex010614,you helping me ?,Alex,170.041,188.508,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:per|you] [part|help-PRESP] [pro:obj|me ?],MotherofAlex_Alex010614_46
+48,47,Mother,Alex010614,xxx .,Alex,188.508,213.678,[],,,,,,,,,,,[],[],MotherofAlex_Alex010614_47
+49,48,Mother,Alex010614,thank you .,Alex,213.678,217.896,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_48
+50,49,Alex,Alex010614,yyy yyy .,Alex,217.896,221.081,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_49
+51,50,Mother,Alex010614,now (.) we're missing (t:t:trail off),Alex,0.0,0.0,[],,,,,,,,,,,[1|4|JCT] [2|4|SUBJ 3|4|AUX] [4|0|ROOT 5|4|PUNCT],[adv|now] [pro:sub|we~aux|be&PRES] [part|miss-PRESP (mt:trail off)],MotherofAlex_Alex010614_50
+52,51,Mother,Alex010614,we're missing the car .,Alex,221.081,234.506,[],,,,,,,,,,,[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[pro:sub|we~aux|be&PRES] [part|miss-PRESP] [det:art|the] [n|car .],MotherofAlex_Alex010614_51
+53,52,Mother,Alex010614,the tr<uck> (t:t:self interruption),Alex,0.0,0.0,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|truck (mt:self interruption)],MotherofAlex_Alex010614_52
+54,53,Mother,Alex010614,the thing .,Alex,234.506,236.858,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|thing .],MotherofAlex_Alex010614_53
+55,54,Mother,Alex010614,must be in your room .,Alex,236.858,238.826,[],,,,,,,,,,,[1|2|AUX] [2|0|ROOT] [3|2|JCT] [4|5|MOD] [5|3|POBJ 6|2|PUNCT],[mod|must] [cop|be] [prep|in] [det:poss|your] [n|room .],MotherofAlex_Alex010614_54
+56,55,Mother,Alex010614,here's a bee boat .,Alex,238.826,249.393,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|a] [n|bee] [n|boat .],MotherofAlex_Alex010614_55
+57,56,Mother,Alex010614,okay ready ?,Alex,249.393,260.693,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT 3|2|PUNCT],[co|okay] [v|ready ?],MotherofAlex_Alex010614_56
+58,57,Mother,Alex010614,alright .,Alex,260.693,269.493,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|alright .],MotherofAlex_Alex010614_57
+59,58,Alex,Alex010614,yyy yyy yyy .,Alex,269.493,277.825,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_58
+60,59,Mother,Alex010614,now (t:t:trail off),Alex,277.825,278.71,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|now (mt:trail off)],MotherofAlex_Alex010614_59
+61,60,Mother,Alex010614,does it matter (t:t:trail off),Alex,278.71,283.036,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[mod|do&3S] [pro:per|it] [v|matter (mt:trail off)],MotherofAlex_Alex010614_60
+62,61,Mother,Alex010614,where we hook these up to ?,Alex,283.036,286.725,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|3|JCT 7|3|PUNCT],[adv:int|where] [pro:sub|we] [v|hook] [pro:dem|these] [adv|up] [prep|to ?],MotherofAlex_Alex010614_61
+63,62,Mother,Alex010614,d'you (replacement:replacement:do you) think ?,Alex,286.725,293.846,[],,,,,,,,,,,[1|3|AUX 2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[mod|do pro:per|you] [v|think ?],MotherofAlex_Alex010614_62
+64,63,Alex,Alex010614,yyy yyy yyy (t:t:self interruption),Alex,293.846,302.93,[],,,,,,,,,,,[] [] [1|0|ROOT],[] [] [(mt:self interruption)],AlexofAlex_Alex010614_63
+65,64,Mother,Alex010614,xxx .,Alex,0.0,0.0,making noises imitating CHI,,,,,,,,,,,[],[],MotherofAlex_Alex010614_64
+66,65,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,302.93,307.628,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_65
+67,66,Mother,Alex010614,that piece does not fit .,Alex,307.628,310.761,[],,,,,,,,,,,[1|2|DET] [2|5|SUBJ] [3|5|AUX] [4|3|NEG] [5|0|ROOT 6|5|PUNCT],[pro:dem|that] [n|piece] [mod|do&3S] [neg|not] [v|fit&ZERO .],MotherofAlex_Alex010614_66
+68,67,Mother,Alex010614,h@l .,Alex,310.761,325.813,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:let|h .],MotherofAlex_Alex010614_67
+69,68,Mother,Alex010614,q@l .,Alex,325.813,327.18,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:let|q .],MotherofAlex_Alex010614_68
+70,69,Mother,Alex010614,o@l (.) a .,Alex,327.18,330.378,[],,,,,,,,,,,[1|0|INCROOT] [2|3|DET 3|1|PUNCT],[n:let|o] [det:art|a .],MotherofAlex_Alex010614_69
+71,70,Mother,Alex010614,so it does matter .,Alex,330.378,332.915,[],,,,,,,,,,,[1|4|COM] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT 5|4|PUNCT],[co|so] [pro:per|it] [mod|do&3S] [v|matter .],MotherofAlex_Alex010614_70
+72,71,Mother,Alex010614,okay .,Alex,332.915,341.996,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay .],MotherofAlex_Alex010614_71
+73,72,Mother,Alex010614,that goes there .,Alex,341.996,343.481,[],,,,,,,,,,,[1|2|LINK] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[pro:rel|that] [v|go-3S] [adv|there .],MotherofAlex_Alex010614_72
+74,73,Mother,Alex010614,right ?,Alex,343.481,344.505,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|right ?],MotherofAlex_Alex010614_73
+75,74,Mother,Alex010614,you gonna help me ?,Alex,344.505,347.531,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:per|you] [mod:aux|gonna] [v|help] [pro:obj|me ?],MotherofAlex_Alex010614_74
+76,75,Alex,Alex010614,yyy (t:t:self interruption),Alex,347.531,350.163,[],,,,,,,,,,,[1|0|ROOT],[(mt:self interruption)],AlexofAlex_Alex010614_75
+77,76,Mother,Alex010614,can you help me ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[mod|can] [pro:per|you] [v|help] [pro:obj|me ?],MotherofAlex_Alex010614_76
+78,77,Mother,Alex010614,here's a .,Alex,350.163,354.448,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|a .],MotherofAlex_Alex010614_77
+79,78,Mother,Alex010614,here's the a .,Alex,354.448,357.391,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|5|DET 5|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|the] [det:art|a .],MotherofAlex_Alex010614_78
+80,79,Alex,Alex010614,yyy yyy .,Alex,357.391,373.645,,,,,,,,,,,,[] [],[] [],AlexofAlex_Alex010614_79
+81,80,Mother,Alex010614,&aw .,Alex,368.599,369.203,,,,,,,,,,,,[],[],MotherofAlex_Alex010614_80
+82,81,Mother,Alex010614,what,Alex,370.604,371.053,,,,,,,,,,,,[1|3|MOD],[pro:int|what],MotherofAlex_Alex010614_81
+83,82,Alex,Alex010614,yyy .,Alex,373.645,374.645,,,,,,,,,,,,[],[],AlexofAlex_Alex010614_82
+84,83,Mother,Alex010614,honey wipe your little tears (.),Alex,371.082,372.677,,,,,,,,,,,,[2|3|MOD 3|9|LINK] [4|6|MOD] [5|6|MOD] [6|9|SUBJ],[n|honey n|wipe] [det:poss|your] [adj|little] [n|tear-PL],MotherofAlex_Alex010614_83
+85,84,Mother,Alex010614,don't cry .,Alex,372.692,373.605,,,,,,,,,,,,[7|9|AUX 8|7|NEG 9|0|ROOT 10|9|PUNCT],[mod|do~neg|not v|cry .],MotherofAlex_Alex010614_84
+86,85,Mother,Alex010614,wanna step on it ?,Alex,373.645,374.856,,,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[mod:aux|wanna] [v|step] [prep|on] [pro:per|it ?],MotherofAlex_Alex010614_85
+87,86,Mother,Alex010614,watch your feet .,Alex,374.856,376.848,[],,,,,,,,,,,[1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[v|watch] [det:poss|your] [n|foot&PL .],MotherofAlex_Alex010614_86
+88,87,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_87
+89,88,Mother,Alex010614,you wanna give me a hug or you wanna (t:t:self interruption question),Alex,376.848,382.103,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|6|DET] [6|3|OBJ] [7|6|CONJ] [8|9|SUBJ] [9|7|COORD 10|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|give] [pro:obj|me] [det:art|a] [n|hug] [coord|or] [pro:per|you] [mod:aux|wanna (mt:self interruption question)],MotherofAlex_Alex010614_88
+90,89,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_89
+91,90,Mother,Alex010614,what's that ?,Alex,382.103,383.486,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_90
+92,91,Mother,Alex010614,thank you .,Alex,383.486,390.1,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_91
+93,92,Alex,Alex010614,yyy .,Alex,390.1,391.841,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_92
+94,93,Mother,Alex010614,alright .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|alright .],MotherofAlex_Alex010614_93
+95,94,Mother,Alex010614,watch your feet .,Alex,391.841,392.65,[],,,,,,,,,,,[1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[v|watch] [det:poss|your] [n|foot&PL .],MotherofAlex_Alex010614_94
+96,95,Mother,Alex010614,where're (replacement:replacement:where are) your socks ?,Alex,392.65,394.553,[],,,,,,,,,,,[1|4|LINK 2|4|AUX] [3|4|MOD] [4|0|INCROOT 5|4|PUNCT],[adv:int|where aux|be&PRES] [det:poss|your] [n|sock-PL ?],MotherofAlex_Alex010614_95
+97,96,Mother,Alex010614,this is a g@l and an h@l where's the h@l ?,Alex,394.553,398.848,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|PRED] [5|4|CONJ] [6|7|DET] [7|5|COORD] [8|9|LINK 9|7|CMOD] [10|11|DET] [11|9|PRED 12|2|PUNCT],[pro:dem|this] [cop|be&3S] [det:art|a] [n:let|g] [coord|and] [det:art|a] [n:let|h] [adv:int|where~cop|be&3S] [det:art|the] [n:let|h ?],MotherofAlex_Alex010614_96
+98,97,Mother,Alex010614,you thirsty ?,Alex,398.848,406.485,[],,,,,,,,,,,[1|0|INCROOT] [2|1|PRED 3|1|PUNCT],[pro:per|you] [adj|thirst&dn-Y ?],MotherofAlex_Alex010614_97
+99,98,Mother,Alex010614,are you thirsty ?,Alex,406.485,408.483,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|2|JCT 4|1|PUNCT],[cop|be&PRES] [pro:per|you] [adj|thirst&dn-Y ?],MotherofAlex_Alex010614_98
+100,99,Mother,Alex010614,here's (.) here's the b@l .,Alex,408.483,410.893,[],,,,,,,,,,,[1|4|SUBJ 2|4|AUX] [3|4|SUBJ 4|0|ROOT] [5|6|DET] [6|4|PRED 7|4|PUNCT],[pro:exist|here~aux|be&3S] [pro:exist|here~cop|be&3S] [det:art|the] [n:let|b .],MotherofAlex_Alex010614_99
+101,100,Mother,Alex010614,and a d@l .,Alex,410.893,418.706,[],,,,,,,,,,,[1|3|LINK] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[coord|and] [det:art|a] [n:let|d .],MotherofAlex_Alex010614_100
+102,101,Mother,Alex010614,and a c@l .,Alex,418.706,421.643,[],,,,,,,,,,,[1|3|LINK] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[coord|and] [det:art|a] [n:let|c .],MotherofAlex_Alex010614_101
+103,102,Alex,Alex010614,yyy yyy .,Alex,421.643,427.78,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_102
+104,103,Mother,Alex010614,wow .,Alex,427.78,429.225,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_103
+105,104,Mother,Alex010614,thank you .,Alex,429.225,430.988,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_104
+106,105,Mother,Alex010614,slide it over .,Alex,430.988,436.433,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|1|JCT 4|1|PUNCT],[v|slide] [pro:per|it] [adv|over .],MotherofAlex_Alex010614_105
+107,106,Mother,Alex010614,that says g@l .,Alex,436.433,439.131,[],,,,,,,,,,,[1|2|LINK] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:rel|that] [v|say-3S] [n:let|g .],MotherofAlex_Alex010614_106
+108,107,Mother,Alex010614,this says o@l .,Alex,439.131,441.905,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:dem|this] [v|say-3S] [n:let|o .],MotherofAlex_Alex010614_107
+109,108,Mother,Alex010614,this says q@l .,Alex,441.905,446.966,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:dem|this] [v|say-3S] [n:let|q .],MotherofAlex_Alex010614_108
+110,109,Mother,Alex010614,watch your little feet .,Alex,446.966,450.043,[],,,,,,,,,,,[1|0|ROOT] [2|4|MOD] [3|4|MOD] [4|1|OBJ 5|1|PUNCT],[v|watch] [det:poss|your] [adj|little] [n|foot&PL .],MotherofAlex_Alex010614_109
+111,110,Mother,Alex010614,and your hands .,Alex,450.043,451.76,[],,,,,,,,,,,[1|3|LINK] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[coord|and] [det:poss|your] [n|hand-PL .],MotherofAlex_Alex010614_110
+112,111,Mother,Alex010614,alright here's the g@l .,Alex,451.76,454.416,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[co|alright] [pro:exist|here~cop|be&3S] [det:art|the] [n:let|g .],MotherofAlex_Alex010614_111
+113,112,Mother,Alex010614,that's another g@l .,Alex,454.416,455.891,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|3|ENUM 5|2|PUNCT],[pro:dem|that~cop|be&3S] [pro:indef|another] [n:let|g .],MotherofAlex_Alex010614_112
+114,113,Mother,Alex010614,where you going ?,Alex,455.891,457.891,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv:int|where] [pro:per|you] [part|go-PRESP ?],MotherofAlex_Alex010614_113
+115,114,Mother,Alex010614,this way .,Alex,457.891,459.926,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [n|way .],MotherofAlex_Alex010614_114
+116,115,Mother,Alex010614,that's j@l .,Alex,459.926,464.17,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [n:let|j .],MotherofAlex_Alex010614_115
+117,116,Mother,Alex010614,e@l f@l .,Alex,464.17,468.753,[],,,,,,,,,,,[1|0|INCROOT] [2|1|ENUM 3|1|PUNCT],[n:let|e] [n:let|f .],MotherofAlex_Alex010614_116
+118,117,Mother,Alex010614,up j@l .,Alex,468.753,471.168,[],,,,,,,,,,,[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|up] [n:let|j .],MotherofAlex_Alex010614_117
+119,118,Mother,Alex010614,here's the j@l .,Alex,471.168,473.52,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|the] [n:let|j .],MotherofAlex_Alex010614_118
+120,119,Mother,Alex010614,what is it ?,Alex,473.52,498.488,[],,,,,,,,,,,[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[pro:int|what] [aux|be&3S] [pro:per|it ?],MotherofAlex_Alex010614_119
+121,120,Mother,Alex010614,can you get Mommy one ?,Alex,498.488,507.371,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|MOD] [5|3|OBJ 6|3|PUNCT],[mod|can] [pro:per|you] [v|get] [n:prop|Mommy] [pro:indef|one ?],MotherofAlex_Alex010614_120
+122,121,Alex,Alex010614,yyy .,Alex,507.371,518.57,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_121
+123,122,Mother,Alex010614,thank you .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_122
+124,123,Alex,Alex010614,yyy .,Alex,518.57,521.492,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_123
+125,124,Mother,Alex010614,oh that's lovely .,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|PRED 5|3|PUNCT],[co|oh] [pro:dem|that~cop|be&3S] [adj|love&dn-LY .],MotherofAlex_Alex010614_124
+126,125,Mother,Alex010614,oh another one .,Alex,521.492,524.853,[],,,,,,,,,,,[1|3|COM] [2|3|QUANT] [3|0|INCROOT 4|3|PUNCT],[co|oh] [qn|another] [pro:indef|one .],MotherofAlex_Alex010614_125
+127,126,Alex,Alex010614,yyy .,Alex,524.853,527.065,ɑ is shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_126
+128,127,Mother,Alex010614,thank you .,Alex,527.065,528.688,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_127
+129,128,Mother,Alex010614,howbout (replacement:replacement:how about) some of these (t:t:self interruption question),Alex,528.686,537.111,[],,,,,,,,,,,[1|0|INCROOT 2|1|JCT] [3|2|POBJ] [4|3|NJCT] [5|4|POBJ 6|1|PUNCT],[adv:int|how prep|about] [qn|some] [prep|of] [pro:dem|these (mt:self interruption question)],MotherofAlex_Alex010614_128
+130,129,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,second ɛ is shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_129
+131,130,Mother,Alex010614,thank you .,Alex,537.113,538.651,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_130
+132,131,Alex,Alex010614,yyy yyy .,Alex,538.651,539.885,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_131
+133,132,Alex,Alex010614,yyy .,Alex,539.885,543.131,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_132
+134,133,Alex,Alex010614,yyy yyy yyy .,Alex,543.131,546.25,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_133
+135,134,Mother,Alex010614,what is that ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what] [cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_134
+136,135,Alex,Alex010614,yyy yyy .,Alex,546.25,549.926,first vowel shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_135
+137,136,Mother,Alex010614,oh that's for me ?,Alex,549.926,550.89,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|JCT] [5|4|POBJ 6|3|PUNCT],[co|oh] [pro:dem|that~cop|be&3S] [prep|for] [pro:obj|me ?],MotherofAlex_Alex010614_136
+138,137,Mother,Alex010614,thank you .,Alex,550.89,551.81,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_137
+139,138,Alex,Alex010614,yyy yyy .,Alex,551.81,554.573,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_138
+140,139,Mother,Alex010614,thank you that's a gravel pit .,Alex,554.573,558.546,[],,,,,,,,,,,[1|4|LINK] [2|1|OBJ] [3|4|SUBJ 4|0|ROOT] [5|7|DET] [6|7|MOD] [7|4|PRED 8|4|PUNCT],[v|thank] [pro:per|you] [pro:dem|that~cop|be&3S] [det:art|a] [n|gravel] [n|pit .],MotherofAlex_Alex010614_139
+141,140,Mother,Alex010614,okay howbout (replacement:replacement:how about) another one ?,Alex,558.546,561.631,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT 3|2|JCT] [4|5|QUANT] [5|3|POBJ 6|2|PUNCT],[co|okay] [adv:int|how prep|about] [qn|another] [pro:indef|one ?],MotherofAlex_Alex010614_140
+142,141,Mother,Alex010614,Alex howbout (replacement:replacement:how about) those ?,Alex,561.631,570.1,[],,,,,,,,,,,[1|0|INCROOT] [2|1|COBJ 3|2|JCT] [4|3|POBJ 5|1|PUNCT],[n:prop|Alex] [adv:int|how prep|about] [pro:dem|those ?],MotherofAlex_Alex010614_141
+143,142,Mother,Alex010614,over there look .,Alex,570.1,571.22,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|over] [adv|there] [v|look .],MotherofAlex_Alex010614_142
+144,143,Mother,Alex010614,howbout (replacement:replacement:how about) the tracks ?,Alex,571.22,572.86,[],,,,,,,,,,,[1|4|LINK 2|4|JCT] [3|4|DET] [4|0|INCROOT 5|4|PUNCT],[adv:int|how adv|about] [det:art|the] [n|track-PL ?],MotherofAlex_Alex010614_143
+145,144,Mother,Alex010614,can you give Mommy the tracks ?,Alex,572.86,574.196,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|6|DET] [6|4|OBJ 7|3|PUNCT],[mod|can] [pro:per|you] [v|give] [n:prop|Mommy] [det:art|the] [n|track-PL ?],MotherofAlex_Alex010614_144
+146,145,Mother,Alex010614,thank you let's see .,Alex,574.196,580.881,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|1|COMP 4|3|OBJ] [5|3|XCOMP 6|1|PUNCT],[v|thank] [pro:per|you] [v|let~pro:obj|us] [v|see .],MotherofAlex_Alex010614_145
+147,146,Mother,Alex010614,this (t:t:trail off),Alex,580.881,585.611,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[pro:dem|this (mt:trail off)],MotherofAlex_Alex010614_146
+148,147,Mother,Alex010614,I have no idea where this goes .,Alex,585.611,588.723,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|QUANT] [4|2|OBJ] [5|7|LINK] [6|7|SUBJ] [7|4|CMOD 8|2|PUNCT],[pro:sub|I] [v|have] [qn|no] [n|idea] [adv:int|where] [pro:dem|this] [v|go-3S .],MotherofAlex_Alex010614_147
+149,148,Mother,Alex010614,thought you were helping me .,Alex,588.723,596.105,[],,,,,,,,,,,[1|0|ROOT] [2|4|SUBJ] [3|4|AUX] [4|1|COMP] [5|4|OBJ 6|1|PUNCT],[v|think&PAST] [pro:per|you] [aux|be&PAST] [part|help-PRESP] [pro:obj|me .],MotherofAlex_Alex010614_148
+150,149,Mother,Alex010614,I lost my helper .,Alex,596.105,602.081,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|MOD] [4|2|OBJ 5|2|PUNCT],[pro:sub|I] [v|lose&PAST] [det:poss|my] [n|help&dv-AGT .],MotherofAlex_Alex010614_149
+151,150,Mother,Alex010614,woah .,Alex,602.081,632.513,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|woah .],MotherofAlex_Alex010614_150
+152,151,Alex,Alex010614,yyy .,Alex,632.513,635.478,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_151
+153,152,Mother,Alex010614,woah .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|woah .],MotherofAlex_Alex010614_152
+154,153,Alex,Alex010614,yyy yyy .,Alex,635.478,638.288,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_153
+155,154,Mother,Alex010614,Mommy get you a tissue .,Alex,638.288,643.085,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ2] [4|5|DET] [5|2|OBJ 6|2|PUNCT],[n:prop|Mommy] [v|get] [pro:per|you] [det:art|a] [n|tissue .],MotherofAlex_Alex010614_154
+156,155,Mother,Alex010614,here's (.) Alex here's another one .,Alex,643.085,649.033,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|5|JCT] [4|5|SUBJ 5|2|PRED] [6|7|QUANT] [7|5|PRED 8|2|PUNCT],[pro:exist|here~cop|be&3S] [n:prop|Alex] [pro:exist|here~cop|be&3S] [qn|another] [pro:indef|one .],MotherofAlex_Alex010614_155
+157,156,Mother,Alex010614,let me see your little face .,Alex,649.033,658.185,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|6|MOD] [5|6|MOD] [6|3|OBJ 7|3|PUNCT],[0v|let] [pro:obj|me] [v|see] [det:poss|your] [adj|little] [n|face .],MotherofAlex_Alex010614_156
+158,157,Mother,Alex010614,c'mere (replacement:replacement:come here) .,Alex,658.185,660.198,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|here .],MotherofAlex_Alex010614_157
+159,158,Mother,Alex010614,thank you .,Alex,660.198,661.48,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_158
+160,159,Mother,Alex010614,okay ?,Alex,661.48,662.491,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_159
+161,160,Mother,Alex010614,what was that Alex ?,Alex,662.491,692.968,[],,,,,,,,,,,[1|2|LINK] [2|0|ROOT] [3|4|LINK] [4|2|PRED 5|2|PUNCT],[pro:int|what] [cop|be&PAST&13S] [pro:rel|that] [n:prop|Alex ?],MotherofAlex_Alex010614_160
+162,161,Mother,Alex010614,ball ?,Alex,692.968,694.38,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|ball ?],MotherofAlex_Alex010614_161
+163,162,Mother,Alex010614,xxx .,Alex,694.38,711.351,silence,,,,,,,,,,,[],[],MotherofAlex_Alex010614_162
+164,163,Alex,Alex010614,yyy !,Alex,711.351,719.948,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_163
+165,164,Alex,Alex010614,yyy !,Alex,719.948,721.506,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_164
+166,165,Mother,Alex010614,is it stuck ?,Alex,721.506,722.888,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[aux|be&3S] [pro:per|it] [v|stick&PAST ?],MotherofAlex_Alex010614_165
+167,166,Mother,Alex010614,c'mere (replacement:replacement:come here) .,Alex,722.888,726.976,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|here .],MotherofAlex_Alex010614_166
+168,167,Mother,Alex010614,get the other one .,Alex,726.976,728.025,[],,,,,,,,,,,[1|0|ROOT] [2|4|DET] [3|4|QUANT] [4|1|OBJ 5|1|PUNCT],[v|get] [det:art|the] [qn|other] [pro:indef|one .],MotherofAlex_Alex010614_167
+169,168,Mother,Alex010614,over there .,Alex,728.025,735.76,[],,,,,,,,,,,[1|0|INCROOT] [2|1|JCT 3|1|PUNCT],[adv|over] [adv|there .],MotherofAlex_Alex010614_168
+170,169,Mother,Alex010614,see em (replacement:replacement:them) ?,Alex,735.76,737.113,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|see] [pro:obj|them ?],MotherofAlex_Alex010614_169
+171,170,Mother,Alex010614,did you get the other ones ?,Alex,737.113,746.901,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|6|DET] [5|6|QUANT] [6|3|OBJ 7|3|PUNCT],[v|do&PAST] [pro:per|you] [v|get] [det:art|the] [qn|other] [pro:indef|one-PL ?],MotherofAlex_Alex010614_170
+172,171,Mother,Alex010614,what's that ?,Alex,746.901,749.198,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_171
+173,172,Alex,Alex010614,yyy .,Alex,749.198,752.488,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_172
+174,173,Mother,Alex010614,that's not a phone .,Alex,752.486,755.55,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|5|DET] [5|2|PRED 6|2|PUNCT],[pro:dem|that~cop|be&3S] [neg|not] [det:art|a] [n|phone .],MotherofAlex_Alex010614_173
+175,174,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_174
+176,175,Mother,Alex010614,hi there .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT] [2|1|JCT 3|1|PUNCT],[co|hi] [adv|there .],MotherofAlex_Alex010614_175
+177,176,Alex,Alex010614,yyy .,Alex,755.551,757.183,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_176
+178,177,Alex,Alex010614,yyy yyy .,Alex,757.183,758.95,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_177
+179,178,Alex,Alex010614,yyy yyy yyy .,Alex,758.95,761.173,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_178
+180,179,Alex,Alex010614,yyy .,Alex,761.173,764.496,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_179
+181,180,Alex,Alex010614,yyy .,Alex,764.496,765.656,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_180
+182,181,Alex,Alex010614,yyy yyy .,Alex,765.656,771.79,no vowel after tʃ[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_181
+183,182,Mother,Alex010614,wait,Alex,0.0,0.0,[],,,,,,,,,,,[1|4|COM],[co|wait],MotherofAlex_Alex010614_182
+184,182,Mother,Alex010614,don't go without me .,Alex,771.79,773.315,[],,,,,,,,,,,[2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|JCT] [6|5|POBJ 7|4|PUNCT],[mod|do~neg|not] [v|go] [prep|without] [pro:obj|me .],MotherofAlex_Alex010614_182
+185,183,Alex,Alex010614,yyy .,Alex,773.315,776.701,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_183
+186,184,Mother,Alex010614,you're all twisted (.),Alex,0.0,0.0,[],,,,,,,,,,,[1|4|SUBJ 2|4|AUX] [3|4|JCT] [4|0|ROOT] ,[pro:per|you~aux|be&PRES] [adv|all] [part|twist-PASTP],MotherofAlex_Alex010614_184
+187,184,Mother,Alex010614,untwist .,Alex,0.0,0.0,[],,,,,,,,,,, [5|4|OBJ 6|4|PUNCT],[un#v|twist .],MotherofAlex_Alex010614_184
+188,185,Mother,Alex010614,this way .,Alex,776.701,778.383,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [n|way .],MotherofAlex_Alex010614_185
+189,186,Mother,Alex010614,this way this way .,Alex,778.383,779.965,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[pro:dem|this] [n|way] [pro:dem|this] [n|way .],MotherofAlex_Alex010614_186
+190,187,Mother,Alex010614,this way .,Alex,779.965,781.38,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [n|way .],MotherofAlex_Alex010614_187
+191,188,Mother,Alex010614,okay ?,Alex,781.38,782.446,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_188
+192,189,Mother,Alex010614,mm fix this .,Alex,782.446,784.7,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[co|mm] [v|fix] [pro:dem|this .],MotherofAlex_Alex010614_189
+193,190,Mother,Alex010614,okay ?,Alex,784.7,793.023,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_190
+194,191,Mother,Alex010614,oh don't pull Mommy .,Alex,793.023,800.038,[],,,,,,,,,,,[1|4|COM] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[co|oh] [mod|do~neg|not] [v|pull] [n:prop|Mommy .],MotherofAlex_Alex010614_191
+195,192,Mother,Alex010614,wow .,Alex,800.038,804.233,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_192
+196,193,Mother,Alex010614,don't break it Alex .,Alex,804.233,807.573,[],,,,,,,,,,,[1|3|AUX 2|1|NEG] [3|0|ROOT] [4|3|OBJ] [5|3|OBJ 6|3|PUNCT],[mod|do~neg|not] [v|break] [pro:per|it] [n:prop|Alex .],MotherofAlex_Alex010614_193
+197,194,Mother,Alex010614,that's not nice ,Alex,807.573,810.105,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|8|JCT],[pro:dem|that~cop|be&3S] [neg|not] [adj|nice],MotherofAlex_Alex010614_194
+198,194,Mother,Alex010614,you can't do that .,Alex,0.0,0.0,[],,,,,,,,,,,[6|8|AUX 7|6|NEG] [8|2|PRED] [9|8|OBJ 10|2|PUNCT], [pro:per|you] [mod|can~neg|not] [v|do] [pro:dem|that .],MotherofAlex_Alex010614_194
+199,195,Mother,Alex010614,this isn't yours .,Alex,810.105,811.953,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT 3|2|NEG] [4|2|PRED 5|2|PUNCT],[pro:dem|this] [cop|be&3S~neg|not] [pro:poss|yours .],MotherofAlex_Alex010614_195
+200,196,Mother,Alex010614,okay that's enough .,Alex,811.953,813.38,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|JCT 5|3|PUNCT],[co|okay] [pro:dem|that~cop|be&3S] [adv|enough .],MotherofAlex_Alex010614_196
+201,197,Mother,Alex010614,help Mommy build the tracks .,Alex,813.38,814.818,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[n|help] [n:prop|Mommy] [v|build] [det:art|the] [n|track-PL .],MotherofAlex_Alex010614_197
+202,198,Mother,Alex010614,get the balls .,Alex,814.818,815.681,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|get] [det:art|the] [n|ball-PL .],MotherofAlex_Alex010614_198
+203,199,Mother,Alex010614,go get the rocks .,Alex,815.681,817.035,[],,,,,,,,,,,[1|2|SRL] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[v|go] [v|get] [det:art|the] [n|rock-PL .],MotherofAlex_Alex010614_199
+204,200,Mother,Alex010614,see em (replacement:replacement:them) ?,Alex,817.035,818.12,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|see] [pro:obj|them ?],MotherofAlex_Alex010614_200
+205,201,Mother,Alex010614,see em (replacement:replacement:them) ?,Alex,818.12,819.305,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|see] [pro:obj|them ?],MotherofAlex_Alex010614_201
+206,202,Mother,Alex010614,bring em (replacement:replacement:them) over here .,Alex,819.305,833.173,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|1|JCT 5|1|PUNCT],[v|bring] [pro:obj|them] [adv|over] [adv|here .],MotherofAlex_Alex010614_202
+207,203,Mother,Alex010614,bring em (replacement:replacement:them) over here .,Alex,833.173,835.113,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|1|JCT 5|1|PUNCT],[v|bring] [pro:obj|them] [adv|over] [adv|here .],MotherofAlex_Alex010614_203
+208,204,Mother,Alex010614,careful .,Alex,835.113,843.366,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|careful .],MotherofAlex_Alex010614_204
+209,205,Mother,Alex010614,are you (t:t:trail off),Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT] [2|1|PRED 3|1|PUNCT],[cop|be&PRES] [pro:per|you (mt:trail off)],MotherofAlex_Alex010614_205
+210,206,Mother,Alex010614,oh (.) c'mere (replacement:replacement:come here) .,Alex,843.366,848.056,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT 3|2|JCT 4|2|PUNCT],[co|oh] [v|come adv|here .],MotherofAlex_Alex010614_206
+211,207,Mother,Alex010614,what happened ?,Alex,848.056,848.93,[],,,,,,,,,,,[1|2|LINK] [2|0|ROOT 3|2|PUNCT],[pro:int|what] [v|happen-PAST ?],MotherofAlex_Alex010614_207
+212,208,Mother,Alex010614,you got hurt ?,Alex,848.93,849.883,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:per|you] [v|get&PAST] [v|hurt&ZERO ?],MotherofAlex_Alex010614_208
+213,209,Mother,Alex010614,you're alright .,Alex,849.883,851.565,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:per|you~cop|be&PRES] [adj|alright .],MotherofAlex_Alex010614_209
+214,210,Mother,Alex010614,you just have_to pay attention to when you run (.),Alex,851.565,855.276,[],,,,,,,,,,,[1|4|SUBJ] [2|4|JCT] [3|4|AUX] [4|0|ROOT] [5|4|OBJ] [6|4|JCT] [7|9|LINK],[pro:per|you] [adv|just] [mod:aux|have_to] [v|pay] [n|attention] [prep|to] [conj|when] [pro:per|you] [v|run] ,MotherofAlex_Alex010614_210
+215,210,Mother,Alex010614,you run so fast .,Alex,0.0,0.0,[],,,,,,,,,,,[8|9|SUBJ] [9|4|CJCT] [10|9|OBJ] [11|9|COMP] [12|13|JCT] [13|11|JCT 14|4|PUNCT],[pro:per|you] [v|run] [adv|so] [adv|fast .],MotherofAlex_Alex010614_210
+216,211,Mother,Alex010614,you've (replacement:replacement:you have) to go slow .,Alex,855.276,856.836,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|INF] [4|2|XCOMP] [5|4|JCT 6|2|PUNCT],[pro:per|you v|have] [inf|to] [v|go] [adv|slow .],MotherofAlex_Alex010614_211
+217,212,Alex,Alex010614,{ slow (?) } .,Alex,856.836,860.418,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|slow .],AlexofAlex_Alex010614_212
+218,213,Mother,Alex010614,o@l .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:let|o .],MotherofAlex_Alex010614_213
+219,214,Mother,Alex010614,lemme (replacement:replacement:let me) fix your pants .,Alex,860.418,861.633,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|5|MOD] [5|3|OBJ 6|1|PUNCT],[v|let&ZERO pro:obj|me] [v|fix] [det:poss|your] [n:pt|pants .],MotherofAlex_Alex010614_214
+220,215,Mother,Alex010614,okay ?,Alex,861.633,865.958,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_215
+221,216,Mother,Alex010614,you alright now ?,Alex,865.958,867.61,[],,,,,,,,,,,[1|0|INCROOT] [2|3|COM] [3|1|JCT 4|1|PUNCT],[pro:per|you] [co|alright] [adv|now ?],MotherofAlex_Alex010614_216
+222,217,Alex,Alex010614,yyy .,Alex,867.61,874.355,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_217
+223,218,Mother,Alex010614,okay .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay .],MotherofAlex_Alex010614_218
+224,219,Alex,Alex010614,yyy yyy .,Alex,874.355,877.786,first cluster difficult to discern[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_219
+225,220,Mother,Alex010614,what's that ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_220
+226,221,Mother,Alex010614,what's that ?,Alex,877.786,880.77,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_221
+227,222,Alex,Alex010614,yyy yyy .,Alex,880.77,886.731,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_222
+228,223,Mother,Alex010614,what's that ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_223
+229,224,Mother,Alex010614,what's that (.),Alex,886.731,888.975,[],,,,,,,,,,,[1|2|SUBJ 2|5|SUBJ] [3|5|JCT],[pro:int|what~cop|be&3S] [pro:dem|that],MotherofAlex_Alex010614_224
+230,224,Mother,Alex010614,what's that ?,Alex,0.0,0.0,[],,,,,,,,,,,[4|5|SUBJ 5|0|ROOT] [6|5|PRED 7|5|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_224
+231,225,Mother,Alex010614,where's the (.) where's your (.) rocks ?,Alex,888.975,890.916,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|7|DET] [4|7|LINK 5|7|AUX] [6|7|MOD] [7|2|PRED 8|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [pro:rel|where~aux|be&3S] [det:poss|your] [n|rock-PL ?],MotherofAlex_Alex010614_225
+232,226,Mother,Alex010614,go get the rocks .,Alex,890.916,892.3,[],,,,,,,,,,,[1|2|SRL] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[v|go] [v|get] [det:art|the] [n|rock-PL .],MotherofAlex_Alex010614_226
+233,227,Mother,Alex010614,go get em (replacement:replacement:them) (.) xxx get up .,Alex,892.3,893.92,[],,,,,,,,,,,[1|2|SRL] [2|0|ROOT] [3|2|OBJ] [] [4|2|XCOMP] [5|4|JCT 6|2|PUNCT],[v|go] [v|get] [pro:obj|them] [] [v|get] [adv|up .],MotherofAlex_Alex010614_227
+234,228,Mother,Alex010614,up up up up up .,Alex,893.92,895.703,[],,,,,,,,,,,[1|3|JCT] [2|3|JCT] [3|0|ROOT] [4|3|JCT] [5|4|POBJ 6|3|PUNCT],[adv|up] [adv|up] [adv|up] [adv|up] [adv|up .],MotherofAlex_Alex010614_228
+235,229,Mother,Alex010614,that's the remote .,Alex,895.703,903.951,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [det:art|the] [n|remote .],MotherofAlex_Alex010614_229
+236,230,Alex,Alex010614,yyy yyy .,Alex,903.951,909.446,hard to hear as MOT is moving toys around[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_230
+237,231,Alex,Alex010614,yyy .,Alex,909.446,911.463,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_231
+238,232,Alex,Alex010614,yyy yyy yyy .,Alex,911.463,913.548,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_232
+239,233,Alex,Alex010614,yyy yyy yyy .,Alex,913.548,915.241,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_233
+240,234,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,915.241,918.288,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_234
+241,235,Alex,Alex010614,yyy yyy yyy .,Alex,918.288,920.491,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_235
+242,236,Mother,Alex010614,okay (t:t:self interruption),Alex,920.491,925.166,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay (mt:self interruption)],MotherofAlex_Alex010614_236
+243,237,Alex,Alex010614,yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_237
+244,238,Alex,Alex010614,yyy yyy .,Alex,925.166,926.753,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_238
+245,239,Mother,Alex010614,still don't know where this goes Alex .,Alex,926.751,936.83,[],,,,,,,,,,,[1|4|JCT] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|7|LINK] [6|7|SUBJ] [7|4|COMP] [8|7|OBJ 9|4|PUNCT],[adv|still] [mod|do~neg|not] [v|know] [adv:int|where] [pro:dem|this] [v|go-3S] [n:prop|Alex .],MotherofAlex_Alex010614_239
+246,240,Alex,Alex010614,yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_240
+247,241,Alex,Alex010614,yyy yyy .,Alex,936.83,938.898,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_241
+248,242,Alex,Alex010614,yyy yyy .,Alex,938.898,941.053,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_242
+249,243,Mother,Alex010614,you scared me .,Alex,941.053,943.453,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[pro:per|you] [v|scare-PAST] [pro:obj|me .],MotherofAlex_Alex010614_243
+250,244,Mother,Alex010614,d'you (replacement:replacement:do you) wanna help Mommy ?,Alex,943.453,959.093,[],,,,,,,,,,,[1|4|AUX 2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[mod|do pro:per|you] [mod:aux|wanna] [v|help] [n:prop|Mommy ?],MotherofAlex_Alex010614_244
+251,245,Mother,Alex010614,whoop<s> .,Alex,959.093,961.281,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|whoops .],MotherofAlex_Alex010614_245
+252,246,Mother,Alex010614,or d'you (replacement:replacement:do you) want to try something different .,Alex,961.281,964.741,[],,,,,,,,,,,[1|2|LINK] [2|0|ROOT 3|2|OBJ] [4|2|COMP] [5|6|INF] [6|4|XCOMP] [7|6|OBJ] [8|7|POSTMOD 9|2|PUNCT],[coord|or] [v|do pro:per|you] [v|want] [inf|to] [v|try] [pro:indef|something] [adj|different .],MotherofAlex_Alex010614_246
+253,247,Mother,Alex010614,who's that ?,Alex,964.741,971.358,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|who~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_247
+254,248,Toy,Alex010614,xxx right there .,Alex,971.358,975.456,[],,,,,,,,,,,[] [1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[] [adv|right] [adv|there .],ToyofAlex_Alex010614_248
+255,249,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_249
+256,250,Mother,Alex010614,Bert .,Alex,975.456,977.766,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Bert .],MotherofAlex_Alex010614_250
+257,251,Mother,Alex010614,and the piggy+bank .,Alex,977.766,979.955,[],,,,,,,,,,,[1|3|LINK] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[coord|and] [det:art|the] [n|+n|piggy+n|bank .],MotherofAlex_Alex010614_251
+258,252,Mother,Alex010614,Ernie .,Alex,979.955,981.831,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Ernie .],MotherofAlex_Alex010614_252
+259,253,Mother,Alex010614,can you read to Mommy ?,Alex,981.831,991.906,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|JCT] [5|4|POBJ 6|3|PUNCT],[mod|can] [pro:per|you] [v|read&ZERO] [prep|to] [n:prop|Mommy ?],MotherofAlex_Alex010614_253
+260,254,Mother,Alex010614,can you read the book to Mommy ?,Alex,991.906,994.951,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|5|NJCT] [7|6|POBJ 8|3|PUNCT],[mod|can] [pro:per|you] [v|read&ZERO] [det:art|the] [n|book] [prep|to] [n:prop|Mommy ?],MotherofAlex_Alex010614_254
+261,255,Mother,Alex010614,where's the little pigs ?,Alex,994.951,1025.676,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [adj|little] [n|pig-PL ?],MotherofAlex_Alex010614_255
+262,256,Mother,Alex010614,where's the little piggies ?,Alex,1025.676,1027.771,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|PRED 6|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [adj|little] [n|pig-DIM-PL ?],MotherofAlex_Alex010614_256
+263,257,Alex,Alex010614,yyy .,Alex,1027.771,1045.785,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_257
+264,258,Mother,Alex010614,ooh Mommy likes this book .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT] [2|3|SUBJ] [3|1|COMP] [4|5|DET] [5|3|OBJ 6|1|PUNCT],[v|ooh] [n:prop|Mommy] [v|like-3S] [pro:dem|this] [n|book .],MotherofAlex_Alex010614_258
+265,259,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_259
+266,260,Mother,Alex010614,ooh Sydney shark's seaside shanties .,Alex,1045.785,1051.343,[],,,,,,,,,,,[1|0|ROOT] [2|6|MOD] [3|6|MOD 4|3|POSS] [5|6|MOD] [6|1|OBJ 7|1|PUNCT],[v|ooh] [n:prop|Sydney] [n|shark~poss|s] [n|seaside] [n|shanty-PL .],MotherofAlex_Alex010614_260
+267,261,Mother,Alex010614,shark .,Alex,1051.343,1053.751,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|shark .],MotherofAlex_Alex010614_261
+268,262,Mother,Alex010614,and these are all the little fishies .,Alex,1053.751,1055.656,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|7|QUANT] [5|7|DET] [6|7|MOD] [7|3|PRED 8|3|PUNCT],[coord|and] [pro:dem|these] [cop|be&PRES] [qn|all] [det:art|the] [adj|little] [n|fish-DIM-PL .],MotherofAlex_Alex010614_262
+269,263,Mother,Alex010614,right here (.) yikes !,Alex,1055.656,1057.1,[],,,,,,,,,,,[1|2|JCT] [2|3|JCT] [3|0|INCROOT 4|3|PUNCT],[adv|right] [adv|here] [co|yikes !],MotherofAlex_Alex010614_263
+270,264,Mother,Alex010614,the crab .,Alex,1057.1,1061.241,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|crab .],MotherofAlex_Alex010614_264
+271,265,Mother,Alex010614,the crab likes walking sideways and I think the reason why (t:t:trail off),Alex,1061.241,1064.703,[],,,,,,,,,,,[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|3|PUNCT] [5|4|JCT] [6|8|LINK] [7|8|SUBJ] [8|4|ROOT] [9|10|DET] [10|8|OBJ] [11|8|INCROOT 12|11|PUNCT],[det:art|the] [n|crab] [v|like-3S] [part|walk-PRESP] [adv|sideways] [coord|and] [pro:sub|I] [v|think] [det:art|the] [n|reason] [adv:int|why (mt:trail off)],MotherofAlex_Alex010614_265
+272,266,Mother,Alex010614,is to make himself look sneaky and pretend that he's a spy .,Alex,1064.703,1069.458,[],,,,,,,,,,,[1|0|ROOT] [2|3|INF] [3|1|XCOMP] [4|3|OBJ] [5|6|COM] [6|4|PRED] [7|6|CONJ] [8|7|COORD] [9|13|LINK] [10|13|SUBJ 11|13|AUX] [12|13|DET] [13|8|CMOD 14|1|PUNCT],[cop|be&3S] [inf|to] [v|make] [pro:refl|himself] [co|look] [adj|sneak&dv-Y] [coord|and] [adj|pretend] [pro:rel|that] [pro:sub|he~aux|be&3S] [det:art|a] [n|spy .],MotherofAlex_Alex010614_266
+273,267,Mother,Alex010614,here's the turtles .,Alex,1069.458,1071.368,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|the] [n|turtle-PL .],MotherofAlex_Alex010614_267
+274,268,Mother,Alex010614,we crawl up the beach from the water (.) .,Alex,1071.368,1074.026,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|5|DET] [5|2|OBJ] [6|5|NJCT] [7|8|DET] [8|6|POBJ 9|2|PUNCT],[pro:sub|we] [v|crawl] [adv|up] [det:art|the] [n|beach] [prep|from] [det:art|the] [n|water .],MotherofAlex_Alex010614_268
+275,269,Mother,Alex010614,to bury our eggs on dry land (t:t:trail off),Alex,1074.026,1075.986,[],,,,,,,,,,,[1|2|INF] [2|0|ROOT] [3|4|MOD] [4|2|OBJ] [5|6|JCT] [6|7|MOD] [7|2|OBJ 8|2|PUNCT],[inf|to] [v|bury] [det:poss|our] [n|egg-PL] [adv|on] [adj|dry] [n|land (mt:trail off)],MotherofAlex_Alex010614_269
+276,270,Mother,Alex010614,we lay a whole batch and then when they hatch they scamper up out in the sand .,Alex,1075.986,1081.056,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|OBJ] [6|2|CONJ] [7|12|JCT] [8|10|LINK] [9|10|SUBJ] [10|12|CJCT] [11|12|SUBJ] [12|6|COORD] [13|12|JCT] [14|12|JCT] [15|12|JCT] [16|17|DET] [17|15|POBJ 18|2|PUNCT],[pro:sub|we] [v|lay] [det:art|a] [adj|whole] [n|batch] [coord|and] [adv:tem|then] [conj|when] [pro:sub|they] [v|hatch] [pro:sub|they] [v|scamper] [adv|up] [adv|out] [prep|in] [det:art|the] [n|sand .],MotherofAlex_Alex010614_270
+277,271,Mother,Alex010614,pidder@o padder@o .,Alex,1081.056,1082.308,[],,,,,,,,,,,[1|0|INCROOT] [2|1|ENUM 3|1|PUNCT],[on|pidder] [on|padder .],MotherofAlex_Alex010614_271
+278,272,Mother,Alex010614,oh pretty .,Alex,1082.308,1085.648,[],,,,,,,,,,,[1|0|INCROOT] [2|1|JCT 3|1|PUNCT],[co|oh] [adv|pretty .],MotherofAlex_Alex010614_272
+279,273,Mother,Alex010614,angelfish .,Alex,1085.648,1087.588,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|+n|angel+n|fish .],MotherofAlex_Alex010614_273
+280,274,Mother,Alex010614,hello (.) I'm the angelfish .,Alex,1087.588,1089.696,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[co|hello] [pro:sub|I~cop|be&1S] [det:art|the] [n|+n|angel+n|fish .],MotherofAlex_Alex010614_274
+281,275,Mother,Alex010614,darling .,Alex,1089.696,1091.57,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|darling .],MotherofAlex_Alex010614_275
+282,276,Mother,Alex010614,the prettiest thing in the sea .,Alex,1091.57,1093.91,[],,,,,,,,,,,[1|3|DET] [2|3|MOD] [3|0|INCROOT] [4|3|NJCT] [5|6|DET] [6|4|POBJ 7|3|PUNCT],[det:art|the] [adj|pretty-SP] [n|thing] [prep|in] [det:art|the] [n|sea .],MotherofAlex_Alex010614_276
+283,277,Mother,Alex010614,what a shame there are no other creatures as gorgeous and lovely as me .,Alex,1093.91,1098.758,[],,,,,,,,,,,[1|5|LINK] [2|3|DET] [3|5|SUBJ] [4|3|NJCT] [5|0|ROOT] [6|8|QUANT] [7|8|QUANT] [8|5|PRED] [9|8|NJCT] [10|9|PRED] [11|10|CONJ] [12|11|COORD] [13|12|JCT] [14|13|POBJ 15|5|PUNCT],[pro:int|what] [det:art|a] [n|shame] [adv|there] [cop|be&PRES] [qn|no] [qn|other] [n|creature-PL] [adv|as] [adj|gorgeous] [coord|and] [adj|love&dn-LY] [prep|as] [pro:obj|me .],MotherofAlex_Alex010614_277
+284,278,Mother,Alex010614,whoop<s> .,Alex,1098.758,1101.021,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|whoops .],MotherofAlex_Alex010614_278
+285,279,Mother,Alex010614,what's that ?,Alex,1101.021,1101.973,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_279
+286,280,Mother,Alex010614,the walrus .,Alex,1101.973,1104.243,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|walrus .],MotherofAlex_Alex010614_280
+287,281,Mother,Alex010614,wow .,Alex,1104.243,1106.228,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_281
+288,282,Mother,Alex010614,wan (replacement:replacement:want) go backwards ?,Alex,1106.228,1107.525,[],,,,,,,,,,,[1|0|ROOT] [2|1|XCOMP] [3|2|JCT 4|1|PUNCT],[v|want] [v|go] [adv|backwards ?],MotherofAlex_Alex010614_282
+289,283,Mother,Alex010614,the jelly fish .,Alex,1107.525,1111.188,[],,,,,,,,,,,[1|3|DET] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:art|the] [n|jelly] [n|fish .],MotherofAlex_Alex010614_283
+290,284,Mother,Alex010614,turtles .,Alex,1111.188,1116.421,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|turtle-PL .],MotherofAlex_Alex010614_284
+291,285,Mother,Alex010614,crab .,Alex,1116.421,1118.22,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|crab .],MotherofAlex_Alex010614_285
+292,286,Mother,Alex010614,and the shark .,Alex,1118.22,1119.841,[],,,,,,,,,,,[1|3|LINK] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[coord|and] [det:art|the] [n|shark .],MotherofAlex_Alex010614_286
+293,287,Mother,Alex010614,wow .,Alex,1119.841,1126.183,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_287
+294,288,Mother,Alex010614,very nice .,Alex,1126.183,1128.943,[],,,,,,,,,,,[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|very] [adj|nice .],MotherofAlex_Alex010614_288
+295,289,Mother,Alex010614,what's this one ?,Alex,1128.943,1130.896,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_289
+296,290,Mother,Alex010614,rubber duckies don't say quack .,Alex,1130.896,1134.706,[],,,,,,,,,,,[1|2|MOD] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|5|OBJ 7|5|PUNCT],[n|rubber] [n|duck-DIM-PL] [mod|do~neg|not] [v|say] [n|quack .],MotherofAlex_Alex010614_290
+297,291,Mother,Alex010614,ready ?,Alex,1134.706,1137.983,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|ready ?],MotherofAlex_Alex010614_291
+298,292,Mother,Alex010614,cows moo pigeons coo goats bleat birdies tweet .,Alex,1137.983,1143.973,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|SUBJ] [4|2|COMP] [5|7|MOD] [6|7|MOD] [7|8|MOD] [8|4|COMP 9|2|PUNCT],[n|cow-PL] [v|moo] [n|pigeon-PL] [v|coo] [n|goat-PL] [n|bleat] [n|bird-DIM-PL] [on|tweet .],MotherofAlex_Alex010614_292
+299,293,Mother,Alex010614,but rubber duckies don't say quack .,Alex,1143.973,1145.581,[],,,,,,,,,,,[1|6|LINK] [2|3|MOD] [3|6|SUBJ] [4|6|AUX 5|4|NEG] [6|0|ROOT] [7|6|OBJ 8|6|PUNCT],[conj|but] [n|rubber] [n|duck-DIM-PL] [mod|do~neg|not] [v|say] [n|quack .],MotherofAlex_Alex010614_293
+300,294,Mother,Alex010614,chicks peep crickets cheap horses neigh donkeys spray (.) but rubber duckies never say quack .,Alex,1145.581,1155.036,[],,,,,,,,,,,[1|3|MOD] [2|3|MOD] [3|6|LINK] [4|5|MOD] [5|6|SUBJ] [6|0|ROOT] [7|8|MOD] [8|6|OBJ] [9|6|JCT] [10|11|MOD] [11|9|POBJ] [12|13|JCT] [13|6|CJCT] [14|13|OBJ 15|6|PUNCT],[n|chick-PL] [n|peep] [n|cricket-PL] [adj|cheap] [n|horse-PL] [v|neigh] [n|donkey-PL] [n|spray] [conj|but] [n|rubber] [n|duck-DIM-PL] [adv|never] [v|say] [n|quack .],MotherofAlex_Alex010614_294
+301,295,Mother,Alex010614,parrots talk hens squawk peacocks shriek and children speak .,Alex,1155.036,1162.526,[],,,,,,,,,,,[1|4|LINK] [2|3|MOD] [3|4|SUBJ] [4|0|ROOT] [5|6|MOD] [6|4|OBJ] [7|4|CONJ] [8|9|SUBJ] [9|7|COORD 10|4|PUNCT],[v|parrot-3S] [n|talk] [n|hen-PL] [v|squawk] [n|peacock-PL] [n|shriek] [coord|and] [n|child&PL] [v|speak .],MotherofAlex_Alex010614_295
+302,296,Mother,Alex010614,but rubber duckies absolutely never say quack .,Alex,1162.526,1165.143,[],,,,,,,,,,,[1|3|LINK] [2|3|MOD] [3|6|SUBJ] [4|6|JCT] [5|6|JCT] [6|0|ROOT] [7|6|OBJ 8|6|PUNCT],[conj|but] [n|rubber] [n|duck-DIM-PL] [adv|absolute&dadj-LY] [adv|never] [v|say] [n|quack .],MotherofAlex_Alex010614_296
+303,297,Mother,Alex010614,pigs snuffle bunnies wuffle@o roosters crow and elephants blow (.) but rubber duckies absolutely never (.) ever say quack .,Alex,1165.143,1178.973,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|3|CONJ] [5|6|MOD] [6|4|COORD] [7|6|CONJ] [8|9|MOD] [9|7|COORD] [10|12|MOD] [11|12|MOD] [12|9|CMOD] [13|14|JCT] [14|12|NJCT] [15|16|JCT] [16|12|CJCT] [17|16|OBJ 18|2|PUNCT],[n|pig-PL] [v|snuffle] [n|bunny-PL] [on|wuffle] [n|rooster-PL] [n|crow] [coord|and] [n|elephant-PL] [n|blow] [conj|but] [n|rubber] [n|duck-DIM-PL] [adv|absolute&dadj-LY] [adv|never] [adv|ever] [v|say] [n|quack .],MotherofAlex_Alex010614_297
+304,298,Mother,Alex010614,what do rubber duckies say ?,Alex,1178.973,1180.623,[],,,,,,,,,,,[1|2|LINK] [2|0|ROOT] [3|4|MOD] [4|5|SUBJ] [5|2|COMP 6|2|PUNCT],[det:int|what] [v|do] [n|rubber] [n|duck-DIM-PL] [v|say ?],MotherofAlex_Alex010614_298
+305,299,Mother,Alex010614,rubber duckies say squeak !,Alex,1180.623,1184.836,[],,,,,,,,,,,[1|2|MOD] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[n|rubber] [n|duck-DIM-PL] [v|say] [n|squeak !],MotherofAlex_Alex010614_299
+306,300,Mother,Alex010614,where's your other books ?,Alex,1184.836,1190.59,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|5|MOD] [4|5|QUANT] [5|2|PRED 6|2|PUNCT],[adv:int|where~cop|be&3S] [det:poss|your] [qn|other] [n|book-PL ?],MotherofAlex_Alex010614_300
+307,301,Mother,Alex010614,would you like to get more books ?,Alex,1190.59,1192.64,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|7|QUANT] [7|5|OBJ 8|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [inf|to] [v|get] [qn|more] [n|book-PL ?],MotherofAlex_Alex010614_301
+308,302,Toy,Alex010614,xxx right there .,Alex,1192.64,1196.978,[],,,,,,,,,,,[] [1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[] [adv|right] [adv|there .],ToyofAlex_Alex010614_302
+309,303,Mother,Alex010614,yeah you don't like that one I don't .,Alex,1196.978,1203.636,[],,,,,,,,,,,[1|5|COM] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|7|DET] [7|5|OBJ] [8|11|SUBJ] [9|11|AUX 10|9|NEG 11|5|PUNCT],[co|yeah] [pro:per|you] [mod|do~neg|not] [v|like] [pro:dem|that] [pro:indef|one] [pro:sub|I] [mod|do~neg|not .],MotherofAlex_Alex010614_303
+310,304,Mother,Alex010614,oh a squeaky book .,Alex,1203.636,1207.326,[],,,,,,,,,,,[1|4|COM] [2|4|DET] [3|4|MOD] [4|0|INCROOT 5|4|PUNCT],[co|oh] [det:art|a] [adj|squeak&dv-Y] [n|book .],MotherofAlex_Alex010614_304
+311,305,Mother,Alex010614,turtle .,Alex,1207.326,1209.238,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|turtle .],MotherofAlex_Alex010614_305
+312,306,Mother,Alex010614,no ?,Alex,1209.238,1212.153,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|no ?],MotherofAlex_Alex010614_306
+313,307,Mother,Alex010614,this one ?,Alex,1212.153,1215.953,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_307
+314,308,Mother,Alex010614,c'mere (replacement:replacement:come here) ,Alex,1215.953,1219.366,[],,,,,,,,,,,[1|0|ROOT 2|3|JCT] [3|1|COMP 4|3|OBJ] ,[v|come adv|here] ,MotherofAlex_Alex010614_308
+315,308,Mother,Alex010614,lemme (replacement:replacement:let me) see your face .,Alex,1215.953,1219.366,[],,,,,,,,,,,[5|3|XCOMP] [6|7|MOD] [7|5|OBJ 8|1|PUNCT], [v|let&ZERO pro:obj|me] [v|see] [det:poss|your] [n|face .],MotherofAlex_Alex010614_308
+316,309,Mother,Alex010614,wait a minute ,Alex,1219.366,1221.825,[],,,,,,,,,,,[1|6|LINK] [2|3|DET] [3|6|SUBJ],[v|wait] [det:art|a] [n|minute],MotherofAlex_Alex010614_309
+317,309,Mother,Alex010614,don't do that ,Alex,1219.366,1221.825,[],,,,,,,,,,,[4|6|AUX 5|4|NEG] [6|0|ROOT] [7|9|JCT] , [mod|do~neg|not] [v|do] [det:dem|that] ,MotherofAlex_Alex010614_309
+318,309,Mother,Alex010614, Mommy help you .,Alex,1219.366,1221.825,[],,,,,,,,,,,[8|9|SUBJ] [9|6|COMP] [10|9|OBJ 11|6|PUNCT],[n:prop|Mommy] [v|help] [pro:per|you .],MotherofAlex_Alex010614_309
+319,310,Mother,Alex010614,Mommy help you .,Alex,1221.825,1222.681,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[n:prop|Mommy] [v|help] [pro:per|you .],MotherofAlex_Alex010614_310
+320,311,Mother,Alex010614,okay (.) alright ?,Alex,1222.681,1224.655,[],,,,,,,,,,,[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|okay] [co|alright ?],MotherofAlex_Alex010614_311
+321,312,Mother,Alex010614,you okay ?,Alex,1224.655,1229.04,[],,,,,,,,,,,[1|2|SUBJ] [2|0|INCROOT 3|2|PUNCT],[pro:per|you] [co|okay ?],MotherofAlex_Alex010614_312
+322,313,Mother,Alex010614,would you like a drink ?,Alex,1229.04,1232.095,[],,,,,,,,,,,[1|2|AUX] [2|0|ROOT] [3|2|COM] [4|5|DET] [5|3|OBJ 6|2|PUNCT],[mod|will&COND] [pro:per|you] [conj|like] [det:art|a] [n|drink ?],MotherofAlex_Alex010614_313
+323,314,Mother,Alex010614,I'm not holding it ,Alex,1232.095,1236.378,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|2|PRED] [5|2|PRED] ,[pro:sub|I~cop|be&1S] [neg|not] [part|hold-PRESP] [pro:per|it],MotherofAlex_Alex010614_314
+324,314,Mother,Alex010614, you have_to hold it .,Alex,1232.095,1236.378,[],,,,,,,,,,, [6|8|SUBJ] [7|8|AUX] [8|5|CMOD] [9|8|OBJ 10|2|PUNCT],[pro:per|you] [mod:aux|have_to] [v|hold] [pro:per|it .],MotherofAlex_Alex010614_314
+325,315,Mother,Alex010614,alright ?,Alex,1236.378,1242.251,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|alright ?],MotherofAlex_Alex010614_315
+326,316,Mother,Alex010614,okay .,Alex,1242.251,1245.723,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay .],MotherofAlex_Alex010614_316
+327,317,Mother,Alex010614,friends all day .,Alex,1245.723,1250.693,[],,,,,,,,,,,[1|3|MOD] [2|3|JCT] [3|0|INCROOT 4|3|PUNCT],[n|friend-PL] [adv|all] [n|day .],MotherofAlex_Alex010614_317
+328,318,Mother,Alex010614,big bird (.) I wake up every morning (.) I greet the shining star .,Alex,1250.693,1256.215,[],,,,,,,,,,,[1|2|MOD] [2|4|LINK] [3|4|SUBJ] [4|0|ROOT] [5|4|JCT] [6|7|QUANT] [7|9|JCT] [8|9|SUBJ] [9|4|COMP] [10|12|DET] [11|12|MOD] [12|9|OBJ 13|4|PUNCT],[adj|big] [n|bird] [pro:sub|I] [v|wake] [adv|up] [qn|every] [n|morning] [pro:sub|I] [v|greet] [det:art|the] [part|shine-PRESP] [n|star .],MotherofAlex_Alex010614_318
+329,319,Mother,Alex010614,sun (.) then when I wake up Rita we're ready for some fun .,Alex,1256.215,1259.84,[],,,,,,,,,,,[1|0|ROOT] [2|1|JCT] [3|5|LINK] [4|5|SUBJ] [5|1|CJCT] [6|5|JCT] [7|10|JCT] [8|10|SUBJ 9|10|AUX] [10|5|COMP] [11|10|JCT] [12|13|QUANT] [13|11|POBJ 14|1|PUNCT],[v|sun] [adv:tem|then] [conj|when] [pro:sub|I] [v|wake] [adv|up] [n:prop|Rita] [pro:sub|we~aux|be&PRES] [v|ready] [prep|for] [qn|some] [n|fun .],MotherofAlex_Alex010614_319
+330,320,Mother,Alex010614,Oscar !,Alex,1259.84,1261.976,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Oscar !],MotherofAlex_Alex010614_320
+331,321,Mother,Alex010614,I eat sardines and ice cream I feel grouchy all day .,Alex,1261.976,1265.63,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|CONJ] [5|6|MOD] [6|4|COORD] [7|8|SUBJ] [8|2|COMP] [9|11|MOD] [10|11|QUANT] [11|8|JCT 12|2|PUNCT],[pro:sub|I] [v|eat] [n|sardine-PL] [coord|and] [n|ice] [n|cream] [pro:sub|I] [v|feel] [adj|grouch&dn-Y] [qn|all] [n|day .],MotherofAlex_Alex010614_321
+332,322,Mother,Alex010614,the yuckier the better that's what slimy and I say .,Alex,1265.63,1269.763,[],,,,,,,,,,,[1|2|DET] [2|6|SUBJ] [3|4|DET] [4|6|JCT] [5|6|SUBJ 6|0|ROOT] [7|6|PRED] [8|7|PRED] [9|8|CONJ] [10|11|SUBJ] [11|9|COORD 12|6|PUNCT],[det:art|the] [adj|yuck&dn-Y-CP] [det:art|the] [adj|good&CP] [pro:dem|that~cop|be&3S] [pro:int|what] [adj|slime&dn-Y] [coord|and] [pro:sub|I] [v|say .],MotherofAlex_Alex010614_322
+333,323,Mother,Alex010614,first I clean my room .,Alex,1269.763,1275.763,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT] [4|5|MOD] [5|3|OBJ 6|3|PUNCT],[adv|first] [pro:sub|I] [v|clean] [det:poss|my] [n|room .],MotherofAlex_Alex010614_323
+334,324,Mother,Alex010614,then it's time to play .,Alex,1275.763,1277.288,[],,,,,,,,,,,[1|4|JCT] [2|4|SUBJ 3|4|AUX] [4|0|ROOT] [5|6|INF] [6|4|XMOD 7|4|PUNCT],[adv:tem|then] [pro:per|it~aux|be&3S] [n|time] [inf|to] [v|play .],MotherofAlex_Alex010614_324
+335,325,Mother,Alex010614,Bernice is always by my side it's much more fun that way .,Alex,1277.288,1281.275,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|8|JCT] [4|3|JCT] [5|6|MOD] [6|4|POBJ] [7|8|SUBJ 8|0|ROOT] [9|8|JCT] [10|11|QUANT] [11|8|PRED] [12|13|DET] [13|11|OBJ 14|8|PUNCT],[n:prop|Bernice] [aux|be&3S] [adv|always] [prep|by] [det:poss|my] [n|side] [pro:per|it~cop|be&3S] [adv|much] [qn|more] [n|fun] [pro:dem|that] [n|way .],MotherofAlex_Alex010614_325
+336,326,Mother,Alex010614,oh boy .,Alex,1281.275,1283.955,[],,,,,,,,,,,[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|oh] [n|boy .],MotherofAlex_Alex010614_326
+337,327,Mother,Alex010614,who's that ?,Alex,1283.955,1284.986,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|who~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_327
+338,328,Mother,Alex010614,scrub a dub dub it's time for the tub .,Alex,1284.986,1287.901,[],,,,,,,,,,,[1|0|INCROOT] [2|3|DET] [3|1|XMOD] [4|3|OBJ] [5|6|SUBJ 6|4|COMP] [7|6|PRED] [8|7|NJCT] [9|10|DET] [10|8|POBJ 11|1|PUNCT],[n|scrub] [det:art|a] [v|dub] [v|dub] [pro:per|it~cop|be&3S] [n|time] [prep|for] [det:art|the] [n|tub .],MotherofAlex_Alex010614_328
+339,329,Mother,Alex010614,I always have a laugh when my pal rubber duckie joins me in the bath .,Alex,1287.901,1292.423,[],,,,,,,,,,,[1|3|SUBJ] [2|3|JCT] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|11|LINK] [7|10|MOD] [8|10|MOD] [9|10|MOD] [10|11|SUBJ] [11|3|CJCT] [12|11|OBJ] [13|11|JCT] [14|15|DET] [15|13|POBJ 16|3|PUNCT],[pro:sub|I] [adv|always] [v|have] [det:art|a] [n|laugh] [conj|when] [det:poss|my] [n|pal] [n|rubber] [n|duck-DIM] [v|join-3S] [pro:obj|me] [prep|in] [det:art|the] [n|bath .],MotherofAlex_Alex010614_329
+340,330,Mother,Alex010614,Zoey !,Alex,1292.423,1295.198,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Zoey !],MotherofAlex_Alex010614_330
+341,331,Mother,Alex010614,Mimi and I settle in and cuddle in a cozy nook .,Alex,1295.198,1299.38,[],,,,,,,,,,,[1|4|LINK] [2|4|LINK] [3|4|SUBJ] [4|0|ROOT] [5|4|JCT] [6|4|CONJ] [7|6|COORD] [8|7|JCT] [9|11|DET] [10|11|MOD] [11|8|POBJ 12|4|PUNCT],[n:prop|Mimi] [coord|and] [pro:sub|I] [v|settle] [adv|in] [coord|and] [v|cuddle] [prep|in] [det:art|a] [adj|cozy] [n|nook .],MotherofAlex_Alex010614_331
+342,332,Mother,Alex010614,now we're ready for story time when we read our favorite book .,Alex,1299.38,1302.663,[],,,,,,,,,,,[1|4|JCT] [2|4|SUBJ 3|4|AUX] [4|0|ROOT] [5|4|JCT] [6|7|MOD] [7|5|POBJ] [8|10|LINK] [9|10|SUBJ] [10|4|CJCT] [11|13|MOD] [12|13|MOD] [13|10|OBJ 14|4|PUNCT],[adv|now] [pro:sub|we~aux|be&PRES] [v|ready] [prep|for] [n|story] [n|time] [conj|when] [pro:sub|we] [v|read&ZERO] [det:poss|our] [n|favorite] [n|book .],MotherofAlex_Alex010614_332
+343,333,Mother,Alex010614,who's that ?,Alex,1302.663,1304.5,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|who~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_333
+344,334,Mother,Alex010614,Elmo ?,Alex,1304.5,1305.886,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Elmo ?],MotherofAlex_Alex010614_334
+345,335,Mother,Alex010614,it's been a busy day for Elmo it's time to go to sleep .,Alex,1305.886,1310.108,[],,,,,,,,,,,[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|6|DET] [5|6|MOD] [6|3|PRED] [7|6|NJCT] [8|7|POBJ] [9|10|SUBJ 10|8|CMOD] [11|10|PRED] [12|13|INF] [13|11|XMOD] [14|13|JCT] [15|14|POBJ 16|3|PUNCT],[pro:per|it~aux|be&3S] [cop|be&PASTP] [det:art|a] [adj|busy] [n|day] [prep|for] [n:prop|Elmo] [pro:per|it~cop|be&3S] [n|time] [inf|to] [v|go] [prep|to] [n|sleep .],MotherofAlex_Alex010614_335
+346,336,Mother,Alex010614,Elmo's best friend David helps Elmo count some sheep .,Alex,1310.108,1313.488,[],,,,,,,,,,,[1|4|MOD 2|1|POSS] [3|4|MOD] [4|0|INCROOT] [5|6|SUBJ] [6|4|CMOD] [7|10|MOD] [8|10|MOD] [9|10|QUANT] [10|6|OBJ 11|4|PUNCT],[n:prop|Elmo~poss|s] [adj|good&SP] [n|friend] [n:prop|David] [v|help-3S] [n:prop|Elmo] [n|count] [qn|some] [n|sheep .],MotherofAlex_Alex010614_336
+347,337,Mother,Alex010614,one .,Alex,1313.488,1315.018,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[pro:indef|one .],MotherofAlex_Alex010614_337
+348,338,Mother,Alex010614,two .,Alex,1315.018,1315.88,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[det:num|two .],MotherofAlex_Alex010614_338
+349,339,Mother,Alex010614,three sheep .,Alex,1315.88,1317.045,[],,,,,,,,,,,[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|three] [n|sheep .],MotherofAlex_Alex010614_339
+350,340,Mother,Alex010614,can you count the sheep ?,Alex,1317.045,1320.085,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[mod|can] [pro:per|you] [v|count] [det:art|the] [n|sheep ?],MotherofAlex_Alex010614_340
+351,341,Mother,Alex010614,this one ?,Alex,1320.085,1324.483,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_341
+352,342,Mother,Alex010614,I don't (.),Alex,1324.483,1326.748,[],,,,,,,,,,,[1|4|SUBJ] [2|4|AUX 3|2|NEG] ,[pro:sub|I] [mod|do~neg|not],MotherofAlex_Alex010614_342
+353,342,Mother,Alex010614,I'm not too crazy about this one .,Alex,1324.483,1326.748,[],,,,,,,,,,,[4|5|SUBJ 5|0|ROOT] [6|5|NEG] [7|8|JCT] [8|5|PRED] [9|5|JCT] [10|11|DET] [11|9|POBJ 12|5|PUNCT],[pro:sub|I~cop|be&1S] [neg|not] [adv|too] [adj|craze&dv-Y] [prep|about] [pro:dem|this] [pro:indef|one .],MotherofAlex_Alex010614_342
+354,343,Mother,Alex010614,Elmo needs your help to play this game .,Alex,1326.748,1330.753,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|MOD] [4|2|OBJ] [5|6|INF] [6|2|XCOMP] [7|8|DET] [8|6|OBJ 9|2|PUNCT],[n:prop|Elmo] [v|need-3S] [det:poss|your] [n|help] [inf|to] [v|play] [pro:dem|this] [n|game .],MotherofAlex_Alex010614_343
+355,344,Mother,Alex010614,would you (.) help (.) please ?,Alex,1330.753,1333.755,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|COM 5|3|PUNCT],[mod|will&COND] [pro:per|you] [v|help] [co|please ?],MotherofAlex_Alex010614_344
+356,345,Mother,Alex010614,gimme (replacement:replacement:give me) cookie gimme (replacement:replacement:give me) cookie please gimme (replacement:replacement:give me) cookie .,Alex,1333.755,1338.28,[],,,,,,,,,,,[1|4|LINK 2|1|OBJ] [3|4|SUBJ] [4|0|ROOT 5|4|OBJ] [6|4|OBJ] [7|8|COM] [8|6|XMOD 9|8|OBJ] [10|8|OBJ 11|4|PUNCT],[v|give pro:obj|me] [n|cookie] [v|give pro:obj|me] [n|cookie] [co|please] [v|give pro:obj|me] [n|cookie .],MotherofAlex_Alex010614_345
+357,346,Mother,Alex010614,gimme (replacement:replacement:give me) cookie I need cookie .,Alex,1338.28,1340.308,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|1|OBJ] [4|5|SUBJ] [5|3|CMOD] [6|5|OBJ 7|1|PUNCT],[v|give pro:obj|me] [n|cookie] [pro:sub|I] [v|need] [n|cookie .],MotherofAlex_Alex010614_346
+358,347,Mother,Alex010614,you have_to say please .,Alex,1340.308,1342.765,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|COM 5|3|PUNCT],[pro:per|you] [mod:aux|have_to] [v|say] [co|please .],MotherofAlex_Alex010614_347
+359,348,Mother,Alex010614,may we please be excused from lunch ?,Alex,1342.765,1348.125,[],,,,,,,,,,,[1|5|AUX] [2|5|SUBJ] [3|5|COM] [4|5|AUX] [5|0|ROOT] [6|5|JCT] [7|6|POBJ 8|5|PUNCT],[mod|may] [pro:sub|we] [co|please] [aux|be] [part|excuse-PASTP] [prep|from] [n|lunch ?],MotherofAlex_Alex010614_348
+360,349,Mother,Alex010614,yes you may .,Alex,1348.125,1350.396,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[co|yes] [pro:per|you] [mod|may .],MotherofAlex_Alex010614_349
+361,350,Mother,Alex010614,and they said please .,Alex,1350.396,1353.725,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[coord|and] [pro:sub|they] [v|say&PAST] [co|please .],MotherofAlex_Alex010614_350
+362,351,Mother,Alex010614,that's great manners .,Alex,1353.725,1355.636,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|MOD] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [adj|great] [n|manner-PL .],MotherofAlex_Alex010614_351
+363,352,Alex,Alex010614,yyy .,Alex,1355.636,1359.456,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_352
+364,353,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,1359.456,1364.856,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_353
+365,354,Mother,Alex010614,get another Alex (.) get ones that you like .,Alex,1364.858,1367.116,[],,,,,,,,,,,[1|4|LINK] [2|3|QUANT] [3|4|SUBJ] [4|0|ROOT] [5|6|QUANT] [6|4|COMP] [7|6|OBJ] [8|7|COM 9|4|PUNCT],[v|get] [qn|another] [n:prop|Alex] [v|get] [det:num|one-PL] [pro:rel|that] [pro:per|you] [co|like .],MotherofAlex_Alex010614_354
+366,355,Mother,Alex010614,God bless you .,Alex,1367.116,1370.191,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[n:prop|God] [v|bless] [pro:per|you .],MotherofAlex_Alex010614_355
+367,356,Mother,Alex010614,any more sneezes ?,Alex,1370.191,1375.22,[],,,,,,,,,,,[1|3|QUANT] [2|3|QUANT] [3|0|INCROOT 4|3|PUNCT],[qn|any] [qn|more] [n|sneeze-PL ?],MotherofAlex_Alex010614_356
+368,357,Mother,Alex010614,okay good boy .,Alex,1375.22,1376.956,[],,,,,,,,,,,[1|3|COM] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[co|okay] [adj|good] [n|boy .],MotherofAlex_Alex010614_357
+369,358,Mother,Alex010614,you're such a nice boy when you let Mommy help you .,Alex,1376.956,1379.458,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|6|QUANT] [4|6|DET] [5|6|MOD] [6|2|PRED] [7|9|LINK] [8|9|SUBJ] [9|2|CJCT] [10|11|SUBJ] [11|9|XCOMP] [12|11|OBJ 13|2|PUNCT],[pro:per|you~cop|be&PRES] [qn|such] [det:art|a] [adj|nice] [n|boy] [conj|when] [pro:per|you] [v|let&ZERO] [n:prop|Mommy] [v|help] [pro:per|you .],MotherofAlex_Alex010614_358
+370,359,Alex,Alex010614,yyy .,Alex,1379.458,1383.685,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_359
+371,360,Mother,Alex010614,Ernie follows his nose .,Alex,1383.685,1388.256,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|MOD] [4|2|OBJ 5|2|PUNCT],[n:prop|Ernie] [v|follow-3S] [det:poss|his] [n|nose .],MotherofAlex_Alex010614_360
+372,361,Mother,Alex010614,let's use our nose and find things to smell .,Alex,1388.256,1391.703,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|5|MOD] [5|3|OBJ] [6|3|CONJ] [7|6|COORD] [8|7|OBJ] [9|10|INF] [10|8|XCOMP 11|1|PUNCT],[v|let~pro:obj|us] [v|use] [det:poss|our] [n|nose] [coord|and] [v|find] [n|thing-PL] [inf|to] [v|smell .],MotherofAlex_Alex010614_361
+373,362,Mother,Alex010614,your beak or your snuffle will work just as well .,Alex,1391.703,1394.143,[],,,,,,,,,,,[1|2|MOD] [2|0|ROOT] [3|2|CONJ] [4|5|MOD] [5|3|COORD] [6|7|AUX] [7|5|ROOT] [8|7|JCT] [9|7|INCROOT] [10|9|JCT 11|9|PUNCT],[det:poss|your] [n|beak] [coord|or] [det:poss|your] [v|snuffle] [mod|will] [v|work] [adv|just] [conj|as] [adv|well .],MotherofAlex_Alex010614_362
+374,363,Mother,Alex010614,smell the bread as it bakes and the blueberry pie .,Alex,1394.143,1399.036,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|6|LINK] [5|6|SUBJ] [6|1|CJCT] [7|6|CONJ] [8|10|DET] [9|10|MOD] [10|7|COORD 11|1|PUNCT],[v|smell] [det:art|the] [n|bread] [conj|as] [pro:per|it] [v|bake-3S] [coord|and] [det:art|the] [n|blueberry] [n|pie .],MotherofAlex_Alex010614_363
+375,364,Mother,Alex010614,smell the freshly washed clothes as they're hung out to dry .,Alex,1399.036,1402.85,[],,,,,,,,,,,[1|0|ROOT] [2|4|DET] [3|4|JCT] [4|1|COMP] [5|4|OBJ] [6|9|JCT] [7|9|SUBJ 8|9|AUX] [9|4|COMP] [10|9|JCT] [11|12|INF] [12|9|XCOMP 13|1|PUNCT],[v|smell] [det:art|the] [adv|fresh&dadj-LY] [v|wash-PAST] [n:pt|clothes] [adv|as] [pro:sub|they~aux|be&PRES] [v|hang&PAST] [adv|out] [inf|to] [v|dry .],MotherofAlex_Alex010614_364
+376,365,Mother,Alex010614,smell the earth (t:t:trail off),Alex,1402.85,1406.93,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|smell] [det:art|the] [n|earth (mt:trail off)],MotherofAlex_Alex010614_365
+377,366,Mother,Alex010614,in the trees .,Alex,1406.93,1408.223,[],,,,,,,,,,,[1|0|INCROOT] [2|3|DET] [3|1|POBJ 4|1|PUNCT],[prep|in] [det:art|the] [n|tree-PL .],MotherofAlex_Alex010614_366
+378,367,Mother,Alex010614,and the warm summer showers .,Alex,1408.223,1409.95,[],,,,,,,,,,,[1|5|LINK] [2|5|DET] [3|4|MOD] [4|5|MOD] [5|0|ROOT 6|5|PUNCT],[coord|and] [det:art|the] [adj|warm] [n|summer] [n|shower-PL .],MotherofAlex_Alex010614_367
+379,368,Mother,Alex010614,breath in the sweet smell from a field full of flowers .,Alex,1409.95,1414.088,[],,,,,,,,,,,[1|0|INCROOT] [2|1|JCT] [3|5|DET] [4|5|MOD] [5|2|POBJ] [6|1|NJCT] [7|8|DET] [8|6|POBJ] [9|1|XJCT] [10|9|JCT] [11|10|POBJ 12|1|PUNCT],[n|breath] [prep|in] [det:art|the] [n|sweet] [n|smell] [prep|from] [det:art|a] [n|field] [adj|full] [prep|of] [n|flower-PL .],MotherofAlex_Alex010614_368
+380,369,Mother,Alex010614,there's a Tweedle_Bug .,Alex,1414.088,1415.256,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:exist|there~cop|be&3S] [det:art|a] [n:prop|Tweedle_Bug .],MotherofAlex_Alex010614_369
+381,370,Mother,Alex010614,you found it (.) Tweedle_Bug .,Alex,1415.256,1416.98,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ] [4|2|OBJ 5|2|PUNCT],[pro:per|you] [v|find&PAST] [pro:per|it] [n:prop|Tweedle_Bug .],MotherofAlex_Alex010614_370
+382,371,Mother,Alex010614,hold your nose as you pass Oscar's pile of junk .,Alex,1416.98,1421.116,[],,,,,,,,,,,[1|0|ROOT] [2|3|MOD] [3|1|OBJ] [4|6|LINK] [5|6|SUBJ] [6|1|CJCT] [7|9|MOD 8|7|POSS] [9|6|OBJ] [10|9|NJCT] [11|10|POBJ 12|1|PUNCT],[v|hold] [det:poss|your] [n|nose] [conj|as] [pro:per|you] [n|pass] [n:prop|Oscar~poss|s] [n|pile] [prep|of] [n|junk .],MotherofAlex_Alex010614_371
+383,372,Mother,Alex010614,run as fast as you can (.) his smelly pet skunk .,Alex,1421.116,1424.965,[],,,,,,,,,,,[1|0|INCROOT] [2|3|COORD] [3|1|NJCT] [4|3|JCT] [5|10|SUBJ] [6|10|AUX] [7|10|MOD] [8|10|MOD] [9|10|MOD] [10|4|POBJ 11|1|PUNCT],[n|run] [adv|as] [adv|fast] [prep|as] [pro:per|you] [mod|can] [det:poss|his] [adj|smell&dv-Y] [n|pet] [n|skunk .],MotherofAlex_Alex010614_372
+384,373,Mother,Alex010614,now I'll relax in my bubble filled tubby .,Alex,1424.965,1428.36,[],,,,,,,,,,,[1|4|JCT] [2|4|SUBJ 3|4|AUX] [4|0|ROOT] [5|8|JCT] [6|7|MOD] [7|8|SUBJ] [8|4|COMP] [9|8|JCT 10|4|PUNCT],[adv|now] [pro:sub|I~mod|will] [v|relax] [prep|in] [det:poss|my] [n|bubble] [v|fill-PAST] [adj|tubby .],MotherofAlex_Alex010614_373
+385,374,Mother,Alex010614,and smell fresh and clean as I rub a dub dubby .,Alex,1428.36,1431.971,[],,,,,,,,,,,[1|0|INCROOT] [2|1|COORD] [3|2|POSTMOD] [4|3|CONJ] [5|4|COORD] [6|8|LINK] [7|8|SUBJ] [8|2|CJCT] [9|10|DET] [10|8|OBJ] [11|10|JCT 12|1|PUNCT],[coord|and] [n|smell] [adj|fresh] [coord|and] [v|clean] [conj|as] [pro:sub|I] [v|rub] [det:art|a] [v|dub] [adj|dub&dv-Y .],MotherofAlex_Alex010614_374
+386,375,Mother,Alex010614,thank you .,Alex,1431.971,1434.286,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_375
+387,376,Mother,Alex010614,but you know Mommy (.),Alex,1434.286,1436.148,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|6|CJCT] [4|3|OBJ] ,[conj|but] [pro:per|you] [v|know] [n:prop|Mommy],MotherofAlex_Alex010614_376
+388,376,Mother,Alex010614,I think these (t:t:trail off),Alex,1434.286,1436.148,[],,,,,,,,,,, [5|6|SUBJ] [6|0|ROOT] [7|6|OBJ 8|6|PUNCT], [pro:sub|I] [v|think] [pro:dem|these (mt:trail off)],MotherofAlex_Alex010614_376
+389,377,Mother,Alex010614,go (.) here .,Alex,1436.148,1438.116,[],,,,,,,,,,,[1|0|ROOT] [2|1|JCT 3|1|PUNCT],[v|go] [adv|here .],MotherofAlex_Alex010614_377
+390,378,Mother,Alex010614,but (.) up there's one .,Alex,1438.116,1440.443,[],,,,,,,,,,,[1|3|LINK] [2|3|JCT] [3|4|SUBJ 4|0|ROOT] [5|4|PRED 6|4|PUNCT],[conj|but] [adv|up] [pro:exist|there~cop|be&3S] [pro:indef|one .],MotherofAlex_Alex010614_378
+391,379,Mother,Alex010614,let's put the books away if we're all done reading .,Alex,1440.443,1443.775,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|1|PUNCT] [4|5|DET] [5|3|OBJ] [6|3|JCT] [7|9|LINK] [8|9|SUBJ 9|3|CJCT] [10|9|PQ] [11|10|INCROOT] [12|11|OBJ 13|11|PUNCT],[v|let~pro:obj|us] [v|put&ZERO] [det:art|the] [n|book-PL] [adv|away] [conj|if] [pro:sub|we~cop|be&PRES] [post|all] [part|do&PASTP] [part|read-PRESP .],MotherofAlex_Alex010614_379
+392,380,Mother,Alex010614,okay ?,Alex,1443.775,1445.286,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_380
+393,381,Mother,Alex010614,that way (t:t:trail off),Alex,1445.286,1447.143,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|that] [n|way (mt:trail off)],MotherofAlex_Alex010614_381
+394,382,Mother,Alex010614,we can get them later .,Alex,1447.143,1449.255,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|3|JCT 6|3|PUNCT],[pro:sub|we] [mod|can] [v|get] [pro:obj|them] [adv|later .],MotherofAlex_Alex010614_382
+395,383,Alex,Alex010614,yyy .,Alex,1449.255,1450.171,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_383
+396,384,Mother,Alex010614,d'you (replacement:replacement:do you) wanna do this d'you (replacement:replacement:do you) wanna (replacement:replacement:want to) put these in ?,Alex,1450.171,1455.39,[],,,,,,,,,,,[1|4|AUX 2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|OBJ] [6|4|XCOMP 7|8|SUBJ] [8|6|COMP 9|10|INF] [10|8|XCOMP] [11|10|OBJ] [12|10|JCT 13|4|PUNCT],[mod|do pro:per|you] [mod:aux|wanna] [v|do] [pro:dem|this] [v|do pro:per|you] [v|want inf|to] [v|put&ZERO] [pro:dem|these] [adv|in ?],MotherofAlex_Alex010614_384
+397,385,Mother,Alex010614,would you like to read more books ?,Alex,1455.39,1457.66,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|7|QUANT] [7|5|OBJ 8|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [inf|to] [v|read&ZERO] [qn|more] [n|book-PL ?],MotherofAlex_Alex010614_385
+398,386,Mother,Alex010614,go get a different one,Alex,1457.66,1459.566,[],,,,,,,,,,,[1|2|SRL] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|OBJ],[v|go] [v|get] [det:art|a] [adj|different] [pro:indef|one],MotherofAlex_Alex010614_386
+399,386,Mother,Alex010614,we read these already ?,Alex,1457.66,1459.566,[],,,,,,,,,,,[6|7|SUBJ] [7|5|CMOD] [8|7|OBJ] [9|7|JCT 10|2|PUNCT],[pro:sub|we] [v|read&ZERO] [pro:dem|these] [adv|already ?],MotherofAlex_Alex010614_386
+400,387,Mother,Alex010614,put em (replacement:replacement:them) on the tracks .,Alex,1459.566,1477.235,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|5|DET] [5|3|POBJ 6|1|PUNCT],[v|put&ZERO] [pro:obj|them] [prep|on] [det:art|the] [n|track-PL .],MotherofAlex_Alex010614_387
+401,388,Alex,Alex010614,yyy yyy !,Alex,1477.235,1481.346,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_388
+402,389,Mother,Alex010614,what ?,Alex,1481.346,1482.158,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],MotherofAlex_Alex010614_389
+403,390,Mother,Alex010614,you can play it .,Alex,1482.158,1485.028,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:per|you] [mod|can] [v|play] [pro:per|it .],MotherofAlex_Alex010614_390
+404,391,Mother,Alex010614,I'm just showing you .,Alex,1485.028,1486.145,[],,,,,,,,,,,[1|4|SUBJ 2|4|AUX] [3|4|JCT] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[pro:sub|I~aux|be&1S] [adv|just] [part|show-PRESP] [pro:per|you .],MotherofAlex_Alex010614_391
+405,392,Mother,Alex010614,what's a matter ?,Alex,1486.145,1490.385,[],,,,,,,,,,,[1|4|LINK 2|4|AUX] [3|4|DET] [4|0|ROOT 5|4|PUNCT],[pro:int|what~aux|be&3S] [det:art|a] [v|matter ?],MotherofAlex_Alex010614_392
+406,393,Mother,Alex010614,somebody doesn't feel good oh !,Alex,1490.385,1493.973,[],,,,,,,,,,,[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|JCT] [6|4|COM 7|4|PUNCT],[pro:indef|somebody] [mod|do&3S~neg|not] [v|feel] [adj|good] [co|oh !],MotherofAlex_Alex010614_393
+407,394,Mother,Alex010614,you wanna lay down ?,Alex,1493.973,1498.771,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|JCT 5|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|lay] [adv|down ?],MotherofAlex_Alex010614_394
+408,395,Mother,Alex010614,would you like some help getting up ?,Alex,1498.771,1506.631,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ] [6|3|XJCT] [7|6|JCT 8|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [qn|some] [n|help] [part|get-PRESP] [adv|up ?],MotherofAlex_Alex010614_395
+409,396,Mother,Alex010614,okay ?,Alex,1506.631,1509.56,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_396
+410,397,Mother,Alex010614,here (.) here's your bee book,Alex,1509.56,1517.216,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ 3|8|SUBJ] [4|6|MOD] [5|6|MOD] [6|8|JCT] ,[pro:exist|here] [pro:exist|here~cop|be&3S] [det:poss|your] [n|bee] [n|book] ,MotherofAlex_Alex010614_397
+411,397,Mother,Alex010614, this is the one that you like .,Alex,0.0,0.0,[],,,,,,,,,,,[7|8|SUBJ] [8|0|ROOT] [9|10|DET] [10|8|PRED] [11|10|XMOD] [12|11|OBJ] [13|12|COM 14|8|PUNCT],[pro:dem|this] [cop|be&3S] [det:art|the] [pro:indef|one] [pro:rel|that] [pro:per|you] [co|like .],MotherofAlex_Alex010614_397
+412,398,Mother,Alex010614,this one .,Alex,1517.216,1518.826,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one .],MotherofAlex_Alex010614_398
+413,399,Mother,Alex010614,Zoey and the runaway ball .,Alex,1518.826,1523.023,[],,,,,,,,,,,[1|0|INCROOT] [2|1|CONJ] [3|5|DET] [4|5|MOD] [5|2|COORD 6|1|PUNCT],[n:prop|Zoey] [coord|and] [det:art|the] [adj|runaway] [n|ball .],MotherofAlex_Alex010614_399
+414,400,Mother,Alex010614,Big Bird .,Alex,1523.023,1527.86,[],,,,,,,,,,,[1|2|SUBJ] [2|0|INCROOT 3|2|PUNCT],[n:prop|Big] [n:prop|Bird .],MotherofAlex_Alex010614_400
+415,401,Mother,Alex010614,a@l .,Alex,1527.86,1541.706,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:let|a .],MotherofAlex_Alex010614_401
+416,402,Mother,Alex010614,a@l is for Alex .,Alex,1541.706,1546.495,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ 5|2|PUNCT],[n:let|a] [cop|be&3S] [prep|for] [n:prop|Alex .],MotherofAlex_Alex010614_402
+417,403,Mother,Alex010614,d'you (replacement:replacement:do you) want this one ?,Alex,1546.495,1548.663,[],,,,,,,,,,,[1|3|AUX 2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[mod|do pro:per|you] [v|want] [pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_403
+418,404,Mother,Alex010614,oh look,Alex,1548.663,1560.978,[],,,,,,,,,,,[1|2|COM],[co|oh] [v|look] ,MotherofAlex_Alex010614_404
+419,404,Mother,Alex010614,you can make an Elmo ,Alex,0.0,0.0,[],,,,,,,,,,,[2|5|SUBJ] [3|2|OBJ] [4|5|AUX] [5|0|ROOT] [6|7|DET] [7|5|OBJ] ,[pro:per|you] [mod|can] [v|make] [det:art|a] [n:prop|Elmo] ,MotherofAlex_Alex010614_404
+420,404,Mother,Alex010614,I just noticed that look .,Alex,0.0,0.0,[],,,,,,,,,,,[8|10|SUBJ] [9|10|JCT] [10|7|XMOD] [11|12|LINK], [pro:sub|I] [adv|just] [part|notice-PASTP] [pro:rel|that],MotherofAlex_Alex010614_404
+421,404,Mother,Alex010614,look .,Alex,0.0,0.0,[],,,,,,,,,,,[12|10|CMOD 13|5|PUNCT], [v|look .],MotherofAlex_Alex010614_404
+422,405,Mother,Alex010614,lookit (replacement:replacement:look) .,Alex,1560.978,1562.571,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|look .],MotherofAlex_Alex010614_405
+423,406,Mother,Alex010614,see ?,Alex,1562.571,1563.518,[],,,,,,,,,,,[1|0|ROOT 2|1|PUNCT],[v|see ?],MotherofAlex_Alex010614_406
+424,407,Mother,Alex010614,here's an Elmo .,Alex,1563.518,1564.798,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[pro:exist|here~cop|be&3S] [det:art|a] [n:prop|Elmo .],MotherofAlex_Alex010614_407
+425,408,Mother,Alex010614,that's not nice .,Alex,1564.798,1578.356,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [neg|not] [adj|nice .],MotherofAlex_Alex010614_408
+426,409,Mother,Alex010614,that's not nice either .,Alex,1578.356,1582.21,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|2|PRED] [5|4|JCT 6|2|PUNCT],[pro:dem|that~cop|be&3S] [neg|not] [adj|nice] [adv|either .],MotherofAlex_Alex010614_409
+427,410,Mother,Alex010614,there'll be no hitting .,Alex,1582.21,1583.745,[],,,,,,,,,,,[1|5|SUBJ 2|5|AUX] [3|5|AUX] [4|5|COM] [5|0|ROOT 6|5|PUNCT],[pro:exist|there~mod|will] [aux|be] [co|no] [part|hit-PRESP .],MotherofAlex_Alex010614_410
+428,411,Mother,Alex010614,lookit (replacement:replacement:look) .,Alex,1583.745,1590.621,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|look .],MotherofAlex_Alex010614_411
+429,412,Alex,Alex010614,yyy !,Alex,1590.621,1595.288,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_412
+430,413,Mother,Alex010614,would (t:t:self interruption),Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[mod|will&COND (mt:self interruption)],MotherofAlex_Alex010614_413
+431,414,Mother,Alex010614,what's a matter ?,Alex,1595.288,1597.145,[],,,,,,,,,,,[1|4|LINK 2|4|AUX] [3|4|DET] [4|0|ROOT 5|4|PUNCT],[pro:int|what~aux|be&3S] [det:art|a] [v|matter ?],MotherofAlex_Alex010614_414
+432,415,Mother,Alex010614,would you like a drink ?,Alex,1597.145,1601.591,[],,,,,,,,,,,[1|2|AUX] [2|0|ROOT] [3|2|COM] [4|5|DET] [5|3|OBJ 6|2|PUNCT],[mod|will&COND] [pro:per|you] [conj|like] [det:art|a] [n|drink ?],MotherofAlex_Alex010614_415
+433,416,Mother,Alex010614,there it goes .,Alex,1601.591,1607.183,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:per|it] [v|go-3S .],MotherofAlex_Alex010614_416
+434,417,Mother,Alex010614,would you like Mommy to (t:t:self interruption),Alex,0.0,0.0,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|3|JCT 6|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [n:prop|Mommy] [prep|to (mt:self interruption)],MotherofAlex_Alex010614_417
+435,418,Mother,Alex010614,Alex !,Alex,1607.183,1625.251,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Alex !],MotherofAlex_Alex010614_418
+436,419,Mother,Alex010614,that's not nice .,Alex,1625.251,1626.815,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|NEG] [4|2|PRED 5|2|PUNCT],[pro:dem|that~cop|be&3S] [neg|not] [adj|nice .],MotherofAlex_Alex010614_419
+437,420,Mother,Alex010614,please don't do that .,Alex,1626.815,1628.776,[],,,,,,,,,,,[1|4|COM] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[co|please] [mod|do~neg|not] [v|do] [pro:dem|that .],MotherofAlex_Alex010614_420
+438,421,Mother,Alex010614,here .,Alex,1628.776,1631.093,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|here .],MotherofAlex_Alex010614_421
+439,422,Mother,Alex010614,okay alright .,Alex,1631.093,1632.65,[],,,,,,,,,,,[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|okay] [co|alright .],MotherofAlex_Alex010614_422
+440,423,Mother,Alex010614,would you like a snack ?,Alex,1632.65,1635.815,[],,,,,,,,,,,[1|2|AUX] [2|0|ROOT] [3|2|COM] [4|5|DET] [5|3|OBJ 6|2|PUNCT],[mod|will&COND] [pro:per|you] [conj|like] [det:art|a] [n|snack ?],MotherofAlex_Alex010614_423
+441,424,Alex,Alex010614,yyy !,Alex,1635.815,1638.595,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_424
+442,425,Mother,Alex010614,okay you throw your toys,Alex,1638.595,1644.828,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|5|MOD] [5|3|OBJ] [6|9|LINK],[co|okay] [pro:per|you] [v|throw] [det:poss|your] [n|toy-PL] [coord|and] ,MotherofAlex_Alex010614_425
+443,425,Mother,Alex010614,and Mommy will fix the tracks .,Alex,1638.595,1644.828,[],,,,,,,,,,, [7|9|SUBJ] [8|9|AUX] [9|3|CJCT] [10|11|DET] [11|9|OBJ 12|3|PUNCT], [n:prop|Mommy] [mod|will] [v|fix] [det:art|the] [n|track-PL .],MotherofAlex_Alex010614_425
+444,426,Mother,Alex010614,okay (.) and then when you feel better you let me know .,Alex,1644.828,1648.153,[],,,,,,,,,,,[1|9|COM] [2|9|LINK] [3|9|JCT] [4|6|LINK] [5|6|SUBJ] [6|9|CJCT] [7|6|JCT] [8|9|SUBJ] [9|0|ROOT] [10|9|OBJ] [11|9|XCOMP 12|9|PUNCT],[co|okay] [coord|and] [adv:tem|then] [conj|when] [pro:per|you] [v|feel] [adj|good&CP] [pro:per|you] [v|let&ZERO] [pro:obj|me] [v|know .],MotherofAlex_Alex010614_426
+445,427,Alex,Alex010614,yyy .,Alex,1648.153,1650.37,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_427
+446,428,Mother,Alex010614,you're not happy right now .,Alex,1650.37,1652.966,[],,,,,,,,,,,[1|4|SUBJ 2|4|AUX] [3|2|NEG] [4|0|ROOT] [5|6|JCT] [6|4|JCT 7|4|PUNCT],[pro:per|you~aux|be&PRES] [neg|not] [adj|happy] [adv|right] [adv|now .],MotherofAlex_Alex010614_428
+447,429,Mother,Alex010614,I'm throwing everything I'm not happy .,Alex,1652.966,1657.721,[],,,,,,,,,,,[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|OBJ] [5|6|SUBJ 6|3|CJCT] [7|6|NEG] [8|6|PRED 9|3|PUNCT],[pro:sub|I~aux|be&1S] [part|throw-PRESP] [pro:indef|everything] [pro:sub|I~cop|be&1S] [neg|not] [adj|happy .],MotherofAlex_Alex010614_429
+448,430,Grandmother,Alex010614,&oha .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],GrandmotherofAlex_Alex010614_430
+449,431,Grandmother,Alex010614,oh .,Alex,1657.721,1658.913,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|oh .],GrandmotherofAlex_Alex010614_431
+450,432,Mother,Alex010614,throwing my books .,Alex,1658.913,1660.75,[],,,,,,,,,,,[1|0|INCROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[part|throw-PRESP] [det:poss|my] [n|book-PL .],MotherofAlex_Alex010614_432
+451,433,Grandmother,Alex010614,that's Jessica right (.) ,Alex,1660.751,1667.555,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|MOD] [4|2|PRED] [5|6|COM] [6|4|XMOD] ,[pro:dem|that~cop|be&3S] [n:prop|Jessica] [n|right],GrandmotherofAlex_Alex010614_433
+452,433,Grandmother,Alex010614,yeah said that he could go in there for a little while if he wanted to (t:t:interruption),Alex,0.0,0.0,[],,,,,,,,,,,[5|6|COM] [6|4|XMOD] [7|10|LINK] [8|10|SUBJ] [9|10|AUX] [10|6|COMP] [11|10|JCT] [12|10|JCT] [13|10|JCT] [14|16|DET] [15|16|MOD] [16|13|POBJ] [17|19|LINK] [18|19|SUBJ] [19|10|CJCT] [20|19|JCT 21|2|PUNCT],[co|yeah] [v|say&PAST] [pro:rel|that] [pro:sub|he] [mod|could] [v|go] [prep|in] [adv|there] [prep|for] [det:art|a] [adj|little] [n|while] [conj|if] [pro:sub|he] [v|want-PAST] [prep|to (mt:interruption)],GrandmotherofAlex_Alex010614_433
+453,434,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_434
+454,435,Grandmother,Alex010614,&anoo &anoo &anoo .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],GrandmotherofAlex_Alex010614_435
+455,436,Grandmother,Alex010614,what's that ?,Alex,1667.555,1668.596,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],GrandmotherofAlex_Alex010614_436
+456,437,Grandmother,Alex010614,what is this ?,Alex,1668.596,1669.901,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what] [cop|be&3S] [pro:dem|this ?],GrandmotherofAlex_Alex010614_437
+457,438,Grandmother,Alex010614,what did Mommy bring downstairs for you ?,Alex,1669.901,1674.151,[],,,,,,,,,,,[1|4|LINK] [2|4|AUX] [3|4|SUBJ] [4|0|ROOT] [5|4|JCT] [6|4|JCT] [7|6|POBJ 8|4|PUNCT],[pro:int|what] [mod|do&PAST] [n:prop|Mommy] [v|bring] [adv|downstairs] [prep|for] [pro:per|you ?],GrandmotherofAlex_Alex010614_438
+458,439,Mother,Alex010614,xxx .,Alex,1674.151,1696.253,silence,,,,,,,,,,,[],[],MotherofAlex_Alex010614_439
+459,440,Grandmother,Alex010614,is that on ?,Alex,1696.253,1701.925,[],,,,,,,,,,,[1|0|ROOT] [2|1|SUBJ] [3|2|JCT 4|1|PUNCT],[cop|be&3S] [pro:dem|that] [adv|on ?],GrandmotherofAlex_Alex010614_440
+460,441,Mother,Alex010614,what ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],MotherofAlex_Alex010614_441
+461,442,Grandmother,Alex010614,is that on ?,Alex,1701.925,1704.231,[],,,,,,,,,,,[1|0|ROOT] [2|1|SUBJ] [3|2|JCT 4|1|PUNCT],[cop|be&3S] [pro:dem|that] [adv|on ?],GrandmotherofAlex_Alex010614_442
+462,443,Mother,Alex010614,what ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],MotherofAlex_Alex010614_443
+463,444,Grandmother,Alex010614,that xxx .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT] [2|1|PUNCT],[pro:dem|that] [.],GrandmotherofAlex_Alex010614_444
+464,445,Mother,Alex010614,yeah .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|yeah .],MotherofAlex_Alex010614_445
+465,446,Alex,Alex010614,yyy yyy yyy .,Alex,1704.231,1725.97,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_446
+466,447,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,1725.97,1733.016,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_447
+467,448,Mother,Alex010614,can you watch him for a second because (t:t:trail off),Alex,1733.016,1744.283,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|7|DET] [7|5|POBJ] [8|3|OM 9|3|PUNCT],[mod|can] [pro:per|you] [v|watch] [pro:obj|him] [prep|for] [det:art|a] [n|second] [conj|because (mt:trail off)],MotherofAlex_Alex010614_448
+468,449,Grandmother,Alex010614,yeah .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|yeah .],GrandmotherofAlex_Alex010614_449
+469,450,Mother,Alex010614,I can't (t:t:self interruption),Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT] [2|4|AUX 3|2|NEG 4|1|PUNCT],[pro:sub|I] [mod|can~neg|not (mt:self interruption)],MotherofAlex_Alex010614_450
+470,451,Mother,Alex010614,I don't have the truck,Alex,1744.283,1747.665,[],,,,,,,,,,,[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|6|DET] [6|4|OBJ],[pro:sub|I] [mod|do~neg|not] [v|have] [det:art|the] [n|truck] ,MotherofAlex_Alex010614_451
+471,451,Mother,Alex010614,it must be upstairs .,Alex,0.0,0.0,[],,,,,,,,,,, [7|9|SUBJ] [8|9|AUX] [9|6|CMOD] [10|9|JCT 11|4|PUNCT],[pro:per|it] [mod|must] [cop|be] [adv|upstairs .],MotherofAlex_Alex010614_451
+472,452,Alex,Alex010614,yyy yyy .,Alex,1747.665,1750.368,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_452
+473,453,Grandmother,Alex010614,where's your telephone .,Alex,1750.368,1765.636,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|4|MOD] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:poss|your] [n|telephone .],GrandmotherofAlex_Alex010614_453
+474,454,Alex,Alex010614,yyy !,Alex,1765.636,1768.716,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_454
+475,455,Grandmother,Alex010614,where's your telephone ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|4|MOD] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:poss|your] [n|telephone ?],GrandmotherofAlex_Alex010614_455
+476,456,Grandmother,Alex010614,oh where's your phone ?,Alex,1768.716,1770.783,[],,,,,,,,,,,[1|5|COM] [2|5|LINK 3|5|AUX] [4|5|MOD] [5|0|ROOT 6|5|PUNCT],[co|oh] [pro:rel|where~aux|be&3S] [det:poss|your] [n|phone ?],GrandmotherofAlex_Alex010614_456
+477,457,Grandmother,Alex010614,watch your head .,Alex,1770.783,1781.795,[],,,,,,,,,,,[1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[v|watch] [det:poss|your] [n|head .],GrandmotherofAlex_Alex010614_457
+478,458,Grandmother,Alex010614,get the ball .,Alex,1781.795,1788.311,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|get] [det:art|the] [n|ball .],GrandmotherofAlex_Alex010614_458
+479,459,Grandmother,Alex010614,get the ball (.) ,Alex,1788.311,1792.623,[],,,,,,,,,,,[1|4|LINK] [2|3|DET] [3|4|SUBJ] ,[v|get] [det:art|the] [n|ball,GrandmotherofAlex_Alex010614_459
+480,459,Grandmother,Alex010614,get that ball .,Alex,0.0,0.0,[],,,,,,,,,,, [4|0|ROOT] [5|6|DET] [6|4|OBJ 7|4|PUNCT],[v|get] [pro:dem|that] [n|ball .],GrandmotherofAlex_Alex010614_459
+481,460,Grandmother,Alex010614,where's the car ?,Alex,1792.623,1799.551,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[adv:int|where~cop|be&3S] [det:art|the] [n|car ?],GrandmotherofAlex_Alex010614_460
+482,461,Grandmother,Alex010614,what does a car do ?,Alex,1799.551,1800.518,[],,,,,,,,,,,[1|2|LINK] [2|5|OBJ] [3|4|DET] [4|5|SUBJ] [5|0|ROOT 6|5|PUNCT],[pro:int|what] [v|do&3S] [det:art|a] [n|car] [v|do ?],GrandmotherofAlex_Alex010614_461
+483,462,Grandmother,Alex010614,what ?,Alex,1800.518,1810.285,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],GrandmotherofAlex_Alex010614_462
+484,463,Alex,Alex010614,yyy !,Alex,1810.285,1813.223,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_463
+485,464,Grandmother,Alex010614,don't feel good today do you ?,Alex,1813.223,1815.221,[],,,,,,,,,,,[1|3|AUX 2|1|NEG] [3|0|ROOT] [4|3|JCT] [5|6|JCT] [6|3|CJCT] [7|6|OBJ 8|3|PUNCT],[mod|do~neg|not] [v|feel] [adj|good] [adv:tem|today] [v|do] [pro:per|you ?],GrandmotherofAlex_Alex010614_464
+486,465,Alex,Alex010614,yyy !,Alex,1815.221,1818.895,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_465
+487,466,Mother,Alex010614,would you like something to drink ?,Alex,1818.895,1821.115,[],,,,,,,,,,,[1|2|AUX] [2|0|ROOT] [3|2|CONJ] [4|3|COORD] [5|6|INF] [6|4|XCOMP 7|2|PUNCT],[mod|will&COND] [pro:per|you] [conj|like] [pro:indef|something] [inf|to] [v|drink ?],MotherofAlex_Alex010614_466
+488,467,Alex,Alex010614,yyy !,Alex,1821.115,1823.763,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_467
+489,468,Grandmother,Alex010614,alright c'mon (replacement:replacement:come on) .,Alex,1823.763,1825.161,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT 3|2|JCT 4|2|PUNCT],[co|alright] [v|come adv|on .],GrandmotherofAlex_Alex010614_468
+490,469,Grandmother,Alex010614,Alex .,Alex,1825.161,1832.951,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Alex .],GrandmotherofAlex_Alex010614_469
+491,470,Alex,Alex010614,yyy !,Alex,1832.951,1850.92,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_470
+492,471,Grandmother,Alex010614,c'mon (replacement:replacement:come on) (.),Alex,1850.92,1853.55,[],,,,,,,,,,,[1|0|ROOT 2|3|JCT] ,[v|come adv|on],GrandmotherofAlex_Alex010614_471
+493,471,Grandmother,Alex010614,c'mere (replacement:replacement:come here) .,Alex,0.0,0.0,[],,,,,,,,,,,[3|1|COMP 4|3|JCT 5|1|PUNCT],[v|come adv|here .],GrandmotherofAlex_Alex010614_471
+494,472,Grandmother,Alex010614,c'mere (replacement:replacement:come on) .,Alex,1853.55,1855.108,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|on .],GrandmotherofAlex_Alex010614_472
+495,473,Grandmother,Alex010614,go get a book .,Alex,1855.108,1859.59,[],,,,,,,,,,,[1|2|SRL] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[v|go] [v|get] [det:art|a] [n|book .],GrandmotherofAlex_Alex010614_473
+496,474,Alex,Alex010614,yyy !,Alex,1859.59,1861.581,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_474
+497,475,Grandmother,Alex010614,can you get a book ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[mod|can] [pro:per|you] [v|get] [det:art|a] [n|book ?],GrandmotherofAlex_Alex010614_475
+498,476,Alex,Alex010614,yyy !,Alex,1861.581,1879.495,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_476
+499,477,Mother,Alex010614,what's the matter Alex,Alex,0.0,0.0,[],,,,,,,,,,,[1|4|LINK 2|4|AUX] [3|4|DET] [4|7|SUBJ],[pro:int|what~aux|be&3S] [det:art|the] [n|matter] [n:prop|Alex],MotherofAlex_Alex010614_477
+500,477,Mother,Alex010614,Alex how come your so upset today ?,Alex,0.0,0.0,[],,,,,,,,,,, [5|7|AUX] [6|7|LINK] [7|0|ROOT] [8|11|MOD] [9|10|JCT] [10|11|MOD] [11|7|JCT 12|7|PUNCT],[adv:int|how] [v|come] [det:poss|your] [adv|so] [adj|upset] [adv:tem|today ?],MotherofAlex_Alex010614_477
+501,478,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_478
+502,479,Mother,Alex010614,huh ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|huh ?],MotherofAlex_Alex010614_479
+503,480,Mother,Alex010614,you don't feel good (t:t:self interruption question),Alex,1879.495,1881.846,[],,,,,,,,,,,[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|JCT 6|4|PUNCT],[pro:per|you] [mod|do~neg|not] [v|feel] [adj|good (mt:self interruption question)],MotherofAlex_Alex010614_480
+504,481,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_481
+505,482,Alex,Alex010614,yyy .,Alex,1881.846,1884.931,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_482
+506,483,Mother,Alex010614,what's a matter,Alex,1884.931,1889.365,[],,,,,,,,,,,[1|4|LINK 2|4|AUX] [3|4|DET] [4|8|SUBJ],[pro:int|what~poss|s] [det:art|a] [v|matter ?],MotherofAlex_Alex010614_483
+507,483,Mother,Alex010614,what's a matter ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|4|LINK 2|4|AUX] [3|4|DET] [4|8|SUBJ],[pro:int|what~poss|s] [det:art|a] [v|matter ?],MotherofAlex_Alex010614_483
+508,484,Mother,Alex010614,d'you (replacement:replacement:do you) need to show me something ?,Alex,1889.365,1891.24,[],,,,,,,,,,,[1|3|AUX 2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|5|OBJ] [7|5|OBJ 8|3|PUNCT],[mod|do pro:per|you] [v|need] [inf|to] [v|show] [pro:obj|me] [pro:indef|something ?],MotherofAlex_Alex010614_484
+509,485,Mother,Alex010614,alright wait a minute .,Alex,1891.24,1893.45,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[co|alright] [v|wait] [det:art|a] [n|minute .],MotherofAlex_Alex010614_485
+510,486,Mother,Alex010614,c'mere (replacement:replacement:come here) .,Alex,1893.45,1895.235,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|here .],MotherofAlex_Alex010614_486
+511,487,Mother,Alex010614,are you hungry .,Alex,1895.235,1898.796,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|2|PRED 4|1|PUNCT],[cop|be&PRES] [pro:per|you] [adj|hungry .],MotherofAlex_Alex010614_487
+512,488,Alex,Alex010614,yyy !,Alex,1898.796,1902.251,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_488
+513,489,Mother,Alex010614,would you like a cookie ?,Alex,1902.251,1908.156,[],,,,,,,,,,,[1|2|AUX] [2|0|ROOT] [3|2|COM] [4|5|DET] [5|3|OBJ 6|2|PUNCT],[mod|will&COND] [pro:per|you] [conj|like] [det:art|a] [n|cookie ?],MotherofAlex_Alex010614_489
+514,490,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_490
+515,491,Mother,Alex010614,no cookie .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[qn|no] [n|cookie .],MotherofAlex_Alex010614_491
+516,492,Mother,Alex010614,would you like some grapes ?,Alex,1908.158,1909.283,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [qn|some] [n|grape-PL ?],MotherofAlex_Alex010614_492
+517,493,Alex,Alex010614,yyy !,Alex,1909.283,1911.175,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_493
+518,494,Mother,Alex010614,no (.) no grapes .,Alex,1911.175,1913.301,[],,,,,,,,,,,[1|3|QUANT] [2|3|QUANT] [3|0|INCROOT 4|3|PUNCT],[qn|no] [qn|no] [n|grape-PL .],MotherofAlex_Alex010614_494
+519,495,Grandmother,Alex010614,something to drink ?,Alex,1913.301,1914.865,[],,,,,,,,,,,[1|0|INCROOT] [2|3|INF] [3|1|XCOMP 4|1|PUNCT],[pro:indef|something] [inf|to] [v|drink ?],GrandmotherofAlex_Alex010614_495
+520,496,Mother,Alex010614,he has it .,Alex,1914.865,1916.518,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[pro:sub|he] [aux|have&3S] [pro:per|it .],MotherofAlex_Alex010614_496
+521,497,Grandmother,Alex010614,oh .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|oh .],GrandmotherofAlex_Alex010614_497
+522,498,Mother,Alex010614,what what what ?,Alex,1916.518,1921.26,[],,,,,,,,,,,[1|3|LINK] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[pro:int|what] [det:int|what] [pro:int|what ?],MotherofAlex_Alex010614_498
+523,499,Mother,Alex010614,c'mere (replacement:replacement:come here) .,Alex,1921.26,1923.413,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|here .],MotherofAlex_Alex010614_499
+524,500,Alex,Alex010614,yyy !,Alex,1923.413,1937.475,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_500
+525,501,Mother,Alex010614,what honey ?,Alex,1937.475,1940.211,[],,,,,,,,,,,[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[pro:int|what] [n|honey ?],MotherofAlex_Alex010614_501
+526,502,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_502
+527,503,Mother,Alex010614,you don't wanna play ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|5|SUBJ] [2|5|AUX 3|2|NEG] [4|5|AUX] [5|0|ROOT 6|5|PUNCT],[pro:per|you] [mod|do~neg|not] [mod:aux|wanna] [v|play ?],MotherofAlex_Alex010614_503
+528,504,Alex,Alex010614,yyy .,Alex,1940.211,1943.478,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_504
+529,505,Mother,Alex010614,what's a matter (.) c'mon (replacement:replacement:come on) c'mere (replacement:replacement:come here) .,Alex,0.0,0.0,[],,,,,,,,,,,[1|5|LINK 2|5|AUX] [3|4|DET] [4|5|SUBJ] [5|0|ROOT 6|5|JCT] [7|5|COMP 8|7|JCT 9|5|PUNCT],[pro:int|what~aux|be&3S] [det:art|a] [n|matter] [v|come adv|on] [v|come adv|here .],MotherofAlex_Alex010614_505
+530,506,Alex,Alex010614,yyy !,Alex,1943.478,1944.541,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_506
+531,507,Mother,Alex010614,what's a matter ?,Alex,1944.541,1947.998,[],,,,,,,,,,,[1|4|LINK 2|4|AUX] [3|4|DET] [4|0|ROOT 5|4|PUNCT],[pro:int|what~aux|be&3S] [det:art|a] [v|matter ?],MotherofAlex_Alex010614_507
+532,508,Mother,Alex010614,I know what you're looking for .,Alex,1947.998,1953.693,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|6|LINK] [4|6|SUBJ 5|6|AUX] [6|2|COMP] [7|6|JCT 8|2|PUNCT],[pro:sub|I] [v|know] [pro:int|what] [pro:per|you~aux|be&PRES] [part|look-PRESP] [prep|for .],MotherofAlex_Alex010614_508
+533,509,Mother,Alex010614,but you can't have it .,Alex,1953.693,1955.016,[],,,,,,,,,,,[1|5|LINK] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|5|OBJ 7|5|PUNCT],[conj|but] [pro:per|you] [mod|can~neg|not] [v|have] [pro:per|it .],MotherofAlex_Alex010614_509
+534,510,Mother,Alex010614,what ?,Alex,1955.016,1958.085,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[pro:int|what ?],MotherofAlex_Alex010614_510
+535,511,Mother,Alex010614,who's that ?,Alex,1958.085,1959.59,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|who~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_511
+536,512,Mother,Alex010614,did you say hello ?,Alex,1959.59,1960.845,[],,,,,,,,,,,[1|0|ROOT] [2|3|SUBJ] [3|1|COMP] [4|3|OBJ 5|1|PUNCT],[v|do&PAST] [pro:per|you] [v|say] [n|hello ?],MotherofAlex_Alex010614_512
+537,513,Mother,Alex010614,alright alright .,Alex,1960.845,1962.678,[],,,,,,,,,,,[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|alright] [co|alright .],MotherofAlex_Alex010614_513
+538,514,Mother,Alex010614,want Mommy to pick you up ?,Alex,1962.678,1964.818,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|4|INF] [4|2|XCOMP] [5|4|OBJ] [6|4|JCT 7|1|PUNCT],[v|want] [n:prop|Mommy] [inf|to] [v|pick] [pro:per|you] [adv|up ?],MotherofAlex_Alex010614_514
+539,515,Mother,Alex010614,would you like to go look at the garden ?,Alex,1964.818,1968.146,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|5|OBJ] [7|6|JCT] [8|9|DET] [9|7|POBJ 10|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [inf|to] [v|go] [v|look] [prep|at] [det:art|the] [n|garden ?],MotherofAlex_Alex010614_515
+540,516,Mother,Alex010614,would you like to go look at the garden ?,Alex,1968.146,1970.895,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|5|OBJ] [7|6|JCT] [8|9|DET] [9|7|POBJ 10|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [inf|to] [v|go] [v|look] [prep|at] [det:art|the] [n|garden ?],MotherofAlex_Alex010614_516
+541,517,Mother,Alex010614,yeah .,Alex,1970.895,1980.415,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|yeah .],MotherofAlex_Alex010614_517
+542,518,Mother,Alex010614,you like to look at that garden .,Alex,1980.415,1981.891,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|INF] [4|2|XCOMP] [5|4|JCT] [6|7|DET] [7|5|POBJ 8|2|PUNCT],[pro:per|you] [v|like] [inf|to] [v|look] [prep|at] [pro:dem|that] [n|garden .],MotherofAlex_Alex010614_518
+543,519,Mother,Alex010614,see .,Alex,1981.891,1986.728,[],,,,,,,,,,,[1|0|ROOT 2|1|PUNCT],[v|see .],MotherofAlex_Alex010614_519
+544,520,Mother,Alex010614,wow it's very pretty .,Alex,1986.728,1989.35,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|JCT] [5|3|JCT 6|3|PUNCT],[co|wow] [pro:per|it~cop|be&3S] [adv|very] [adv|pretty .],MotherofAlex_Alex010614_520
+545,521,Mother,Alex010614,see all the vegetables .,Alex,1989.35,1992.961,[],,,,,,,,,,,[1|0|ROOT] [2|4|QUANT] [3|4|DET] [4|1|OBJ 5|1|PUNCT],[v|see] [qn|all] [det:art|the] [n|vegetable-PL .],MotherofAlex_Alex010614_521
+546,522,Mother,Alex010614,and the flowers .,Alex,1992.961,1995.488,[],,,,,,,,,,,[1|3|LINK] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[coord|and] [det:art|the] [n|flower-PL .],MotherofAlex_Alex010614_522
+547,523,Mother,Alex010614,right ?,Alex,1995.488,2004.986,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|right ?],MotherofAlex_Alex010614_523
+548,524,Alex,Alex010614,yyy yyy .,Alex,2004.986,2007.415,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_524
+549,525,Mother,Alex010614,see the people walking in the down the street ?,Alex,2007.415,2010.515,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ] [4|3|XMOD] [5|4|JCT] [6|5|POBJ] [7|6|JCT] [8|9|DET] [9|7|POBJ 10|1|PUNCT],[v|see] [det:art|the] [n|person&PL] [part|walk-PRESP] [prep|in] [det:art|the] [prep|down] [det:art|the] [n|street ?],MotherofAlex_Alex010614_525
+550,526,Mother,Alex010614,going for a walk and oh the birdies (.) the birdies .,Alex,2010.515,2014.46,[],,,,,,,,,,,[1|0|INCROOT] [2|1|JCT] [3|4|DET] [4|2|POBJ] [5|1|CONJ] [6|8|COM] [7|8|DET] [8|5|COORD] [9|10|DET] [10|8|OBJ 11|1|PUNCT],[part|go-PRESP] [prep|for] [det:art|a] [n|walk] [coord|and] [co|oh] [det:art|the] [n|bird-DIM-PL] [det:art|the] [n|bird-DIM-PL .],MotherofAlex_Alex010614_526
+551,527,Mother,Alex010614,what's a birdie say ?,Alex,2014.46,2016.368,[],,,,,,,,,,,[1|5|LINK 2|5|AUX] [3|4|DET] [4|5|SUBJ] [5|0|ROOT 6|5|PUNCT],[pro:int|what~aux|be&3S] [det:art|a] [n|bird-DIM] [v|say ?],MotherofAlex_Alex010614_527
+552,528,Mother,Alex010614,tweet@o chreet@o .,Alex,2016.368,2017.703,[],,,,,,,,,,,[1|0|INCROOT] [2|1|ENUM 3|1|PUNCT],[on|tweet] [on|chreet .],MotherofAlex_Alex010614_528
+553,529,Mother,Alex010614,tweet tweet .,Alex,2017.703,2019.75,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|tweet] [on|tweet .],MotherofAlex_Alex010614_529
+554,530,Mother,Alex010614,there .,Alex,2019.75,2072.393,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_530
+555,531,Alex,Alex010614,yyy yyy .,Alex,2072.393,2074.246,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_531
+556,532,Mother,Alex010614,careful careful careful .,Alex,2074.246,2078.481,[],,,,,,,,,,,[1|3|COM] [2|3|COM] [3|0|INCROOT 4|3|PUNCT],[co|careful] [co|careful] [co|careful .],MotherofAlex_Alex010614_532
+557,533,Alex,Alex010614,yyy .,Alex,2078.481,2079.75,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_533
+558,534,Mother,Alex010614,you're alright you have_to watch where you're going honey .,Alex,2079.75,2082.357,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|6|SUBJ] [5|6|AUX] [6|2|PRED] [7|10|LINK] [8|10|SUBJ 9|10|AUX] [10|6|CMOD] [11|10|COM 12|2|PUNCT],[pro:per|you~cop|be&PRES] [adj|alright] [pro:per|you] [mod:aux|have_to] [n|watch] [adv:int|where] [pro:per|you~aux|be&PRES] [part|go-PRESP] [co|honey .],MotherofAlex_Alex010614_534
+559,535,Alex,Alex010614,yyy .,Alex,2082.357,2084.131,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_535
+560,536,Alex,Alex010614,yyy .,Alex,2084.131,2089.331,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_536
+561,537,Mother,Alex010614,would you like to go on the porch .,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|INF] [5|3|XCOMP] [6|5|JCT] [7|8|DET] [8|6|POBJ 9|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [inf|to] [v|go] [prep|on] [det:art|the] [n|porch .],MotherofAlex_Alex010614_537
+562,538,Mother,Alex010614,for a little bit (t:t:trail off),Alex,0.0,0.0,[],,,,,,,,,,,[1|4|LINK] [2|4|DET] [3|4|MOD] [4|0|INCROOT 5|4|PUNCT],[conj|for] [det:art|a] [adj|little] [n|bit (mt:trail off)],MotherofAlex_Alex010614_538
+563,539,Mother,Alex010614,take a porch break .,Alex,2089.331,2092.094,[],,,,,,,,,,,[1|4|LINK] [2|3|DET] [3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[v|take] [det:art|a] [n|porch] [v|break .],MotherofAlex_Alex010614_539
+564,540,Alex,Alex010614,yyy .,Alex,2092.094,2093.885,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_540
+565,541,Mother,Alex010614,c'mon (replacement:replacement:come on) .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|on .],MotherofAlex_Alex010614_541
+566,542,Mother,Alex010614,carry your drink .,Alex,2093.885,2095.065,[],,,,,,,,,,,[1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[v|carry] [det:poss|your] [n|drink .],MotherofAlex_Alex010614_542
+567,543,Mother,Alex010614,c'mon (replacement:replacement:come on) this way look .,Alex,2095.065,2097.451,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT] [3|4|DET] [4|5|SUBJ] [5|2|POBJ 6|1|PUNCT],[v|come prep|on] [pro:dem|this] [n|way] [v|look .],MotherofAlex_Alex010614_543
+568,544,Mother,Alex010614,c'mon (replacement:replacement:come on) .,Alex,2097.451,2098.988,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|on .],MotherofAlex_Alex010614_544
+569,545,Mother,Alex010614,c'mon (replacement:replacement:come on) .,Alex,2098.988,2102.556,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|on .],MotherofAlex_Alex010614_545
+570,546,Mother,Alex010614,tell Jessica we're gonna try and go on the porch for a little bit .,Alex,2102.556,2106.115,[],,,,,,,,,,,[1|0|ROOT] [2|6|LINK] [3|6|SUBJ 4|6|AUX] [5|6|AUX] [6|1|COMP] [7|6|CONJ] [8|7|COORD] [9|8|JCT] [10|11|DET] [11|9|POBJ] [12|8|JCT] [13|15|DET] [14|15|MOD] [15|12|POBJ 16|1|PUNCT],[v|tell] [n:prop|Jessica] [pro:sub|we~aux|be&PRES] [mod:aux|gonna] [v|try] [coord|and] [v|go] [prep|on] [det:art|the] [n|porch] [prep|for] [det:art|a] [adj|little] [n|bit .],MotherofAlex_Alex010614_546
+571,547,Alex,Alex010614,yyy .,Alex,2106.115,2108.021,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_547
+572,548,Mother,Alex010614,c'mon (replacement:replacement:come on) .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|come adv|on .],MotherofAlex_Alex010614_548
+573,549,Mother,Alex010614,c'mon (replacement:replacement:come on) (.) maybe that will make you feel a little better .,Alex,2108.021,2112.55,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT] [3|6|JCT] [4|6|SUBJ] [5|6|AUX] [6|1|COMP] [7|8|SUBJ] [8|6|COMP] [9|11|DET] [10|11|MOD] [11|8|OBJ 12|1|PUNCT],[v|come adv|on] [adv|maybe] [det:dem|that] [mod|will] [v|make] [pro:per|you] [v|feel] [det:art|a] [adj|little] [adj|good&CP .],MotherofAlex_Alex010614_549
+574,550,Mother,Alex010614,okay ?,Alex,2112.55,2114.785,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_550
+575,551,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2114.786,2118.435,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_551
+576,552,Mother,Alex010614,yeah (.) that's what I thought .,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|6|LINK] [5|6|SUBJ] [6|3|PRED 7|3|PUNCT],[co|yeah] [pro:dem|that~cop|be&3S] [pro:int|what] [pro:sub|I] [v|think&PAST .],MotherofAlex_Alex010614_552
+577,553,Alex,Alex010614,yyy yyy .,Alex,2118.435,2121.021,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_553
+578,554,Alex,Alex010614,yyy .,Alex,2121.021,2122.238,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_554
+579,555,Alex,Alex010614,yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy .,Alex,2122.238,2137.55,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_555
+580,556,Mother,Alex010614,there's plenty of room if you wanna put the camera here (.) I mean I hate to keep making you move it but he's not (t:t:trail off),Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|JCT] [4|3|JCT] [5|4|POBJ] [6|9|LINK] [7|9|SUBJ] [8|9|AUX] [9|2|CJCT] [10|11|DET] [11|9|OBJ] [12|9|JCT] [13|16|SUBJ] [14|16|JCT] [15|16|SUBJ] [16|9|COMP] [17|18|INF] [18|16|XCOMP] [19|18|OBJ] [20|21|SUBJ] [21|19|XCOMP] [22|21|OBJ] [23|25|LINK] [24|25|SUBJ 25|21|COMP] [26|25|NEG 27|2|PUNCT],[pro:exist|there~cop|be&3S] [adv|plenty] [prep|of] [n|room] [conj|if] [pro:per|you] [mod:aux|wanna] [v|put&ZERO] [det:art|the] [n|camera] [adv|here] [pro:sub|I] [adj|mean] [pro:sub|I] [v|hate] [inf|to] [v|keep] [part|make-PRESP] [pro:per|you] [v|move] [pro:per|it] [conj|but] [pro:sub|he~aux|be&3S] [neg|not (mt:trail off)],MotherofAlex_Alex010614_556
+581,557,Mother,Alex010614,he's just not happy out there .,Alex,2137.55,2139.276,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|5|JCT] [4|3|NEG] [5|2|PRED] [6|7|JCT] [7|5|JCT 8|2|PUNCT],[pro:sub|he~cop|be&3S] [adv|just] [neg|not] [adj|happy] [adv|out] [adv|there .],MotherofAlex_Alex010614_557
+582,558,Alex,Alex010614,yyy yyy yyy .,Alex,2139.276,2142.286,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_558
+583,559,Mother,Alex010614,okay is this better ?,Alex,2142.286,2145.376,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|PRED 5|2|PUNCT],[co|okay] [cop|be&3S] [pro:dem|this] [adj|good&CP ?],MotherofAlex_Alex010614_559
+584,560,Mother,Alex010614,this make you feel better ?,Alex,2145.376,2147.465,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|SUBJ] [4|2|COMP] [5|4|JCT 6|2|PUNCT],[pro:dem|this] [v|make] [pro:per|you] [v|feel] [adj|good&CP ?],MotherofAlex_Alex010614_560
+585,561,Mother,Alex010614,get some fresh air ?,Alex,2147.465,2148.865,[],,,,,,,,,,,[1|0|ROOT] [2|4|QUANT] [3|4|MOD] [4|1|OBJ 5|1|PUNCT],[v|get] [qn|some] [adj|fresh] [n|air ?],MotherofAlex_Alex010614_561
+586,562,Mother,Alex010614,here Mommy will help you c'mere (replacement:replacement:come here) .,Alex,2148.865,2151.225,[],,,,,,,,,,,[1|2|JCT] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|OBJ] [6|4|COMP 7|6|JCT 8|4|PUNCT],[adv|here] [n:prop|Mommy] [mod|will] [v|help] [pro:per|you] [v|come adv|here .],MotherofAlex_Alex010614_562
+587,563,Mother,Alex010614,g'head (replacement:replacement:go ahead) .,Alex,2151.225,2155.023,[],,,,,,,,,,,[1|0|ROOT 2|1|JCT 3|1|PUNCT],[v|go adv|ahead .],MotherofAlex_Alex010614_563
+588,564,Mother,Alex010614,turn around sit down .,Alex,2155.023,2157.3,[],,,,,,,,,,,[1|3|SUBJ] [2|3|JCT] [3|0|ROOT] [4|3|JCT 5|3|PUNCT],[n|turn] [adv|around] [v|sit] [adv|down .],MotherofAlex_Alex010614_564
+589,565,Mother,Alex010614,there very nice xxx Alex .,Alex,2157.3,2161.765,[],,,,,,,,,,,[1|3|SUBJ] [2|3|JCT] [3|0|ROOT] [] [4|3|APP 5|3|PUNCT],[adv|there] [adv|very] [adj|nice] [] [n:prop|Alex .],MotherofAlex_Alex010614_565
+590,566,Mother,Alex010614,would you like some bubbles ?,Alex,2161.765,2164.861,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|QUANT] [5|3|OBJ 6|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [qn|some] [n|bubble-PL ?],MotherofAlex_Alex010614_566
+591,567,Alex,Alex010614,yyy yyy .,Alex,2164.861,2171.705,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_567
+592,568,Mother,Alex010614,no Mommy has to put on your socks (.) wait a minute .,Alex,2171.705,2177.705,[],,,,,,,,,,,[1|5|COM] [2|5|SUBJ] [3|5|AUX] [4|5|INF] [5|0|ROOT] [6|9|JCT] [7|8|MOD] [8|9|SUBJ] [9|5|COMP] [10|11|DET] [11|9|OBJ 12|5|PUNCT],[co|no] [n:prop|Mommy] [aux|have&3S] [inf|to] [v|put&ZERO] [prep|on] [det:poss|your] [n|sock-PL] [v|wait] [det:art|a] [n|minute .],MotherofAlex_Alex010614_568
+593,569,Mother,Alex010614,let's put on your sockies .,Alex,2177.705,2179.856,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|1|XJCT] [4|3|JCT] [5|6|MOD] [6|4|POBJ 7|1|PUNCT],[v|let~pro:obj|us] [part|put&PASTP] [prep|on] [det:poss|your] [n|sock-DIM-PL .],MotherofAlex_Alex010614_569
+594,570,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,2179.856,2184.841,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_570
+595,571,Mother,Alex010614,a tree .,Alex,2184.841,2186.463,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|tree .],MotherofAlex_Alex010614_571
+596,572,Alex,Alex010614,a tree .,Alex,2186.463,2188.591,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|tree .],AlexofAlex_Alex010614_572
+597,573,Mother,Alex010614,a tree (t:t:self interruption),Alex,2188.591,2192.306,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|tree (mt:self interruption)],MotherofAlex_Alex010614_573
+598,574,Alex,Alex010614,yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_574
+599,575,Mother,Alex010614,those are Alex's bubbles .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|5|MOD 4|3|POSS] [5|2|PRED 6|2|PUNCT],[pro:dem|those] [cop|be&PRES] [n:prop|Alex~poss|s] [n|bubble-PL .],MotherofAlex_Alex010614_575
+600,576,Alex,Alex010614,yyy .,Alex,2192.308,2195.023,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_576
+601,577,Alex,Alex010614,yyy .,Alex,2195.023,2196.398,hard to tell but some unreleased consonant in coda[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_577
+602,578,Mother,Alex010614,okay ?,Alex,2196.398,2204.225,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_578
+603,579,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_579
+604,580,Mother,Alex010614,it's windy so I don't know we'll have_to see (t:t:trail off),Alex,2204.225,2206.255,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|8|LINK] [5|8|SUBJ] [6|8|AUX 7|6|NEG] [8|2|CJCT] [9|12|SUBJ 10|12|AUX] [11|12|AUX] [12|8|COMP 13|2|PUNCT],[pro:per|it~cop|be&3S] [adj|wind&dn-Y] [conj|so] [pro:sub|I] [mod|do~neg|not] [v|know] [pro:sub|we~mod|will] [mod:aux|have_to] [v|see (mt:trail off)],MotherofAlex_Alex010614_580
+605,581,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_581
+606,582,Mother,Alex010614,if we can do the best that we (t:t:self interruption),Alex,2206.255,2208.348,[],,,,,,,,,,,[1|4|LINK] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|6|DET] [6|4|OBJ] [7|8|LINK] [8|6|CMOD 9|4|PUNCT],[conj|if] [pro:sub|we] [mod|can] [v|do] [det:art|the] [adj|good&SP] [pro:rel|that] [pro:sub|we (mt:self interruption)],MotherofAlex_Alex010614_582
+607,583,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_583
+608,584,Mother,Alex010614,can (t:t:self interruption),Alex,2208.348,2209.595,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[mod|can (mt:self interruption)],MotherofAlex_Alex010614_584
+609,585,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_585
+610,586,Mother,Alex010614,nope (replacement:replacement:no) (t:t:self interruption),Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|no (mt:self interruption)],MotherofAlex_Alex010614_586
+611,587,Mother,Alex010614,whoops it broke .,Alex,2209.595,2229.92,[],,,,,,,,,,,[1|0|INCROOT] [2|1|OBJ] [3|2|PRED 4|1|PUNCT],[co|whoops] [pro:per|it] [adj|broke .],MotherofAlex_Alex010614_587
+612,588,Mother,Alex010614,Alex Mommy's trying .,Alex,2229.92,2237.126,[],,,,,,,,,,,[1|4|LINK] [2|4|SUBJ 3|4|AUX] [4|0|ROOT 5|4|PUNCT],[n:prop|Alex] [n:prop|Mommy~aux|be&3S] [part|try-PRESP .],MotherofAlex_Alex010614_588
+613,589,Mother,Alex010614,there .,Alex,2237.126,2239.576,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_589
+614,590,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_590
+615,591,Mother,Alex010614,there they are .,Alex,2239.576,2241.766,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|they] [cop|be&PRES .],MotherofAlex_Alex010614_591
+616,592,Mother,Alex010614,it's just windy that's all .,Alex,2241.766,2246.45,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED] [4|2|PRED] [5|6|SUBJ 6|2|CJCT] [7|6|PRED 8|2|PUNCT],[pro:per|it~cop|be&3S] [adj|just] [adj|wind&dn-Y] [pro:dem|that~cop|be&3S] [pro:indef|all .],MotherofAlex_Alex010614_592
+617,593,Mother,Alex010614,have_to wait for the wind (t:t:trail off),Alex,2246.45,2248.191,[],,,,,,,,,,,[1|2|AUX] [2|0|ROOT] [3|2|JCT] [4|5|DET] [5|3|POBJ 6|2|PUNCT],[mod:aux|have_to] [v|wait] [prep|for] [det:art|the] [n|wind (mt:trail off)],MotherofAlex_Alex010614_593
+618,594,Mother,Alex010614,to go by .,Alex,2248.191,2255.553,[],,,,,,,,,,,[1|2|INF] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[inf|to] [v|go] [adv|by .],MotherofAlex_Alex010614_594
+619,595,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_595
+620,596,Mother,Alex010614,what's that ?,Alex,2255.553,2257.691,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_596
+621,597,Alex,Alex010614,yyy yyy yyy yyy yyy yyy yyy yyy yyy .,Alex,2257.691,2268.22,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_597
+622,598,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2268.22,2270.248,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_598
+623,599,Mother,Alex010614,you don't feel good huh ?,Alex,2270.248,2274.166,[],,,,,,,,,,,[1|4|SUBJ] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|JCT] [6|4|COM 7|4|PUNCT],[pro:per|you] [mod|do~neg|not] [v|feel] [adj|good] [co|huh ?],MotherofAlex_Alex010614_599
+624,600,Mother,Alex010614,ready ?,Alex,2274.166,2275.783,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|ready ?],MotherofAlex_Alex010614_600
+625,601,Mother,Alex010614,let's try now .,Alex,2275.783,2276.706,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|1|XCOMP] [4|3|JCT 5|1|PUNCT],[v|let~pro:obj|us] [v|try] [adv|now .],MotherofAlex_Alex010614_601
+626,602,Mother,Alex010614,there .,Alex,2276.706,2279.713,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_602
+627,603,Mother,Alex010614,that's better .,Alex,2279.713,2281.095,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [adj|good&CP .],MotherofAlex_Alex010614_603
+628,604,Mother,Alex010614,that's better .,Alex,2281.095,2283.28,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:dem|that~cop|be&3S] [adj|good&CP .],MotherofAlex_Alex010614_604
+629,605,Mother,Alex010614,here comes the wind .,Alex,2283.28,2286.446,[],,,,,,,,,,,[1|2|JCT] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[adv|here] [v|come-3S] [det:art|the] [n|wind .],MotherofAlex_Alex010614_605
+630,606,Mother,Alex010614,wee .,Alex,2286.446,2290.12,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],MotherofAlex_Alex010614_606
+631,607,Alex,Alex010614,{ wee (?) } .,Alex,2290.12,2292.11,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],AlexofAlex_Alex010614_607
+632,608,Mother,Alex010614,wee .,Alex,2292.11,2294.115,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],MotherofAlex_Alex010614_608
+633,609,Alex,Alex010614,yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_609
+634,610,Mother,Alex010614,nope (replacement:replacement:no) .,Alex,2294.115,2299.56,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|no .],MotherofAlex_Alex010614_610
+635,611,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_611
+636,612,Alex,Alex010614,yyy yyy yyy .,Alex,2299.56,2302.151,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_612
+637,613,Mother,Alex010614,there .,Alex,2302.151,2307.325,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_613
+638,614,Mother,Alex010614,did you catch it ?,Alex,2307.325,2309.221,[],,,,,,,,,,,[1|0|ROOT] [2|3|SUBJ] [3|1|COMP] [4|3|OBJ 5|1|PUNCT],[v|do&PAST] [pro:per|you] [v|catch] [pro:per|it ?],MotherofAlex_Alex010614_614
+639,615,Mother,Alex010614,ready ?,Alex,2309.221,2313.246,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|ready ?],MotherofAlex_Alex010614_615
+640,616,Alex,Alex010614,yyy yyy .,Alex,2313.246,2318.703,both vowels shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_616
+641,617,Mother,Alex010614,yay .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|yay .],MotherofAlex_Alex010614_617
+642,618,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_618
+643,619,Alex,Alex010614,yyy .,Alex,2318.703,2320.545,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_619
+644,620,Mother,Alex010614,woo .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|woo .],MotherofAlex_Alex010614_620
+645,621,Mother,Alex010614,ready ?,Alex,2320.545,2325.488,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|ready ?],MotherofAlex_Alex010614_621
+646,622,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,2325.488,2329.448,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_622
+647,623,Mother,Alex010614,ready ?,Alex,2329.448,2335.326,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|ready ?],MotherofAlex_Alex010614_623
+648,624,Mother,Alex010614,one (.) two (.) three .,Alex,2335.326,2337.648,[],,,,,,,,,,,[1|2|QUANT] [2|3|QUANT] [3|0|INCROOT 4|3|PUNCT],[det:num|one] [det:num|two] [det:num|three .],MotherofAlex_Alex010614_624
+649,625,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2337.648,2340.76,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_625
+650,626,Mother,Alex010614,wee: .,Alex,2340.76,2343.728,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],MotherofAlex_Alex010614_626
+651,627,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_627
+652,628,Alex,Alex010614,yyy yyy yyy yyy yyy yyy yyy .,Alex,2343.728,2347.263,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_628
+653,629,Alex,Alex010614,yyy yyy yyy yyy yyy yyy yyy .,Alex,2347.263,2356.651,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_629
+654,630,Alex,Alex010614,yyy yyy yyy .,Alex,2356.651,2358.15,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_630
+655,631,Mother,Alex010614,wow: .,Alex,2358.15,2365.295,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_631
+656,632,Alex,Alex010614,yyy yyy .,Alex,2365.295,2368.345,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_632
+657,633,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2368.345,2371.191,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_633
+658,634,Mother,Alex010614,what honey you want Mommy do another one ?,Alex,2371.191,2372.825,[],,,,,,,,,,,[1|2|MOD] [2|0|INCROOT] [3|4|SUBJ] [4|2|CMOD] [5|6|SUBJ] [6|4|COMP] [7|8|QUANT] [8|6|OBJ 9|2|PUNCT],[pro:int|what] [n|honey] [pro:per|you] [v|want] [n:prop|Mommy] [v|do] [qn|another] [pro:indef|one ?],MotherofAlex_Alex010614_634
+659,635,Alex,Alex010614,wee !,Alex,2372.825,2374.055,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee !],AlexofAlex_Alex010614_635
+660,636,Mother,Alex010614,okay here .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT 3|2|PUNCT],[co|okay] [adv|here .],MotherofAlex_Alex010614_636
+661,637,Mother,Alex010614,wait a minute .,Alex,2374.055,2376.555,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|wait] [det:art|a] [n|minute .],MotherofAlex_Alex010614_637
+662,638,Alex,Alex010614,yyy yyy .,Alex,2376.555,2377.751,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_638
+663,639,Mother,Alex010614,it's all soapy .,Alex,2377.751,2379.973,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|JCT] [4|2|PRED 5|2|PUNCT],[pro:per|it~cop|be&3S] [adv|all] [adj|soap&dn-Y .],MotherofAlex_Alex010614_639
+664,640,Alex,Alex010614,yyy yyy .,Alex,2379.973,2384.553,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_640
+665,641,Mother,Alex010614,this one .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one .],MotherofAlex_Alex010614_641
+666,642,Mother,Alex010614,thank you .,Alex,2384.553,2385.643,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_642
+667,643,Mother,Alex010614,God bless you .,Alex,2385.643,2391.646,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[n:prop|God] [v|bless] [pro:per|you .],MotherofAlex_Alex010614_643
+668,644,Mother,Alex010614,wee: .,Alex,2391.646,2396.323,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],MotherofAlex_Alex010614_644
+669,645,Alex,Alex010614,yyy .,Alex,2396.323,2397.686,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_645
+670,646,Mother,Alex010614,whoops try again .,Alex,2397.686,2406.331,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT] [3|2|JCT 4|2|PUNCT],[co|whoops] [v|try] [adv|again .],MotherofAlex_Alex010614_646
+671,647,Mother,Alex010614,God bless you .,Alex,2406.331,2408.51,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[n:prop|God] [v|bless] [pro:per|you .],MotherofAlex_Alex010614_647
+672,648,Alex,Alex010614,yyy yyy yyy .,Alex,2408.51,2412.925,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_648
+673,649,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,2412.925,2415.826,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_649
+674,650,Mother,Alex010614,you ready (.) set (.) go .,Alex,2415.826,2421.635,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|SUBJ] [4|2|XCOMP 5|2|PUNCT],[pro:per|you] [v|ready] [n|set] [v|go .],MotherofAlex_Alex010614_650
+675,651,Mother,Alex010614,nope (replacement:replacement:no) (t:t:trail off),Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|no (mt:trail off)],MotherofAlex_Alex010614_651
+676,652,Mother,Alex010614,nope (replacement:replacement:no) .,Alex,2421.635,2428.046,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|no .],MotherofAlex_Alex010614_652
+677,653,Mother,Alex010614,where is it ?,Alex,2428.046,2429.48,[],,,,,,,,,,,[1|3|LINK] [2|3|AUX] [3|0|INCROOT 4|3|PUNCT],[adv:int|where] [aux|be&3S] [pro:per|it ?],MotherofAlex_Alex010614_653
+678,654,Mother,Alex010614,there it is .,Alex,2429.48,2433.153,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:per|it] [cop|be&3S .],MotherofAlex_Alex010614_654
+679,655,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2433.153,2435.153,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_655
+680,656,Alex,Alex010614,yyy yyy .,Alex,2435.153,2439.686,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_656
+681,657,Mother,Alex010614,this one .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one .],MotherofAlex_Alex010614_657
+682,658,Alex,Alex010614,yyy .,Alex,2439.686,2448.661,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_658
+683,659,Mother,Alex010614,oh Alex Mommy's not doing well at all .,Alex,2448.661,2458.663,[],,,,,,,,,,,[1|6|COM] [2|6|JCT] [3|6|SUBJ 4|3|POSS] [5|3|NEG] [6|0|ROOT] [7|6|OBJ] [8|7|JCT] [9|8|POBJ 10|6|PUNCT],[co|oh] [n:prop|Alex] [n:prop|Mommy~poss|s] [neg|not] [part|do-PRESP] [co|well] [prep|at] [pro:indef|all .],MotherofAlex_Alex010614_659
+684,660,Mother,Alex010614,there we go .,Alex,2458.663,2461.745,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|we] [v|go .],MotherofAlex_Alex010614_660
+685,661,Mother,Alex010614,oh we need a tissue wait a minute .,Alex,2461.745,2468.685,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ] [3|6|LINK] [4|5|DET] [5|6|SUBJ] [6|0|ROOT] [7|8|DET] [8|6|OBJ 9|6|PUNCT],[co|oh] [pro:sub|we] [v|need] [det:art|a] [n|tissue] [v|wait] [det:art|a] [n|minute .],MotherofAlex_Alex010614_661
+686,662,Mother,Alex010614,ups .,Alex,2468.685,2471.681,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:pt|ups .],MotherofAlex_Alex010614_662
+687,663,Mother,Alex010614,wait a minute xxx get it .,Alex,2471.681,2474.818,[],,,,,,,,,,,[1|4|LINK] [2|3|DET] [3|4|SUBJ] [] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[v|wait] [det:art|a] [n|minute] [] [v|get] [pro:per|it .],MotherofAlex_Alex010614_663
+688,664,Mother,Alex010614,just a second .,Alex,2474.818,2478.101,[],,,,,,,,,,,[1|3|JCT] [2|3|DET] [3|0|INCROOT 4|3|PUNCT],[adv|just] [det:art|a] [n|second .],MotherofAlex_Alex010614_664
+689,665,Mother,Alex010614,you wanna stay there ?,Alex,2478.101,2486.655,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|3|JCT 5|3|PUNCT],[pro:per|you] [mod:aux|wanna] [cop|stay] [adv|there ?],MotherofAlex_Alex010614_665
+690,666,Mother,Alex010614,stay right there .,Alex,2486.655,2488.141,[],,,,,,,,,,,[1|0|INCROOT] [2|3|JCT] [3|1|JCT 4|1|PUNCT],[n|stay] [adv|right] [adv|there .],MotherofAlex_Alex010614_666
+691,667,Alex,Alex010614,yyy yyy yyy .,Alex,2488.141,2515.791,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_667
+692,668,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2515.791,2519.683,all is shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_668
+693,669,Mother,Alex010614,alright .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|alright .],MotherofAlex_Alex010614_669
+694,670,Mother,Alex010614,this one ?,Alex,2519.683,2526.101,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_670
+695,671,Mother,Alex010614,okay .,Alex,2526.101,2527.576,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay .],MotherofAlex_Alex010614_671
+696,672,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2527.576,2538.163,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_672
+697,673,Mother,Alex010614,wee: there they go finally .,Alex,2538.163,2555.17,[],,,,,,,,,,,[1|0|ROOT] [2|1|JCT] [3|4|SUBJ] [4|1|COMP] [5|4|JCT 6|1|PUNCT],[v|wee] [adv|there] [pro:sub|they] [v|go] [adv|final&dadj-LY .],MotherofAlex_Alex010614_673
+698,674,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_674
+699,675,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2555.17,2561.796,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_675
+700,676,Mother,Alex010614,this one .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one .],MotherofAlex_Alex010614_676
+701,677,Alex,Alex010614,yyy yyy yyy .,Alex,2561.796,2563.518,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_677
+702,678,Alex,Alex010614,yyy yyy .,Alex,2563.518,2564.955,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_678
+703,679,Alex,Alex010614,yyy .,Alex,2564.955,2566.168,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_679
+704,680,Mother,Alex010614,chrah@o chrah@o chrah@o chrah@o chrah@o .,Alex,2566.168,2568.783,[],,,,,,,,,,,[1|0|INCROOT] [2|1|CONJ] [3|2|COORD] [4|3|CONJ] [5|4|COORD 6|1|PUNCT],[on|chrah] [on|chrah] [on|chrah] [on|chrah] [on|chrah .],MotherofAlex_Alex010614_680
+705,681,Alex,Alex010614,yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_681
+706,682,Alex,Alex010614,yyy yyy yyy .,Alex,2568.783,2571.361,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_682
+707,683,Alex,Alex010614,yyy yyy yyy .,Alex,2571.361,2573.358,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_683
+708,684,Mother,Alex010614,whoops whoops oh there it is .,Alex,2573.358,2575.153,[],,,,,,,,,,,[1|6|COM] [2|6|COM] [3|6|COM] [4|6|JCT] [5|6|SUBJ] [6|0|ROOT 7|6|PUNCT],[co|whoops] [co|whoops] [co|oh] [adv|there] [pro:per|it] [cop|be&3S .],MotherofAlex_Alex010614_684
+709,685,Mother,Alex010614,pop !,Alex,2575.153,2577.181,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|pop !],MotherofAlex_Alex010614_685
+710,686,Mother,Alex010614,pop !,Alex,2577.181,2584.331,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|pop !],MotherofAlex_Alex010614_686
+711,687,Alex,Alex010614,yyy yyy yyy yyy yyy yyy yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_687
+712,688,Alex,Alex010614,yyy yyy .,Alex,2584.331,2586.343,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_688
+713,689,Mother,Alex010614,okay here .,Alex,2586.343,2595.908,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT 3|2|PUNCT],[co|okay] [adv|here .],MotherofAlex_Alex010614_689
+714,690,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_690
+715,691,Mother,Alex010614,pop pop .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|pop] [n|pop .],MotherofAlex_Alex010614_691
+716,692,Alex,Alex010614,yyy yyy yyy .,Alex,2595.908,2599.181,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_692
+717,693,Mother,Alex010614,pop pop pop pop .,Alex,0.0,0.0,[],,,,,,,,,,,[1|4|MOD] [2|4|MOD] [3|4|MOD] [4|0|ROOT 5|4|PUNCT],[n|pop] [n|pop] [n|pop] [n|pop .],MotherofAlex_Alex010614_693
+718,694,Alex,Alex010614,yyy yyy .,Alex,2599.181,2603.82,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_694
+719,695,Mother,Alex010614,whoop<s> can't catch it .,Alex,0.0,0.0,[],,,,,,,,,,,[1|4|COM] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|OBJ 6|4|PUNCT],[co|whoops] [mod|can~neg|not] [v|catch] [pro:per|it .],MotherofAlex_Alex010614_695
+720,696,Alex,Alex010614,yyy yyy yyy .,Alex,2603.82,2608.113,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_696
+721,697,Alex,Alex010614,yyy yyy yyy .,Alex,2608.113,2610.055,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_697
+722,698,Alex,Alex010614,yyy yyy yyy .,Alex,2610.055,2611.766,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_698
+723,699,Mother,Alex010614,wee: .,Alex,2611.766,2614.041,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],MotherofAlex_Alex010614_699
+724,700,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_700
+725,701,Alex,Alex010614,yyy .,Alex,2614.041,2615.753,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_701
+726,702,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2615.753,2617.986,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_702
+727,703,Mother,Alex010614,thank you .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_703
+728,704,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2617.986,2631.053,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_704
+729,705,Mother,Alex010614,there they go .,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|they] [v|go .],MotherofAlex_Alex010614_705
+730,706,Mother,Alex010614,there they go .,Alex,2631.053,2632.503,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|they] [v|go .],MotherofAlex_Alex010614_706
+731,707,Alex,Alex010614,yyy yyy .,Alex,0.0,0.0,saliva on second t[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_707
+732,708,Alex,Alex010614,yyy yyy yyy .,Alex,2632.503,2635.05,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_708
+733,709,Mother,Alex010614,ready ?,Alex,2635.05,2641.28,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|ready ?],MotherofAlex_Alex010614_709
+734,710,Alex,Alex010614,yyy yyy yyy .,Alex,2641.28,2643.245,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_710
+735,711,Mother,Alex010614,pop .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|pop .],MotherofAlex_Alex010614_711
+736,712,Alex,Alex010614,yyy .,Alex,2643.245,2645.378,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_712
+737,713,Mother,Alex010614,popped on Mommy .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT] [2|1|JCT] [3|2|POBJ 4|1|PUNCT],[part|pop-PASTP] [prep|on] [n:prop|Mommy .],MotherofAlex_Alex010614_713
+738,714,Alex,Alex010614,yyy .,Alex,2645.378,2648.963,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_714
+739,715,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2648.963,2653.1,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_715
+740,716,Mother,Alex010614,this one ?,Alex,2653.1,2654.41,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_716
+741,717,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2654.41,2656.17,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_717
+742,718,Mother,Alex010614,this one .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one .],MotherofAlex_Alex010614_718
+743,719,Alex,Alex010614,yyy yyy yyy .,Alex,2656.17,2658.645,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_719
+744,720,Mother,Alex010614,don't put that in your mouth .,Alex,2658.645,2661.025,[],,,,,,,,,,,[1|3|AUX 2|1|NEG] [3|0|ROOT] [4|3|OBJ] [5|3|JCT] [6|7|MOD] [7|5|POBJ 8|3|PUNCT],[mod|do~neg|not] [v|put&ZERO] [pro:dem|that] [prep|in] [det:poss|your] [n|mouth .],MotherofAlex_Alex010614_720
+745,721,Mother,Alex010614,please don't put that in your mouth .,Alex,2661.025,2665.146,[],,,,,,,,,,,[1|4|COM] [2|4|AUX 3|2|NEG] [4|0|ROOT] [5|4|OBJ] [6|4|JCT] [7|8|MOD] [8|6|POBJ 9|4|PUNCT],[co|please] [mod|do~neg|not] [v|put&ZERO] [pro:dem|that] [prep|in] [det:poss|your] [n|mouth .],MotherofAlex_Alex010614_721
+746,722,Mother,Alex010614,wow !,Alex,2665.146,2675.49,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow !],MotherofAlex_Alex010614_722
+747,723,Alex,Alex010614,yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_723
+748,724,Mother,Alex010614,pop .,Alex,2675.491,2676.635,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|pop .],MotherofAlex_Alex010614_724
+749,725,Mother,Alex010614,it's all gone .,Alex,2676.635,2677.696,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|4|JCT] [4|2|PRED 5|2|PUNCT],[pro:per|it~cop|be&3S] [adv|all] [part|go&PASTP .],MotherofAlex_Alex010614_725
+750,726,Alex,Alex010614,yyy yyy yyy .,Alex,2677.696,2680.721,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_726
+751,727,Alex,Alex010614,yyy yyy .,Alex,2680.721,2683.353,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_727
+752,728,Mother,Alex010614,where's bubbles ?,Alex,2683.353,2687.688,[],,,,,,,,,,,[1|2|LINK 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[adv:int|where~cop|be&3S] [n|bubble-PL ?],MotherofAlex_Alex010614_728
+753,729,Mother,Alex010614,don't make Mommy have_to take that .,Alex,2687.688,2697.33,[],,,,,,,,,,,[1|3|AUX 2|1|NEG] [3|0|ROOT] [4|6|SUBJ] [5|6|AUX] [6|3|COMP] [7|6|OBJ 8|3|PUNCT],[mod|do~neg|not] [v|make] [n:prop|Mommy] [mod:aux|have_to] [v|take] [pro:dem|that .],MotherofAlex_Alex010614_729
+754,730,Mother,Alex010614,okay those are your options .,Alex,2697.33,2699.728,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|5|MOD] [5|3|PRED 6|3|PUNCT],[co|okay] [pro:dem|those] [cop|be&PRES] [det:poss|your] [n|option-PL .],MotherofAlex_Alex010614_730
+755,731,Mother,Alex010614,thank you .,Alex,2699.728,2702.416,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_731
+756,732,Mother,Alex010614,nope (replacement:replacement:no) too windy .,Alex,2702.416,2708.683,[],,,,,,,,,,,[1|3|COM] [2|3|JCT] [3|0|ROOT 4|3|PUNCT],[co|no] [adv|too] [adj|wind&dn-Y .],MotherofAlex_Alex010614_732
+757,733,Mother,Alex010614,too windy .,Alex,2708.683,2712.156,[],,,,,,,,,,,[1|2|JCT] [2|0|INCROOT 3|2|PUNCT],[adv|too] [adj|wind&dn-Y .],MotherofAlex_Alex010614_733
+758,734,Mother,Alex010614,yay there's a couple .,Alex,2712.156,2717.11,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|DET] [5|3|PRED 6|3|PUNCT],[co|yay] [pro:exist|there~cop|be&3S] [det:art|a] [n|couple .],MotherofAlex_Alex010614_734
+759,735,Mother,Alex010614,which one ?,Alex,2717.11,2721.573,[],,,,,,,,,,,[1|2|LINK] [2|0|INCROOT 3|2|PUNCT],[pro:rel|which] [pro:indef|one ?],MotherofAlex_Alex010614_735
+760,736,Mother,Alex010614,fishy ?,Alex,2721.573,2725.59,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|fish&dn-Y ?],MotherofAlex_Alex010614_736
+761,737,Mother,Alex010614,okay (.) no ?,Alex,2725.59,2727.528,[],,,,,,,,,,,[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|okay] [co|no ?],MotherofAlex_Alex010614_737
+762,738,Mother,Alex010614,the turtle ?,Alex,2727.528,2729.043,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|turtle ?],MotherofAlex_Alex010614_738
+763,739,Mother,Alex010614,okay .,Alex,2729.043,2730.491,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay .],MotherofAlex_Alex010614_739
+764,740,Mother,Alex010614,thank you .,Alex,2730.491,2732.021,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_740
+765,741,Alex,Alex010614,yyy .,Alex,2732.021,2739.966,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_741
+766,742,Mother,Alex010614,oh that's pretty music .,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|5|JCT] [5|3|PRED 6|3|PUNCT],[co|oh] [pro:dem|that~cop|be&3S] [adv|pretty] [n|music .],MotherofAlex_Alex010614_742
+767,743,Alex,Alex010614,yyy .,Alex,2739.966,2742.02,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_743
+768,744,Mother,Alex010614,Alex maybe it's the bubbles (t:t:trail off),Alex,2742.02,2748.573,[],,,,,,,,,,,[1|4|SUBJ] [2|4|JCT] [3|4|SUBJ 4|0|ROOT] [5|6|DET] [6|4|PRED 7|4|PUNCT],[n:prop|Alex] [adv|maybe] [pro:per|it~cop|be&3S] [det:art|the] [n|bubble-PL (mt:trail off)],MotherofAlex_Alex010614_744
+769,745,Mother,Alex010614,or maybe Mommy just stinks at this today .,Alex,2748.573,2750.76,[],,,,,,,,,,,[1|5|LINK] [2|3|JCT] [3|5|SUBJ] [4|5|JCT] [5|0|ROOT] [6|5|JCT] [7|8|DET] [8|6|POBJ 9|5|PUNCT],[coord|or] [adv|maybe] [n:prop|Mommy] [adv|just] [v|stink-3S] [prep|at] [pro:dem|this] [adv:tem|today .],MotherofAlex_Alex010614_745
+770,746,Mother,Alex010614,woo I don't know if this one works .,Alex,2750.76,2757.825,[],,,,,,,,,,,[1|5|LINK] [2|5|SUBJ] [3|5|AUX 4|3|NEG] [5|0|ROOT] [6|9|LINK] [7|8|DET] [8|9|SUBJ] [9|5|CJCT 10|5|PUNCT],[v|woo] [pro:sub|I] [mod|do~neg|not] [v|know] [conj|if] [pro:dem|this] [pro:indef|one] [v|work-3S .],MotherofAlex_Alex010614_746
+771,747,Mother,Alex010614,there goes a couple .,Alex,2757.825,2762.438,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ 5|2|PUNCT],[adv|there] [v|go-3S] [det:art|a] [n|couple .],MotherofAlex_Alex010614_747
+772,748,Alex,Alex010614,yyy !,Alex,2762.438,2765.246,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_748
+773,749,Alex,Alex010614,yyy yyy yyy .,Alex,2765.246,2766.838,second two words difficult to hear over MOT[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_749
+774,750,Mother,Alex010614,wow .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_750
+775,751,Mother,Alex010614,wee: .,Alex,2766.838,2784.891,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],MotherofAlex_Alex010614_751
+776,752,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_752
+777,753,Mother,Alex010614,three bubble wands ?,Alex,2784.891,2794.438,[],,,,,,,,,,,[1|2|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|three] [n|bubble] [n|wand-PL ?],MotherofAlex_Alex010614_753
+778,754,Mother,Alex010614,three bubble wands ?,Alex,2794.438,2797.496,[],,,,,,,,,,,[1|2|QUANT] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[det:num|three] [n|bubble] [n|wand-PL ?],MotherofAlex_Alex010614_754
+779,755,Mother,Alex010614,fishy .,Alex,2797.496,2799.501,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|fish&dn-Y .],MotherofAlex_Alex010614_755
+780,756,Alex,Alex010614,{ wee (?) } .,Alex,2799.501,2807.145,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],AlexofAlex_Alex010614_756
+781,757,Alex,Alex010614,yyy yyy yyy yyy .,Alex,2807.145,2811.656,all vowels shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_757
+782,758,Alex,Alex010614,yyy yyy .,Alex,2811.656,2813.531,both vowels shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_758
+783,759,Mother,Alex010614,this one .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one .],MotherofAlex_Alex010614_759
+784,760,Mother,Alex010614,let's get you a tissue .,Alex,2813.531,2816.03,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|6|AUX] [4|3|OBJ2] [5|6|DET] [6|1|OBJ 7|1|PUNCT],[v|let~pro:obj|us] [aux|get] [pro:per|you] [det:art|a] [n|tissue .],MotherofAlex_Alex010614_760
+785,761,Mother,Alex010614,thank you .,Alex,2816.03,2818.433,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_761
+786,762,Mother,Alex010614,a turtle ?,Alex,2818.433,2821.89,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|a] [n|turtle ?],MotherofAlex_Alex010614_762
+787,763,Mother,Alex010614,Mommy has bubbles (.) all over her face .,Alex,2821.89,2824.265,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|INCROOT] [4|3|NJCT] [5|4|JCT] [6|7|MOD] [7|5|POBJ 8|3|PUNCT],[n:prop|Mommy] [aux|have&3S] [n|bubble-PL] [adv|all] [prep|over] [det:poss|her] [n|face .],MotherofAlex_Alex010614_763
+788,764,Mother,Alex010614,wow: .,Alex,2824.265,2831.65,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_764
+789,765,Alex,Alex010614,yyy .,Alex,2831.65,2838.23,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_765
+790,766,Alex,Alex010614,yyy .,Alex,2838.23,2840.5,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_766
+791,767,Mother,Alex010614,purple (.) thank you .,Alex,2840.5,2842.236,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[adj|purple] [v|thank] [pro:per|you .],MotherofAlex_Alex010614_767
+792,768,Mother,Alex010614,okay ?,Alex,2842.236,2851.015,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_768
+793,769,Alex,Alex010614,yyy .,Alex,2851.015,2853.355,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_769
+794,770,Mother,Alex010614,orange one .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|orange] [pro:indef|one .],MotherofAlex_Alex010614_770
+795,771,Mother,Alex010614,try the double side .,Alex,2853.355,2855.85,[],,,,,,,,,,,[1|0|ROOT] [2|4|DET] [3|4|MOD] [4|1|OBJ 5|1|PUNCT],[v|try] [det:art|the] [n|double] [n|side .],MotherofAlex_Alex010614_771
+796,772,Mother,Alex010614,pop em (replacement:replacement:them) pop em (replacement:replacement:them) pop !,Alex,2855.85,2864.278,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|1|XCOMP] [4|3|OBJ] [5|3|OBJ 6|1|PUNCT],[v|pop] [pro:obj|them] [v|pop] [pro:obj|them] [n|pop !],MotherofAlex_Alex010614_772
+797,773,Mother,Alex010614,pop em (replacement:replacement:them) pop pop pop pop !,Alex,2864.278,2875.77,[],,,,,,,,,,,[1|0|ROOT] [2|6|MOD] [3|6|MOD] [4|6|MOD] [5|6|MOD] [6|1|OBJ 7|1|PUNCT],[v|pop] [pro:obj|them] [n|pop] [n|pop] [n|pop] [n|pop !],MotherofAlex_Alex010614_773
+798,774,Mother,Alex010614,this one ?,Alex,2875.77,2891.056,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_774
+799,775,Mother,Alex010614,thank you .,Alex,2891.056,2892.48,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_775
+800,776,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,2892.48,2899.161,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_776
+801,777,Mother,Alex010614,oops .,Alex,2899.161,2901.818,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|oops .],MotherofAlex_Alex010614_777
+802,778,Mother,Alex010614,&blughk .,Alex,2901.818,2904.243,[],,,,,,,,,,,[],[],MotherofAlex_Alex010614_778
+803,779,Mother,Alex010614,thank you .,Alex,2904.243,2908.776,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_779
+804,780,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,2908.776,2912.715,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_780
+805,781,Mother,Alex010614,Alex I (t:t:trail off),Alex,2912.716,2919.981,[],,,,,,,,,,,[1|0|INCROOT] [2|1|OM 3|1|PUNCT],[n:prop|Alex] [pro:sub|I (mt:trail off)],MotherofAlex_Alex010614_781
+806,782,Mother,Alex010614,Mommy is not doing well at all today .,Alex,2919.981,2926.04,[],,,,,,,,,,,[1|4|SUBJ] [2|4|AUX] [3|2|NEG] [4|0|ROOT] [5|4|OBJ] [6|5|JCT] [7|8|QUANT] [8|6|POBJ 9|4|PUNCT],[n:prop|Mommy] [aux|be&3S] [neg|not] [part|do-PRESP] [co|well] [prep|at] [qn|all] [adv:tem|today .],MotherofAlex_Alex010614_782
+807,783,Mother,Alex010614,usually we make millions of bubbles .,Alex,2926.04,2931.03,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|4|JCT] [6|5|POBJ 7|3|PUNCT],[adv|usual&dadj-LY] [pro:sub|we] [v|make] [det:num|million-PL] [prep|of] [n|bubble-PL .],MotherofAlex_Alex010614_783
+808,784,Alex,Alex010614,yyy yyy .,Alex,2931.03,2933.36,difficult to discern as it's a high squeal but picture looks like he's making bilabial lip posture[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_784
+809,785,Alex,Alex010614,yyy .,Alex,2933.36,2936.971,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_785
+810,786,Mother,Alex010614,well there's two .,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ 3|0|ROOT] [4|3|PRED 5|3|PUNCT],[co|well] [pro:exist|there~cop|be&3S] [det:num|two .],MotherofAlex_Alex010614_786
+811,787,Mother,Alex010614,there's two .,Alex,2936.971,2938.086,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:exist|there~cop|be&3S] [det:num|two .],MotherofAlex_Alex010614_787
+812,788,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,2938.086,2945.168,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_788
+813,789,Mother,Alex010614,thank you .,Alex,2945.168,2951.901,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_789
+814,790,Mother,Alex010614,get it pop it pop it !,Alex,2951.901,2959.348,[],,,,,,,,,,,[1|3|LINK] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|3|XCOMP] [6|5|OBJ 7|3|PUNCT],[v|get] [pro:per|it] [v|pop] [pro:per|it] [v|pop] [pro:per|it !],MotherofAlex_Alex010614_790
+815,791,Mother,Alex010614,wow (t:t:self interruption),Alex,2959.348,2965.956,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow (mt:self interruption)],MotherofAlex_Alex010614_791
+816,792,Alex,Alex010614,yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_792
+817,793,Mother,Alex010614,xxx if I try .,Alex,2965.956,2976.86,[],,,,,,,,,,,[] [1|3|LINK] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[] [conj|if] [pro:sub|I] [v|try .],MotherofAlex_Alex010614_793
+818,794,Mother,Alex010614,there .,Alex,2976.86,2979.58,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_794
+819,795,Mother,Alex010614,maybe you can catch em (replacement:replacement:them) if I try over there .,Alex,2979.58,2982.69,[],,,,,,,,,,,[1|4|JCT] [2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|OBJ] [6|8|LINK] [7|8|SUBJ] [8|4|CJCT] [9|8|JCT] [10|8|JCT 11|4|PUNCT],[adv|maybe] [pro:per|you] [mod|can] [v|catch] [pro:obj|them] [conj|if] [pro:sub|I] [v|try] [adv|over] [adv|there .],MotherofAlex_Alex010614_795
+820,796,Alex,Alex010614,yyy yyy yyy .,Alex,2982.69,2990.438,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_796
+821,797,Mother,Alex010614,I'll get it .,Alex,2990.438,2991.925,[],,,,,,,,,,,[1|3|SUBJ 2|3|AUX] [3|0|ROOT] [4|3|PRED 5|3|PUNCT],[pro:sub|I~mod|will] [aux|get] [pro:per|it .],MotherofAlex_Alex010614_797
+822,798,Mother,Alex010614,here .,Alex,2991.925,2994.96,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|here .],MotherofAlex_Alex010614_798
+823,799,Mother,Alex010614,there you are .,Alex,2994.96,2999.555,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:per|you] [cop|be&PRES .],MotherofAlex_Alex010614_799
+824,800,Alex,Alex010614,yyy .,Alex,2999.555,3005.478,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_800
+825,801,Alex,Alex010614,yyy !,Alex,3005.478,3007.06,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_801
+826,802,Mother,Alex010614,this one ?,Alex,3007.06,3009.653,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_802
+827,803,Alex,Alex010614,yyy .,Alex,3009.653,3025.318,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_803
+828,804,Mother,Alex010614,this one ?,Alex,3025.318,3033.553,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_804
+829,805,Mother,Alex010614,thank you .,Alex,3033.553,3034.813,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_805
+830,806,Mother,Alex010614,whoops .,Alex,3034.813,3052.98,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|whoops .],MotherofAlex_Alex010614_806
+831,807,Alex,Alex010614,yyy yyy yyy .,Alex,3052.98,3062.776,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_807
+832,808,Mother,Alex010614,there they go .,Alex,3062.776,3066.366,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|there] [pro:sub|they] [v|go .],MotherofAlex_Alex010614_808
+833,809,Mother,Alex010614,d'you (replacement:replacement:do you) see em (replacement:replacement:them) ?,Alex,3066.366,3073.281,[],,,,,,,,,,,[1|3|AUX 2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[mod|do pro:per|you] [v|see] [pro:obj|them ?],MotherofAlex_Alex010614_809
+834,810,Alex,Alex010614,yyy .,Alex,3073.281,3075.173,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_810
+835,811,Alex,Alex010614,yyy yyy yyy yyy yyy yyy yyy yyy .,Alex,3075.171,3081.113,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_811
+836,812,Alex,Alex010614,yyy yyy yyy .,Alex,3081.115,3083.231,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_812
+837,813,Alex,Alex010614,yyy yyy .,Alex,3083.231,3085.035,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_813
+838,814,Alex,Alex010614,yyy yyy yyy .,Alex,3085.035,3087.101,second vowel is close front rounded[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_814
+839,815,Alex,Alex010614,yyy yyy yyy .,Alex,3087.101,3089.418,second vowel is open back rounded not front[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_815
+840,816,Alex,Alex010614,yyy yyy yyy .,Alex,3089.418,3091.613,first vowel is close+mid front not a diphthong[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_816
+841,817,Mother,Alex010614,are you spelling ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[cop|be&PRES] [pro:per|you] [part|spell-PRESP ?],MotherofAlex_Alex010614_817
+842,818,Alex,Alex010614,yyy yyy yyy .,Alex,3091.613,3093.53,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_818
+843,819,Mother,Alex010614,what d'you (replacement:replacement:do you) spell ?,Alex,3093.53,3095.39,[],,,,,,,,,,,[1|4|LINK] [2|4|AUX 3|4|SUBJ] [4|0|ROOT 5|4|PUNCT],[pro:int|what] [mod|do pro:per|you] [v|spell ?],MotherofAlex_Alex010614_819
+844,820,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,3095.39,3099.103,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_820
+845,821,Mother,Alex010614,a .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[det:art|a .],MotherofAlex_Alex010614_821
+846,822,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,3099.101,3102.64,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_822
+847,823,Alex,Alex010614,yyy yyy yyy .,Alex,3102.643,3104.978,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_823
+848,824,Alex,Alex010614,yyy .,Alex,3104.978,3106.64,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_824
+849,825,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,3106.64,3110.291,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_825
+850,826,Alex,Alex010614,yyy yyy .,Alex,3110.291,3112.043,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_826
+851,827,Alex,Alex010614,yyy yyy yyy .,Alex,3112.043,3114.416,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_827
+852,828,Alex,Alex010614,yyy yyy yyy .,Alex,3114.416,3118.365,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_828
+853,829,Mother,Alex010614,pop !,Alex,3118.365,3123.955,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|pop !],MotherofAlex_Alex010614_829
+854,830,Mother,Alex010614,ready (t:t:trail off),Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|ready (mt:trail off)],MotherofAlex_Alex010614_830
+855,831,Mother,Alex010614,wow (.) wow .,Alex,3123.955,3142.843,[],,,,,,,,,,,[1|2|COM] [2|0|INCROOT 3|2|PUNCT],[co|wow] [co|wow .],MotherofAlex_Alex010614_831
+856,832,Mother,Alex010614,oh God bless you .,Alex,3142.843,3148.973,[],,,,,,,,,,,[1|3|COM] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[co|oh] [n:prop|God] [v|bless] [pro:per|you .],MotherofAlex_Alex010614_832
+857,833,Mother,Alex010614,no no no Mommy help you .,Alex,3148.973,3151.13,[],,,,,,,,,,,[1|5|COM] [2|5|COM] [3|5|COM] [4|5|SUBJ] [5|0|ROOT] [6|5|OBJ 7|5|PUNCT],[co|no] [co|no] [co|no] [n:prop|Mommy] [v|help] [pro:per|you .],MotherofAlex_Alex010614_833
+858,834,Mother,Alex010614,oh what a nice boy (.) okay .,Alex,3151.13,3156.51,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT] [3|5|DET] [4|5|MOD] [5|2|OBJ] [6|5|POSTMOD 7|2|PUNCT],[co|oh] [pro:int|what] [det:art|a] [adj|nice] [n|boy] [adj|okay .],MotherofAlex_Alex010614_834
+859,835,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,3156.51,3163.416,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_835
+860,836,Alex,Alex010614,yyy yyy .,Alex,3163.416,3165.031,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_836
+861,837,Alex,Alex010614,yyy .,Alex,3165.031,3166.703,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_837
+862,838,Mother,Alex010614,the green .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[det:art|the] [n|green .],MotherofAlex_Alex010614_838
+863,839,Mother,Alex010614,green one ?,Alex,3166.703,3169.123,[],,,,,,,,,,,[1|2|MOD] [2|0|ROOT 3|2|PUNCT],[n|green] [pro:indef|one ?],MotherofAlex_Alex010614_839
+864,840,Mother,Alex010614,okay ?,Alex,3169.123,3184.708,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_840
+865,841,Mother,Alex010614,you sharing ?,Alex,3184.708,3193.7,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT 3|2|PUNCT],[pro:per|you] [part|share-PRESP ?],MotherofAlex_Alex010614_841
+866,842,Mother,Alex010614,purple ?,Alex,3193.7,3196.725,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|purple ?],MotherofAlex_Alex010614_842
+867,843,Alex,Alex010614,yyy yyy yyy .,Alex,3196.725,3199.506,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_843
+868,844,Alex,Alex010614,yyy yyy yyy .,Alex,3199.506,3201.36,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_844
+869,845,Mother,Alex010614,pop pop pop .,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|MOD] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[n|pop] [n|pop] [n|pop .],MotherofAlex_Alex010614_845
+870,846,Mother,Alex010614,pop the bubbles .,Alex,3201.36,3203.055,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|pop] [det:art|the] [n|bubble-PL .],MotherofAlex_Alex010614_846
+871,847,Alex,Alex010614,{ pop (?) } .,Alex,3203.055,3205.225,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|pop .],AlexofAlex_Alex010614_847
+872,848,Alex,Alex010614,{ pop (?) } .,Alex,3205.225,3206.555,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|pop .],AlexofAlex_Alex010614_848
+873,849,Mother,Alex010614,pop pop pop pop .,Alex,3206.555,3208.256,[],,,,,,,,,,,[1|4|MOD] [2|4|MOD] [3|4|MOD] [4|0|ROOT 5|4|PUNCT],[n|pop] [n|pop] [n|pop] [n|pop .],MotherofAlex_Alex010614_849
+874,850,Mother,Alex010614,pop the bubbles .,Alex,3208.256,3210.025,[],,,,,,,,,,,[1|0|ROOT] [2|3|DET] [3|1|OBJ 4|1|PUNCT],[v|pop] [det:art|the] [n|bubble-PL .],MotherofAlex_Alex010614_850
+875,851,Mother,Alex010614,these bubbles stink .,Alex,3210.025,3213.083,[],,,,,,,,,,,[1|2|DET] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[pro:dem|these] [n|bubble-PL] [v|stink .],MotherofAlex_Alex010614_851
+876,852,Mother,Alex010614,nope (replacement:replacement:no) .,Alex,3213.083,3217.22,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|no .],MotherofAlex_Alex010614_852
+877,853,Alex,Alex010614,yyy yyy .,Alex,3217.22,3221.5,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_853
+878,854,Alex,Alex010614,yyy .,Alex,3221.5,3222.713,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_854
+879,855,Alex,Alex010614,yyy yyy yyy yyy .,Alex,3222.713,3229.706,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_855
+880,856,Mother,Alex010614,purple .,Alex,3229.706,3233.436,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|purple .],MotherofAlex_Alex010614_856
+881,857,Mother,Alex010614,green .,Alex,3233.436,3235.543,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|green .],MotherofAlex_Alex010614_857
+882,858,Mother,Alex010614,orange .,Alex,3235.543,3238.115,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|orange .],MotherofAlex_Alex010614_858
+883,859,Alex,Alex010614,yyy yyy .,Alex,3238.115,3242.975,difficult to hear[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_859
+884,860,Mother,Alex010614,which one ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|LINK] [2|0|INCROOT 3|2|PUNCT],[pro:rel|which] [pro:indef|one ?],MotherofAlex_Alex010614_860
+885,861,Mother,Alex010614,this one ?,Alex,3242.975,3244.85,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_861
+886,862,Mother,Alex010614,you wanna share that one (.) no ?,Alex,3244.85,3247.678,[],,,,,,,,,,,[1|3|SUBJ] [2|3|AUX] [3|0|ROOT] [4|5|DET] [5|3|OBJ] [6|5|COM 7|3|PUNCT],[pro:per|you] [mod:aux|wanna] [v|share] [pro:dem|that] [pro:indef|one] [co|no ?],MotherofAlex_Alex010614_862
+887,863,Mother,Alex010614,this one thank you .,Alex,3247.678,3253.778,[],,,,,,,,,,,[1|2|DET] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ 5|3|PUNCT],[pro:dem|this] [pro:indef|one] [v|thank] [pro:per|you .],MotherofAlex_Alex010614_863
+888,864,Mother,Alex010614,thank you for sharing .,Alex,3253.778,3256.463,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|1|JCT] [4|3|POBJ 5|1|PUNCT],[v|thank] [pro:per|you] [prep|for] [n:gerund|share-PRESP .],MotherofAlex_Alex010614_864
+889,865,Mother,Alex010614,oh Alex what is going on here .,Alex,3256.463,3266.106,[],,,,,,,,,,,[1|5|COM] [2|5|JCT] [3|5|SUBJ] [4|5|AUX] [5|0|ROOT] [6|5|JCT] [7|6|POBJ 8|5|PUNCT],[co|oh] [n:prop|Alex] [pro:int|what] [aux|be&3S] [part|go-PRESP] [prep|on] [adv|here .],MotherofAlex_Alex010614_865
+890,866,Mother,Alex010614,can I try that one ?,Alex,3266.106,3282.248,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[mod|can] [pro:sub|I] [v|try] [pro:dem|that] [pro:indef|one ?],MotherofAlex_Alex010614_866
+891,867,Mother,Alex010614,this one's the only one that works the best .,Alex,3282.248,3294.781,[],,,,,,,,,,,[1|2|DET] [2|3|SUBJ 3|0|ROOT] [4|6|DET] [5|6|QUANT] [6|3|PRED] [7|8|LINK] [8|6|CMOD] [9|10|DET] [10|8|OBJ 11|3|PUNCT],[pro:dem|this] [pro:indef|one~cop|be&3S] [det:art|the] [qn|only] [pro:indef|one] [pro:rel|that] [v|work-3S] [det:art|the] [adj|good&SP .],MotherofAlex_Alex010614_867
+892,868,Mother,Alex010614,please take that out of your mouth .,Alex,3294.781,3296.748,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT] [3|2|OBJ] [4|2|JCT] [5|4|JCT] [6|7|MOD] [7|5|POBJ 8|2|PUNCT],[co|please] [v|take] [pro:dem|that] [adv|out] [prep|of] [det:poss|your] [n|mouth .],MotherofAlex_Alex010614_868
+893,869,Mother,Alex010614,no .,Alex,3296.748,3298.716,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|no .],MotherofAlex_Alex010614_869
+894,870,Mother,Alex010614,would you like me to pick that up for you ?,Alex,3298.716,3306.231,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|3|OBJ] [5|6|INF] [6|3|XCOMP] [7|6|OBJ] [8|6|JCT] [9|6|JCT] [10|9|POBJ 11|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [pro:obj|me] [inf|to] [v|pick] [pro:dem|that] [adv|up] [prep|for] [pro:per|you ?],MotherofAlex_Alex010614_870
+895,871,Mother,Alex010614,wow .,Alex,3306.231,3308.678,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|wow .],MotherofAlex_Alex010614_871
+896,872,Mother,Alex010614,here ya (replacement:replacement:you) go .,Alex,3308.678,3319.29,[],,,,,,,,,,,[1|3|JCT] [2|3|SUBJ] [3|0|ROOT 4|3|PUNCT],[adv|here] [pro:per|you] [v|go .],MotherofAlex_Alex010614_872
+897,873,Mother,Alex010614,three ?,Alex,3319.29,3330.226,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[det:num|three ?],MotherofAlex_Alex010614_873
+898,874,Mother,Alex010614,one (.) two (t:t:self interruption),Alex,3330.226,3333.376,[],,,,,,,,,,,[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|one] [det:num|two (mt:self interruption)],MotherofAlex_Alex010614_874
+899,875,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_875
+900,876,Mother,Alex010614,three (.) green .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|QUANT] [2|0|INCROOT 3|2|PUNCT],[det:num|three] [n|green .],MotherofAlex_Alex010614_876
+901,877,Alex,Alex010614,yyy yyy yyy .,Alex,3333.376,3335.065,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_877
+902,878,Mother,Alex010614,oh thank you honey .,Alex,3335.065,3350.06,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT] [3|4|MOD] [4|2|OBJ 5|2|PUNCT],[co|oh] [v|thank] [pro:per|you] [n|honey .],MotherofAlex_Alex010614_878
+903,879,Alex,Alex010614,yyy .,Alex,3350.06,3363.025,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_879
+904,880,Mother,Alex010614,there .,Alex,3363.025,3375.525,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_880
+905,881,Alex,Alex010614,yyy .,Alex,3375.525,3382.751,vowel shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_881
+906,882,Mother,Alex010614,that chair ?,Alex,3382.751,3384.238,[],,,,,,,,,,,[1|2|DET] [2|0|INCROOT 3|2|PUNCT],[pro:dem|that] [n|chair ?],MotherofAlex_Alex010614_882
+907,883,Mother,Alex010614,go head .,Alex,3384.238,3385.991,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|go] [n|head .],MotherofAlex_Alex010614_883
+908,884,Mother,Alex010614,okay ?,Alex,3385.991,3397.298,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay ?],MotherofAlex_Alex010614_884
+909,885,Mother,Alex010614,ups .,Alex,3397.298,3398.693,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:pt|ups .],MotherofAlex_Alex010614_885
+910,886,Mother,Alex010614,there .,Alex,3398.693,3402.775,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_886
+911,887,Alex,Alex010614,yyy yyy yyy .,Alex,3402.775,3407.031,all vowels shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_887
+912,888,Alex,Alex010614,yyy .,Alex,3407.031,3408.423,vowel is shortened[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_888
+913,889,Alex,Alex010614,yyy .,Alex,3408.423,3410.385,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_889
+914,890,Mother,Alex010614,d'you (replacement:replacement:do you) wanna get down ?,Alex,3410.385,3411.78,[],,,,,,,,,,,[1|4|AUX 2|4|SUBJ] [3|4|AUX] [4|0|ROOT] [5|4|JCT 6|4|PUNCT],[mod|do pro:per|you] [mod:aux|wanna] [v|get] [adv|down ?],MotherofAlex_Alex010614_890
+915,891,Mother,Alex010614,there .,Alex,3411.78,3415.568,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adv|there .],MotherofAlex_Alex010614_891
+916,892,Alex,Alex010614,yyy yyy yyy yyy .,Alex,3415.568,3423.058,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_892
+917,893,Mother,Alex010614,Alex look at Mommy for a minute .,Alex,3423.058,3428.098,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|JCT] [4|3|POBJ] [5|2|JCT] [6|7|DET] [7|5|POBJ 8|2|PUNCT],[n:prop|Alex] [v|look] [prep|at] [n:prop|Mommy] [prep|for] [det:art|a] [n|minute .],MotherofAlex_Alex010614_893
+918,894,Mother,Alex010614,lemme (replacement:replacement:let me) see .,Alex,3428.098,3429.498,[],,,,,,,,,,,[1|0|ROOT 2|1|OBJ] [3|1|XCOMP 4|1|PUNCT],[v|let&ZERO pro:obj|me] [v|see .],MotherofAlex_Alex010614_894
+919,895,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_895
+920,896,Mother,Alex010614,okay .,Alex,3429.498,3430.681,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[co|okay .],MotherofAlex_Alex010614_896
+921,897,Alex,Alex010614,yyy .,Alex,3430.681,3432.036,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_897
+922,898,Mother,Alex010614,alright thank you .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|COM] [2|0|ROOT] [3|2|OBJ 4|2|PUNCT],[co|alright] [v|thank] [pro:per|you .],MotherofAlex_Alex010614_898
+923,899,Alex,Alex010614,yyy yyy yyy yyy yyy yyy .,Alex,3432.036,3446.72,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_899
+924,900,Mother,Alex010614,pop pop get it get it pop it pop .,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|MOD] [2|3|SUBJ] [3|0|ROOT] [4|5|SUBJ] [5|3|COMP] [6|7|SUBJ] [7|5|COMP] [8|9|MOD] [9|7|OBJ 10|3|PUNCT],[n|pop] [n|pop] [v|get] [pro:per|it] [v|get] [pro:per|it] [v|pop] [pro:per|it] [n|pop .],MotherofAlex_Alex010614_900
+925,901,Alex,Alex010614,yyy yyy .,Alex,3446.721,3450.703,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_901
+926,902,Alex,Alex010614,yyy yyy yyy .,Alex,3450.703,3453.653,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_902
+927,903,Mother,Alex010614,Alex .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n:prop|Alex .],MotherofAlex_Alex010614_903
+928,904,Alex,Alex010614,yyy yyy yyy .,Alex,3453.653,3455.445,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_904
+929,905,Alex,Alex010614,yyy yyy .,Alex,3455.445,3457.553,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_905
+930,906,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,3457.553,3467.878,difficult to hear[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_906
+931,907,Alex,Alex010614,yyy yyy yyy .,Alex,3467.876,3475.02,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_907
+932,908,Mother,Alex010614,do you want this one ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[mod|do] [pro:per|you] [v|want] [pro:dem|this] [pro:indef|one ?],MotherofAlex_Alex010614_908
+933,909,Alex,Alex010614,yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_909
+934,910,Alex,Alex010614,yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_910
+935,911,Mother,Alex010614,would you like that one ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|3|AUX] [2|3|SUBJ] [3|0|ROOT] [4|5|DET] [5|3|OBJ 6|3|PUNCT],[mod|will&COND] [pro:per|you] [v|like] [pro:dem|that] [pro:indef|one ?],MotherofAlex_Alex010614_911
+936,912,Alex,Alex010614,yyy yyy .,Alex,3475.021,3476.973,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_912
+937,913,Mother,Alex010614,c'mere (replacement:replacement:come here) honey .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT 2|3|JCT] [3|1|OBJ 4|1|PUNCT],[v|come adv|here] [n|honey .],MotherofAlex_Alex010614_913
+938,914,Mother,Alex010614,xxx get your nose .,Alex,3476.973,3478.596,[],,,,,,,,,,,[] [1|0|ROOT] [2|3|MOD] [3|1|OBJ 4|1|PUNCT],[] [v|get] [det:poss|your] [n|nose .],MotherofAlex_Alex010614_914
+939,915,Mother,Alex010614,runny nose .,Alex,3478.596,3479.996,[],,,,,,,,,,,[1|2|MOD] [2|0|INCROOT 3|2|PUNCT],[adj|run&dv-Y] [n|nose .],MotherofAlex_Alex010614_915
+940,916,Alex,Alex010614,yyy yyy yyy .,Alex,3479.996,3485.08,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_916
+941,917,Alex,Alex010614,yyy .,Alex,3485.08,3486.658,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_917
+942,918,Mother,Alex010614,I think these wands (.) just aren't that great .,Alex,3486.658,3489.726,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|4|DET] [4|2|OBJ] [5|8|SUBJ] [6|8|AUX 7|6|NEG] [8|4|XMOD] [9|8|PRED 10|2|PUNCT],[pro:sub|I] [v|think] [pro:dem|these] [n|wand-PL] [adj|just] [aux|be&PRES~neg|not] [pro:dem|that] [adj|great .],MotherofAlex_Alex010614_918
+943,919,Alex,Alex010614,yyy yyy .,Alex,3489.726,3493.92,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_919
+944,920,Mother,Alex010614,try that one (.) okay .,Alex,3493.92,3497.026,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ] [3|2|OBJ] [4|3|PRED 5|1|PUNCT],[v|try] [pro:dem|that] [pro:indef|one] [adj|okay .],MotherofAlex_Alex010614_920
+945,921,Alex,Alex010614,yyy yyy .,Alex,3497.026,3508.32,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_921
+946,922,Mother,Alex010614,wee: .,Alex,3508.321,3515.175,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],MotherofAlex_Alex010614_922
+947,923,Alex,Alex010614,wee .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[adj|wee .],AlexofAlex_Alex010614_923
+948,924,Alex,Alex010614,yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_924
+949,925,Alex,Alex010614,yyy yyy yyy yyy .,Alex,3515.176,3520.786,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_925
+950,926,Mother,Alex010614,what is that ?,Alex,0.0,0.0,[],,,,,,,,,,,[1|2|SUBJ] [2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|what] [cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_926
+951,927,Alex,Alex010614,yyy yyy yyy .,Alex,3520.786,3524.56,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_927
+952,928,Alex,Alex010614,yyy yyy yyy .,Alex,3524.561,3528.16,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_928
+953,929,Mother,Alex010614,pop em (replacement:replacement:them) .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|pop] [pro:obj|them .],MotherofAlex_Alex010614_929
+954,930,Mother,Alex010614,pop pop pop .,Alex,3528.161,3531.99,[],,,,,,,,,,,[1|3|MOD] [2|3|MOD] [3|0|INCROOT 4|3|PUNCT],[n|pop] [n|pop] [n|pop .],MotherofAlex_Alex010614_930
+955,931,Alex,Alex010614,yyy yyy yyy yyy yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_931
+956,932,Mother,Alex010614,who's that ?,Alex,3531.991,3544.638,[],,,,,,,,,,,[1|2|SUBJ 2|0|ROOT] [3|2|PRED 4|2|PUNCT],[pro:int|who~cop|be&3S] [pro:dem|that ?],MotherofAlex_Alex010614_932
+957,933,Mother,Alex010614,is that a tree ?,Alex,3544.638,3562.638,[],,,,,,,,,,,[1|0|ROOT] [2|1|PRED] [3|4|DET] [4|2|OBJ 5|1|PUNCT],[cop|be&3S] [pro:rel|that] [det:art|a] [n|tree ?],MotherofAlex_Alex010614_933
+958,934,Alex,Alex010614,tree .,Alex,3562.636,3566.465,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|tree .],AlexofAlex_Alex010614_934
+959,935,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_935
+960,936,Mother,Alex010614,tree .,Alex,0.0,0.0,[],,,,,,,,,,,[1|0|INCROOT 2|1|PUNCT],[n|tree .],MotherofAlex_Alex010614_936
+961,937,Alex,Alex010614,yyy .,Alex,3566.465,3568.396,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_937
+962,938,Mother,Alex010614,thank you .,Alex,3568.396,3573.996,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_938
+963,939,Mother,Alex010614,this one just doesn't work for me .,Alex,3573.996,3591.218,[],,,,,,,,,,,[1|2|DET] [2|6|LINK] [3|6|SUBJ] [4|6|AUX 5|4|NEG] [6|0|ROOT] [7|6|JCT] [8|7|POBJ 9|6|PUNCT],[pro:dem|this] [pro:indef|one] [adj|just] [mod|do&3S~neg|not] [v|work] [prep|for] [pro:obj|me .],MotherofAlex_Alex010614_939
+964,940,Alex,Alex010614,yyy .,Alex,0.0,0.0,[],,,,,,,,,,,[],[],AlexofAlex_Alex010614_940
+965,941,Mother,Alex010614,thank you .,Alex,3591.218,3595.663,[],,,,,,,,,,,[1|0|ROOT] [2|1|OBJ 3|1|PUNCT],[v|thank] [pro:per|you .],MotherofAlex_Alex010614_941
+966,942,Mother,Alex010614,xxx .,Alex,3595.663,3614.465,silence,,,,,,,,,,,[],[],MotherofAlex_Alex010614_942
