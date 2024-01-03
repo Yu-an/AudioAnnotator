@@ -5,6 +5,7 @@ from wtforms import StringField, SubmitField, validators
 from utils import *
 import aws_config
 import pickle
+from database import *
 
 login_bp = Blueprint('login_bp', __name__,
     template_folder='templates',
@@ -12,12 +13,12 @@ login_bp = Blueprint('login_bp', __name__,
 
 aws_session = boto3.session.Session()
 dynamodb = aws_session.resource('dynamodb', region_name=aws_config.AWS_config['region'])
-# user_table = dynamodb.Table('MSDUserTable')
+user_table = dynamodb.Table('MSDUserTable')
 # data_table = dynamodb.Table('MSDDataTable')
 
 
 class LoginForm(FlaskForm):
-    text_input = StringField('Enter Amazon alias (without @amazon)', [validators.DataRequired()])
+    text_input = StringField('Enter user id', [validators.DataRequired()])
     submit_button = SubmitField('Submit')
     
 @login_bp.route('/', methods=('GET', 'POST'))

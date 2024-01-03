@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 {% block title %}{{file_name}}{% endblock %} 
-{% block head %} Multimodal Sentiment Detection Annotation {% endblock %}
+{% block head %} Finding Interrogativity Project Prosody Annotation {% endblock %}
 {% block content %}
 
 
 <div class='container-fluid'>
-    <h4> Filename: {{file_name}}</h4>
-    <p> View Guideline in <a href = 'https://quip-amazon.com/xTf7AOshCfIy/WIPGuideline-AiData-external-Multi-modal-sentiment-detection' target="_blank">Quip</a> (will open in new window)</p>
+    <h4> Session: {{seg_name}}</h4>
+    <p> View Guideline:</p>
 </div>
 
 
@@ -16,205 +16,10 @@
         <audio controls="controls" preload = 'auto' class="audio" id = 'audio' src= "{{audio_path}}" autoplay="true" muted="muted"></audio>
     </div>
 </div>
-<div class="content">
-    {% block instruction %} {% endblock %} 
-</div>
-<div class="container">
-    <div class="row" >
-        <div class="col-md-6" >
-            <div  class="container transcript-box " style="height:500px;overflow:auto;">
-                 <!-- Transcript -->
-                <table id="transcript-table" class="table table-hover table-sm"
-                data-pagination="true"
-                data-show-pagination-switch="true"
-                data-sort-order="desc" 
-                data-show-export="true" 
-                data-show-toggle="true"  
-                data-show-refresh="true" 
-                data-show-columns="true"
-                >
-                    <thead style="position: sticky;top: 0">
-                        <tr>
-                            <th>Id</th>
-                            <th>Spk</th>
-                            <th>                                
-                                <span class="popover-toggle" data-bs-toggle="popover" title="Transcription Convention" data-bs-trigger="hover focus"  data-bs-content="<img src='{{url_for('static', filename='image/transcription_convention.png')}}' alt='Transcription Convention' width='650' height='300'>" data-bs-html="true" >                                
-                                    <span class = 'popover-base-text'>
-                                        Transcription
-                                    </span> 💡
-                                </span>                                                               
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for index,row in transcript.iterrows()%}
-                        <tr id = "transcript-segmentid-{{index}}" onclick = "grabClickedRowId(this)">
-                            <td id = 'segment-index'>{{index+1}}</td>
-                            <td>{{row['speakerId']}}</td>
-                            <td style="display: none;" id = 'segment-start'>{{row.start}}</td>
-                            <td style="display: none;" id = 'segment-end'>{{row.end}}</td>
-                            <td>{{row.transcription}}</td>
-                            <td style="display: none;" id = 'segment-segmentId'>{{row.segmentId}}</td>
-                            <td style="display: none;" id = 'segment-primaryType'>{{row.primaryType}}</td>
-                            {% if row.valence %}
-                            <td style="display: none;" id = 'segment-valence'>{{row.valence}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-valence'></td>
-                            {% endif %}
-                            {% if row.valence_comment %}
-                            <td style="display: none;" id = 'segment-valence-comment'>{{row.valence_comment}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-valence-comment'></td>
-                            {% endif %}
-                            {% if row.arousal %}
-                            <td style="display: none;" id = 'segment-arousal'>{{row.arousal}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-arousal'></td>
-                            {% endif %}
-                            {% if row.arousal_comment %}
-                            <td style="display: none;" id = 'segment-arousal-comment'>{{row.arousal_comment}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-arousal-comment'></td>
-                            {% endif %}
-                            {% if row.emotion %}
-                            <td style="display: none;" id = 'segment-emotion'>{{row.emotion}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-emotion'></td>
-                            {% endif %}
-                            {% if row.emotion_comment %}
-                            <td style="display: none;" id = 'segment-emotion-comment'>{{row.emotion_comment}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-emotion-comment'></td>
-                            {% endif %}
-                            {% if row.raisedVoice %}
-                            <td style="display: none;" id = 'segment-raisedVoice'>{{row.raisedVoice}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-raisedVoice'></td>
-                            {% endif %}
-                            {% if row.raisedVoice_comment %}
-                            <td style="display: none;" id = 'segment-raisedVoice-comment'>{{row.raisedVoice_comment}}</td>
-                            {% else  %}
-                            <td style="display: none;" id = 'segment-raisedVoice-comment'></td>
-                            {% endif %}
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="container annotation-box overflow-auto" >
-                <hr class="my-4">
-                <div class = 'container' id="segment-annotations" > 
-                    <div class="container-fluid" id = 'seg-annot-header'> 
-                        <span>File {{file_name}}, Segment ID: </span>
-                        <span id = 'seg-annot-id-num'></span>
-                    </div>
-                    {% for emotion_label in emotion_attributes.keys() %}
-                    {% set emotion_attribute = emotion_attributes[emotion_label] %}
-                        <div class = 'container.fluid'  style="display: none;" id = "seg-annot-{{emotion_label}}">
-                            <div class = 'container.fluid' id = 'seg-annot-speech-{{emotion_label}}' style="display: none;">
-                                <!-- Emotion Attributes Here -->                        
-                                <div class="container-fluid ">
-                                    <h6 id = 'seg-annot-attribute' name = '{{emotion_attribute.id}}'>
-                                        <div class="row" >
-                                            <div class="container" >
-                                                <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title="{{emotion_attribute.name}}" data-bs-content="{{emotion_attribute.instruction}}">                                
-                                                    <span class = 'popover-base-text'>
-                                                        {{emotion_attribute.name}}
-                                                    </span> 💡
-                                                </span>
-                                            </div>                                        
-                                        </div>                                        
-                                    </h6>                                                                        
-                                    <hr class="my-4">
-                                    <div class="container-fluid" id = 'seg-annot-labeling-box-{{emotion_label}}'>
-                                        <div class= 'container.fluid' id = 'seg-annot-{{emotion_label}}-container'>
-                                            {% if  emotion_attribute.id == 'emotion'%}
-                                                <form id="seg-annot-form">
-                                                    {% for choice in emotion_attribute.choices%}
-                                                    <div class='container'>
-                                                        <label>
-                                                            <input type="checkbox" name = 'choice' id="{{emotion_attribute.name}}-{{choice.value}}" value="{{choice.value}}"> {{choice.text}}                                            
-                                                        </label>
-                                                        <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Also..." data-bs-content="{{choice.related}}">                                             
-                                                                &#128161;                                        
-                                                        </span>
-                                                    </div>
-                                                    {%endfor%}
-                                                    <div class = 'container'>
-                                                        <label>
-                                                            <p> Comments </p>
-                                                            <input type="text" id="textInput" name="text" placeholder="optional unless you select 'Other' ">
-                                                        </label>
-                                                    </div>                                                                        
-                                                </form>
-                                            {%else%}
-                                                <form id="seg-annot-form">
-                                                    {%for choice in emotion_attribute.choices%}
-                                                    <div class = 'container'>
-                                                        <label>
-                                                            <input type="radio" name = 'choice' id="{{emotion_attribute.name}}-{{choice.value}}" value="{{choice.value}}"> <image src="{{url_for('static', filename = 'image/'+choice.image_src)}}" width="50" height="50" alt = {{choice.text}}> {{choice.text}}
-                                                        </label>
-                                                    </div>
-                                                    {%endfor%}
-                                                    <div class = 'container'>
-                                                        <label>
-                                                            <input type="radio" name = 'choice' id="{{emotion_attribute.name}}-unknown" value="unknown"> I'm not sure (please provide comment below)
-                                                        </label>
-                                                    </div>  
-                                                    <div class = 'container'>
-                                                        <label>
-                                                            Comments:
-                                                            <input type="text" id="comments" name="text" placeholder = 'Optional unless you select "Not sure"'> 
-                                                        </label>
-                                                    </div>  
-                                                </form>
-                                            {%endif%}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class='container.fluid' id = 'seg-annot-nonspeech-{{emotion_label}}' style="display: none;">
-                                <h4> Non-speech; no need to annotate</h4>
-                            </div> 
-                        </div>
-                    {%endfor%}                                                                                            
-                </div>
-            </div>
-            <div class='container'>
-                <div class='container' id = 'seg-annot-default'>
-                    <h4> Click on transcript line to begin annotation</h4>
-                </div>
-            </div>
-            <div class="container overflow-auto">
-                <button type="button" class="btn btn-outline-primary" id = 'prev-seg-button' >
-                    <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title = 'Click or press "w" key' data-bs-content="Go back to the last segment">Prev &#128161;</span>
-                </button>
-                <button type="button" class="btn btn-outline-secondary" id = 'next-seg-button' >
-                    <span class="popover-toggle" data-bs-toggle="popover" data-bs-trigger="hover focus" title = 'Click or press "s" key' data-bs-content="Go to the next segment">Next &#128161;</span>
-                </button>
-                <button type="submitbtn" class="btn btn-primary" id = 'seg-annot-save' style="display: none;" >Save</button>
-                <span id="send-data-status" style="display: none; text-align: left">
-                    Data sent successfully!
-                </span>                
-                <button type="submitbtn" class="btn btn-primary" id = 'seg-annot-moveon' style="display: none;" >Save & Next</button>                
-            </div>
-            
-            
-        </div>
-    </div>
-</div>
+
 
 <script>
-    var transcriptTable = document.getElementById("transcript-table").getElementsByTagName('tbody')[0];
-    var transcriptRows = transcriptTable.getElementsByTagName('tr')
-    //var emotionAttribute = document.getElementById('seg-annot-attribute').getAttribute("name");
-    var emotionAttributes = ['valence','arousal','emotion','raisedVoice']
-    var audio_path ="{{audio_path|safe }}"
-    var segments = compileData(transcriptRows)
-    var checkTimeInterval; // global variable
-
+   
     // popover
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
